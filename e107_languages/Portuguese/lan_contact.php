@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2021/02/11 14:13:19
+|
+|        $Author: Ricardo $
++---------------------------------------------------------------+
+*/
 
 define("LANCONTACT_00", "Contate-nos");
 define("LANCONTACT_01", "Informações para contato");
@@ -21,3 +27,13 @@ define("LANCONTACT_13", "Por favor inclua um assunto.");
 define("LANCONTACT_14", "Envie mensagem para:");
 define("LANCONTACT_15", "Código incorreto entrado");
 define("LANCONTACT_16", "Você deve ser [registrado] e assinado em usar este formulário.");
+define("LANCONTACT_17", "Por favor insira o seu nome.");
+define("LANCONTACT_18", "Por favor insira o seu endereço de e-mail.");
+define("LANCONTACT_19", "Por favor insira o assunto de seu e-mail.");
+define("LANCONTACT_20", "Por favor insira a sua mensagem para nós.");
+define("LANCONTACT_21", "Autorizo que este site armazene as minhas informações enviadas para que possam responder à minha pergunta
+
+");
+define("LANCONTACT_22", "Política de privacidade");
+define("LANCONTACT_23", "Pode encontrar a sua políica de privacidade aqui: [x]");
+define("LANCONTACT_24", "Acordo RGPD");

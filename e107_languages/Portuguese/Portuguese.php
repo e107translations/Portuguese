@@ -9,7 +9,6 @@
 |        $Author: Ricardo $
 +---------------------------------------------------------------+
 */
-
 setlocale(LC_ALL,  'pt_PT.UTF-8', 'pt_PT.utf8',  'pt');
 define("CORE_LC", "pt");
 define("CORE_LC2", "pt");
@@ -85,6 +84,7 @@ define("LAN_IP", "IP");
 define("LAN_IP_ADDRESS", "Endereço IP");
 define("LAN_AUTHOR", "Autor");
 define("LAN_CATEGORY", "Categoria");
+define("LAN_CATEGORIES", "Categorias");
 define("LAN_GUEST", "Convidado");
 define("LAN_NEXT", "Próximo");
 define("LAN_PREVIOUS", "Anterior");
@@ -122,6 +122,8 @@ define("LAN_RELATED", "Relativo");
 define("LAN_CLOSE", "Fechar");
 define("LAN_EXPAND", "Expandir");
 define("LAN_LIST", "Lista");
+define("LAN_DATESTAMP", "Formato da data");
+define("LAN_SUBJECT", "Assunto");
 define("LAN_ENTER_USRNAME_EMAIL", "Por favor, digite o seu nome de utilizador ou correio electrónico");
 define("LAN_PWD_REQUIRED", "É necessária uma senha");
 define("LAN_SHOW", "Exibir");
@@ -130,3 +132,5 @@ define("LAN_SUMMARY", "Sumário");
 define("LAN_REQUIRED_BLANK", "Campo(s) necessário(s) deixado(s) em branco");
 define("LAN_PLEASEWAIT", "Por favor espere");
 define("LAN_CHOOSE_FILE", "Escolha um ficheiro");
+define("LAN_REQUIRED", "Necessário");
+define("LAN_DEVELOPERMODE_CHECK", "[b] O modo de desenvolvedor está ativado no momento. Use este modo apenas ao desenvolver! [/b] [br] Desative o modo de desenvolvedor ao utilizar o seu site em produção ao vivo. Quando o modo de desenvolvedor está ativado, informações confidenciais podem ser mostradas ao público!");
