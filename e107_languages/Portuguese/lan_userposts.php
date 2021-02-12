@@ -1,18 +1,24 @@
 <?php
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2021/02/12 10:33:57
+|
+|        $Author: Ricardo $
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("PAGE_NAME", "Posts do usuário");
-define("UP_LAN_0", "Todos os Posts do fórum para");
-define("UP_LAN_1", "Todos os comentários para");
+define("PAGE_NAME", "Posts do utilizador");
+define("UP_LAN_0", "Todos os Posts do fórum para [x]");
+define("UP_LAN_1", "Todos os comentários para [x]");
 define("UP_LAN_2", "Segmento");
 define("UP_LAN_3", "Modos de exibição");
 define("UP_LAN_4", "Respostas");
-define("UP_LAN_5", "Lastpost");
+define("UP_LAN_5", "Ultima postagem");
 define("UP_LAN_6", "Tópicos");
-define("UP_LAN_7", "Sem comentarios");
+define("UP_LAN_7", "Sem comentários");
 define("UP_LAN_8", "Sem Posts");
 define("UP_LAN_9", "na");
 define("UP_LAN_10", "Re");

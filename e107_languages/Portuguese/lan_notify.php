@@ -4,13 +4,13 @@
 // Generated for e107 v2.x by the Multi-Language Plugin
 // https://github.com/e107inc/multilan
 
-define("NT_LAN_US_1", "Inscrição de usuário");
-define("NT_LAN_UV_1", "Inscrição de usuário verificada");
-define("NT_LAN_UV_2", "ID do usuário:");
-define("NT_LAN_UV_3", "Nome de logon do usuário:");
-define("NT_LAN_UV_4", "Usuário IP:");
-define("NT_LAN_LI_1", "Usuário logado");
-define("NT_LAN_LO_1", "Usuário desconectado");
+define("NT_LAN_US_1", "Inscrição de utilizador");
+define("NT_LAN_UV_1", "Inscrição de utilizador verificada");
+define("NT_LAN_UV_2", "ID do utilizador:");
+define("NT_LAN_UV_3", "Nome de logon do utilizador:");
+define("NT_LAN_UV_4", "utilizador IP:");
+define("NT_LAN_LI_1", "utilizador logado");
+define("NT_LAN_LO_1", "utilizador desconectado");
 define("NT_LAN_LO_2", "registrado fora do local");
 define("NT_LAN_FL_1", "Proibição de inundação");
 define("NT_LAN_FL_2", "Endereço IP Banido por inundações");
