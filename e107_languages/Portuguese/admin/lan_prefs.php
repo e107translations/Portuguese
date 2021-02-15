@@ -1,10 +1,15 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("PRFLAN_1", "Informações do site");
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2021/02/15 20:09:24
+|
+|        $Author: Ricardo $
++---------------------------------------------------------------+
+*/
+define("PRFLAN_1", "Informação do site");
 define("PRFLAN_2", "Nome do site");
 define("PRFLAN_3", "URL do site");
 define("PRFLAN_4", "Ícone/botão de Link de site");
@@ -12,7 +17,7 @@ define("PRFLAN_5", "Slogan do site");
 define("PRFLAN_6", "Descrição do site");
 define("PRFLAN_7", "Administrador do site principal");
 define("PRFLAN_8", "E-mail de admin do site principal");
-define("PRFLAN_9", "Site Disclaimer");
+define("PRFLAN_9", "Isenção de responsabilidade do site");
 define("PRFLAN_13", "Exibir informações");
 define("PRFLAN_14", "Exibir informações do tema?");
 define("PRFLAN_15", "Tempo de renderização de exibição?");
@@ -122,7 +127,7 @@ define("PRFLAN_139", "Exibir alerta quando a senha de administrador principal n�
 define("PRFLAN_140", "Texto a ser exibido depois da apresentação do formulário de inscrição.");
 define("PRFLAN_142", "Inundação só");
 define("PRFLAN_143", "Falha Login apenas");
-define("PRFLAN_144", "Ferreira & Login falhou");
+define("PRFLAN_144", "Inundação &amp; Login falhou");
 define("PRFLAN_145", "Links em nova janela");
 define("PRFLAN_146", "Assinale aqui para fazer com que todos os links abrir em uma nova janela (isto se aplicará no site).");
 define("PRFLAN_147", "Modo de desenvolvimento");
@@ -147,7 +152,7 @@ define("PRFLAN_164", "Permitir que os utilizadors de e-mail cópia do e-mail de 
 define("PRFLAN_165", "Abertura para permitir que o spam, use com cautela");
 define("PRFLAN_166", "Mostrar imagens de emoticon no formulário de comentário?");
 define("PRFLAN_167", "Certifique-se de inserir um endereço de e-mail opcional");
-define("PRFLAN_168", "Site contato pessoa (s)");
+define("PRFLAN_168", "Site contato pessoa(s)");
 define("PRFLAN_169", "Se o grupo escolhido contiver mais de uma pessoa, o utilizador deverá selecionar uma pessoa do grupo.");
 define("PRFLAN_172", "Comprimento máximo do nome do logon (10..100)");
 define("PRFLAN_173", "Verificar se há atualizações de e107 uma vez / dia");
@@ -187,10 +192,10 @@ define("PRFLAN_208", "Classe de utilizador, que pode enviar links para itens no 
 define("PRFLAN_209", "Outras características");
 define("PRFLAN_210", "Comentários/postagem");
 define("PRFLAN_211", "Não consigo endereço de e-mail opcional se necessário para validação ou login");
-define("PRFLAN_212", "Valor para..--campo..--muito alto - alterado para..--valor...");
-define("PRFLAN_213", "Valor para..--campo..--muito baixo - mudou para..--valor...");
+define("PRFLAN_212", "Valor para [x] muito alto - alterado para [y]");
+define("PRFLAN_213", "Valor para [x] muito baixo - alterado para [y]");
 define("PRFLAN_214", "Logo do site");
-define("PRFLAN_215", "Marcas similares e classe que pode postar < script >");
+define("PRFLAN_215", "Classe que pode postar &lt;script&gt; e tags semelhantes");
 define("PRFLAN_216", "(Requer HTML postando direitos também)");
 define("PRFLAN_217", "Filtrar o conteúdo HTML");
 define("PRFLAN_218", "Se 'off', coloca os utilizadors em risco aumentado de XSS explora Postado por membros da classe acima, ou antes da 0.7.24");
@@ -221,8 +226,8 @@ define("PRFLAN_242", "Frameworks de JavaScript (para fins apenas de teste)");
 define("PRFLAN_243", "Auto (sob demanda)");
 define("PRFLAN_244", "Área do administrador");
 define("PRFLAN_245", "Front-end");
-define("PRFLAN_246", "Os dois");
-define("PRFLAN_247", "Com deficiência");
+define("PRFLAN_246", "Ambos");
+define("PRFLAN_247", "Desabilitado");
 define("PRFLAN_248", "Desativar a consolidação de roteiros");
 define("PRFLAN_249", "Se desativado, scripts serão carregados em um arquivo consolidado");
 define("PRFLAN_250", "Habilitar compressão de zlib roteiros consolidados:");
@@ -233,3 +238,31 @@ define("PRFLAN_254", "E-mail & informação de contato");
 define("PRFLAN_255", "Upload de arquivo");
 define("PRFLAN_256", "Opções avançadas");
 define("PRFLAN_257", "Framework de JavaScript");
+define("PRFLAN_258", "Visibilidade do formulário de contato");
+define("PRFLAN_259", "Registre-se e faça login");
+define("PRFLAN_260", "Login apenas");
+define("PRFLAN_261", "Opções de campo");
+define("PRFLAN_262", "Senha no email de confirmação");
+define("PRFLAN_263", "Deve ser exclusivo para este site");
+define("PRFLAN_264", "Frontpage é a página de login (login.php)");
+define("PRFLAN_265", "A página inicial é a página inicial (membersonly.php)");
+define("PRFLAN_266", "Quando desconectado, para qual página o usuário deve ser direcionado?");
+define("PRFLAN_267", "Método de email");
+define("PRFLAN_268", "Editor em linha do frontend");
+define("PRFLAN_269", "Admins com esta classe de usuário (e as permissões de administrador apropriadas) serão capazes de editar html diretamente através da área de frontend.");
+define("PRFLAN_270", "Filtro do formulário de contato");
+define("PRFLAN_271", "Ignore os envios de formulários que contenham essas palavras ou frases. Um por linha.");
+define("PRFLAN_272", "Tempo da sessão");
+define("PRFLAN_273", "Vida útil em segundos. 0 = até que o navegador seja fechado.");
+define("PRFLAN_274", "O formulário de contato estará visível apenas para este grupo de classe de usuário.");
+define("PRFLAN_275", "Visualize esta página usando https (SSL) para modificar esta opção");
+define("PRFLAN_276", "PHP padrão (preferido)");
+define("PRFLAN_277", "Configurações de GDPR");
+define("PRFLAN_278", "URL para a Política de Privacidade");
+define("PRFLAN_279", "Verifique se o url existe! É melhor usar um url absoluto. Esta configuração será usada em todos os lugares que exigem consentimento do usuário (por exemplo, inscrição, formulário / menu de contato etc.).");
+define("PRFLAN_280", "URL para os termos e condições do site");
+define("PRFLAN_281", "Os 2 links acima são usados ​​em várias páginas deste site (por exemplo, inscrição e formulário / menu de contato).\nCrie 2 páginas (se ainda não tiver feito) que contenham sua 'Política de Privacidade' e os 'Termos e condições' do site.\nExistem vários sites que podem gerar esses textos para você.\nCopie os urls desses sites nos campos acima (por exemplo, /page/privacy-policy ou /page/terms-and-conditions).\nApenas certifique-se, as páginas e urls existem e estão funcionando!");
+define("PRFLAN_282", "Método de salvar sessão");
+define("PRFLAN_283", "Exibir rótulos da barra de navegação");
+define("PRFLAN_284", "Recolher a barra lateral de navegação por padrão");
+define("PRFLAN_285", "Dicas de ajuda do campo de exibição");

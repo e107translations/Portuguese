@@ -9,7 +9,6 @@
 |        $Author: Ricardo $
 +---------------------------------------------------------------+
 */
-
 define("EXTLAN_1", "Nome");
 define("EXTLAN_2", "Visualizar");
 define("EXTLAN_3", "Valores");
@@ -86,7 +85,7 @@ define("EXTLAN_74", "é um nome de domínio reservado e não pode ser usado.");
 define("EXTLAN_75", "Campo de adição de erro de banco de dados.");
 define("EXTLAN_76", "Caracteres inválidos no campo nome - só A-Z, a-z, 0-9, permitido.");
 define("EXTLAN_77", "Categoria não excluída - deve excluir campos na categoria primeiro:");
-define("EXTLAN_78", "Não consigo encontrar o arquivo arquivo..--precisava criar tabela de dados...");
+define("EXTLAN_78", "Não consigo encontrar o arquivo [x] necessário para criar tabela de dados...");
 define("EXTLAN_79", "Rótulo");
 define("EXTLAN_80", "Erro de validação - abortado.");
 define("EXTLAN_81", "Adicionar Campo Personalizado");
