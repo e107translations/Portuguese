@@ -24,7 +24,7 @@ define("FMLAN_39", "Incapaz de se mover o arquivo para");
 define("FMLAN_40", "Diretório de Newsposter-imagens");
 define("FMLAN_43", "Apagar arquivos selecionados");
 define("FMLAN_46", "Por favor, confirme que você deseja excluir os arquivos selecionados.");
-define("FMLAN_47", "Uploads de usuário");
+define("FMLAN_47", "Uploads de utilizador");
 define("FMLAN_48", "Mover selecionado para");
 define("FMLAN_49", "Por favor, confirme que você deseja mover os arquivos selecionados.");
 define("FMLAN_50", "Mover-se");

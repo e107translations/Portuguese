@@ -23,7 +23,7 @@ define("UPLLAN_27", "carregamentos de públicos moderados");
 define("UPLLAN_33", "Tamanho máximo do arquivo");
 define("UPLLAN_34", "Tamanho de carregamento máximo absoluto em bytes. Ainda mais limitado pelas configurações do php. ini e pelas configurações de filetypes.xml");
 define("UPLLAN_37", "Permissão");
-define("UPLLAN_38", "Selecione para permitir que somente determinados usuários fazer upload");
+define("UPLLAN_38", "Selecione para permitir que somente determinados utilizadors fazer upload");
 define("UPLLAN_41", "Por favor note - carregamentos de arquivos são deficientes de seu php. ini, não será possível fazer upload de arquivos até defini-lo como na.");
 define("UPLLAN_45", "Tem certeza que deseja excluir o seguinte arquivo...");
 define("UPLAN_COPYTODLM", "cópia para Gerenciador de download");

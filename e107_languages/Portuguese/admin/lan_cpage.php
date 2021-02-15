@@ -1,9 +1,19 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2021/02/13 19:43:34
+|
+|        $Author: Ricardo $
++---------------------------------------------------------------+
+*/
+define("CUSLAN_1", "Vista rápida");
+define("CUSLAN_2", "Titulo da página");
+define("CUSLAN_3", "Items por página");
+define("CUSLAN_4", "Campos personalizados");
+define("CUSLAN_5", "(Novo livro)");
 define("CUSLAN_9", "Texto");
 define("CUSLAN_11", "Descrição meta");
 define("CUSLAN_12", "Criar página/Menu");
@@ -22,7 +32,7 @@ define("CUSLAN_57", "Por favor, escolha a seqüência de caracteres exclusiva SE
 define("CUSLAN_58", "Páginas de exibição neste capítulo");
 define("CUSLAN_59", "Página de vídeo");
 define("CUSLAN_60", "Opções de página");
-define("CUSLAN_61", "Menu de");
+define("CUSLAN_61", "Menu");
 define("CUSLAN_62", "Opções do menu");
 define("CUSLAN_63", "Livro/capítulo");
 define("CUSLAN_64", "Nome do menu");
@@ -40,3 +50,5 @@ define("CUSLAN_75", "Desaparecida-id Menu detectado:");
 define("CUSLAN_76", "Menu com caminho #");
 define("CUSLAN_77", "excluído");
 define("CUSLAN_78", "Não consegui excluir menu com caminho");
+define("CUSLAN_79", "Tem de inserir um título de página ou um nome de menu.");
+define("CUSLAN_80", "Subtítulo");
