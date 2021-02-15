@@ -9,8 +9,7 @@
 |        $Author: Ricardo $
 +---------------------------------------------------------------+
 */
-
-define("LAN_CHECK_2", "Verifique se");
+define("LAN_CHECK_2", "Verifique");
 define("LAN_CHECK_3", "Verificação de");
 define("LAN_CHECK_4", "Arquivo faltando!");
 define("LAN_CHECK_5", "Frase faltando!");

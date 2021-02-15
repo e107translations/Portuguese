@@ -1,9 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2021/02/11 15:11:28
+|
+|        $Author: Ricardo $
++---------------------------------------------------------------+
+*/
 define("LANINS_001", "Instalação do e107");
 define("LANINS_002", "Passo");
 define("LANINS_003", "1");
@@ -18,7 +23,7 @@ define("LANINS_012", "Funções do MySQL não parecem existir. Isso provavelment
 define("LANINS_013", "Não poderia determinar o número da versão do MySQL. Este é um erro não fatal, então por favor, continuar a instalar, mas esteja ciente que e107 requer MySQL > = 3.23 para funcionar corretamente.");
 define("LANINS_014", "Permissões de arquivo");
 define("LANINS_015", "Versão do PHP");
-define("LANINS_017", "PASSAR");
+define("LANINS_017", "AVANÇAR");
 define("LANINS_018", "Certifique-se de todos os arquivos listados existem e serão graváveis pelo servidor. Isso normalmente envolve CHMODing 777-los, mas ambientes variam - entre em contato com seu anfitrião, se você tiver quaisquer problemas.");
 define("LANINS_019", "A versão do PHP instalado no servidor não é capaz de executar e107. e107 requer uma versão do PHP, pelo menos '. MIN_PHP_VERSION.'para ser executado corretamente. Atualizar sua versão do PHP, ou entre em contato com seu host para uma atualização.");
 define("LANINS_021", "2");
@@ -30,21 +35,21 @@ Se você tem permissões de root você pode criar um novo banco de dados, marcan
 Se você tiver apenas um banco de dados usar um prefixo para que outros scripts podem compartilhar o mesmo banco de dados.
 Se você não sabe seus MySQL detalhes entre em contato com seu host.");
 define("LANINS_024", "Servidor MySQL:");
-define("LANINS_025", "Nome de usuário de MySQL:");
+define("LANINS_025", "Nome de utilizador de MySQL:");
 define("LANINS_026", "Senha do MySQL:");
 define("LANINS_027", "Banco de dados MySQL:");
 define("LANINS_028", "Criar banco de dados?");
 define("LANINS_029", "Prefixo da tabela:");
 define("LANINS_030", "O servidor MySQL você gostaria e107 para usar. Também pode incluir um número de porta. por exemplo, 'hostname:port' ou um caminho para um local socket, por exemplo, \':/path/to/socket\' para o localhost.");
-define("LANINS_031", "O nome de usuário você deseja e107 usar para se conectar ao seu servidor MySQL");
-define("LANINS_032", "A senha para o usuário que você acabou de entrar. Não deve conter aspas simples ou duplas.");
-define("LANINS_033", "O banco de dados MySQL você deseja e107 para residir em, por vezes referido como uma esquema. Deve começar com uma letra. Se o usuário tem o banco de dados criar permissões, que você pode optar por criar o banco de dados automaticamente, se ela já não existe.");
+define("LANINS_031", "O nome de utilizador você deseja e107 usar para se conectar ao seu servidor MySQL");
+define("LANINS_032", "A senha para o utilizador que você acabou de entrar. Não deve conter aspas simples ou duplas.");
+define("LANINS_033", "O banco de dados MySQL você deseja e107 para residir em, por vezes referido como uma esquema. Deve começar com uma letra. Se o utilizador tem o banco de dados criar permissões, que você pode optar por criar o banco de dados automaticamente, se ela já não existe.");
 define("LANINS_034", "O prefixo que deseja e107 para usar ao criar as tabelas de e107. Útil para várias instalações de e107 no esquema de um banco de dados.");
 define("LANINS_036", "3");
 define("LANINS_037", "Verificação de conexão MySQL");
 define("LANINS_038", "e criação de banco de dados");
 define("LANINS_039", "Por favor, certifique-se de preencher todos os campos, o mais importante, servidor MySQL, MySQL Username e banco de dados MySQL (Estas são sempre exigidas pelo servidor MySQL)");
-define("LANINS_040", "Erros de");
+define("LANINS_040", "Erros");
 define("LANINS_041", "e107 não pôde estabelecer uma conexão com o servidor MySQL utilizando as informações que você inseriu. Por favor retornar à última página e garantir que a informação está correta.");
 define("LANINS_042", "Conexão com o servidor MySQL e verificadas.");
 define("LANINS_043", "Não é possível criar banco de dados, certifique-se que você tem as permissões corretas para criar bancos de dados no seu servidor.");
@@ -52,12 +57,12 @@ define("LANINS_044", "Criado com êxito o banco de dados.");
 define("LANINS_045", "Por favor, clique no botão para prosseguir para a próxima fase.");
 define("LANINS_046", "5");
 define("LANINS_047", "Detalhes do administrador");
+define("LANINS_048", "Extensão EXIF");
 define("LANINS_049", "As duas senhas que você digitou não são os mesmos. Por favor volte e tente novamente.");
 define("LANINS_050", "Extensão XML");
 define("LANINS_051", "Instalado");
 define("LANINS_052", "Não instalado");
-define("LANINS_053", "e107 v2. x requer a extensão XML do PHP ser instalado. Por favor, entre em contato com seu anfitrião ou ler as informações no [x] antes de continuar");
-define("LANINS_055", "Instalar a confirmação");
+define("LANINS_055", "Confirmação de instalação");
 define("LANINS_056", "6");
 define("LANINS_057", "e107 agora tem todas as informações necessárias concluir a instalação.
 
@@ -75,7 +80,7 @@ define("LANINS_070", "e107 foi incapaz de salvar o arquivo de configuração pri
 
 Por favor verifique o arquivo [b]e107_config.php[/b] tem as permissões corretas");
 define("LANINS_071", "Instalação completa");
-define("LANINS_072", "Nome de usuário admin");
+define("LANINS_072", "Nome de utilizador admin");
 define("LANINS_073", "Este é o nome que você usará para login no site. Se você deseja usar isto como seu nome de exibição também");
 define("LANINS_074", "Nome para exibição de admin");
 define("LANINS_076", "Senha de admin");
@@ -106,10 +111,20 @@ define("LANINS_119", "Instale todos os plugins que pode exigir que o tema.");
 define("LANINS_120", "8");
 define("LANINS_121", "e107_config.php não é um arquivo vazio");
 define("LANINS_122", "Você pode ter uma instalação existente");
-define("LANINS_123", "Opcional: Seu nome público ou alias. Deixe em branco para usar o nome de usuário");
+define("LANINS_123", "Opcional: Seu nome público ou alias. Deixe em branco para usar o nome de utilizador");
 define("LANINS_124", "Por favor, escolha uma senha no mínimo 8 caracteres");
 define("LANINS_125", "e107 foi instalado com sucesso!");
 define("LANINS_126", "Por razões de segurança, agora você deve definir as permissões de arquivo no arquivo e107_config.php para 644.");
 define("LANINS_127", "O banco de dados [x] já existe. Substituí-lo? (todos os dados existentes serão perdidos)");
 define("LANINS_128", "Sobrescrever");
 define("LANINS_129", "Banco de dados não encontrado.");
+define("LANINS_134", "Instalação");
+define("LANINS_135", "de");
+define("LANINS_136", "A apagar a base de dados existente");
+define("LANINS_137", "Encontrou a base de dados existente");
+define("LANINS_141", "Por favor preencha o formulário abaixo com os seus detalhes do MySQL. Se não sabe essa informação, por favor contacte o seu serviço de hospedagem. Pode colocar o rato sobre cada campo para ter informação adicional.");
+define("LANINS_142", "IMPORTANTE: Por favor renomeie e107.htaccess para .htaccess");
+define("LANINS_144", "IMPORTANTE: Por favor copie e cole o conteúdo de [b]e107.htaccess[/b] para dentro do seu ficheiro [b].htaccess[/b]. Por favor NÃO sobreescreva qualquer dado que esteja no ficheiro.");
+define("LANINS_145", "e107 v2.x requer o PHP [x] instalado. Por favor contacte o seu serviço de hospedagem ou leia mais informação em [y] antes de continuar.");
+define("LANINS_146", "Tema da área de admin");
+define("LANINS_147", "Administração");

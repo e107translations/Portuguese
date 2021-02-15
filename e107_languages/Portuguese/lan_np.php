@@ -1,19 +1,25 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2021/02/11 14:37:04
+|
+|        $Author: Ricardo $
++---------------------------------------------------------------+
+*/
 
 define("NP_1", "Página anterior");
 define("NP_2", "Próxima página");
-define("LAN_NP_FIRST", "primeiro");
+define("LAN_NP_FIRST", "primeira");
 define("LAN_NP_URLFIRST", "Ir para a primeira página");
 define("LAN_NP_PREVIOUS", "anterior");
-define("LAN_NP_URLPREVIOUS", "Vá para a página anterior");
-define("LAN_NP_NEXT", "na próxima");
+define("LAN_NP_URLPREVIOUS", "Ir para a página anterior");
+define("LAN_NP_NEXT", "próxima");
 define("LAN_NP_URLNEXT", "Ir para a próxima página");
-define("LAN_NP_LAST", "ontem");
-define("LAN_NP_URLLAST", "Vá para a última página");
-define("LAN_NP_GOTO", "Ir à página [x]");
-define("LAN_NP_URLCURRENT", "Atualmente visto");
-define("NP_CAPTION", "Página [x] [y]");
+define("LAN_NP_LAST", "última");
+define("LAN_NP_URLLAST", "Ir para a última página");
+define("LAN_NP_GOTO", "Ir para a página [x]");
+define("LAN_NP_URLCURRENT", "Visto actualmente");
+define("NP_CAPTION", "Página [x] de [y]");
