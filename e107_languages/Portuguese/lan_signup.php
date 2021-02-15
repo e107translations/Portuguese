@@ -9,7 +9,6 @@
 |        $Author: Ricardo $
 +---------------------------------------------------------------+
 */
-
 define("PAGE_NAME", "Registre-se");
 define("LAN_EMAIL_01", "Exmo");
 define("LAN_EMAIL_04", "Por favor, mantenha este e-mail para sua própria informação.");
@@ -115,3 +114,4 @@ define("LAN_SIGNUP_121", "Use um endereço de email diferente");
 define("LAN_SIGNUP_122", "Política de privacidade");
 define("LAN_SIGNUP_123", "Termos e condições");
 define("LAN_SIGNUP_124", "Ao registar-se concorda com a [x] e os [y].");
+define("LAN_SIGNUP_125", "Mín. [x] caracteres.");

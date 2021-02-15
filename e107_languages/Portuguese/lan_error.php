@@ -35,10 +35,10 @@ define("LAN_ERROR_21", "A URL solicitada não pôde ser encontrada neste servido
 define("LAN_ERROR_22", "Clique aqui para ir para a página de busca do site");
 define("LAN_ERROR_23", "Sua tentativa de acesso");
 define("LAN_ERROR_24", "Não teve sucesso.");
-define("LAN_ERROR_25", "[1]: não é possível ler as configurações do núcleo de banco de dados - configurações Core existe mas não pode ser desserializadas. A tentativa de restaurar backup do núcleo...");
+define("LAN_ERROR_25", "[1]: não é possível ler as configurações do núcleo de banco de dados - configurações Core existe mas não pode ser desserializadas. A tentativa de restaurar cópia de segurança do núcleo...");
 define("LAN_ERROR_26", "[2]: não é possível ler as configurações do núcleo de banco de dados - inexistente núcleo configurações.");
-define("LAN_ERROR_27", "[3]: núcleo configurações salvas - backup feito ativo.");
-define("LAN_ERROR_28", "[4]: nenhum backup de núcleo encontrado. Verificar que o seu banco de dados tiver conteúdo válido.");
+define("LAN_ERROR_27", "[3]: núcleo configurações salvas - cópia de segurança feito ativo.");
+define("LAN_ERROR_28", "[4]: nenhum cópia de segurança de núcleo encontrado. Verificar que o seu banco de dados tiver conteúdo válido.");
 define("LAN_ERROR_29", "[5]: campo (s) foram deixados em branco. Por favor reenvie o formulário e preencha os campos obrigatórios.");
 define("LAN_ERROR_30", "[6]: incapaz de formar uma conexão válida para mySQL. Por favor verifique sua e107_config.php contém as informações corretas.");
 define("LAN_ERROR_31", "[7]: mySQL está executando, mas banco de dados [x] não poderia ser conectado ao.<br>Por favor, verifique o que existe e que o seu arquivo de configuração contém as informações corretas.");
