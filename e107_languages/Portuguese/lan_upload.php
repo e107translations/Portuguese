@@ -11,7 +11,7 @@
 */
 
 define("PAGE_NAME", "Enviar");
-define("LAN_UL_001", "Endereço de e-mail inválido");
+define("LAN_UL_001", "Endereço de correio electrónico inválido");
 define("LAN_UL_002", "Você não tem as permissões corretas para fazer upload de arquivos para o servidor.");
 define("LAN_UL_020", "Erro");
 define("LAN_UL_021", "Falha de envio");
@@ -20,13 +20,13 @@ define("LAN_UL_023", "Tipo");
 define("LAN_UL_024", "Tamanho máximo");
 define("LAN_UL_025", "Carregamentos não permitidos");
 define("LAN_UL_032", "Você deve selecionar uma categoria");
-define("LAN_UL_033", "Você deve digitar um endereço de e-mail válido");
+define("LAN_UL_033", "Você deve digitar um endereço de correio electrónico válido");
 define("LAN_UL_034", "Você deve especificar o nome do arquivo");
 define("LAN_UL_035", "Você deve inserir uma descrição");
 define("LAN_UL_036", "Você deve especificar o arquivo a ser carregado");
 define("LAN_UL_037", "Você deve especificar uma categoria");
 define("LAN_61", "Seu nome:");
-define("LAN_112", "Endereço de e-mail:");
+define("LAN_112", "Endereço de correio electrónico:");
 define("LAN_144", "URL do site:");
 define("LAN_402", "Você deve ser um membro registrado para fazer upload de arquivos para o servidor.");
 define("LAN_404", "Obrigado. O upload será revisado por um administrador e Postado no site, se for o caso.");

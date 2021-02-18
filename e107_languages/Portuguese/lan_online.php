@@ -23,7 +23,7 @@ define("ONLINE_EL16", "Informação não disponível");
 define("CLASSRESTRICTED", "Página restrita classe");
 define("CHAT", "Bate-papo");
 define("DOWNLOAD", "Downloads");
-define("EMAIL", "email.php");
+define("EMAIL", "correio electrónico.php");
 define("FORUM", "Índice do Fórum principal");
 define("LINKS", "Ligações");
 define("NEWS", "Notícias");

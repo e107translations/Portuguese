@@ -23,7 +23,7 @@ define("SUBNEWSLAN_3", "O seu anexo deve ser um jpg, gif ou png.");
 define("SUBNEWSLAN_4", "Arquivo muito grande");
 define("SUBNEWSLAN_5", "Arquivo de imagem");
 define("SUBNEWSLAN_6", "(jpg, gif ou png)");
-define("SUBNEWSLAN_7", "Você deve dar seu nome e endereço de e-mail");
+define("SUBNEWSLAN_7", "Você deve dar seu nome e endereço de correio electrónico");
 define("SUBNEWSLAN_8", "Erro ao enviar imagem");
 define("SUBNEWSLAN_9", "Palavras chave");
 define("SUBNEWSLAN_11", "Descrição meta");

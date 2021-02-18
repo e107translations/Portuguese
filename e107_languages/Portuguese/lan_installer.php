@@ -87,12 +87,12 @@ define("LANINS_076", "Senha de admin");
 define("LANINS_077", "Por favor digite a senha de administrador que você deseja usar aqui");
 define("LANINS_078", "Confirmação de senha de admin");
 define("LANINS_079", "Por favor digite a senha novamente para confirmação");
-define("LANINS_080", "Admin Email");
-define("LANINS_081", "Digite seu endereço de e-mail");
+define("LANINS_080", "Admin Correio electrónico");
+define("LANINS_081", "Digite seu endereço de correio electrónico");
 define("LANINS_083", "MySQL relatou o erro:");
 define("LANINS_084", "O instalador não conseguiu estabelecer uma conexão com o banco de dados");
 define("LANINS_085", "O instalador não poderia selecionar banco de dados:");
-define("LANINS_086", "Admin Username, senha de Admin e Admin Email são campos obrigatórios. Por favor retornar à última página e garantir que a informação é inserida corretamente.");
+define("LANINS_086", "Admin Username, senha de Admin e Admin Correio electrónico são campos obrigatórios. Por favor retornar à última página e garantir que a informação é inserida corretamente.");
 define("LANINS_105", "Um começo de nome ou prefixo do banco de dados com alguns dígitos seguido por 'e' ou 'E' não é aceitável");
 define("LANINS_106", "AVISO - e107 não é possível gravar os diretórios e/ou arquivos listados. Enquanto isso não vai parar a instalação do e107, significará que determinados recursos não estão disponíveis.
 				Você precisará alterar as permissões de arquivo para usar esses recursos");
