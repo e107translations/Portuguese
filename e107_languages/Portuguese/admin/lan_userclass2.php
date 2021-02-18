@@ -24,7 +24,7 @@ define("UCSLAN_43", "Classes existentes:");
 define("UCSLAN_45", "Ponto em que classes de conjunto:");
 define("UCSLAN_46", "(ignorado se não verificação)");
 define("UCSLAN_47", "Inscrição inicial");
-define("UCSLAN_48", "Verificação por e-mail ou admin");
+define("UCSLAN_48", "Verificação por correio electrónico ou admin");
 define("UCSLAN_49", "Essas classes são definidas para qualquer utilizador recentemente se inscreveu - associação quer imediatamente, ou uma vez seu site foi verificada");
 define("UCSLAN_53", "Cuidado! Só usar essas opções se você entende o que eles fazem");
 define("UCSLAN_54", "Definir uma hierarquia de utilizador padrão");

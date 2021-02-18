@@ -194,7 +194,7 @@ define("EPL_ADLAN_191", "Função personalizada");
 define("EPL_ADLAN_192", "Escondido");
 define("EPL_ADLAN_193", "Caixa de texto");
 define("EPL_ADLAN_194", "Caixa de texto (url)");
-define("EPL_ADLAN_195", "Caixa de texto (e-mail)");
+define("EPL_ADLAN_195", "Caixa de texto (correio electrónico)");
 define("EPL_ADLAN_196", "Caixa de texto (ip)");
 define("EPL_ADLAN_197", "Caixa de texto (número)");
 define("EPL_ADLAN_198", "Caixa de texto (senha)");
