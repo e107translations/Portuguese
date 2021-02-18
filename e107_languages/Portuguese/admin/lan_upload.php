@@ -31,7 +31,7 @@ define("UPLLAN_37", "Permissão");
 define("UPLLAN_38", "Selecione para permitir que somente determinados utilizadors fazer upload");
 define("UPLLAN_41", "Por favor note - carregamentos de arquivos são deficientes de seu php. ini, não será possível fazer upload de arquivos até defini-lo como na.");
 define("UPLLAN_45", "Tem certeza que deseja excluir o seguinte arquivo...");
-define("UPLAN_COPYTODLM", "cópia para Gerenciador de download");
+define("UPLAN_COPYTODLM", "cópia para Gestor de download");
 define("UPLAN_IS", "é");
 define("UPLAN_ARE", "são");
 define("UPLAN_COPYTODLS", "Copiar para Downloads");

@@ -97,7 +97,7 @@ define("TPVLAN_CONV_10", "Uma breve descrição de uma linha do plugin. (! @ # $
 define("TPVLAN_CONV_11", "Palavra-chave / tag para este tema (deve ser escrito em inglês)");
 define("TPVLAN_CONV_12", "Uma descrição completa do tema (deve ser escrita em inglês)");
 define("TPVLAN_CONV_13", "Que categoria de tema é esta?");
-define("TPVLAN_CONV_14", "Ative esta folha de estilo como uma opção selecionável no Gerenciador de temas.");
+define("TPVLAN_CONV_14", "Ative esta folha de estilo como uma opção selecionável no Gestor de temas.");
 define("TPVLAN_CONV_15", "Dê um nome a esta folha de estilo");
 define("TPVLAN_CONV_16", "URL para uma demonstração ao vivo deste tema.");
 define("TPVLAN_83", "O download automatizado não é possível!");
@@ -112,7 +112,7 @@ define("TPVLAN_93", "Selecção");
 define("TPVLAN_94", "Tema do site alterado para [x].");
 define("TPVLAN_95", "Pele");
 define("TPVLAN_96", "Defina URLs / caminhos de script que devem usar automaticamente este layout. Um por linha.");
-define("TPVLANHELP_01", "O gerenciador de temas permite que você defina o tema público do seu site e o tema das áreas administrativas.");
+define("TPVLANHELP_01", "O gestor de temas permite que você defina o tema público do seu site e o tema das áreas administrativas.");
 define("TPVLANHELP_02", "Veja as dicas de ferramentas (quando disponíveis) para obter mais detalhes.");
 define("TPVLANHELP_03", "Por padrão, o filtro de visibilidade mudará o layout do tema com base em uma correspondência parcial de URL.");
 define("TPVLANHELP_04", "Termine as linhas com um [b]![/b] para corresponder exatamente ao final do URL.");
