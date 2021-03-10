@@ -4,5 +4,5 @@
 // Generated for e107 v2.x by the Multi-Language Plugin
 // https://github.com/e107inc/multilan
 
-define("LAN_PLUGIN_LINKWORDS_NAME", "Linkwords");
-define("LAN_PLUGIN_LINKWORDS_DESCRIPTION", "Este plugin irá ligar palavras especificadas com um link definido e/ou dica de ferramenta.");
+define("LAN_PLUGIN_LIST_NEW_NAME", "Novos itens de lista");
+define("LAN_PLUGIN_LIST_NEW_DESCRIPTION", "Este plugin permite que você exibir uma lista e/ou o menu de adições recentes em todas as categorias de e107. Você pode ver a lista com dados desde sua última visita, ou exibir uma lista geral de adições mais recente.");
