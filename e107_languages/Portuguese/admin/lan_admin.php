@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/12 12:37:02
@@ -15,7 +15,7 @@ define("ADLAN_2", "Criar item de notícias");
 define("ADLAN_3", "Lista de itens de notícias");
 define("ADLAN_3a", "Configurações de notícias");
 define("ADLAN_5", "Editar preferências do Site");
-define("ADLAN_6", "Gestor de menu");
+define("ADLAN_6", "Gerenciador de menu");
 define("ADLAN_7", "Alterar a ordem dos seus menus");
 define("ADLAN_8", "Administradores");
 define("ADLAN_9", "Adicionar/apagar os administradores do site");
@@ -26,7 +26,7 @@ define("ADLAN_13", "Documentação do sistema");
 define("ADLAN_25", "Gerir Downloads");
 define("ADLAN_28", "Mensagem de boas vindas");
 define("ADLAN_29", "Mensagem de boas vindas fixa");
-define("ADLAN_30", "Gestor de arquivos");
+define("ADLAN_30", "Gerenciador de arquivos");
 define("ADLAN_31", "Gerir/enviar arquivos");
 define("ADLAN_34", "Lista de banidos");
 define("ADLAN_35", "Visitantes banidos");
@@ -43,7 +43,7 @@ define("ADLAN_45", "Utilitários de banco de dados");
 define("ADLAN_47", "Bem-vindo");
 define("ADLAN_48", "Ligado");
 define("ADLAN_49", "administrador do site principal");
-define("ADLAN_51", "Efetue o login para aceder à área de administração");
+define("ADLAN_51", "Efetue o entrar para aceder à área de administração");
 define("ADLAN_52", "Primeira página de admin");
 define("ADLAN_53", "Sair da área de administração");
 define("ADLAN_58", "Ìcones de emoção");
@@ -65,7 +65,7 @@ define("ADLAN_87", "Acesso negado!");
 define("ADLAN_89", "Nome de admin");
 define("ADLAN_90", "Senha de admin");
 define("ADLAN_91", "Iniciar sessão");
-define("ADLAN_92", "Efetue o login para prosseguir para a área de administração...");
+define("ADLAN_92", "Efetue o entrar para prosseguir para a área de administração...");
 define("ADLAN_93", "Mostrar funções de Admin");
 define("ADLAN_95", "Gestão de plugin");
 define("ADLAN_98", "Gestor de plugins");
@@ -77,7 +77,7 @@ define("ADLAN_105", "Imagens");
 define("ADLAN_106", "Configurações de imagem");
 define("ADLAN_110", "Membros registados");
 define("ADLAN_111", "Membros não verificados");
-define("ADLAN_112", "Utilizadors banidos");
+define("ADLAN_112", "Utilizadores banidos");
 define("ADLAN_116", "Registo de admin...");
 define("ADLAN_117", "Mostrar todas as entradas");
 define("ADLAN_118", "Limpar registo");
@@ -89,7 +89,7 @@ define("ADLAN_132", "Língua");
 define("ADLAN_133", "padrão");
 define("ADLAN_135", "Registo de admin");
 define("ADLAN_136", "Correio");
-define("ADLAN_137", "Configurações de correio electrónico e saida de correio electrónico");
+define("ADLAN_137", "Configurações de endereço electrónico e saida de endereço electrónico");
 define("ADLAN_138", "Links do site");
 define("ADLAN_139", "Adicionar/editar/apagar ligações");
 define("ADLAN_140", "Gestor de temas");
@@ -101,7 +101,7 @@ define("ADLAN_146", "Logons com falha");
 define("ADLAN_147", "Inspetor de arquivo");
 define("ADLAN_148", "Varredura de arquivos do site");
 define("ADLAN_149", "Informe");
-define("ADLAN_150", "Notificações de Correio electrónico");
+define("ADLAN_150", "Notificações de Endereço electrónico");
 define("ADLAN_151", "Principal");
 define("ADLAN_153", "Área de administração");
 define("ADLAN_154", "Erro de entrar em contato com o Sourceforge para verificar se há nova versão");
@@ -143,13 +143,13 @@ define("ADLAN_CL_8", "Misc");
 define("ADLAN_LAT_1", "Mais recentes");
 define("ADLAN_LAT_2", "Itens de notícias enviado");
 define("ADLAN_LAT_5", "Links apresentados");
-define("ADLAN_LAT_6", "Posts do fórum denunciados");
+define("ADLAN_LAT_6", "publicações do fórum denunciados");
 define("ADLAN_LAT_7", "Envio de arquivos");
 define("ADLAN_LAT_8", "Existem mensagens de administrador moderado");
 define("ADLAN_LAT_9", "Comentários pendentes");
 define("ADLAN_ERR_3", "Há um ou mais arquivos em seus diretórios de carregamento públicos que não estão na sua lista de tipos de arquivos permitidos carregar. Isto podem ter sido colocados aqui por um invasor, e se assim deve ser removido [b] imediatamente [/ b]. Você deveria [b] não [/ b] abrir esses arquivos como este pode executar qualquer código malicioso, o arquivo pode conter; por exemplo, não abri-los com o seu navegador.
 
-Se você reconhece esses arquivos como sendo legítimo, é provável que o tipo de arquivo não está na lista de tipos de arquivos permitidos por algum motivo, e você precisará re-adicioná-lo (ver admin => carregamentos). Você não deve permitir o upload de. html,. txt, etc, como um invasor pode fazer upload de um arquivo deste tipo, que inclui o javascript malicioso. Você deve também, naturalmente, não permitir o upload de arquivos. php ou qualquer outro tipo de script executável.
+Se você reconhece esses arquivos como sendo legítimo, é provável que o tipo de arquivo não está na lista de tipos de arquivos permitidos por algum motivo, e você precisará re-adicioná-lo (ver admin => carregamentos). Você não deve permitir o carregamento de. html,. txt, etc, como um invasor pode fazer carregamento de um arquivo deste tipo, que inclui o javascript malicioso. Você deve também, naturalmente, não permitir o carregamento de arquivos. php ou qualquer outro tipo de script executável.
 
 Abaixo está a lista de arquivos que pode ser potencialmente malicioso:");
 define("LAN_CREATE", "Criar");
@@ -230,7 +230,7 @@ define("LAN_OPTIONAL", "opcional");
 define("LAN_INACTIVE", "Inactivo");
 define("LAN_ACTIVATE", "Activar");
 define("LAN_ACCEPT", "Aceitar");
-define("LAN_PASSWORD_WARNING", "É ALTAMENTE recomendado que [altere a codificação da senha] para o padrão do PHP. (Os hashes de senha serão actualizados automaticamente durante a entradda do usuário.)");
+define("LAN_PASSWORD_WARNING", "É ALTAMENTE recomendado que [altere a codificação da senha] para o padrão do PHP. (Os hashes de senha serão actualizados automaticamente durante a entradda do utilizador.)");
 define("LAN_PENDING", "Pendente");
 define("LAN_SUBMITTED", "Enviado");
 define("LAN_POSTED_BY_X", "Colocado por [x] [y]");
@@ -243,7 +243,7 @@ define("LAN_UPLOAD_IMAGES", "Enviar imagens");
 define("LAN_UPLOAD_FILES", "Enviar arquivos");
 define("LAN_UPLOAD_ADDFILE", "Adicione outro arquivo");
 define("LAN_UPLOAD_CONFIRM", "Quaisquer alterações não salvas para esta página serão perdidas. Continuar?");
-define("LAN_UPLOAD_777", "Pasta está ausente ou não gravável, você precisa CHMOD 777 na pasta a seguir antes de fazer upload:");
+define("LAN_UPLOAD_777", "Pasta está ausente ou não gravável, você precisa CHMOD 777 na pasta a seguir antes de fazer carregamento:");
 define("LAN_UPLOAD_SERVEROFF", "Esta opção está desativada porque o envio de arquivos não está activado no seu servidor");
 define("LAN_WIDTH", "Largura");
 define("LAN_HEIGHT", "Altura");
@@ -334,7 +334,7 @@ define("LAN_UI_CREATE_LABEL", "Criar novo registro");
 define("LAN_UI_PREF_LABEL", "Configurações");
 define("LAN_UI_DELETE_LABEL", "Confirme a exclusão");
 define("LAN_UI_DELETE_WARNING", "Você está prestes a excluir [x] registros. Por favor, confirme para continuar.");
-define("LAN_UI_BATCH_CREATELINK", "Criar Link");
+define("LAN_UI_BATCH_CREATELINK", "Criar Hiperligação");
 define("LAN_UI_DELETED", "[x] registro(s) apagados com sucesso!");
 define("LAN_UI_DELETED_FAILED", "[x] registro(s) não encontrados e não apagados!");
 define("LAN_UI_FILE_DELETED", "[x] ficheiro apagado com sucesso!");
@@ -416,3 +416,21 @@ define("LAN_ROBOTS_NOFOLLOW", "Impedir que os motores de busca sigam os links ne
 define("LAN_ROBOTS_NOARCHIVE", "Impedir que cópias em cache deste item apareçam nos resultados da pesquisa.");
 define("LAN_ROBOTS_NOIMAGE", "Impedir que os motores de busca indexem imagens deste item.");
 define("LAN_NAVIGATION", "Navegação");
+define("LAN_NAVIGATION_LINKS", "Links de navegação");
+define("LAN_PAGINATION", "Paginação");
+define("LAN_X_CHARS_REMAINING", "[x] caracteres restantes");
+define("LAN_UI_BATCH_NOW", "Data/hora atual");
+define("LAN_RELATIONSHIP", "Relacionado a");
+define("LAN_RELATIONSHIP_HELP", "Atributo 'rel' opcional. Separados por vírgulas.");
+define("LAN_NO_SCRIPT_ACCESS", "Você não tem permissão para usar tags [script].");
+define("LAN_NO_SCRIPT_ACCESS_ASK", "Se você acredita que isto é um erro, por favor perguntar ao administrador para garantir o acesso a scripts via [b]Preferências > Filtros de Conteúdo[/b]");
+define("LAN_UI_FILTER_TODAY", "Hoje");
+define("LAN_UI_FILTER_THIS_WEEK", "Esta semana");
+define("LAN_UI_FILTER_THIS_MONTH", "Este mês");
+define("LAN_UI_FILTER_THIS_YEAR", "Este ano");
+define("LAN_SEARCH_ENGINES_X_LIMIT", "Lido pelos motores de busca. Máximo de [x] caracteres.");
+define("LAN_META_TITLE", "Título meta");
+define("LAN_META_DESCRIPTION", "Descrição meta");
+define("LAN_SYSTEM_NOTIFICATIONS_X", "[x] Notificações do sistema");
+define("LAN_PHP_OUTDATED", "O seu site está a executar uma [versão desatualizada do PHP], o que pode representar um risco à segurança. Se os seus plug-ins permitirem, recomendamos atualizar para [x] para garantir que o seu site esteja seguro e atualizado.");
+define("LAN_DATABASE_UPDATE", "Uma atualização está disponível para o seu banco de dados. Recomendamos [executar esta atualização] o mais rápido possível para garantir que o seu banco de dados esteja seguro e atualizado.");

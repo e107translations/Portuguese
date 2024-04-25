@@ -16,4 +16,4 @@ define("MESSLAN_9", "Relatado em");
 define("MESSLAN_10", "Enviado por");
 define("MESSLAN_11", "abre em nova janela");
 define("MESSLAN_12", "Mensagem");
-define("MESSLAN_13", "Link");
+define("MESSLAN_13", "Hiperligação");

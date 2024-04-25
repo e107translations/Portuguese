@@ -8,7 +8,7 @@ define("LAN_VALIDATE_0", "Erro desconhecido");
 define("LAN_VALIDATE_101", "Valor em falta");
 define("LAN_VALIDATE_102", "Tipo de valor inesperado");
 define("LAN_VALIDATE_103", "Caracteres inválidos encontrados");
-define("LAN_VALIDATE_104", "Não é um endereço de correio electrónico válido");
+define("LAN_VALIDATE_104", "Não é um endereço electrónico válido");
 define("LAN_VALIDATE_105", "Campos don\ 'jogo de t");
 define("LAN_VALIDATE_131", "Seqüência de caracteres muito curta");
 define("LAN_VALIDATE_132", "Seqüência de caracteres muito longa");

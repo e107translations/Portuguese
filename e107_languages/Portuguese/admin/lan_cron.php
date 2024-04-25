@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/13 19:50:26
@@ -13,8 +13,8 @@ define("LAN_CRON_M_02", "Refrescar");
 define("LAN_CRON_2", "Função");
 define("LAN_CRON_3", "Aba");
 define("LAN_CRON_4", "Última execução");
-define("LAN_CRON_01_1", "Correio electrónico de teste");
-define("LAN_CRON_01_2", "Envie um correio electrónico de teste para [eml].");
+define("LAN_CRON_01_1", "Endereço electrónico de teste");
+define("LAN_CRON_01_2", "Envie um endereço electrónico de teste para [eml].");
 define("LAN_CRON_01_3", "Recomendado para testar o sistema de agendamento.");
 define("LAN_CRON_02_1", "Fila de mensagens");
 define("LAN_CRON_02_2", "Fila de mensagens do processo.");

@@ -14,7 +14,7 @@ define("SEALAN_13", "Restringir a uma pesquisa todas as");
 define("SEALAN_14", "segundos");
 define("SEALAN_15", "Página de pesquisa acessível para a classe de utilizador");
 define("SEALAN_18", "Áreas de comentários pesquisável (quando iniciará a busca de comentários)");
-define("SEALAN_19", "Permita aos utilizadors a busca de mais de uma área de cada vez:");
+define("SEALAN_19", "Permita aos utilizadores a busca de mais de uma área de cada vez:");
 define("SEALAN_20", "Configurações gerais");
 define("SEALAN_21", "Áreas pesquisáveis");
 define("SEALAN_23", "Alternativa");

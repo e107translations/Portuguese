@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/12 12:47:08
@@ -51,7 +51,7 @@ define("EPL_ADLAN_40", "Mensagem do admin");
 define("EPL_ADLAN_41", "Que o arquivo não parece ser um válido arquivo. zip ou. tar.");
 define("EPL_ADLAN_42", "Ocorreu um erro, incapaz de un-arquivo o arquivo");
 define("EPL_ADLAN_43", "Seu plugin foi carregado e adicionar à lista de plugins desinstalado.");
-define("EPL_ADLAN_44", "Extração e upload do plugin de auto é desabilitado como fazer o upload para a pasta plugins não é permitido no momento - se você quer ser capaz de fazer isso, por favor, altere as permissões na pasta '.e_PLUGIN.', para permitir uploads.");
+define("EPL_ADLAN_44", "Extração e carregamento do plugin de auto é desabilitado como fazer o carregamento para a pasta plugins não é permitido no momento - se você quer ser capaz de fazer isso, por favor, altere as permissões na pasta '.e_PLUGIN.', para permitir uploads.");
 define("EPL_ADLAN_45", "O item de menu foi carregado e abriu o zíper, para ativar a ir para <a href=''.e_ADMIN.'menus.php'>sua página de menus</a>.");
 define("EPL_ADLAN_46", "Erro de extração do PCLZIP:");
 define("EPL_ADLAN_47", "Erro de extração do PCLTAR:");
@@ -99,7 +99,7 @@ define("EPL_ADLAN_92", "Comprar");
 define("EPL_ADLAN_93", "Grátis");
 define("EPL_ADLAN_94", "Conectando...");
 define("EPL_ADLAN_95", "Incapaz de continuar");
-define("EPL_ADLAN_96", "por exemplo. http://website.com/some-plugin.zip");
+define("EPL_ADLAN_96", "por exemplo. http://sítio internet.com/some-plugin.zip");
 define("EPL_ADLAN_97", "Houve um problema de extrair o arquivo. zip para o diretório do plugin.");
 define("EPL_ADLAN_98", "Arquivo desconhecido:");
 define("EPL_ADLAN_99", "Mensagens de erro acima desta linha");
@@ -148,7 +148,7 @@ define("EPL_ADLAN_144", "Palavra-chave/Tag para este plugin");
 define("EPL_ADLAN_145", "Uma descrição completa do plugin");
 define("EPL_ADLAN_146", "Que categoria de plugin é este?");
 define("EPL_ADLAN_147", "Configurações");
-define("EPL_ADLAN_148", "utilizadors");
+define("EPL_ADLAN_148", "utilizadores");
 define("EPL_ADLAN_149", "conteúdo");
 define("EPL_ADLAN_150", "ferramentas");
 define("EPL_ADLAN_151", "gerenciar");
@@ -194,7 +194,7 @@ define("EPL_ADLAN_191", "Função personalizada");
 define("EPL_ADLAN_192", "Escondido");
 define("EPL_ADLAN_193", "Caixa de texto");
 define("EPL_ADLAN_194", "Caixa de texto (url)");
-define("EPL_ADLAN_195", "Caixa de texto (correio electrónico)");
+define("EPL_ADLAN_195", "Caixa de texto (endereço electrónico)");
 define("EPL_ADLAN_196", "Caixa de texto (ip)");
 define("EPL_ADLAN_197", "Caixa de texto (número)");
 define("EPL_ADLAN_198", "Caixa de texto (senha)");

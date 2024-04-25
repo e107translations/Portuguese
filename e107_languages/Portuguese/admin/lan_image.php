@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/13 20:31:48
@@ -10,7 +10,7 @@
 +---------------------------------------------------------------+
 */
 define("LAN_IMA_M_01", "Biblioteca de media");
-define("LAN_IMA_M_02", "Upload de media/importação");
+define("LAN_IMA_M_02", "Carregamento de media/importação");
 define("LAN_IMA_M_03", "Categorias de media");
 define("LAN_IMA_M_04", "Criar categoria");
 define("LAN_IMA_M_05", "Avatares");
@@ -28,7 +28,7 @@ define("IMALAN_7", "Configurações de imagem");
 define("IMALAN_8", "Atualizar configurações de imagem");
 define("IMALAN_9", "Configurações de imagem atualizadas");
 define("IMALAN_10", "Classe de imagem de exibição");
-define("IMALAN_11", "Restringir os utilizadors que podem ver fotos (se habilitado acima)");
+define("IMALAN_11", "Restringir os utilizadores que podem ver fotos (se habilitado acima)");
 define("IMALAN_12", "Método de imagem com deficiência");
 define("IMALAN_13", "O que fazer com imagens se exibir imagem está desativado");
 define("IMALAN_14", "Mostrar a URL da imagem");
@@ -54,7 +54,7 @@ define("IMALAN_45", "Não encontrado");
 define("IMALAN_46", "Muito grande");
 define("IMALAN_47", "Total de avatares carregados");
 define("IMALAN_48", "Avatares de externos totais");
-define("IMALAN_49", "utilizadors com avatares");
+define("IMALAN_49", "utilizadores com avatares");
 define("IMALAN_50", "Total");
 define("IMALAN_51", "Avatar para");
 define("IMALAN_52", "Caminho para ImageMagick parece ser incorreto");
@@ -104,14 +104,14 @@ define("IMALAN_103", "Usar a marca modesto");
 define("IMALAN_104", "Tornar o YouTube bbcode responsivos");
 define("IMALAN_105", "Redimensionar imagens durante a importação de media");
 define("IMALAN_106", "Deixe em branco para desabilitar");
-define("IMALAN_107", "Não gerado pelo caminho de upload de dados");
+define("IMALAN_107", "Não gerado pelo caminho de carregamento de dados");
 define("IMALAN_108", "Impossível mover o arquivo de [x] [y]");
 define("IMALAN_109", "Não consegui obter o caminho");
 define("IMALAN_110", "Caminho");
-define("IMALAN_111", "Não conseguimos detectar mime-type([x]). Upload de contato falhou.");
+define("IMALAN_111", "Não conseguimos detectar mime-type([x]). Carregamento de contato falhou.");
 define("IMALAN_112", "Impossível criar a pasta ([x]).");
 define("IMALAN_113", "Digitalização para novas mídias (imagens, vídeos, arquivos) na pasta:");
-define("IMALAN_114", "Nenhuma media encontrada! Por favor, fazer upload de alguns arquivos.");
+define("IMALAN_114", "Nenhuma media encontrada! Por favor, fazer carregamento de alguns arquivos.");
 define("IMALAN_115", "Título (uso interno)");
 define("IMALAN_116", "Legenda (vista pelo público)");
 define("IMALAN_118", "Tipo de MIME");
@@ -186,3 +186,4 @@ define("IMALAN_186", "Insira algum texto para filtrar os resultados");
 define("IMALAN_187", "Converter para webp durante a importação");
 define("IMALAN_188", "Converter para webp durante a renderização");
 define("IMALAN_189", "Ficheiros JPEG, PNG e GIF serão automaticamente convertidos para o formato webp. (iconse excluidos)");
+define("IMALAN_190", "A importação deste tipo de arquivo não é permitida.");

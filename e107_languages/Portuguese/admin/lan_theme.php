@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/15 20:55:14
@@ -19,7 +19,7 @@ define("TPVLAN_9", "Tema de visualização");
 define("TPVLAN_10", "Definir como tema do Site");
 define("TPVLAN_11", "Versão");
 define("TPVLAN_12", "Sem visualização disponível");
-define("TPVLAN_13", "Upload de tema (.zip ou .tar.gz format)");
+define("TPVLAN_13", "Carregamento de tema (.zip ou .tar.gz format)");
 define("TPVLAN_14", "Enviar tema");
 define("TPVLAN_15", "O arquivo não pode ser carregado como a pasta '.e_THEME.' não tem as permissões corretas - por favor CHMOD 777 e re-upload do arquivo.");
 define("TPVLAN_16", "Mensagem do admin");
@@ -43,7 +43,7 @@ define("TPVLAN_34", "Tema de admin");
 define("TPVLAN_35", "Salvar opções");
 define("TPVLAN_36", "Mensagem do admin");
 define("TPVLAN_37", "Opções de tema salvas");
-define("TPVLAN_38", "Upload de tema");
+define("TPVLAN_38", "Carregamento de tema");
 define("TPVLAN_39", "Temas disponíveis");
 define("TPVLAN_40", "Admin tema definido como");
 define("TPVLAN_41", "Por favor, selecione o estilo de layout admin para usar");
@@ -72,7 +72,7 @@ define("TPVLAN_65", "Antes que você comece :");
 define("TPVLAN_66", "Certifique-se de que o diretório do seu tema é gravável");
 define("TPVLAN_67", "Selecione a pasta do seu tema para começar.");
 define("TPVLAN_68", "Selecione a pasta do seu tema");
-define("TPVLAN_69", "Disponível para download");
+define("TPVLAN_69", "Disponível para transferência");
 define("TPVLAN_70", "Visualização / demonstração ao vivo:");
 define("TPVLAN_71", "Não especificado");
 define("TPVLAN_72", "Defina as páginas que devem usar este layout automaticamente. Um por linha.");
@@ -97,11 +97,11 @@ define("TPVLAN_CONV_10", "Uma breve descrição de uma linha do plugin. (! @ # $
 define("TPVLAN_CONV_11", "Palavra-chave / tag para este tema (deve ser escrito em inglês)");
 define("TPVLAN_CONV_12", "Uma descrição completa do tema (deve ser escrita em inglês)");
 define("TPVLAN_CONV_13", "Que categoria de tema é esta?");
-define("TPVLAN_CONV_14", "Ative esta folha de estilo como uma opção selecionável no Gestor de temas.");
+define("TPVLAN_CONV_14", "Ative esta folha de estilo como uma opção selecionável no Gerenciador de temas.");
 define("TPVLAN_CONV_15", "Dê um nome a esta folha de estilo");
 define("TPVLAN_CONV_16", "URL para uma demonstração ao vivo deste tema.");
-define("TPVLAN_83", "O download automatizado não é possível!");
-define("TPVLAN_84", "[Faça o download manualmente]");
+define("TPVLAN_83", "O transferência automatizado não é possível!");
+define("TPVLAN_84", "[Faça o transferência manualmente]");
 define("TPVLAN_85", "A ligar ...");
 define("TPVLAN_86", "Não foi possível alterar o tema do site.");
 define("TPVLAN_88", "Conversor");
@@ -112,7 +112,7 @@ define("TPVLAN_93", "Selecção");
 define("TPVLAN_94", "Tema do site alterado para [x].");
 define("TPVLAN_95", "Pele");
 define("TPVLAN_96", "Defina URLs / caminhos de script que devem usar automaticamente este layout. Um por linha.");
-define("TPVLANHELP_01", "O gestor de temas permite que você defina o tema público do seu site e o tema das áreas administrativas.");
+define("TPVLANHELP_01", "O gerenciador de temas permite que você defina o tema público do seu site e o tema das áreas administrativas.");
 define("TPVLANHELP_02", "Veja as dicas de ferramentas (quando disponíveis) para obter mais detalhes.");
 define("TPVLANHELP_03", "Por padrão, o filtro de visibilidade mudará o layout do tema com base em uma correspondência parcial de URL.");
 define("TPVLANHELP_04", "Termine as linhas com um [b]![/b] para corresponder exatamente ao final do URL.");
