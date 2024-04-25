@@ -31,7 +31,7 @@ define("LANHELP_19", "Enorme");
 define("LANHELP_20", "Maciço");
 define("LANHELP_21", "Clique para abrir a caixa de diálogo de cor...");
 define("LANHELP_22", "Clique para abrir a caixa de diálogo de tamanho...");
-define("LANHELP_23", "Inserir hiperligação: \n [hiperligação]http://mysite.com[/hiperligação] ou [hiperligação=http://yoursite.com]visite meu Site[/hiperligação]");
+define("LANHELP_23", "Inserir hiperligação: \n [link]http://mysite.com[/link] ou [link=http://yoursite.com]visite meu Site[/link]");
 define("LANHELP_24", "Texto negrito:\n[b]Este texto estará em negrito[/b]");
 define("LANHELP_25", "Texto itálico:\n[i]Este texto ficará em itálico[/i]");
 define("LANHELP_26", "Texto sublinhado:\n[u]Este texto será sublinhado[/u]");
