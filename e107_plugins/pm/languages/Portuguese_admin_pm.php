@@ -4,7 +4,7 @@
 // Generated for e107 v2.x by the Multi-Language Plugin
 // https://github.com/e107inc/multilan
 
-define("ADLAN_PM_1", "Para ativar, por favor, vá para a sua tela de menus e selecione o private_msg em uma das suas áreas de menu.<br><br>Se você precisa converter as mensagens de uma versão anterior, por favor, vá para a página de configuração principal para este plugin... e selecione o link 'Converter'.");
+define("ADLAN_PM_1", "Para ativar, por favor, vá para a sua tela de menus e selecione o private_msg em uma das suas áreas de menu.<br><br>Se você precisa converter as mensagens de uma versão anterior, por favor, vá para a página de configuração principal para este plugin... e selecione o hiperligação 'Converter'.");
 define("ADLAN_PM_3", "Configurações de PM não encontradas, o conjunto de valores padrão");
 define("ADLAN_PM_4", "Opções de atualização");
 define("ADLAN_PM_5", "Limite para userclass selecionado já existe");
@@ -20,16 +20,16 @@ define("ADLAN_PM_14", "Limites de PM");
 define("ADLAN_PM_15", "Adicionar PM limite");
 define("ADLAN_PM_16", "Título de plugin");
 define("ADLAN_PM_17", "Mostrar a nova animação de PM");
-define("ADLAN_PM_18", "Mostrar menu suspenso de usuário");
+define("ADLAN_PM_18", "Mostrar menu suspenso de utilizador");
 define("ADLAN_PM_19", "Mensagem lida timeout (dias)");
 define("ADLAN_PM_20", "Mensagem não-lida timeout (dias)");
 define("ADLAN_PM_21", "Notificação de pop-up na nova PM");
 define("ADLAN_PM_22", "Tempo limite de atraso de pop-up");
 define("ADLAN_PM_23", "Restringir o uso de PM para");
 define("ADLAN_PM_24", "Número de PMs para mostrar por página");
-define("ADLAN_PM_25", "Habilitar notificações de e-mail PM");
-define("ADLAN_PM_26", "Permitir que o usuário solicitar as notificações de e-mail de confirmação de leitura");
-define("ADLAN_PM_27", "Permitir postagem de anexos");
+define("ADLAN_PM_25", "Habilitar notificações de endereço electrónico PM");
+define("ADLAN_PM_26", "Permitir que o utilizador solicitar as notificações de endereço electrónico de confirmação de leitura");
+define("ADLAN_PM_27", "Permitir publicação de anexos");
 define("ADLAN_PM_28", "Tamanho máximo do acessório");
 define("ADLAN_PM_29", "Permitir o envio para todos os membros");
 define("ADLAN_PM_30", "Permitir o envio para múltiplos destinatários");
@@ -52,12 +52,12 @@ define("ADLAN_PM_60", "Manutenção de PM");
 define("ADLAN_PM_62", "Essas opções remover transacções em causa com os usuários excluídos das tabelas de banco de dados do PM");
 define("ADLAN_PM_63", "Mensagens enviadas");
 define("ADLAN_PM_64", "Mensagens recebidas");
-define("ADLAN_PM_65", "Blocos de usuário");
+define("ADLAN_PM_65", "Blocos de utilizador");
 define("ADLAN_PM_66", "Tarefas de manutenção não especificadas");
 define("ADLAN_PM_67", "Manutenção de PM DB começada");
 define("ADLAN_PM_68", "-CONTAGEM - blocos para usuários excluídos removidos");
 define("ADLAN_PM_69", "-CONTAGEM - blocos de usuários excluídos removidos");
-define("ADLAN_PM_70", "Erro de banco de dados..--NUM...: remover blocos de usuário..--texto...");
+define("ADLAN_PM_70", "Erro de banco de dados..--NUM...: remover blocos de utilizador..--texto...");
 define("ADLAN_PM_71", "Mensagens de tempo expirado");
 define("ADLAN_PM_72", "Nenhum conjunto de tempo limite de PM");
 define("ADLAN_PM_73", "-- CONTAGEM-- tempo expirado PMs excluídos");

@@ -1,8 +1,14 @@
 <?php
+/*
++---------------------------------------------------------------+
+|        e107 sítio internet content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2024/04/25 11:47:54
+|
+|        $Author: Rica-Carv $
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PLUGIN_LISTNEW_NAME", "Novos itens de lista");
-define("LAN_PLUGIN_LISTNEW_DESCRIPTION", "Este plugin permite que você exibir uma lista e/ou o menu de adições recentes em todas as categorias de e107. Você pode ver a lista com dados desde sua última visita, ou exibir uma lista geral de adições mais recente.");
+define("LAN_PLUGIN_LIST_NEW_NAME", "Listar novos itens");
+define("LAN_PLUGIN_LIST_NEW_DESCRIPTION", "Este plugin permite que você visualize uma lista e/ou menu de adições recentes em todas as categorias e107. Você pode visualizar a lista com dados desde sua última visita ou visualizar uma lista geral das últimas adições.");

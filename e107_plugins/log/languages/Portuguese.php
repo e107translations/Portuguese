@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 sítio internet content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2024/04/25 11:49:15
+|
+|        $Author: Rica-Carv $
++---------------------------------------------------------------+
+*/
 
 define("PAGE_NAME", "Estatísticas");
 define("ADSTAT_L1", "Este plugin irá registrar todas as visitas ao seu site e construir telas detalhadas de estatística com base em informações recolhidas.");
@@ -56,12 +62,4 @@ define("ADSTAT_L49", "classificar em ordem alfabética");
 define("ADSTAT_L50", "Estatísticas de todos os tempos");
 define("ADSTAT_L51", "Estatísticas do mês atual");
 define("ADSTAT_L52", "Estatísticas do mês anterior");
-define("ADSTAT_L53", "");
-define("ADSTAT_L54", "");
-define("ADSTAT_L55", "");
-define("ADSTAT_L56", "");
-define("ADSTAT_L57", "");
-define("ADSTAT_L58", "");
-define("ADSTAT_L59", "");
-define("ADSTAT_L60", "");
-?>
+define("ADSTAT_L53", "Informação");

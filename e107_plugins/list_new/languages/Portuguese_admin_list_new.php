@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 sítio internet content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2024/04/25 11:47:01
+|
+|        $Author: Rica-Carv $
++---------------------------------------------------------------+
+*/
 
 define("LIST_PLUGIN_3", "Configurar o Menu principal");
 define("LIST_PLUGIN_4", "O plugin List_new está agora pronto para ser usado.");
@@ -26,31 +32,22 @@ define("LIST_ADMIN_16", "Bem-vindo à nova página do '. SITENAME.'! Esta págin
 define("LIST_ADMIN_17", "Nada mudou - não atualizado");
 define("LIST_ADMIN_SECT_1", "seções");
 define("LIST_ADMIN_SECT_2", "escolha quais seções para mostrar");
-define("LIST_ADMIN_SECT_3", "");
 define("LIST_ADMIN_SECT_4", "estilo de exibição");
 define("LIST_ADMIN_SECT_5", "escolha quais seções são abertas por padrão");
-define("LIST_ADMIN_SECT_6", "");
 define("LIST_ADMIN_SECT_7", "autor");
 define("LIST_ADMIN_SECT_8", "escolha se o autor deve ser exibido");
-define("LIST_ADMIN_SECT_9", "");
 define("LIST_ADMIN_SECT_10", "Categoria");
 define("LIST_ADMIN_SECT_11", "escolher se a categoria deve ser exibida");
-define("LIST_ADMIN_SECT_12", "");
 define("LIST_ADMIN_SECT_13", "Data");
 define("LIST_ADMIN_SECT_14", "escolher se a data deve ser exibida");
-define("LIST_ADMIN_SECT_15", "");
 define("LIST_ADMIN_SECT_16", "itens quantidade");
 define("LIST_ADMIN_SECT_17", "escolher quantos itens devem ser exibidos para cada seção");
-define("LIST_ADMIN_SECT_18", "");
 define("LIST_ADMIN_SECT_19", "itens do pedido");
 define("LIST_ADMIN_SECT_20", "escolha a ordem em que as seções devem ser exibidas");
-define("LIST_ADMIN_SECT_21", "");
 define("LIST_ADMIN_SECT_22", "ícone de");
 define("LIST_ADMIN_SECT_23", "escolher um ícone para cada seção");
-define("LIST_ADMIN_SECT_24", "");
 define("LIST_ADMIN_SECT_25", "Legenda");
 define("LIST_ADMIN_SECT_26", "define uma legenda para cada seção");
-define("LIST_ADMIN_SECT_27", "");
 define("LIST_ADMIN_OPT_1", "geral");
 define("LIST_ADMIN_OPT_2", "página recente");
 define("LIST_ADMIN_OPT_3", "menu recente");
@@ -82,13 +79,12 @@ define("LIST_ADMIN_LAN_23", "texto de boas vindas");
 define("LIST_ADMIN_LAN_24", "definir um texto de boas vindas que será processado no topo da página");
 define("LIST_ADMIN_LAN_26", "Mostrar vazio");
 define("LIST_ADMIN_LAN_27", "definir se uma mensagem deve ser mostrado quando seções não tem nenhum resultado");
-define("LIST_ADMIN_LAN_28", "");
 define("LIST_ADMIN_LAN_29", "ícone: padrão");
 define("LIST_ADMIN_LAN_30", "Use bala de tema padrão, se o ícone não estiver presente ou se o ícone: uso é desabilitado");
 define("LIST_ADMIN_LAN_32", "timelapse:Days");
 define("LIST_ADMIN_LAN_33", "máximo de usuários dias pode olhar para trás");
 define("LIST_ADMIN_LAN_35", "dias");
-define("LIST_ADMIN_LAN_36", "timelapse");
+define("LIST_ADMIN_LAN_36", "espaço de tempo");
 define("LIST_ADMIN_LAN_37", "exibir uma caixa de seleção com o número de dias para olhar para trás?");
 define("LIST_ADMIN_LAN_39", "Abra se existem registos");
 define("LIST_ADMIN_LAN_40", "seções que contêm registros devem ser abertas por padrão?");

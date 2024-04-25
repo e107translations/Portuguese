@@ -1,8 +1,14 @@
 <?php
+/*
++---------------------------------------------------------------+
+|        e107 sítio internet content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2024/04/25 10:22:25
+|
+|        $Author: Rica-Carv $
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PLUGIN_GSITEMAP_NAME", "Google Sitemap");
+define("LAN_PLUGIN_GSITEMAP_NAME", "Mapa do site do Google");
 define("LAN_PLUGIN_GSITEMAP_DESCRIPTION", "Gera um Sitemap do Google");

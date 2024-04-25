@@ -1,11 +1,17 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 sítio internet content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2024/04/25 12:50:00
+|
+|        $Author: Rica-Carv $
++---------------------------------------------------------------+
+*/
 
 define("COMPLIANCE_L1", "Conformidade do W3C");
-define("SITEBUTTON_MENU_L1", "Link para nós");
+define("SITEBUTTON_MENU_L1", "Hiperligação para nós");
 define("POWEREDBY_L1", "Ativado por");
 define("COUNTER_L1", "Admin visitas não estão sendo contadas.");
 define("COUNTER_L2", "Esta página hoje...");

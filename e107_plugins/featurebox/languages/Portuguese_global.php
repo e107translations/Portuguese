@@ -1,14 +1,16 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 sítio internet content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2024/04/23 19:58:02
+|
+|        $Author: Rica-Carv $
++---------------------------------------------------------------+
+*/
 
 define("LAN_PLUGIN_FEATUREBOX_NAME", "Caixa de recurso");
 define("LAN_PLUGIN_FEATUREBOX_DESCRIPTION", "Exibe uma área animada no topo de sua página com itens de notícias e outros conteúdos que você gostaria característica.");
 define("LAN_PLUGIN_FEATUREBOX_BATCH", "Criar Item de Featurebox");
-define("FBLAN_INSTALL_01", "Adicionando os dados da tabela categoria padrão.");
-define("FBLAN_INSTALL_02", "Adicionando os dados da tabela padrão.");
-define("FBLAN_INSTALL_03", "Não atribuído");
-define("FBLAN_INSTALL_04", "Carrossel");
-define("FBLAN_INSTALL_05", "Guias");
+define("LAN_PLUGIN_FEATUREBOX_RSSFEED", "Este é o feed rss para as entradas do featurebox.");

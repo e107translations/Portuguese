@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 sítio internet content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2024/04/25 11:54:33
+|
+|        $Author: Rica-Carv $
++---------------------------------------------------------------+
+*/
 
 define("ADSTAT_LAN_1", "Este plugin irá registrar todas as visitas ao seu site e construir telas detalhadas de estatística com base em informações recolhidas.");
 define("ADSTAT_LAN_2", "O agente de log de estatísticas tiver sido instalado com êxito. Para ativar, por favor, vá para a tela de configuração e clique em ativar.<br><b>Você deve definir as permissões da pasta e107_plugins/log/logs para 777 (chmod 777)</b>");
@@ -55,7 +61,7 @@ define("ADSTAT_LAN_54", "Seleção de tipo inválido");
 define("ADSTAT_LAN_55", "Aspa simples");
 define("ADSTAT_LAN_56", "Aspas duplas");
 define("ADSTAT_LAN_57", "Vírgula");
-define("ADSTAT_LAN_58", "Pipe (|)");
+define("ADSTAT_LAN_58", "Barra vertical (|)");
 define("ADSTAT_LAN_59", "Separador de CSV, citações");
 define("ADSTAT_LAN_60", "Endereço do site tira de URLs");
 define("ADSTAT_LAN_61", "(se marcado, só dá referência de página)");
@@ -82,5 +88,9 @@ define("ADSTAT_LAN_82", "Agora valores a seguir definidos:");
 define("ADSTAT_LAN_83", "Entradas de ID de log a seguir removido:");
 define("ADSTAT_LAN_84", "Este procedimento irá sobreescrever todos os resumos de estatística na base de dados. (ficheiros raw de estatítisca não são alterados) Uma vez substituidos, os dados não podem ser recuperados. Por favor faça uma cópia de segurança ou exporte a base de dados primeiro");
 define("ADSTAT_LAN_85", "[x] ficheiros de estatistica encontrados. Clique no botão em baixo para processar estes ficheiros.");
-define ('ADSTAT_LAN_86', 'Acertos Totais');
-?>
+define("ADSTAT_LAN_86", "Acertos Totais");
+define("ADSTAT_LAN_87", "Reconstruir resumos estatísticos");
+define("ADSTAT_LAN_88", "Reconstruir estatísticas");
+define("ADSTAT_LAN_89", "Reconstruir");
+define("ADSTAT_LAN_90", "Dados salvos no banco de dados com id: [x]");
+define("ADSTAT_LAN_91", "Não foi possível salvar dados no banco de dados com id: [x]");
