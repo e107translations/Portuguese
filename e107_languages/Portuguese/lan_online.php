@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 sítio internet content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2024/04/21 17:40:40
+|
+|        $Author: Rica-Carv $
++---------------------------------------------------------------+
+*/
 
 define("ONLINE_EL1", "Convidados:");
 define("ONLINE_EL2", "Membros:");
@@ -22,28 +28,28 @@ define("ONLINE_EL15", "Página de vídeo");
 define("ONLINE_EL16", "Informação não disponível");
 define("CLASSRESTRICTED", "Página restrita classe");
 define("CHAT", "Bate-papo");
-define("DOWNLOAD", "Downloads");
-define("EMAIL", "correio electrónico.php");
+define("DOWNLOAD", "Descargas");
+define("EMAIL", "endereço electrónico.php");
 define("FORUM", "Índice do Fórum principal");
 define("LINKS", "Ligações");
 define("NEWS", "Notícias");
 define("OLDPOLLS", "Enquetes antigas");
 define("POLLCOMMENT", "Enquete");
 define("PRINTPAGE", "Impressão");
-define("LOGIN", "Efetuar login");
+define("LOGIN", "Efetuar entrar");
 define("SEARCH", "À procura");
 define("STATS", "Estatísticas do site");
 define("SUBMITNEWS", "Enviar notícias");
 define("UPLOAD", "Carregamentos");
 define("USERPAGE", "Perfis de utilizador");
 define("USERSETTINGS", "Configurações de utilizador");
-define("ONLINE", "utilizadors on-line");
+define("ONLINE", "utilizadores on-line");
 define("LISTNEW", "Novos itens de lista");
-define("USERPOSTS", "Posts do utilizador");
+define("USERPOSTS", "publicações do utilizador");
 define("SUBCONTENT", "Enviar conteúdo");
 define("TOP", "Top tópicos cartazes/mais ativos");
 define("ADMINAREA", "Área do administrador");
-define("BUGTRACKER", "Bugtracker");
+define("BUGTRACKER", "Registro de erros");
 define("EVENT", "Lista de eventos");
 define("CALENDAR", "Calendário de eventos");
 define("FAQ", "Perguntas Freqüentes");

@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/11 15:11:28
@@ -81,21 +81,20 @@ define("LANINS_070", "e107 foi incapaz de salvar o arquivo de configuração pri
 Por favor verifique o arquivo [b]e107_config.php[/b] tem as permissões corretas");
 define("LANINS_071", "Instalação completa");
 define("LANINS_072", "Nome de utilizador admin");
-define("LANINS_073", "Este é o nome que você usará para login no site. Se você deseja usar isto como seu nome de exibição também");
+define("LANINS_073", "Este é o nome que você usará para entrar no site. Se você deseja usar isto como seu nome de exibição também");
 define("LANINS_074", "Nome para exibição de admin");
 define("LANINS_076", "Senha de admin");
 define("LANINS_077", "Por favor digite a senha de administrador que você deseja usar aqui");
 define("LANINS_078", "Confirmação de senha de admin");
 define("LANINS_079", "Por favor digite a senha novamente para confirmação");
-define("LANINS_080", "Admin Correio electrónico");
-define("LANINS_081", "Digite seu endereço de correio electrónico");
+define("LANINS_080", "Endereço electrónico do administrador");
+define("LANINS_081", "Digite seu endereço electrónico");
 define("LANINS_083", "MySQL relatou o erro:");
 define("LANINS_084", "O instalador não conseguiu estabelecer uma conexão com o banco de dados");
 define("LANINS_085", "O instalador não poderia selecionar banco de dados:");
-define("LANINS_086", "Admin Username, senha de Admin e Admin Correio electrónico são campos obrigatórios. Por favor retornar à última página e garantir que a informação é inserida corretamente.");
+define("LANINS_086", "Admin Username, senha de Admin e Admin Endereço electrónico são campos obrigatórios. Por favor retornar à última página e garantir que a informação é inserida corretamente.");
 define("LANINS_105", "Um começo de nome ou prefixo do banco de dados com alguns dígitos seguido por 'e' ou 'E' não é aceitável");
-define("LANINS_106", "AVISO - e107 não é possível gravar os diretórios e/ou arquivos listados. Enquanto isso não vai parar a instalação do e107, significará que determinados recursos não estão disponíveis.
-				Você precisará alterar as permissões de arquivo para usar esses recursos");
+define("LANINS_106", "AVISO - e107 não é possível gravar os diretórios e/ou arquivos listados. Enquanto isso não vai parar a instalação do e107, significará que determinados recursos não estão disponíveis. Você precisará alterar as permissões de arquivo para usar esses recursos");
 define("LANINS_107", "Nome do site");
 define("LANINS_108", "Meu site");
 define("LANINS_109", "Tema do site");
@@ -126,5 +125,5 @@ define("LANINS_141", "Por favor preencha o formulário abaixo com os seus detalh
 define("LANINS_142", "IMPORTANTE: Por favor renomeie e107.htaccess para .htaccess");
 define("LANINS_144", "IMPORTANTE: Por favor copie e cole o conteúdo de [b]e107.htaccess[/b] para dentro do seu ficheiro [b].htaccess[/b]. Por favor NÃO sobreescreva qualquer dado que esteja no ficheiro.");
 define("LANINS_145", "e107 v2.x requer o PHP [x] instalado. Por favor contacte o seu serviço de hospedagem ou leia mais informação em [y] antes de continuar.");
-define("LANINS_146", "Tema da área de admin");
+define("LANINS_146", "Tema da área de administração");
 define("LANINS_147", "Administração");

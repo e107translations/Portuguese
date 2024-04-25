@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/12 10:42:51
@@ -24,12 +24,12 @@ define("LAN_USET_10", "Por favor, atualize as configurações agora, para poder 
 define("LAN_USET_11", "Esse nome de utilizador não pode ser aceite como válida, por favor, escolha um nome de utilizador diferente");
 define("LAN_USET_12", "Esse nome de exibição é muito curto. Por favor escolha outro");
 define("LAN_USET_13", "Caracteres inválidos no nome de utilizador. Por favor escolha outro");
-define("LAN_USET_14", "Nome de login há muito tempo. Por favor escolha outro");
+define("LAN_USET_14", "Nome de entrar há muito tempo. Por favor escolha outro");
 define("LAN_USET_15", "Nome de exibição há muito tempo. Por favor escolha outro");
 define("LAN_USET_16", "Caixa de seleção Excluir foto existente sem carregar outro");
 define("LAN_USET_17", "Nome de exibição já usado. Por favor escolha outro");
 define("LAN_USET_18", "Dados do utilizador alterados pel admin: [x], nome de utilizador:[y]");
-define("LAN_USET_20", "Você também deve alterar a senha do utilizador, se você estiver a alterar o seu nome de utilizador ou endereço de correio electrónico");
+define("LAN_USET_20", "Você também deve alterar a senha do utilizador, se você estiver a alterar o seu nome de utilizador ou endereço electrónico");
 define("LAN_USET_21", "Por favor, valide as alterações, re-inserindo sua senha:");
 define("LAN_USET_23", "Deixe em branco para manter a senha existente");
 define("LAN_USET_24", "Nova senha:");
@@ -55,9 +55,9 @@ define("LAN_7", "Nome para exibição:");
 define("LAN_8", "o nome exibido no site");
 define("LAN_9", "Nome de utilizador:");
 define("LAN_10", "o nome que você usa para entrar no site");
-define("LAN_112", "Endereço de correio electrónico:");
-define("LAN_113", "Esconder o endereço de correio electrónico?:");
-define("LAN_114", "Isto impedirá que seu endereço de correio electrónico seja exibido no site");
+define("LAN_112", "Endereço de endereço electrónico:");
+define("LAN_113", "Esconder o endereço electrónico?:");
+define("LAN_114", "Isto impedirá que seu endereço electrónico seja exibido no site");
 define("LAN_120", "Assinatura:");
 define("LAN_122", "Fuso horário:");
 define("LAN_152", "Nova senha:");
@@ -81,11 +81,11 @@ define("LAN_434", "O que é isto?");
 define("LAN_435", "Ficheiro de utilizador de protocolo XML");
 define("LAN_CUSTOMTITLE", "Título personalizado");
 define("LAN_USET_5", "Inscrever-se");
-define("LAN_USET_6", "Subscreva a nossa lista(s) de correio electrónico(s) e/ou secções deste site.");
+define("LAN_USET_6", "Subscreva a nossa lista(s) de endereço electrónico(s) e/ou secções deste site.");
 define("LAN_USET_50", "Apagar conta");
 define("LAN_USET_51", "Tem a certeza? Esta acção não pode ser revertida! Uma vez completada, a sua conta e dados pessoais que tenha inserido neste site serão permanentemente perdidas e não conseguirá entrar no site.");
-define("LAN_USET_52", "Um correio electrónico de confirmação foi enviado para [x]. Por favor clique no link do correio electrónico para apagar a sua conta permanentemente.");
+define("LAN_USET_52", "Um endereço electrónico de confirmação foi enviado para [x]. Por favor clique no hiperligação do endereço electrónico para apagar a sua conta permanentemente.");
 define("LAN_USET_53", "Confirmação de exclusão de conta");
-define("LAN_USET_54", "Correio electrónico de confirmação enviado");
-define("LAN_USET_55", "Por favor clique no seguinte link para completar a exclusão da conta");
+define("LAN_USET_54", "Endereço electrónico de confirmação enviado");
+define("LAN_USET_55", "Por favor clique no seguinte hiperligação para completar a exclusão da conta");
 define("LAN_USET_56", "A sua conta foi apagada com sucesso.");

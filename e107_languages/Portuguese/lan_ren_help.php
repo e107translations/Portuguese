@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/11 20:08:27
@@ -9,7 +9,6 @@
 |        $Author: Ricardo $
 +---------------------------------------------------------------+
 */
-
 define("LANHELP_1", "Preto");
 define("LANHELP_2", "Azul");
 define("LANHELP_3", "Castanho");
@@ -32,7 +31,7 @@ define("LANHELP_19", "Enorme");
 define("LANHELP_20", "Maciço");
 define("LANHELP_21", "Clique para abrir a caixa de diálogo de cor...");
 define("LANHELP_22", "Clique para abrir a caixa de diálogo de tamanho...");
-define("LANHELP_23", "Inserir link: \n [link]http://mysite.com[/link] ou [link=http://yoursite.com]visite meu Site[/link]");
+define("LANHELP_23", "Inserir hiperligação: \n [hiperligação]http://mysite.com[/hiperligação] ou [hiperligação=http://yoursite.com]visite meu Site[/hiperligação]");
 define("LANHELP_24", "Texto negrito:\n[b]Este texto estará em negrito[/b]");
 define("LANHELP_25", "Texto itálico:\n[i]Este texto ficará em itálico[/i]");
 define("LANHELP_26", "Texto sublinhado:\n[u]Este texto será sublinhado[/u]");
@@ -47,8 +46,8 @@ define("LANHELP_34", "[newpage] ou [newpage = título] inserir tag newpage, arti
 define("LANHELP_35", "endereço do hiperlink");
 define("LANHELP_36", "Não ordenada: [list]Linha1*Linha2*Linha3[/list] Ordenada:[lista = type]Linha1*Linha2*Linha3[/list]");
 define("LANHELP_37", "Inserir imagem de e107_images/newspost_images/diretório");
-define("LANHELP_38", "um link para a imagem inteira será gerado");
-define("LANHELP_39", "Inserir link para descarga de descargas existentes");
+define("LANHELP_38", "um hiperligação para a imagem inteira será gerado");
+define("LANHELP_39", "Inserir hiperligação para descarga de descargas existentes");
 define("LANHELP_40", "Não existem actualmente descargas existentes");
 define("LANHELP_41", "Tamanho da fonte...");
 define("LANHELP_42", "Selecione a imagem...");

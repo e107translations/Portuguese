@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2018/09/05 18:33:33
@@ -15,7 +15,7 @@ define("COMLAN_1", "Desbloquear");
 define("COMLAN_2", "Bloquear");
 define("COMLAN_4", "Informação");
 define("COMLAN_5", "Comentários...");
-define("COMLAN_6", "Você deve estar logado para fazer comentários sobre este site - efetue o login ou se não está registado clique");
+define("COMLAN_6", "Você deve estar logado para fazer comentários sobre este site - efetue o entrar ou se não está registado clique");
 define("COMLAN_7", "Administrador do site principal");
 define("COMLAN_8", "Comentário");
 define("COMLAN_9", "Enviar comentário");
@@ -33,8 +33,8 @@ define("COMLAN_106", "Descarregar");
 define("COMLAN_145", "Registrado:");
 define("COMLAN_194", "Convidado");
 define("COMLAN_195", "Membro registado");
-define("COMLAN_310", "Incapaz de aceitar pois esse nome de utilizador já está registrado - se é o seu nome de utilizador faça o login para postar.");
-define("COMLAN_312", "Post duplicado - incapaz de aceitar.");
+define("COMLAN_310", "Incapaz de aceitar pois esse nome de utilizador já está registrado - se é o seu nome de utilizador faça o entrar para postar.");
+define("COMLAN_312", "Publicação duplicado - incapaz de aceitar.");
 define("COMLAN_313", "Localização");
 define("COMLAN_314", "moderar os comentários");
 define("COMLAN_315", "Trackbacks");
