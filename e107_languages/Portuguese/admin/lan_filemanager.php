@@ -27,5 +27,5 @@ define("FMLAN_46", "Por favor, confirme que você deseja excluir os arquivos sel
 define("FMLAN_47", "Uploads de utilizador");
 define("FMLAN_48", "Mover selecionado para");
 define("FMLAN_49", "Por favor, confirme que você deseja mover os arquivos selecionados.");
-define("FMLAN_50", "Mover-se");
+define("FMLAN_50", "Mover");
 define("FMLAN_51", "Erro não identificado");
