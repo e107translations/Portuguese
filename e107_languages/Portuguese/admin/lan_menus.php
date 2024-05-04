@@ -9,7 +9,6 @@
 |        $Author: Ricardo $
 +---------------------------------------------------------------+
 */
-
 define("MENLAN_7", "Configurar as opções de visibilidade para");
 define("MENLAN_10", "Novo menu instalado");
 define("MENLAN_11", "Menu removida");
@@ -23,9 +22,9 @@ define("MENLAN_22", "Menus de inativos");
 define("MENLAN_23", "Mover para baixo");
 define("MENLAN_24", "Mover para cima");
 define("MENLAN_25", "Ação...");
-define("MENLAN_26", "Este menu só será mostrado [/ b] [b] sobre as seguintes páginas");
-define("MENLAN_27", "Este menu só será oculto [/ b] [b] no seguinte páginas");
-define("MENLAN_28", "Digite uma página por linha, digite suficiente da url para distingui-lo corretamente.  Se você precisa o final da url para coincidir exatamente, use um! no final do nome da página. Por exemplo: [b]page.php?1! [/ b]");
+define("MENLAN_26", "Este menu só será [b]EXIBIDO[/b] nas seguintes páginas");
+define("MENLAN_27", "Este menu só será [b]ESCONDIDO[/b] nas seguintes páginas");
+define("MENLAN_28", "Digite uma página por linha, digite suficiente da url para distingui-lo corretamente.  Se você precisa o final da url para coincidir exatamente, use um! no final do nome da página. Por exemplo: [b]page.php?1![/b]");
 define("MENLAN_30", "Para ver as áreas de menu e as suas posições para layouts personalizados, selecione o layout personalizado aqui.");
 define("MENLAN_31", "Layout padrão");
 define("MENLAN_33", "Layout personalizado");
