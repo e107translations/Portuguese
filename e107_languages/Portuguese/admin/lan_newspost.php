@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/14 19:51:09
@@ -9,7 +9,6 @@
 |        $Author: Ricardo $
 +---------------------------------------------------------------+
 */
-
 define("NWSLAN_4", "Notícias - notícias existentes");
 define("NWSLAN_6", "Categoria");
 define("NWSLAN_13", "Corpo");
@@ -50,21 +49,21 @@ define("NWSLAN_57", "Item de");
 define("NWSLAN_58", "Postar");
 define("NWSLAN_59", "Nenhuma notícia enviada");
 define("NWSLAN_63", "Pesquisa newsposts");
-define("NWSLAN_66", "Fazer upload");
+define("NWSLAN_66", "Fazer carregamento");
 define("NWSLAN_67", "Imagem/vídeo");
-define("NWSLAN_69", "Fazer upload de uma imagem ou arquivo para uso no item notícias");
+define("NWSLAN_69", "Fazer carregamento de uma imagem ou arquivo para uso no item notícias");
 define("NWSLAN_72", "Apenas mostrar a notícia entre determinadas datas");
 define("NWSLAN_74", "Selecione como e onde a notícia é postada");
-define("NWSLAN_75", "Padrão - post a primeira página");
-define("NWSLAN_76", "A primeira página do título somente - post");
-define("NWSLAN_77", "Post para outro menu de notícias");
-define("NWSLAN_83", "Estendido post news");
+define("NWSLAN_75", "Padrão - Publicação a primeira página");
+define("NWSLAN_76", "A primeira página do título somente - Publicação");
+define("NWSLAN_77", "Publicação para outro menu de notícias");
+define("NWSLAN_83", "Estendido Publicação news");
 define("NWSLAN_84", "Escolha a que os visitantes, vão ver notícias");
 define("NWSLAN_86", "Menu de rodapé notícias-categoria");
 define("NWSLAN_87", "Colunas de categoria-notícias");
 define("NWSLAN_88", "Limite de exibição-padrão por página");
 define("NWSLAN_90", "Preferências de notícias");
-define("NWSLAN_100", "Habilitar o upload de imagem na página de enviar notícias");
+define("NWSLAN_100", "Habilitar o carregamento de imagem na página de enviar notícias");
 define("NWSLAN_101", "Redimensionamento automático de imagem enviada");
 define("NWSLAN_102", "largura em pixels ou deixar em branco para desabilitar.");
 define("NWSLAN_103", "re-post");
@@ -128,12 +127,13 @@ define("LAN_NEWS_99", "Apenas aceitar imagens maiores que");
 define("LAN_NEWS_100", "Qualquer tamanho");
 define("LAN_NEWS_101", "Submeter notícias");
 define("LAN_NEWS_102", "Abrir numa aba nova");
-define("LAN_NEWS_103", "Notificação de email");
-define("LAN_NEWS_104", "Envia uma notificação por e-mail ao enviar este formulário.");
-define("LAN_NEWS_105", "Notificação por email enviada!");
-define("LAN_NEWS_106", "A visibilidade do item de notícias deve incluir 'todos' para que as notificações por e-mail funcionem.");
+define("LAN_NEWS_103", "Notificação de endereço electrónico");
+define("LAN_NEWS_104", "Envia uma notificação por endereço electrónico ao enviar este formulário.");
+define("LAN_NEWS_105", "Notificação por endereço electrónico enviada!");
+define("LAN_NEWS_106", "A visibilidade do item de notícias deve incluir 'todos' para que as notificações por endereço electrónico funcionem.");
 define("LAN_NEWS_107", "Verificando o estado do ping");
 define("LAN_NEWS_108", "O URL SEF é diferente do título da sua notícia.");
-define("LAN_NEWS_109", "Envia uma notificação por e-mail ao enviar este formulário.");
+define("LAN_NEWS_109", "Envia uma notificação por endereço electrónico ao enviar este formulário.");
 define("LAN_NEWS_110", "Tempo limite da cache de notícias");
 define("LAN_NEWS_111", "Tempo em minutos. Aplica-se apenas quando o cache do sistema está activado.");
+define("LAN_NEWS_112", "Selecione o formato do URL. Contagem de registros (por exemplo, página=20, página=40, página=60 etc.) ou número de página (por exemplo, página=1, página=2, página=3 etc.). Aviso: Se modificados, alguns URLs de notícias precisarão ser reindexados pelos motores de busca.");

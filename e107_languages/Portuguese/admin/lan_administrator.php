@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/12 13:54:54
@@ -15,7 +15,7 @@ define("ADMSLAN_13", "Administradores existentes");
 define("ADMSLAN_16", "Nome de admin");
 define("ADMSLAN_18", "Permissões");
 define("ADMSLAN_21", "Modificar permissões de administrador");
-define("ADMSLAN_25", "Upload / gerenciar arquivos");
+define("ADMSLAN_25", "Carregamento / gerenciar arquivos");
 define("ADMSLAN_27", "Supervisionar a categorias de ligação");
 define("ADMSLAN_41", "Criar/editar menus personalizados");
 define("ADMSLAN_42", "Postar comentários");

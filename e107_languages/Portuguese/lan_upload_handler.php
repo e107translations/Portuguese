@@ -13,8 +13,8 @@ define("LANUPLOAD_6", "O arquivo enviado excede a diretiva MAX_FILE_SIZE que foi
 define("LANUPLOAD_7", "O arquivo enviado foi apenas parcialmente carregado.");
 define("LANUPLOAD_8", "Nenhum arquivo foi carregado.");
 define("LANUPLOAD_9", "Tamanho do arquivo carregado 0 bytes");
-define("LANUPLOAD_10", "Upload falha [duplicata filename] - um arquivo com o mesmo nome já existe.");
-define("LANUPLOAD_11", "O arquivo não upload. Nome do arquivo:");
+define("LANUPLOAD_10", "Carregamento falha [duplicata filename] - um arquivo com o mesmo nome já existe.");
+define("LANUPLOAD_11", "O arquivo não carregamento. Nome do arquivo:");
 define("LANUPLOAD_13", "Faltando a pasta temporária");
 define("LANUPLOAD_14", "Gravação do arquivo falhada");
 define("LANUPLOAD_15", "Carregar não permitido");

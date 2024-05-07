@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/12 12:54:33
@@ -22,7 +22,7 @@ define("DBLAN_15", "Selecione para verificar se há atualizações disponíveis 
 define("DBLAN_16", "Verificar se há atualizações");
 define("DBLAN_17", "Pref. nome");
 define("DBLAN_18", "Pref. valor");
-define("DBLAN_19", "Selecione para abrir o editor de preferências (somente para utilizadors avançados)");
+define("DBLAN_19", "Selecione para abrir o editor de preferências (somente para utilizadores avançados)");
 define("DBLAN_20", "Editor de preferências");
 define("DBLAN_22", "Plugin de visualização e verificação");
 define("DBLAN_23", "Verificação concluída");

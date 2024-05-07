@@ -4,7 +4,7 @@
 // Generated for e107 v2.x by the Multi-Language Plugin
 // https://github.com/e107inc/multilan
 
-define("FLALAN_2", "Tentativas de login não foram registradas");
+define("FLALAN_2", "Tentativas de entrar não foram registradas");
 define("FLALAN_3", "Tentativa (s) excluído");
 define("FLALAN_4", "utilizador tentou iniciar sessão utilizando o nome de utilizador/senha incorreta");
 define("FLALAN_5", "IP (s) proibidas");

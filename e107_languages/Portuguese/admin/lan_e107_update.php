@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/13 20:03:45
@@ -39,8 +39,8 @@ define("LAN_UPDATE_45", "Adicionar nova tabela ao banco de dados:");
 define("LAN_UPDATE_46", "Erro ao ler a definição da tabela:");
 define("LAN_UPDATE_50", "Obsoleto prefs excluído:");
 define("LAN_UPDATE_51", "Atualize a definição de tabela de plugin:");
-define("LAN_UPDATE_52", "Download de atualização de tabela");
-define("LAN_UPDATE_53", "Mesa de espelho de download de atualização");
+define("LAN_UPDATE_52", "Transferência de atualização de tabela");
+define("LAN_UPDATE_53", "Mesa de espelho de transferência de atualização");
 define("LAN_UPDATE_54", "Falta a tabela [y] - não é possível adicionar o índice [x]");
 define("LAN_UPDATE_55", "Descrição");
 define("LAN_UPDATE_56", "Atualização do sistema");

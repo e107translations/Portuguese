@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/12 13:39:06
@@ -29,7 +29,7 @@ define("RL_LAN_026", "Classe para quais ações de utilizador conectado");
 define("RL_LAN_028", "Filtros de atualização");
 define("RL_LAN_029", "Filtro de tipo de evento");
 define("RL_LAN_030", "Registro de admin");
-define("RL_LAN_031", "Ações para login");
+define("RL_LAN_031", "Ações para entrar");
 define("RL_LAN_032", "Pri");
 define("RL_LAN_033", "Para obter mais informações");
 define("RL_LAN_044", "Log de eventos para exibir por página");
@@ -50,15 +50,15 @@ define("RL_LAN_062", "Log de auditoria do utilizador");
 define("RL_LAN_064", "Aplicável a todos os logs");
 define("RL_LAN_065", "Confirmar excluir utilizador log eventos de auditoria mais velho");
 define("RL_LAN_066", "Excluir utilizador auditoria trilha eventos de log mais antigos que");
-define("RL_LAN_067", "Histórico de download");
+define("RL_LAN_067", "Histórico de transferência");
 define("RL_LAN_068", "D/L ID");
 define("RL_LAN_069", "Baixar o nome");
 define("RL_LAN_071", "Registo de utilizador (ignora a configuração de classe acima)");
-define("RL_LAN_072", "Confirmação de e-mail de inscrição (ignora a configuração de classe acima)");
-define("RL_LAN_073", "Login/Logout");
+define("RL_LAN_072", "Confirmação de endereço electrónico de inscrição (ignora a configuração de classe acima)");
+define("RL_LAN_073", "Entrar/Sair");
 define("RL_LAN_075", "Mudança de nome de exibição");
 define("RL_LAN_076", "Alterar senha");
-define("RL_LAN_077", "Mudança de endereço de e-mail");
+define("RL_LAN_077", "Mudança de endereço electrónico");
 define("RL_LAN_078", "Redefinição de senha");
 define("RL_LAN_079", "Alterar outras configurações de utilizador");
 define("RL_LAN_080", "Admin rápido Adicionar utilizador");
@@ -86,11 +86,11 @@ define("RL_LAN_111", "Excluir itens marcados");
 define("RL_LAN_112", "Excluídos comentários..--número...");
 define("RL_LAN_113", "Erro ao excluir comentários!");
 define("RL_LAN_114", "Limpar filtros");
-define("RL_LAN_115", "Os utilizadors Admin");
+define("RL_LAN_115", "Os utilizadores Admin");
 define("RL_LAN_116", "Localização");
 define("RL_LAN_117", "PgCnt");
 define("RL_LAN_118", "Bandeira");
-define("RL_LAN_120", "utilizadors on-line");
+define("RL_LAN_120", "utilizadores on-line");
 define("RL_LAN_122", "Configuração de Logs do sistema");
 define("RL_LAN_123", "Classe de trilha de auditoria do utilizador");
 define("RL_LAN_124", "Ações de trilha de auditoria do utilizador");

@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/13 20:54:08
@@ -14,7 +14,7 @@ define("LAN_AUDIT_LOG_001", "Acesso pelo utilizador banido");
 define("LAN_AUDIT_LOG_002", "Proteção contra as inundações ativada");
 define("LAN_AUDIT_LOG_003", "Acesso de endereço de IP banidos");
 define("LAN_AUDIT_LOG_006", "Senha de utilizador mudado");
-define("LAN_AUDIT_LOG_007", "Endereço de e-mail do utilizador mudado");
+define("LAN_AUDIT_LOG_007", "Endereço de endereço electrónico do utilizador mudado");
 define("LAN_AUDIT_LOG_010", "Dados de utilizador alterados pelo admin");
 define("LAN_AUDIT_LOG_011", "utilizador que se inscreveu");
 define("LAN_AUDIT_LOG_012", "utilizador confirmado o registo");
@@ -22,11 +22,11 @@ define("LAN_AUDIT_LOG_013", "utilizador logado");
 define("LAN_AUDIT_LOG_014", "utilizador desconectado");
 define("LAN_AUDIT_LOG_015", "Nome de exibição alterada do utilizador");
 define("LAN_AUDIT_LOG_016", "Senha de utilizador mudado");
-define("LAN_AUDIT_LOG_017", "Endereço de e-mail do utilizador mudado");
+define("LAN_AUDIT_LOG_017", "Endereço de endereço electrónico do utilizador mudado");
 define("LAN_AUDIT_LOG_018", "Redefinição de senha do utilizador");
 define("LAN_AUDIT_LOG_019", "Configurações de utilizador mudado");
 define("LAN_AUDIT_LOG_020", "utilizador adicionado por admin");
-define("LAN_AUDIT_LOG_021", "Salto de e-mail do utilizador");
+define("LAN_AUDIT_LOG_021", "Salto de endereço electrónico do utilizador");
 define("LAN_AUDIT_LOG_022", "utilizador banido");
 define("LAN_AUDIT_LOG_023", "Redefinição de rejeição do utilizador");
 define("LAN_AUDIT_LOG_024", "Status de utilizador temporário");
@@ -37,14 +37,14 @@ define("LAN_AL_ADLOG_04", "Opções de auditoria de utilizador atualizadas");
 define("LAN_AL_USET_01", "Dados do utilizador admin editada");
 define("LAN_AL_USET_02", "utilizador adicionado por Admin");
 define("LAN_AL_USET_03", "Opções de utilizador atualizadas");
-define("LAN_AL_USET_04", "utilizadors podados");
+define("LAN_AL_USET_04", "utilizadores podados");
 define("LAN_AL_USET_05", "utilizador banido");
 define("LAN_AL_USET_06", "utilizador unbanned");
 define("LAN_AL_USET_07", "utilizador excluído");
 define("LAN_AL_USET_08", "Admin do utilizador feito");
 define("LAN_AL_USET_09", "Status do utilizador admin revogado");
 define("LAN_AL_USET_10", "utilizador aprovado");
-define("LAN_AL_USET_11", "Reenviar e-mail de validação");
+define("LAN_AL_USET_11", "Reenviar endereço electrónico de validação");
 define("LAN_AL_USET_12", "Reenvie a todos os e-mails de validação");
 define("LAN_AL_USET_13", "Bounced e-mails excluídos");
 define("LAN_AL_USET_14", "Associação de classe atualizada");
@@ -78,7 +78,7 @@ define("LAN_ROLL_LOG_05", "Tentativa de logon por utilizador não totalmente ins
 define("LAN_ROLL_LOG_06", "Bloqueado pelo manipulador de gatilho de logon");
 define("LAN_ROLL_LOG_07", "Múltiplos logons do mesmo endereço");
 define("LAN_ROLL_LOG_08", "Comprimento excessivo username");
-define("LAN_ROLL_LOG_09", "Login de utilizador banido tentado");
+define("LAN_ROLL_LOG_09", "Entrar de utilizador banido tentado");
 define("LAN_ROLL_LOG_10", "Falha de logon - razão desconhecida");
 define("LAN_ROLL_LOG_11", "Falha de logon do admin");
 define("LAN_AL_PREFS_01", "Mudado de preferências");
@@ -148,15 +148,15 @@ define("LAN_AL_LANG_03", "Tabelas de língua criadas");
 define("LAN_AL_LANG_04", "Zip linguagem criado");
 define("LAN_AL_META_01", "Metatags atualizados");
 define("LAN_AL_DOWNL_01", "Baixar opções mudadas");
-define("LAN_AL_DOWNL_02", "Download categoria criada");
-define("LAN_AL_DOWNL_03", "Download categoria atualizada");
-define("LAN_AL_DOWNL_04", "Download categoria eliminada");
+define("LAN_AL_DOWNL_02", "Transferência categoria criada");
+define("LAN_AL_DOWNL_03", "Transferência categoria atualizada");
+define("LAN_AL_DOWNL_04", "Transferência categoria eliminada");
 define("LAN_AL_DOWNL_05", "Baixar criado");
 define("LAN_AL_DOWNL_06", "Baixar atualizado");
 define("LAN_AL_DOWNL_07", "Baixar excluídos");
 define("LAN_AL_DOWNL_08", "Baixar ordem categoria atualizada");
-define("LAN_AL_DOWNL_09", "Adicionado de limite de download");
-define("LAN_AL_DOWNL_10", "Editada de limite de download");
+define("LAN_AL_DOWNL_09", "Adicionado de limite de transferência");
+define("LAN_AL_DOWNL_10", "Editada de limite de transferência");
 define("LAN_AL_DOWNL_11", "Baixar o limite excluído");
 define("LAN_AL_DOWNL_12", "Baixar mirror adicionado");
 define("LAN_AL_DOWNL_13", "Baixar espelho atualizado");
@@ -186,7 +186,7 @@ define("LAN_AL_MENU_06", "Menu - mover para baixo");
 define("LAN_AL_MENU_07", "Menu - movimento acima");
 define("LAN_AL_MENU_08", "Menu - mover para baixo");
 define("LAN_AL_UPLOAD_01", "Arquivo enviado eliminado");
-define("LAN_AL_UPLOAD_02", "Upload de prefs mudado");
+define("LAN_AL_UPLOAD_02", "Carregamento de prefs mudado");
 define("LAN_AL_SEARCH_01", "Definições de pesquisa atualizadas");
 define("LAN_AL_SEARCH_02", "Pesquisar prefs atualizado");
 define("LAN_AL_SEARCH_03", "Pesquisar params auto-atualização");
@@ -209,9 +209,9 @@ define("LAN_AL_NEWS_13", "Reescrita de notícias eliminada");
 define("LAN_AL_FILEMAN_01", "Arquivo (s) excluído");
 define("LAN_AL_FILEMAN_02", "Arquivo (s) mudou-se");
 define("LAN_AL_FILEMAN_03", "Arquivo (s) carregado");
-define("LAN_AL_MAIL_01", "Teste de email enviado");
+define("LAN_AL_MAIL_01", "Teste de endereço electrónico enviado");
 define("LAN_AL_MAIL_02", "Mailing criado");
-define("LAN_AL_MAIL_03", "Configurações de email atualizadas");
+define("LAN_AL_MAIL_03", "Configurações de endereço electrónico atualizadas");
 define("LAN_AL_MAIL_04", "Detalhes de mailing eliminados");
 define("LAN_AL_MAIL_05", "Correio do banco de dados limpo");
 define("LAN_AL_MAIL_06", "Mailout ativado");
@@ -233,5 +233,5 @@ define("LAN_AL_ADMINUI_03", "Interface do utilizador admin DB tabela Delete: [x]
 define("LAN_AL_ADMINUI_04", "Erro de interface do utilizador admin DB: [x]");
 define("LAN_AL_BACKUP", "Cópia de segurança de banco de dados");
 define("LAN_AL_MEDIA_01", "Envio de media");
-define("LAN_AL_USET_100", "Administrador ligado como outro usuário");
-define("LAN_AL_USET_101", "Administrador desligado como outro usuário");
+define("LAN_AL_USET_100", "Administrador ligado como outro utilizador");
+define("LAN_AL_USET_101", "Administrador desligado como outro utilizador");

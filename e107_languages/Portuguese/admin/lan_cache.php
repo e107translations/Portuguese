@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/13 19:41:16
@@ -10,7 +10,7 @@
 +---------------------------------------------------------------+
 */
 
-define("CACLAN_1", "Status do sistema de cache");
+define("CACLAN_1", "Estatuto do sistema de cache");
 define("CACLAN_2", "Estatuto do cache de conjunto");
 define("CACLAN_3", "Gerenciamento de cache");
 define("CACLAN_5", "Cache de conteúdo vazio");

@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/13 20:28:10
@@ -9,7 +9,6 @@
 |        $Author: Ricardo $
 +---------------------------------------------------------------+
 */
-
 define("FC_LAN_1", "Inspetor de arquivo");
 define("FC_LAN_5", "Arquivos de núcleo");
 define("FC_LAN_6", "Falha de integridade apenas");
@@ -50,7 +49,7 @@ define("FR_LAN_8", "Arquivos de núcleo passados");
 define("FR_LAN_9", "Arquivos de núcleo falhados");
 define("FR_LAN_10", "Possíveis razões para arquivos falhar");
 define("FR_LAN_11", "O arquivo está corrompido");
-define("FR_LAN_12", "Pode ser por uma série de razões tais como sendo corrompido no zip, o arquivo foi corrompido durante a extração ou foi corrompido durante o upload de arquivos via FTP. Você deve tentar re-upload do arquivo para seu servidor e execute novamente a verificação para ver se isso resolve o erro.");
+define("FR_LAN_12", "Pode ser por uma série de razões tais como sendo corrompido no zip, o arquivo foi corrompido durante a extração ou foi corrompido durante o carregamento de arquivos via FTP. Você deve tentar re-upload do arquivo para seu servidor e execute novamente a verificação para ver se isso resolve o erro.");
 define("FR_LAN_13", "O arquivo está desatualizado");
 define("FR_LAN_14", "Se o arquivo é de uma versão mais velha de e107 à versão que você está executando em seguida, ele falhará a verificação de integridade. Verifique se que você carregou a versão mais recente deste arquivo.");
 define("FR_LAN_15", "Foi editado o arquivo.");
@@ -67,6 +66,7 @@ define("FR_LAN_26", "Aviso! Insegurança conhecida detectada!");
 define("FR_LAN_27", "Existem arquivos em seu servidor que são sabidos para ser explorável e devem ser removidos imediatamente.");
 define("FR_LAN_28", "Arquivos inseguros conhecidos");
 define("FR_LAN_32", "Necessita efectuar uma varredura primeiro!");
+define("FR_LAN_33", "Iniciar");
 define("FS_LAN_1", "Criar o instantâneo");
 define("FS_LAN_2", "Caminho absoluto do diretório raiz para criar a imagem de");
 define("FS_LAN_3", "Criar um instantâneo para plugin: (seu plugin será listado quando existe um arquivo de e_inspect.php gravável no seu diretório de plugins raiz.)");

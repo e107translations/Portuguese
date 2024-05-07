@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/13 20:10:34
@@ -64,9 +64,9 @@ define("LAN_EURL_REWRITE_DESCR", "Search engine e utilizador URLs amigáveis.");
 define("LAN_EURL_CORE_NEWS", "Notícias");
 define("LAN_EURL_NEWS_REWRITEF_LABEL", "URLs amigáveis completo (sem desempenho e mais amigável)");
 define("LAN_EURL_NEWS_REWRITE_LABEL", "URLs amigáveis sem ID (sem desempenho, mais amigável)");
-define("LAN_EURL_NEWS_REWRITE_DESCR", "Demonstra o link manual de análise e montagem.");
+define("LAN_EURL_NEWS_REWRITE_DESCR", "Demonstra o hiperligação manual de análise e montagem.");
 define("LAN_EURL_NEWS_REWRITEX_LABEL", "URLs amigáveis com ID (desempenho sábio)");
-define("LAN_EURL_NEWS_REWRITEX_DESCR", "Demonstra link automatizado de análise e montagem com base nas regras de rota predefinida.");
+define("LAN_EURL_NEWS_REWRITEX_DESCR", "Demonstra hiperligação automatizado de análise e montagem com base nas regras de rota predefinida.");
 define("LAN_EURL_CORE_USER", "Utilizadores");
 define("LAN_EURL_USER_REWRITE_LABEL", "URLs amigáveis");
 define("LAN_EURL_USER_REWRITE_DESCR", "Search engine e utilizador URLs amigáveis.");

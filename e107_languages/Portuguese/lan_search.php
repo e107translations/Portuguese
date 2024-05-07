@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/11 19:55:44
@@ -9,7 +9,6 @@
 |        $Author: Ricardo $
 +---------------------------------------------------------------+
 */
-
 define("PAGE_NAME", "Pesquisa");
 define("LAN_140", "Membros");
 define("LAN_192", "Todas as categorias");
@@ -17,7 +16,7 @@ define("LAN_193", "Calendário de eventos");
 define("LAN_194", "Todas as categorias");
 define("LAN_195", "À procura");
 define("LAN_196", "corresponde a");
-define("LAN_197", "Downloads");
+define("LAN_197", "Descargas");
 define("LAN_198", "Nenhuma correspondência encontrada");
 define("LAN_199", "Pesquisar por:");
 define("LAN_416", "Você deve estar logado para acessar esta página");

@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/11 19:23:42
@@ -16,7 +16,7 @@ define("LAN_ERROR_1", "Erro 401 - autenticação falhado");
 define("LAN_ERROR_2", "O URL solicitado requer um nome de utilizador correto e senha. Você inseriu uma nome de utilizador/senha incorreta ou seu navegador não suporta esse recurso.");
 define("LAN_ERROR_3", "Por favor, informe o administrador da página referente se acha que foi mostrada nesta página de erro por engano.");
 define("LAN_ERROR_4", "Erro 403 - acesso proibido");
-define("LAN_ERROR_5", "Você não tem permissão para recuperar a URL ou link que pediu.");
+define("LAN_ERROR_5", "Você não tem permissão para recuperar a URL ou hiperligação que pediu.");
 define("LAN_ERROR_6", "Por favor, informe o administrador da página referente se acha que foi mostrada nesta página de erro por engano.");
 define("LAN_ERROR_7", "Erro 404 - documento não encontrado");
 define("LAN_ERROR_9", "Por favor, informe o administrador da página referente se acha que esta mensagem de erro foi mostrada por engano.");
@@ -29,9 +29,9 @@ define("LAN_ERROR_15", "Por favor, informe o administrador da página referente 
 define("LAN_ERROR_16", "Sua tentativa frustrada de acesso");
 define("LAN_ERROR_17", "foi gravada.");
 define("LAN_ERROR_18", "Aparentemente, você foi indicado por");
-define("LAN_ERROR_19", "Infelizmente, há um link obsoleto neste endereço.");
+define("LAN_ERROR_19", "Infelizmente, há um hiperligação obsoleto neste endereço.");
 define("LAN_ERROR_20", "Por favor clique aqui para ir para a home page do site este");
-define("LAN_ERROR_21", "A URL solicitada não pôde ser encontrada neste servidor. O link que você seguiu é provavelmente desatualizado.");
+define("LAN_ERROR_21", "A URL solicitada não pôde ser encontrada neste servidor. O hiperligação que você seguiu é provavelmente desatualizado.");
 define("LAN_ERROR_22", "Clique aqui para ir para a página de busca do site");
 define("LAN_ERROR_23", "Sua tentativa de acesso");
 define("LAN_ERROR_24", "Não teve sucesso.");

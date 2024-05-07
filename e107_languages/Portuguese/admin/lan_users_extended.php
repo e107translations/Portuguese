@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/14 20:14:11
@@ -27,8 +27,8 @@ define("EXTLAN_15", "Incluir o campo de texto");
 define("EXTLAN_16", "Valor padrão");
 define("EXTLAN_17", "Digite cada valor possível em cada linha<br>Para ver tabela de DB ajudar.");
 define("EXTLAN_18", "Necessário");
-define("EXTLAN_19", "Os utilizadors deverão digitar um valor neste campo ao atualizar suas configurações.");
-define("EXTLAN_20", "Determina quais utilizadors neste campo serão aplicadas a.");
+define("EXTLAN_19", "Os utilizadores deverão digitar um valor neste campo ao atualizar suas configurações.");
+define("EXTLAN_20", "Determina quais utilizadores neste campo serão aplicadas a.");
 define("EXTLAN_21", "Isto determinará quem vai ver este campo em sua usersettings.");
 define("EXTLAN_22", "Isto irá determinar quem pode ver o valor na página de utilizador<br>Nota: Essa configuração para 'Somente leitura' irá torná-lo visível para Admin e o membro somente.");
 define("EXTLAN_23", "Adicionar campo estendidas");

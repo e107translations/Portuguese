@@ -1,15 +1,21 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 sítio internet content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2024/04/25 11:58:14
+|
+|        $Author: Rica-Carv $
++---------------------------------------------------------------+
+*/
 
 define("XMLRPC_ADMIN_001", "Menu principal");
 define("XMLRPC_CONFIG_001", "MetaWeblog:: configuração");
 define("XMLRPC_PREFS_001", "eXMLRPC - opções");
 define("XMLRPC_PREFS_002", "eXMLRPC");
 define("XMLRPC_PREFS_003", "Tipo de render notícias (0,1,2,3)");
-define("XMLRPC_PREFS_004", "Upload de diretório (e_FILE /)");
+define("XMLRPC_PREFS_004", "Carregamento de diretório (e_FILE /)");
 define("XMLRPC_PREFS_005", "Blog ID de cliente");
 define("XMLRPC_PREFS_006", "Nome do blog para o cliente");
 define("XMLRPC_HELP_001", "Instruções");

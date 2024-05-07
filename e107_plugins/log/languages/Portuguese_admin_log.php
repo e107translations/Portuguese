@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 sítio internet content management system Portuguese Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2024/04/25 11:55:24
+|
+|        $Author: Rica-Carv $
++---------------------------------------------------------------+
+*/
 
 define("ADSTAT_L1", "Este plugin irá registrar todas as visitas ao seu site e construir telas detalhadas de estatística com base em informações recolhidas.");
 define("ADSTAT_L2", "O agente de log de estatísticas tiver sido instalado com êxito. Para ativar, por favor, vá para a tela de configuração e clique em ativar.<br><b>Você deve definir as permissões da pasta e107_plugins/log/logs para 777 (chmod 777)</b>");
@@ -55,7 +61,7 @@ define("ADSTAT_L54", "Seleção de tipo inválido");
 define("ADSTAT_L55", "Aspa simples");
 define("ADSTAT_L56", "Aspas duplas");
 define("ADSTAT_L57", "Vírgula");
-define("ADSTAT_L58", "Pipe (|)");
+define("ADSTAT_L58", "Barra vertical (|)");
 define("ADSTAT_L59", "Separador de CSV, citações");
 define("ADSTAT_L60", "Endereço do site tira de URLs");
 define("ADSTAT_L61", "(se marcado, só dá referência de página)");
@@ -80,6 +86,3 @@ define("ADSTAT_L80", "As páginas seguintes foram excluídas:");
 define("ADSTAT_L81", "Estatísticas limpas:");
 define("ADSTAT_L82", "Agora valores a seguir definidos:");
 define("ADSTAT_L83", "Entradas de ID de log a seguir removido:");
-define("ADSTAT_L84", "");
-define("ADSTAT_L85", "");
-?>

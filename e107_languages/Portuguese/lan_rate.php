@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/11 19:48:22
@@ -16,7 +16,7 @@ define("RATELAN_2", "Como você classificaria este item?");
 define("RATELAN_3", "Obrigado por votar!");
 define("RATELAN_4", "Não avaliado");
 define("RATELAN_5", "Classifique isto:");
-define("RATELAN_6", "Faça o login para classificar isto.");
+define("RATELAN_6", "Faça o entrar para classificar isto.");
 define("RATELAN_7", "Gosto");
 define("RATELAN_8", "Não gosto");
 define("RATELAN_9", "Já votou");

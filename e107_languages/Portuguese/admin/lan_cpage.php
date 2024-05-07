@@ -1,7 +1,7 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 website content management system Portuguese Language File
+|        e107 sítio internet content management system Portuguese Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
 |        Last Modified: 2021/02/13 19:43:34
@@ -52,3 +52,5 @@ define("CUSLAN_77", "excluído");
 define("CUSLAN_78", "Não consegui excluir menu com caminho");
 define("CUSLAN_79", "Tem de inserir um título de página ou um nome de menu.");
 define("CUSLAN_80", "Subtítulo");
+define("CUSLAN_81", "Imagem meta");
+define("CUSLAN_82", "Opcional. Usado pelas redes sociais ao compartilhar esta página.");

@@ -11,8 +11,8 @@ define("FMLAN_15", "diretórios");
 define("FMLAN_16", "Diretório raiz");
 define("FMLAN_18", "Tamanho");
 define("FMLAN_19", "Última modificação");
-define("FMLAN_21", "Upload de arquivo para este dir");
-define("FMLAN_22", "Fazer upload");
+define("FMLAN_21", "Carregamento de arquivo para este dir");
+define("FMLAN_22", "Fazer carregamento");
 define("FMLAN_29", "Caminho");
 define("FMLAN_30", "Nível acima");
 define("FMLAN_31", "pasta");
@@ -27,5 +27,5 @@ define("FMLAN_46", "Por favor, confirme que você deseja excluir os arquivos sel
 define("FMLAN_47", "Uploads de utilizador");
 define("FMLAN_48", "Mover selecionado para");
 define("FMLAN_49", "Por favor, confirme que você deseja mover os arquivos selecionados.");
-define("FMLAN_50", "Mover-se");
+define("FMLAN_50", "Mover");
 define("FMLAN_51", "Erro não identificado");
