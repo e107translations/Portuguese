@@ -12,7 +12,7 @@
 
 define("LAN_FORUM_0002", "Tópicos");
 define("LAN_FORUM_0003", "Respostas");
-define("LAN_FORUM_0004", "Último Publicação");
+define("LAN_FORUM_0004", "Última publicação");
 define("LAN_FORUM_0005", "Este fórum é restrito apenas para administradores");
 define("LAN_FORUM_0006", "Este fórum é restrita a membros somente");
 define("LAN_FORUM_0007", "Este é um fórum somente leitura");
@@ -20,7 +20,7 @@ define("LAN_FORUM_0008", "Este é um fórum restrito da classe");
 define("LAN_FORUM_0009", "Informações");
 define("LAN_FORUM_0010", "Membros mais activos");
 define("LAN_FORUM_0011", "Tópicos mais activos");
-define("LAN_FORUM_0012", "Meus publicações");
+define("LAN_FORUM_0012", "Minhas publicações");
 define("LAN_FORUM_0013", "Minhas configurações");
 define("LAN_FORUM_0014", "Meu perfil");
 define("LAN_FORUM_0015", "Meus Uploads");
@@ -222,9 +222,9 @@ define("LAN_FORUM_6006", "Tamanho de banco de dados (tabelas de fórum somente)"
 define("LAN_FORUM_6007", "Comprimento da linha média na tabela de fórum");
 define("LAN_FORUM_6008", "Classificação");
 define("LAN_FORUM_6009", "Iniciado por");
-define("LAN_FORUM_6010", "Mais vistos tópicos");
-define("LAN_FORUM_6011", "Acionadores de partida tópico Top");
-define("LAN_FORUM_6012", "Principais respondentes");
+define("LAN_FORUM_6010", "Tópicos mais vistos");
+define("LAN_FORUM_6011", "Membros iniciantes de tópicos");
+define("LAN_FORUM_6012", "Membros com mais respostas a tópicos");
 define("LAN_FORUM_6013", "Estatísticas do fórum");
 define("LAN_FORUM_6014", "Média de mensagens por dia");
 define("LAN_FORUM_7001", "Arquivos carregados no fórum");
