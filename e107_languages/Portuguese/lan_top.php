@@ -10,7 +10,7 @@
 +---------------------------------------------------------------+
 */
 
-define("TOP_LAN_0", "Fórum Top Posters");
+define("TOP_LAN_0", "Membros mais activos no Fórum");
 define("TOP_LAN_1", "Nome de utilizador");
 define("TOP_LAN_2", "Mensagens");
 define("TOP_LAN_3", "Comentário de Top Posters");
