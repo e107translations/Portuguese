@@ -10,7 +10,7 @@
 +---------------------------------------------------------------+
 */
 define("LAN_USER_01", "Nome para exibição");
-define("LAN_USER_02", "Nome de entrar");
+define("LAN_USER_02", "Nome de utilizador");
 define("LAN_USER_03", "Nome real");
 define("LAN_USER_04", "Título personalizado");
 define("LAN_USER_06", "Fotografia");
@@ -56,7 +56,7 @@ define("LAN_USER_56", "Membros registrados:");
 define("LAN_USER_57", "Ordem:");
 define("LAN_USER_58", "Membro");
 define("LAN_USER_59", "Registou-se");
-define("LAN_USER_60", "Endereço de endereço electrónico:");
+define("LAN_USER_60", "Endereço de correio electrónico:");
 define("LAN_USER_62", "Enviar mensagem privada");
 define("LAN_USER_63", "Nome verdadeiro:");
 define("LAN_USER_64", "Estatísticas do site");
