@@ -154,7 +154,7 @@ Se você reconhece esses arquivos como sendo legítimo, é provável que o tipo 
 Abaixo está a lista de arquivos que pode ser potencialmente malicioso:");
 define("LAN_CREATE", "Criar");
 define("LAN_MANAGE", "Gerenciar");
-define("LAN_UPDATE", "Atualização");
+define("LAN_UPDATE", "Actualizar");
 define("LAN_UPDATES", "Actualizações");
 define("LAN_INSTALLED", "Instalado");
 define("LAN_LAST_UPDATED", "Ultima actualização");
@@ -434,3 +434,4 @@ define("LAN_META_DESCRIPTION", "Descrição meta");
 define("LAN_SYSTEM_NOTIFICATIONS_X", "[x] Notificações do sistema");
 define("LAN_PHP_OUTDATED", "O seu site está a executar uma [versão desatualizada do PHP], o que pode representar um risco à segurança. Se os seus plug-ins permitirem, recomendamos atualizar para [x] para garantir que o seu site esteja seguro e atualizado.");
 define("LAN_DATABASE_UPDATE", "Uma atualização está disponível para o seu banco de dados. Recomendamos [executar esta atualização] o mais rápido possível para garantir que o seu banco de dados esteja seguro e atualizado.");
+define("LAN_HISTORY", "Histórico");

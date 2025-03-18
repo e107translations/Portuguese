@@ -9,7 +9,6 @@
 |        $Author: Ricardo $
 +---------------------------------------------------------------+
 */
-
 define("LAN_AUDIT_LOG_001", "Acesso pelo utilizador banido");
 define("LAN_AUDIT_LOG_002", "Proteção contra as inundações ativada");
 define("LAN_AUDIT_LOG_003", "Acesso de endereço de IP banidos");
@@ -30,6 +29,7 @@ define("LAN_AUDIT_LOG_021", "Salto de endereço electrónico do utilizador");
 define("LAN_AUDIT_LOG_022", "utilizador banido");
 define("LAN_AUDIT_LOG_023", "Redefinição de rejeição do utilizador");
 define("LAN_AUDIT_LOG_024", "Status de utilizador temporário");
+define("LAN_AUDIT_LOG_025", "Caminho de navegação do utilizador");
 define("LAN_AL_ADLOG_01", "Admin log - prefs atualizado");
 define("LAN_AL_ADLOG_02", "Admin log - excluir dados antigos");
 define("LAN_AL_ADLOG_03", "Log de auditoria do utilizador - excluir dados antigos");
@@ -147,20 +147,6 @@ define("LAN_AL_LANG_02", "Tabelas de linguagem eliminadas");
 define("LAN_AL_LANG_03", "Tabelas de língua criadas");
 define("LAN_AL_LANG_04", "Zip linguagem criado");
 define("LAN_AL_META_01", "Metatags atualizados");
-define("LAN_AL_DOWNL_01", "Baixar opções mudadas");
-define("LAN_AL_DOWNL_02", "Transferência categoria criada");
-define("LAN_AL_DOWNL_03", "Transferência categoria atualizada");
-define("LAN_AL_DOWNL_04", "Transferência categoria eliminada");
-define("LAN_AL_DOWNL_05", "Baixar criado");
-define("LAN_AL_DOWNL_06", "Baixar atualizado");
-define("LAN_AL_DOWNL_07", "Baixar excluídos");
-define("LAN_AL_DOWNL_08", "Baixar ordem categoria atualizada");
-define("LAN_AL_DOWNL_09", "Adicionado de limite de transferência");
-define("LAN_AL_DOWNL_10", "Editada de limite de transferência");
-define("LAN_AL_DOWNL_11", "Baixar o limite excluído");
-define("LAN_AL_DOWNL_12", "Baixar mirror adicionado");
-define("LAN_AL_DOWNL_13", "Baixar espelho atualizado");
-define("LAN_AL_DOWNL_14", "Baixar espelho eliminado");
 define("LAN_AL_CPAGE_01", "Página/menu personalizado adicionado");
 define("LAN_AL_CPAGE_02", "Página/menu personalizado atualizado");
 define("LAN_AL_CPAGE_03", "Página/menu personalizado eliminado");
