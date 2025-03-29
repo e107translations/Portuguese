@@ -19,7 +19,7 @@ define("LAN_dl_9", "Voltar à lista de categorias");
 define("LAN_dl_13", "Não avaliado");
 define("LAN_dl_14", "Classifique este transferência");
 define("LAN_dl_16", "Transferência(s) de");
-define("LAN_dl_29", "No DL");
+define("LAN_dl_29", "No DL"); 
 define("LAN_dl_30", "Endereço electrónico do autor");
 define("LAN_dl_31", "Site do autor");
 define("LAN_dl_36", "Downloads novos");
