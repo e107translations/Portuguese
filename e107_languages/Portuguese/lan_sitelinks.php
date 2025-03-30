@@ -5,4 +5,4 @@
 // https://github.com/e107inc/multilan
 
 define("LAN_SITELINKS_183", "Menu principal");
-define("LAN_SITELINKS_502", "Área do administrador");
+//define("LAN_SITELINKS_502", "Área do administrador");
