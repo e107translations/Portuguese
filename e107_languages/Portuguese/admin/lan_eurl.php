@@ -63,7 +63,7 @@ define("LAN_EURL_REWRITE_LABEL", "URLs amigáveis");
 define("LAN_EURL_REWRITE_DESCR", "URLs amigáveis para o utilizador e motores de busca.");
 define("LAN_EURL_CORE_NEWS", "Notícias");
 define("LAN_EURL_NEWS_REWRITEF_LABEL", "URLs amigáveis completo (sem desempenho e mais amigável)");
-define("LAN_EURL_NEWS_REWRITEF_DESCR", "");
+
 define("LAN_EURL_NEWS_REWRITE_LABEL", "URLs amigáveis sem ID (sem desempenho, mais amigável)");
 define("LAN_EURL_NEWS_REWRITE_DESCR", "Demonstra o hiperligação manual de análise e montagem.");
 define("LAN_EURL_NEWS_REWRITEX_LABEL", "URLs amigáveis com ID (desempenho sábio)");
@@ -80,7 +80,7 @@ define("LAN_EURL_CORE_SEARCH", "Pesquisa");
 define("LAN_EURL_SEARCH_DEFAULT_LABEL", "URL de pesquisa padrão");
 define("LAN_EURL_SEARCH_DEFAULT_DESCR", "Legado URL direta.");
 define("LAN_EURL_SEARCH_REWRITE_LABEL", "URL amigável");
-define("LAN_EURL_SEARCH_REWRITE_DESCR", "");
+
 define("LAN_EURL_CORE_SYSTEM", "Sistema");
 define("LAN_EURL_SYSTEM_DEFAULT_LABEL", "URLs de sistema padrão");
 define("LAN_EURL_SYSTEM_DEFAULT_DESCR", "URLs para páginas como não encontrado, acesso negado, etc.");
