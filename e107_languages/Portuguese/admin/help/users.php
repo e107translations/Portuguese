@@ -1,85 +1,82 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/users.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradu√ß√£o Portugu√™s(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Gerenciamento de usu·rios";
+$caption = "Ajuda:<br />
+			# Gest√£o de Utilizadores";
 if (e_QUERY) list($action,$junk) = explode('.',e_QUERY); else $action = 'list';
 
 switch ($action)
 {
   case 'create' :
-    $text = "Esta p·gina permite que vocÍ crie um utilizador, que È imediatamente um membro normal do site, com qualquer associaÁ„o de classe que vocÍ atribuir.<br /><br />
-Se vocÍ marcar a caixa 'Enviar endereÁo electrÛnico de confirmaÁ„o com senha para novo utilizador', o nome de entrar e a senha ser„o enviados <b>em claro</b>, portanto o utilizador dever· alterar
+    $text = "Esta p√°gina permite que voc√™ crie um utilizador, que √© imediatamente um membro normal do site, com qualquer associa√ß√£o de classe que voc√™ atribuir.<br /><br />
+Se voc√™ marcar a caixa 'Enviar endere√ßo electr√≥nico de confirma√ß√£o com senha para novo utilizador', o nome de entrar e a senha ser√£o enviados <b>em claro</b>, portanto o utilizador dever√° alterar
 sua senha no recebimento.
 	";
     break;
 
   case 'prune' :
-	$text = "Exclui em massa usu·rios indesejados do banco de dados. Podem ser aqueles que n„o conseguiram concluir o processo de registro ou
-aqueles cujos endereÁos de endereÁo electrÛnico foram devolvidos. Quaisquer postagens no fÛrum, coment·rios etc. permanecem e s„o sinalizados como sendo de um 'Utilizador ExcluÌdo'.
+	$text = "Exclui em massa usu√°rios indesejados do banco de dados. Podem ser aqueles que n√£o conseguiram concluir o processo de registro ou
+aqueles cujos endere√ßos de endere√ßo electr√≥nico foram devolvidos. Quaisquer postagens no f√≥rum, coment√°rios etc. permanecem e s√£o sinalizados como sendo de um 'Utilizador Exclu√≠do'.
 	";
 	break;
 
   case 'unverified' :
-	$text = "Mostra os membros que n„o conseguiram completar o seu registo. OpÁıes geralmente como a lista completa de membros.";
+	$text = "Mostra os membros que n√£o conseguiram completar o seu registo. Op√ß√µes geralmente como a lista completa de membros.";
     break;
 
   case 'options' :
-	$text = "Define diversas opÁıes que afetam todos os usu·rios.<br /><br />
+	$text = "Define diversas op√ß√µes que afetam todos os usu√°rios.<br /><br />
 <b>Permitir carregamento de avatar</b><br />
-Se ativado, os usu·rios poder„o fazer carregamento de um avatar de sua escolha, que ser· armazenado em seu servidor. Isto pode ter implicaÁıes de seguranÁa.<br /><br />
+Se ativado, os usu√°rios poder√£o fazer carregamento de um avatar de sua escolha, que ser√° armazenado em seu servidor. Isto pode ter implica√ß√µes de seguran√ßa.<br /><br />
 <b>Permitir carregamento de fotos</b><br />
-Se ativado, os usu·rios poder„o fazer carregamento de uma foto de sua escolha, que ser· armazenada em seu servidor. Isto pode ter implicaÁıes de seguranÁa.<br /><br />
-<b>Rastreamento de usu·rios on-line</b><br />
+Se ativado, os usu√°rios poder√£o fazer carregamento de uma foto de sua escolha, que ser√° armazenada em seu servidor. Isto pode ter implica√ß√µes de seguran√ßa.<br /><br />
+<b>Rastreamento de usu√°rios on-line</b><br />
 Isso deve ser ativado para acompanhar a maioria das atividades do utilizador, incluindo contagens de membros online. Ele aumenta significativamente a atividade do banco de dados.<br /><br />
-<b>InformaÁıes do SÛcio</b><br />
+<b>Informa√ß√µes do S√≥cio</b><br />
 Determina qual classe de membros pode visualizar a lista de membros.
 	";
     break;
 
   default :
-	$text = "Esta p·gina mostra uma lista de seus membros registrados. VocÍ pode atualizar suas configuraÁıes, conceder status de administrador e definir sua classe de utilizador
+	$text = "Esta p√°gina mostra uma lista de seus membros registrados. Voc√™ pode atualizar suas configura√ß√µes, conceder status de administrador e definir sua classe de utilizador
 entre outras coisas.<br /><br />
 
-A ordem de classificaÁ„o pode ser alterada clicando no cabeÁalho da coluna.<br /><br />
+A ordem de classifica√ß√£o pode ser alterada clicando no cabe√ßalho da coluna.<br /><br />
 
 <b>Classes de utilizador</b><br />
-As classes de utilizador podem ser definidas de duas maneiras: 'inline' clicando na coluna 'userclass' ou selecionando um/v·rios usu·rios e usando as opÁıes de 'lote' na parte inferior da tabela. <br /><br />
+As classes de utilizador podem ser definidas de duas maneiras: 'inline' clicando na coluna 'userclass' ou selecionando um/v√°rios usu√°rios e usando as op√ß√µes de 'lote' na parte inferior da tabela. <br /><br />
 
 <b>Editar</b><br />
-Visualize e edite todas as configuraÁıes deste utilizador. <br /><br />
+Visualize e edite todas as configura√ß√µes deste utilizador. <br /><br />
 
 <b>Banir/Desbanir</b><br />
 Determine se o utilizador pode acessar o site. <br /><br />
 
 <b>Ativar</b><br />
-Isso ativa um utilizador que normalmente teria respondido ao endereÁo electrÛnico de ativaÁ„o.<br /><br />
+Isso ativa um utilizador que normalmente teria respondido ao endere√ßo electr√≥nico de ativa√ß√£o.<br /><br />
 
-<b>Reenviar endereÁo electrÛnico</b><br />
-Reenvia o endereÁo electrÛnico de ativaÁ„o para o utilizador.<br /><br />
+<b>Reenviar endere√ßo electr√≥nico</b><br />
+Reenvia o endere√ßo electr√≥nico de ativa√ß√£o para o utilizador.<br /><br />
 
-<b>EndereÁo electrÛnico de teste</b><br />
-Verifique a validade do endereÁo electrÛnico do utilizador (n„o envia um endereÁo electrÛnico)<br /><br />
+<b>Endere√ßo electr√≥nico de teste</b><br />
+Verifique a validade do endere√ßo electr√≥nico do utilizador (n√£o envia um endere√ßo electr√≥nico)<br /><br />
 
 <b>Excluir</b><br />
-Remove totalmente o utilizador da associaÁ„o ao site (quaisquer postagens no fÛrum, coment·rios etc. permanecem e s„o sinalizados como sendo de um 'Utilizador excluÌdo')
+Remove totalmente o utilizador da associa√ß√£o ao site (quaisquer postagens no f√≥rum, coment√°rios etc. permanecem e s√£o sinalizados como sendo de um 'Utilizador exclu√≠do')
 	";
 }
-
-
-$ns -> tablerender(mb_convert_encoding($caption, "HTML-ENTITIES", "ISO-8859-1"), mb_convert_encoding($text, "HTML-ENTITIES", "ISO-8859-1"));
+$ns -> tablerender($caption, $text);
 unset($text);

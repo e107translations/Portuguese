@@ -1,17 +1,28 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+// define("FLALAN_1", "Failed login attempts");
 
-define("FLALAN_2", "Tentativas de entrar não foram registradas");
-define("FLALAN_3", "Tentativa (s) excluído");
-define("FLALAN_4", "utilizador tentou iniciar sessão utilizando o nome de utilizador/senha incorreta");
-define("FLALAN_5", "IP (s) proibidas");
-define("FLALAN_7", "Dados");
-define("FLALAN_8", "Endereço IP / Host");
-define("FLALAN_10", "Apagar / Ban verifiquei as entradas");
-define("FLALAN_15", "Os endereços IP a seguir foram auto-banido - utilizador tentou mais de dez logons com falha");
-define("FLALAN_16", "excluir esta lista de proibição de auto");
-define("FLALAN_17", "Lista de auto-ban eliminada");
-define("FLALAN_18", "Poderia não ban IP endereço - IP... - em whitelist");
+return [
+	'FLALAN_2' => "Não foram registadas tentativas de login falhadas",
+	'FLALAN_3' => "Tentativa(s) apagada(s)",
+	'FLALAN_4' => "O utilizador tentou fazer login usando um nome de utilizador/senha incorretos",
+	'FLALAN_5' => "IP(s) banido(s)",
+	'FLALAN_7' => "Data",
+	'FLALAN_8' => "Endereço IP/ Host",
+	'FLALAN_10' => "Eliminar / Banir as entradas seleccionadas",
+	'FLALAN_15' => "O(s) seguinte(s) endereço(s) IP foram auto-banidos - o utilizador tentou mais de dez tentativas falhadas de login",
+	'FLALAN_16' => "eliminar esta lista de auto-bans",
+	'FLALAN_17' => "Lista de auto-bans apagada",
+];

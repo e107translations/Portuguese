@@ -1,136 +1,140 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/25 09:50:02
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("FORLAN_2", "Por favor selecione a apagar publicações podados completamente, ou fazê-los inativos (não excluídos mas não visível em fóruns)");
-define("FORLAN_7", "Opções do fórum");
-define("FORLAN_8", "Fóruns podadas.");
-define("FORLAN_9", "Ameixa seca não é necessário.");
-define("FORLAN_23", "Pode ser visto por");
-define("FORLAN_24", "Indica quem pode visualizar o Fórum");
-define("FORLAN_29", "Não forum ainda.");
-define("FORLAN_30", "Fóruns existentes");
-define("FORLAN_34", "Escolha userclass para moderadores deste fórum");
-define("FORLAN_44", "Coloque mesas");
-define("FORLAN_45", "Marque isso para processar o fórum dentro de mesa tema");
-define("FORLAN_47", "Habilitar a notificação de endereço electrónico");
-define("FORLAN_48", "Marque isto para permitir que os usuários tenham a opção de receber um endereço electrónico quando alguém responde aos seu Publicação");
-define("FORLAN_49", "Habilitar as pesquisas para");
-define("FORLAN_50", "Selecione userclass permitida para criar enquetes nos fóruns");
-define("FORLAN_51", "Ativar o rastreamento de");
-define("FORLAN_52", "Isto para que seus usuários possam localizar tópicos e ser notificado quando o thread está respondeu ao carrapato");
-define("FORLAN_53", "Prefixo de endereço electrónico");
-define("FORLAN_54", "O texto que você digitar será prefixar o assunto sobre quaisquer e-mails enviados através do fórum");
-define("FORLAN_55", "Limiar de segmento popular");
-define("FORLAN_56", "Número de postagens feitas para um segmento antes de que está marcado como popular");
-define("FORLAN_57", "publicações por página");
-define("FORLAN_58", "Número de mensagens exibidas por página");
-define("FORLAN_60", "Isto irá apagar todos os threads que não recebeu uma resposta do número de dias que você inserir.<br><b>Por favor tenha cuidado usando esta função!</b>");
-define("FORLAN_63", "Exibir classificações");
-define("FORLAN_65", "Título do fórum");
-define("FORLAN_66", "Não instalado");
-define("FORLAN_70", "Ativar arquivo / anexos de imagem");
-define("FORLAN_71", "Permitir que os usuários fazer carregamento de arquivo ou imagem com seu Publicação no fórum,");
-define("FORLAN_75", "Pais");
-define("FORLAN_76", "Primeira página de fóruns");
-define("FORLAN_77", "Criar fóruns");
-define("FORLAN_78", "Ordem de fórum");
-define("FORLAN_83", "Criar os pais");
-define("FORLAN_87", "Tópicos de ameixa com respostas em tantos dias:");
-define("FORLAN_89", "Excluir mensagens completamente");
-define("FORLAN_90", "Fazer publicações inativo");
-define("FORLAN_91", "posto (s) feita inativo");
-define("FORLAN_92", "thread excluído");
-define("FORLAN_93", "resposta (respostas) eliminada");
-define("FORLAN_112", "Habilitar o redirecionamento");
-define("FORLAN_113", "Marque isso para tornar o navegador redirecionar para a página do fórum após responder");
-define("FORLAN_116", "publicações relatados");
-define("FORLAN_121", "Não há publicações relatados");
-define("FORLAN_122", "Clique aqui para enviar endereço electrónico admin quando alguém relata um Publicação no fórum");
-define("WMGLAN_1", "Regras para os hóspedes");
-define("WMGLAN_2", "Regras para membros");
-define("WMGLAN_3", "Regras para administradores");
-define("WMGLAN_5", "Regras do Fórum conjunto");
-define("WMGLAN_6", "Ativar?");
-define("FORLAN_126", "Mostrar dicas de ferramentas");
-define("FORLAN_127", "Assinale aqui para mostrar uma dica de ferramenta que contém o primeiro Publicação do segmento quando o mouse passa sobre o nome de thread.");
-define("FORLAN_128", "Comprimento de dica de ferramenta");
-define("FORLAN_129", "Isto determinará o número de caracteres para exibir a dica de ferramenta.");
-define("FORLAN_130", "Clique aqui");
-define("FORLAN_131", "para definir o tamanho máximo de arquivo, permitido tipos etc.");
-define("FORLAN_132", "Enfatizar tópicos pegajosos");
-define("FORLAN_133", "Dar ênfase aos segmentos pegajosos (seções de thread separado e cabeçalhos)");
-define("FORLAN_134", "Largura máxima da imagem inserida");
-define("FORLAN_135", "Deixe em branco para desabilitar auto redimensionamento de imagens");
-define("FORLAN_136", "Criar hiperligação para a imagem em tamanho completo");
-define("FORLAN_137", "Permitir que isto irá redimensionar imagens maiores e também criar um hiperligação para a imagem em tamanho completo original. Se desativado, imagem original será descartada");
-define("FORLAN_138", "Podar estes fóruns");
-define("FORLAN_139", "Para usar essa configuração, você também precisará marque 'Permitir publicação de imagem' na página <a href=''.e_ADMIN.'image.php'>imagens</a>");
-define("FORLAN_140", "Modo de exibição");
-define("FORLAN_142", "Permissão de Publicação");
-define("FORLAN_143", "Indica quem pode postar no forum");
-define("FORLAN_145", "Configurar o sub-fóruns");
-define("FORLAN_146", "Ainda não há sub-fóruns");
-define("FORLAN_152", "mensagens");
-define("FORLAN_153", "Ferramentas");
-define("FORLAN_155", "Categorias do fórum");
-define("FORLAN_156", "Selecione para executar a ação no fórum (s)");
-define("FORLAN_158", "Recalcular a informação de lastpost Fórum");
-define("FORLAN_159", "Selecione esta opção para recalcular lastpost info");
-define("FORLAN_160", "Selecione executar isso em fóruns apenas, não tópicos");
-define("FORLAN_161", "Recalcular o Publicação / responder acusações");
-define("FORLAN_162", "Selecione esta opção para recalcular o fórum tópico/resposta contagens");
-define("FORLAN_163", "Recalcular a contagem de mensagens do utilizador Fórum");
-define("FORLAN_164", "Selecione esta opção para recalcular o utilizador Fórum contagens");
-define("FORLAN_166", "Ferramentas de fórum");
-define("FORLAN_167", "Contagens atualizadas para o Fórum");
-define("FORLAN_168", "Lastpost informação actualizada para o Fórum");
-define("FORLAN_169", "Contagens de fórum de utilizador atualizadas");
-define("FORLAN_170", "Relatórios");
-define("FORLAN_171", "Relatório sobre o Publicação no fórum");
-define("FORLAN_172", "Excluir este relatório");
-define("FORLAN_173", "Título do thread");
-define("FORLAN_174", "Relatado pelo utilizador");
-define("FORLAN_175", "Relatório apresentado");
-define("FORLAN_177", "endereço electrónico de notificação ON por padrão");
-define("FORLAN_178", "Marque isto para permitir fazer que a caixa de seleção notificação de endereço electrónico ser em por padrão");
-define("FORLAN_179", "Adicionando um * ao início do fórum nome fará neste fórum um recipiente para sub-fóruns apenas. O tema do fórum deve suportar esta opção também.");
-define("FORLAN_182", "também recalcular respostas para todos os segmentos no fórum selecionado");
-define("FORLAN_183", "(esta função não é permitida ao selecionar 'todos os fóruns' devido ao número de consultas que irá gerar)");
-define("FORLAN_184", "Permissão de criação de segmento");
-define("FORLAN_185", "Indica quem pode criar novos tópicos");
-define("FORLAN_186", "Linhas por página");
-define("FORLAN_187", "Número de tópicos exibidos por página");
-define("FORLAN_189", "Clique no botão 'excluir' para excluir o relatório.[br][br]Clique no botão 'visualizar' para visualizar o tópico/tópico.[br][br]Para ser notificado sobre quaisquer novos relatórios, consulte a seção [notificar configurações].");
-define("FORLAN_200", "Rastreamento de tópicos");
-define("FORLAN_201", "Habilite isto para permitir que seus usuários rastreiem tópicos.");
-define("FORLAN_202", "Notificações por endereço electrónico de rastreamento de tópicos");
-define("FORLAN_203", "Ative esta opção para permitir que seus usuários recebam notificações por endereço electrónico quando outras pessoas responderem a um tópico rastreado.");
-define("FORLAN_204", "Utilizador Anónimo");
-define("FORLAN_205", "Permissão de publicação");
-define("FORLAN_206", "Aula de criação de thread");
-define("FORLAN_207", "Fóruns e Tópicos");
-define("FORLAN_208", "Somente fóruns");
-define("FORLAN_209", "Tópico");
-define("FORLAN_210", "Emitir");
-define("FORLAN_211", "Enviado por");
-define("FORLAN_212", "Anexos");
-define("FORLAN_213", "Publicação");
-define("FORLAN_214", "Deixe em branco para gerár automaticamente a partir do título acima.");
-define("FORLAN_215", "Não instalado!");
-define("FORLAN_216", "(Novo Pai)");
-define("FORLAN_217", "Padrão do sistema ");
-define("FORLAN_218", "Área de texto");
-define("FORLAN_219", "Editor de Rich Text");
-define("FORLAN_220", "Editor de publicação");
-define("FORLAN_221", "Qual editor deve ser usado para criar/editar publicações?");
-define("FORLAN_222", "Editor de resposta rápida");
-define("FORLAN_223", "Use apenas texto simples (não é permitido bbcode ou html!)");
+return [
+	'FORLAN_2' => "Por favor selecione a apagar publicações podados completamente, ou fazê-los inativos (não excluídos mas não visível em fóruns)",
+	'FORLAN_7' => "Opções do fórum",
+	'FORLAN_8' => "Fóruns podadas.",
+	'FORLAN_9' => "Ameixa seca não é necessário.",
+	'FORLAN_23' => "Pode ser visto por",
+	'FORLAN_24' => "Indica quem pode visualizar o Fórum",
+	'FORLAN_29' => "Não forum ainda.",
+	'FORLAN_30' => "Fóruns existentes",
+	'FORLAN_34' => "Escolha userclass para moderadores deste fórum",
+	'FORLAN_44' => "Coloque mesas",
+	'FORLAN_45' => "Marque isso para processar o fórum dentro de mesa tema",
+	'FORLAN_47' => "Habilitar a notificação de endereço electrónico",
+	'FORLAN_48' => "Marque isto para permitir que os usuários tenham a opção de receber um endereço electrónico quando alguém responde aos seu Publicação",
+	'FORLAN_49' => "Habilitar as pesquisas para",
+	'FORLAN_50' => "Selecione userclass permitida para criar enquetes nos fóruns",
+	'FORLAN_51' => "Ativar o rastreamento de",
+	'FORLAN_52' => "Isto para que seus usuários possam localizar tópicos e ser notificado quando o thread está respondeu ao carrapato",
+	'FORLAN_53' => "Prefixo de endereço electrónico",
+	'FORLAN_54' => "O texto que você digitar será prefixar o assunto sobre quaisquer e-mails enviados através do fórum",
+	'FORLAN_55' => "Limiar de segmento popular",
+	'FORLAN_56' => "Número de postagens feitas para um segmento antes de que está marcado como popular",
+	'FORLAN_57' => "publicações por página",
+	'FORLAN_58' => "Número de mensagens exibidas por página",
+	'FORLAN_60' => "Isto irá apagar todos os threads que não recebeu uma resposta do número de dias que você inserir.<br><b>Por favor tenha cuidado usando esta função!</b>",
+	'FORLAN_63' => "Exibir classificações",
+	'FORLAN_65' => "Título do fórum",
+	'FORLAN_66' => "Não instalado",
+	'FORLAN_70' => "Ativar arquivo / anexos de imagem",
+	'FORLAN_71' => "Permitir que os usuários fazer carregamento de arquivo ou imagem com seu Publicação no fórum,",
+	'FORLAN_75' => "Pais",
+	'FORLAN_76' => "Primeira página de fóruns",
+	'FORLAN_77' => "Criar fóruns",
+	'FORLAN_78' => "Ordem de fórum",
+	'FORLAN_83' => "Criar os pais",
+	'FORLAN_87' => "Tópicos de ameixa com respostas em tantos dias:",
+	'FORLAN_89' => "Excluir mensagens completamente",
+	'FORLAN_90' => "Fazer publicações inativo",
+	'FORLAN_91' => "posto (s) feita inativo",
+	'FORLAN_92' => "thread excluído",
+	'FORLAN_93' => "resposta (respostas) eliminada",
+	'FORLAN_112' => "Habilitar o redirecionamento",
+	'FORLAN_113' => "Marque isso para tornar o navegador redirecionar para a página do fórum após responder",
+	'FORLAN_116' => "publicações relatados",
+	'FORLAN_121' => "Não há publicações relatados",
+	'FORLAN_122' => "Clique aqui para enviar endereço electrónico admin quando alguém relata um Publicação no fórum",
+	'WMGLAN_1' => "Regras para os hóspedes",
+	'WMGLAN_2' => "Regras para membros",
+	'WMGLAN_3' => "Regras para administradores",
+	'WMGLAN_5' => "Regras do Fórum conjunto",
+	'WMGLAN_6' => "Ativar?",
+	'FORLAN_126' => "Mostrar dicas de ferramentas",
+	'FORLAN_127' => "Assinale aqui para mostrar uma dica de ferramenta que contém o primeiro Publicação do segmento quando o mouse passa sobre o nome de thread.",
+	'FORLAN_128' => "Comprimento de dica de ferramenta",
+	'FORLAN_129' => "Isto determinará o número de caracteres para exibir a dica de ferramenta.",
+	'FORLAN_130' => "Clique aqui",
+	'FORLAN_131' => "para definir o tamanho máximo de arquivo, permitido tipos etc.",
+	'FORLAN_132' => "Enfatizar tópicos pegajosos",
+	'FORLAN_133' => "Dar ênfase aos segmentos pegajosos (seções de thread separado e cabeçalhos)",
+	'FORLAN_134' => "Largura máxima da imagem inserida",
+	'FORLAN_135' => "Deixe em branco para desabilitar auto redimensionamento de imagens",
+	'FORLAN_136' => "Criar hiperligação para a imagem em tamanho completo",
+	'FORLAN_137' => "Permitir que isto irá redimensionar imagens maiores e também criar um hiperligação para a imagem em tamanho completo original. Se desativado, imagem original será descartada",
+	'FORLAN_138' => "Podar estes fóruns",
+	'FORLAN_139' => "Para usar essa configuração, você também precisará marque 'Permitir publicação de imagem' na página <a href=''.e_ADMIN.'image.php'>imagens</a>",
+	'FORLAN_140' => "Modo de exibição",
+	'FORLAN_142' => "Permissão de Publicação",
+	'FORLAN_143' => "Indica quem pode postar no forum",
+	'FORLAN_145' => "Configurar o sub-fóruns",
+	'FORLAN_146' => "Ainda não há sub-fóruns",
+	'FORLAN_152' => "mensagens",
+	'FORLAN_153' => "Ferramentas",
+	'FORLAN_155' => "Categorias do fórum",
+	'FORLAN_156' => "Selecione para executar a ação no fórum (s)",
+	'FORLAN_158' => "Recalcular a informação de lastpost Fórum",
+	'FORLAN_159' => "Selecione esta opção para recalcular lastpost info",
+	'FORLAN_160' => "Selecione executar isso em fóruns apenas, não tópicos",
+	'FORLAN_161' => "Recalcular o Publicação / responder acusações",
+	'FORLAN_162' => "Selecione esta opção para recalcular o fórum tópico/resposta contagens",
+	'FORLAN_163' => "Recalcular a contagem de mensagens do utilizador Fórum",
+	'FORLAN_164' => "Selecione esta opção para recalcular o utilizador Fórum contagens",
+	'FORLAN_166' => "Ferramentas de fórum",
+	'FORLAN_167' => "Contagens atualizadas para o Fórum",
+	'FORLAN_168' => "Lastpost informação actualizada para o Fórum",
+	'FORLAN_169' => "Contagens de fórum de utilizador atualizadas",
+	'FORLAN_170' => "Relatórios",
+	'FORLAN_171' => "Relatório sobre o Publicação no fórum",
+	'FORLAN_172' => "Excluir este relatório",
+	'FORLAN_173' => "Título do thread",
+	'FORLAN_174' => "Relatado pelo utilizador",
+	'FORLAN_175' => "Relatório apresentado",
+	'FORLAN_177' => "endereço electrónico de notificação ON por padrão",
+	'FORLAN_178' => "Marque isto para permitir fazer que a caixa de seleção notificação de endereço electrónico ser em por padrão",
+	'FORLAN_179' => "Adicionando um * ao início do fórum nome fará neste fórum um recipiente para sub-fóruns apenas. O tema do fórum deve suportar esta opção também.",
+	'FORLAN_182' => "também recalcular respostas para todos os segmentos no fórum selecionado",
+	'FORLAN_183' => "(esta função não é permitida ao selecionar 'todos os fóruns' devido ao número de consultas que irá gerar)",
+	'FORLAN_184' => "Permissão de criação de segmento",
+	'FORLAN_185' => "Indica quem pode criar novos tópicos",
+	'FORLAN_186' => "Linhas por página",
+	'FORLAN_187' => "Número de tópicos exibidos por página",
+	'FORLAN_189' => "Clique no botão 'excluir' para excluir o relatório.[br][br]Clique no botão 'visualizar' para visualizar o tópico/tópico.[br][br]Para ser notificado sobre quaisquer novos relatórios, consulte a seção [notificar configurações].",
+	'FORLAN_200' => "Rastreamento de tópicos",
+	'FORLAN_201' => "Habilite isto para permitir que seus usuários rastreiem tópicos.",
+	'FORLAN_202' => "Notificações por endereço electrónico de rastreamento de tópicos",
+	'FORLAN_203' => "Ative esta opção para permitir que seus usuários recebam notificações por endereço electrónico quando outras pessoas responderem a um tópico rastreado.",
+	'FORLAN_204' => "Utilizador Anónimo",
+	'FORLAN_205' => "Permissão de publicação",
+	'FORLAN_206' => "Aula de criação de thread",
+	'FORLAN_207' => "Fóruns e Tópicos",
+	'FORLAN_208' => "Somente fóruns",
+	'FORLAN_209' => "Tópico",
+	'FORLAN_210' => "Emitir",
+	'FORLAN_211' => "Enviado por",
+	'FORLAN_212' => "Anexos",
+	'FORLAN_213' => "Publicação",
+	'FORLAN_214' => "Deixe em branco para gerár automaticamente a partir do título acima.",
+	'FORLAN_215' => "Não instalado!",
+	'FORLAN_216' => "(Novo Pai)",
+	'FORLAN_217' => "Padrão do sistema ",
+	'FORLAN_218' => "Área de texto",
+	'FORLAN_219' => "Editor de Rich Text",
+	'FORLAN_220' => "Editor de publicação",
+	'FORLAN_221' => "Qual editor deve ser usado para criar/editar publicações?",
+	'FORLAN_222' => "Editor de resposta rápida",
+	'FORLAN_223' => "Use apenas texto simples (não é permitido bbcode ou html!)",
+];

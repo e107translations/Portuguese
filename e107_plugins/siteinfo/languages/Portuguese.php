@@ -1,12 +1,14 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/25 12:50:00
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
@@ -20,4 +22,4 @@ define("COUNTER_L4", "Esta página sempre...");
 define("COUNTER_L5", "exclusivo");
 define("COUNTER_L6", "Site...");
 define("COUNTER_L7", "Contador");
-define("COUNTER_L8", "Mensagem do admin: <b>Stat log é desabilitado.</b><br>Para ativar, você precisa instalar o plugin de estatística log do seu <a href=''.e_ADMIN.'plugin.php'>plugin manager</a>e, em seguida, ativá-lo a partir da <a href=''.e_PLUGIN.'log/admin_config.php'>tela de configuração</a>.");
+define("COUNTER_L8", "Mensagem do admin: <b>Stat log é desabilitado.</b><br>Para ativar, você precisa instalar o plugin de estatística log do seu <a href='".e_ADMIN."plugin.php'>plugin manager</a>e, em seguida, ativá-lo a partir da <a href='".e_PLUGIN."log/admin_config.php'>tela de configuração</a>.");

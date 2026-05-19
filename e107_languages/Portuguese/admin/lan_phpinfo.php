@@ -1,19 +1,24 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/02/15 20:26:35
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Ricardo $
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("PHP_LAN_1", "Se você ativou o Curl, deve considerar a desativação desse recurso.");
-define("PHP_LAN_2", "Isto é um risco de segurança e não é necessário para o e107.");
-define("PHP_LAN_3", "Em um servidor de produção, é melhor desativar a exibição de erros no navegador.");
-define("PHP_LAN_4", "Desativar isso ocultará sua versão do PHP dos navegadores.");
-define("PHP_LAN_5", "Este é um risco de segurança e deve ser desativado.");
-define("PHP_LAN_6", "[b]session.save_path[/b] não é gravável! Isso pode causar grandes problemas ao seu site.");
-define("PHP_LAN_7", "Problema(s) de configuração de PHP encontrados:");
-define("PHP_LAN_8", "Falta [x] e precisa ser instalado.");
+
+return [
+	'PHP_LAN_1' => "Se tiver o Curl ativado, deve considerar desativar esta funcionalidade.",
+	'PHP_LAN_2' => "Isto é um risco de segurança e não é necessário para o e107.",
+	'PHP_LAN_3' => "Num servidor de produção, é melhor desativar a exibição de erros no navegador.",
+	'PHP_LAN_4' => "Desativar isto esconderá a versão do PHP nos navegadores.",
+	'PHP_LAN_5' => "Isto é um risco de segurança e deve ser desativado.",
+	'PHP_LAN_6' => "[b]session.save_path[/b] não tem permissão de escrita! Isso pode causar sérios problemas no seu site.",
+	'PHP_LAN_7' => "Problema(s) de Configuração do PHP Encontrado(s):",
+	'PHP_LAN_8' => "[x] está ausente e precisa ser instalado.",
+];

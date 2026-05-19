@@ -1,13 +1,17 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/25 12:08:15
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_NEWS_NAME", "Notícias");
+return [
+	'LAN_PLUGIN_NEWS_NAME' => "Notícias",
+];

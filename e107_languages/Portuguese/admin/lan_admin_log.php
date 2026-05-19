@@ -1,103 +1,110 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/02/12 13:39:06
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Ricardo $
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("RL_LAN_002", "Registro contínuo");
-define("RL_LAN_005", "Configurar/exibir os logs do sistema");
-define("RL_LAN_008", "Registro contínuo está activo:");
-define("RL_LAN_009", "Comprimento do histórico do registro contínuo, em dias");
-define("RL_LAN_012", "Opções de filtro");
-define("RL_LAN_013", "Data/hora de início");
-define("RL_LAN_014", "Data/hora de fim");
-define("RL_LAN_015", "Filtro de ID do utilizador");
-define("RL_LAN_016", "Em branco para nenhum, zero para comentários");
-define("RL_LAN_017", "Não há entradas de registro, ou nenhuma Coincidir com filtro");
-define("RL_LAN_018", "Atualizar o registro");
-define("RL_LAN_019", "yy-mm-dd hh:mm:ss");
-define("RL_LAN_020", "IP");
-define("RL_LAN_023", "Tipo de evento");
-define("RL_LAN_024", "De");
-define("RL_LAN_025", "Título do evento");
-define("RL_LAN_026", "Classe para quais ações de utilizador conectado");
-define("RL_LAN_028", "Filtros de atualização");
-define("RL_LAN_029", "Filtro de tipo de evento");
-define("RL_LAN_030", "Registro de admin");
-define("RL_LAN_031", "Ações para entrar");
-define("RL_LAN_032", "Pri");
-define("RL_LAN_033", "Para obter mais informações");
-define("RL_LAN_044", "Log de eventos para exibir por página");
-define("RL_LAN_045", "Excluir eventos de log admin mais velhos");
-define("RL_LAN_046", "dias");
-define("RL_LAN_047", "Confirmar excluir eventos de log admin mais velho");
-define("RL_LAN_049", "Excluir entradas antigas");
-define("RL_LAN_050", "Erro de parâmetro - nada excluído");
-define("RL_LAN_052", "Registro de admin");
-define("RL_LAN_053", "Log de auditoria do utilizador");
-define("RL_LAN_054", "Nada para apagar, ou erro de banco de dados");
-define("RL_LAN_057", "- eventos mais antigos do que [x] ([y] entradas) eliminadas");
-define("RL_LAN_058", "Filtro de prioridade:");
-define("RL_LAN_059", "Filtro do chamador:");
-define("RL_LAN_060", "Filtro de endereço IP:");
-define("RL_LAN_061", "Curinga (*) no final aceitável");
-define("RL_LAN_062", "Log de auditoria do utilizador");
-define("RL_LAN_064", "Aplicável a todos os logs");
-define("RL_LAN_065", "Confirmar excluir utilizador log eventos de auditoria mais velho");
-define("RL_LAN_066", "Excluir utilizador auditoria trilha eventos de log mais antigos que");
-define("RL_LAN_067", "Histórico de transferência");
-define("RL_LAN_068", "D/L ID");
-define("RL_LAN_069", "Baixar o nome");
-define("RL_LAN_071", "Registo de utilizador (ignora a configuração de classe acima)");
-define("RL_LAN_072", "Confirmação de endereço electrónico de inscrição (ignora a configuração de classe acima)");
-define("RL_LAN_073", "Entrar/Sair");
-define("RL_LAN_075", "Mudança de nome de exibição");
-define("RL_LAN_076", "Alterar senha");
-define("RL_LAN_077", "Mudança de endereço electrónico");
-define("RL_LAN_078", "Redefinição de senha");
-define("RL_LAN_079", "Alterar outras configurações de utilizador");
-define("RL_LAN_080", "Admin rápido Adicionar utilizador");
-define("RL_LAN_081", "Rejeições do correio");
-define("RL_LAN_082", "Proibições de utilizador");
-define("RL_LAN_083", "Redefinições de salto de correio");
-define("RL_LAN_084", "Contas temporárias");
-define("RL_LAN_087", "Detalhes");
-define("RL_LAN_090", "Baixar ID");
-define("RL_LAN_091", "Horários detalhados");
-define("RL_LAN_092", "Período de tempo");
-define("RL_LAN_093", "(mins)");
-define("RL_LAN_094", "Análise de tempo detalhado");
-define("RL_LAN_096", "Diff (s)");
-define("RL_LAN_100", "CID");
-define("RL_LAN_101", "PID");
-define("RL_LAN_103", "Assunto");
-define("RL_LAN_104", "UID");
-define("RL_LAN_106", "Tipo");
-define("RL_LAN_107", "Comentário");
-define("RL_LAN_108", "BK");
-define("RL_LAN_109", "LK");
-define("RL_LAN_110", "Del");
-define("RL_LAN_111", "Excluir itens marcados");
-define("RL_LAN_112", "Excluídos comentários..--número...");
-define("RL_LAN_113", "Erro ao excluir comentários!");
-define("RL_LAN_114", "Limpar filtros");
-define("RL_LAN_115", "Os utilizadores Admin");
-define("RL_LAN_116", "Localização");
-define("RL_LAN_117", "PgCnt");
-define("RL_LAN_118", "Bandeira");
-define("RL_LAN_120", "utilizadores on-line");
-define("RL_LAN_122", "Configuração de Logs do sistema");
-define("RL_LAN_123", "Classe de trilha de auditoria do utilizador");
-define("RL_LAN_124", "Ações de trilha de auditoria do utilizador");
-define("RL_LAN_125", "Manutenção de Logs do sistema");
-define("RL_LAN_126", "Total de [x] entradas correspondentes a condição de pesquisa");
-define("RL_LAN_132", "Informativo");
-define("RL_LAN_133", "Noticia");
-define("RL_LAN_134", "Aviso");
-define("RL_LAN_135", "Fatal");
-define("RL_LAN_136", "Caminho de navegação do utilizador");
+
+//define("RL_LAN_001", "System Logs");
+
+return [
+	'RL_LAN_002' => "Registo Rolante",
+	'RL_LAN_005' => "Configurar/Visualizar registos do sistema",
+	'RL_LAN_008' => "Registo Rolante está ativo:",
+	'RL_LAN_009' => "Duração do Histórico de Registo Rolante em dias",
+	'RL_LAN_012' => "Opções de Filtro",
+	'RL_LAN_013' => "Data/hora de início",
+	'RL_LAN_014' => "Data/hora de fim",
+	'RL_LAN_015' => "Filtro de ID de Utilizador",
+	'RL_LAN_016' => "Deixar em branco para nenhum, zero para convidado",
+	'RL_LAN_017' => "Sem entradas no registo, ou nenhuma corresponde ao filtro",
+	'RL_LAN_018' => "Atualizar registo",
+	'RL_LAN_019' => "aa-mm-dd hh:mm:ss",
+	'RL_LAN_020' => "IP",
+	'RL_LAN_023' => "Tipo de Evento",
+	'RL_LAN_024' => "De",
+	'RL_LAN_025' => "Título do Evento",
+	'RL_LAN_026' => "Classe para a qual as ações do utilizador são registadas",
+	'RL_LAN_028' => "Atualizar Filtros",
+	'RL_LAN_029' => "Filtro por tipo de evento",
+	'RL_LAN_030' => "Registo de Administrador",
+	'RL_LAN_031' => "Ações a registar",
+	'RL_LAN_032' => "Pri",
+	'RL_LAN_033' => "Mais informações",
+	'RL_LAN_044' => "Eventos do registo a exibir por página",
+	'RL_LAN_045' => "Eliminar eventos antigos do registo de administrador mais antigos que ",
+	'RL_LAN_046' => "dias",
+	'RL_LAN_047' => "Confirmar eliminação de eventos antigos do registo de administrador mais antigos que ",
+	'RL_LAN_049' => "Eliminar entradas antigas",
+	'RL_LAN_050' => "Erro de parâmetro - nada eliminado",
+	'RL_LAN_052' => "Registo de Administrador",
+	'RL_LAN_053' => "Registo de Auditoria de Utilizador",
+	'RL_LAN_054' => "Nada para eliminar, ou erro de base de dados",
+	'RL_LAN_057' => " - eventos mais antigos que [x] ([y] entradas) eliminados",
+	'RL_LAN_058' => "Filtro de Prioridade:",
+	'RL_LAN_059' => "Filtro por Chamador:",
+	'RL_LAN_060' => "Filtro por Endereço IP:",
+	'RL_LAN_061' => "Curinga (*) no final aceitável",
+	'RL_LAN_062' => "Registo de Auditoria de Utilizador",
+	'RL_LAN_064' => "Aplicável a todos os registos",
+	'RL_LAN_065' => "Confirmar eliminação de eventos do registo de auditoria de utilizador mais antigos que ",
+	'RL_LAN_066' => "Eliminar eventos antigos do registo de auditoria de utilizador mais antigos que ",
+	'RL_LAN_067' => "Histórico de Downloads",
+	'RL_LAN_068' => "ID de D/L",
+	'RL_LAN_069' => "Nome do Download",
+	'RL_LAN_071' => "Registo de utilizador (ignora a configuração da classe acima)",
+	'RL_LAN_072' => "Reconhecimento de email de inscrição (ignora a configuração da classe acima)",
+	'RL_LAN_073' => "Login/Logout",
+	'RL_LAN_075' => "Alterar nome de exibição",
+	'RL_LAN_076' => "Alterar palavra-passe",
+	'RL_LAN_077' => "Alterar endereço de email",
+	'RL_LAN_078' => "Redefinir palavra-passe",
+	'RL_LAN_079' => "Alterar outras definições de utilizador",
+	'RL_LAN_080' => "Adição rápida de utilizador por administrador",
+	'RL_LAN_081' => "Erros de envio de correio",
+	'RL_LAN_082' => "Bans de utilizador",
+	'RL_LAN_083' => "Redefinir erros de envio de correio",
+	'RL_LAN_084' => "Contas temporárias",
+	'RL_LAN_087' => "Detalhes",
+	'RL_LAN_090' => "ID do Download",
+	'RL_LAN_091' => "Tempos detalhados",
+	'RL_LAN_092' => "Período de tempo",
+	'RL_LAN_093' => "(min)",
+	'RL_LAN_094' => "Análise de tempo detalhada",
+	'RL_LAN_096' => "Diferença (s)",
+	'RL_LAN_100' => "CID",
+	'RL_LAN_101' => "PID",
+	'RL_LAN_103' => "Assunto",
+	'RL_LAN_104' => "UID",
+	'RL_LAN_106' => "Tipo",
+	'RL_LAN_107' => "Comentário",
+	'RL_LAN_108' => "BK",
+	'RL_LAN_109' => "LK",
+	'RL_LAN_110' => "Del",
+	'RL_LAN_111' => "Eliminar itens selecionados",
+	'RL_LAN_112' => "Eliminados --NÚMERO-- comentários",
+	'RL_LAN_113' => "Erro ao eliminar comentários!",
+	'RL_LAN_114' => "Limpar Filtros",
+	'RL_LAN_115' => "Administradores de Utilizadores",
+	'RL_LAN_116' => "Localização",
+	'RL_LAN_117' => "PgCnt",
+	'RL_LAN_118' => "Flag",
+	'RL_LAN_120' => "Utilizadores online",
+	'RL_LAN_122' => "Configuração dos Registos do Sistema",
+	'RL_LAN_123' => "Classe do rasto de auditoria de utilizador",
+	'RL_LAN_124' => "Ações do rasto de auditoria de utilizador",
+	'RL_LAN_125' => "Manutenção dos Registos do Sistema",
+	'RL_LAN_126' => "Total de [x] entradas correspondentes à condição de pesquisa",
+	'RL_LAN_132' => "Informativo",
+	'RL_LAN_133' => "Aviso",
+	'RL_LAN_134' => "Advertência",
+	'RL_LAN_135' => "Fatal",
+    'RL_LAN_136' => "Rastreio de navegação do utilizador",
+];

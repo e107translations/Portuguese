@@ -1,268 +1,276 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/02/15 20:09:24
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Ricardo $
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("PRFLAN_1", "Informação do site");
-define("PRFLAN_2", "Nome do site");
-define("PRFLAN_3", "URL do site");
-define("PRFLAN_4", "Ícone/botão de Hiperligação de site");
-define("PRFLAN_5", "Slogan do site");
-define("PRFLAN_6", "Descrição do site");
-define("PRFLAN_7", "Administrador do site principal");
-define("PRFLAN_8", "Endereço electrónico de admin do site principal");
-define("PRFLAN_9", "Isenção de responsabilidade do site");
-define("PRFLAN_13", "Exibir informações");
-define("PRFLAN_14", "Exibir informações do tema?");
-define("PRFLAN_15", "Tempo de renderização de exibição?");
-define("PRFLAN_16", "Exibir consultas sql?");
-define("PRFLAN_17", "Comprimir o local de saída usando gzip");
-define("PRFLAN_19", "Opções da página de inscrição");
-define("PRFLAN_21", "Opções de exibição de data");
-define("PRFLAN_22", "Formato de data abreviada");
-define("PRFLAN_23", "Formato de data por extenso");
-define("PRFLAN_24", "Formato de data do fórum");
-define("PRFLAN_25", "Para obter mais informações sobre data formatos consulte o");
-define("PRFLAN_26", "Deslocamento de tempo");
-define("PRFLAN_27", "Exemplo, se você definir isso para + 2, todas as vezes em seu site terá duas horas adicionadas a eles");
-define("PRFLAN_28", "Registo/Entrar de utilizador");
-define("PRFLAN_29", "Ativar o sistema de registro de utilizador?");
-define("PRFLAN_30", "permitir que os utilizadores se registrem como membros no seu site");
-define("PRFLAN_32", "Permitir que a publicação anônima?");
-define("PRFLAN_33", "Desligue isto para permitir que apenas os membros registados postar comentários etc.");
-define("PRFLAN_35", "Habilitar a proteção contra as inundações?");
-define("PRFLAN_36", "Tempo limite de inundação");
-define("PRFLAN_37", "Auto Ban");
-define("PRFLAN_38", "Tempo necessário, em segundos, entre 2 publicações para áreas onde os utilizadores podem postar (chat, fóruns...). se um Publicação do utilizador rápido demais, ele será redirecionado para a página inicial");
-define("PRFLAN_40", "Filtrar palavrões?");
-define("PRFLAN_41", "se jurando verificado será substituído com a seqüência abaixo");
-define("PRFLAN_42", "Substitua a cadeia de caracteres");
-define("PRFLAN_43", "Filtrar palavras");
-define("PRFLAN_44", "palavras de censor, separado por uma vírgula");
-define("PRFLAN_45", "COPPA de uso na página de inscrição?");
-define("PRFLAN_46", "para obter mais informações sobre Veja COPPA");
-define("PRFLAN_47", "Segurança & proteção");
-define("PRFLAN_48", "Método de controle do utilizador");
-define("PRFLAN_49", "Cookies");
-define("PRFLAN_50", "Sessões");
-define("PRFLAN_52", "Salvar as alterações");
-define("PRFLAN_53", "Preferências de site");
-define("PRFLAN_55", "Nome do cookie/sessão");
-define("PRFLAN_56", "Fuso horário");
-define("PRFLAN_58", "Restringir o site apenas para membros");
-define("PRFLAN_59", "TIC-TAC restringirá a todas as áreas além da primeira página e a página de inscrição apenas para membros");
-define("PRFLAN_60", "Habilitar o SSL");
-define("PRFLAN_61", "Só habilite SSL se você tem certeza que sabe o que está fazendo!");
-define("PRFLAN_76", "CAPTCHA de exibir na página de inscrição.");
-define("PRFLAN_77", "Opções de exibição de admin");
-define("PRFLAN_78", "Deixe em branco para desabilitar");
-define("PRFLAN_81", "CAPTCHA de exibir na página de entrar.");
-define("PRFLAN_83", "exemplo de");
-define("PRFLAN_87", "Comentários/publicação");
-define("PRFLAN_88", "Ativar comentários aninhados");
-define("PRFLAN_89", "Ícone de comentário novo display");
-define("PRFLAN_90", "Permitir que os cartazes editar as suas observações");
-define("CUSTSIG_2", "Nome verdadeiro:");
-define("CUSTSIG_6", "Assinatura:");
-define("CUSTSIG_7", "Avatar:");
-define("CUSTSIG_12", "Esconder");
-define("CUSTSIG_13", "Campos");
-define("CUSTSIG_14", "Exposição");
-define("CUSTSIG_15", "Necessário");
-define("CUSTSIG_16", "Comprimento mínimo para senhas");
-define("CUSTSIG_17", "Assine o conteúdo/mailouts");
-define("CUSTSIG_18", "Não permitir nomes de utilizadores");
-define("CUSTSIG_19", "nomes de utilizador que contém o texto a seguir será entradas rejeitadas, separadas por vírgulas");
-define("CUSTSIG_20", "Título de utilizador personalizado");
-define("CUSTSIG_21", "Confirmação de endereço electrónico");
-define("CUSTSIG_22", "Opção para ocultar endereço electrónico");
-define("PRFLAN_91", "Se alguém está atacando o seu site por várias solicitações para o servidor, seu IP será banido automaticamente! Se possível o melhor feito com servidor config!!!");
-define("PRFLAN_92", "Garantir a verificação da inscrição..--esconder a senha no endereço electrónico?");
-define("PRFLAN_93", "página de função strftime em php.net");
-define("PRFLAN_94", "aqui");
-define("PRFLAN_95", "Exibir informação de plugins:");
-define("PRFLAN_96", "Exibirá a informação em todas as páginas do admin para cada plugin que suporta este tipo de recurso");
-define("PRFLAN_97", "Exclusivo menu de 'Informação de Plugins':");
-define("PRFLAN_98", "Se desabilitado, cada plugin irá exibir sua própria informação em um menu individual. Se habilitado tudo informação será exibida em um menu.");
-define("PRFLAN_102", "Substituir as URLs clicáveis");
-define("PRFLAN_103", "Se marcada e 'Fazer clicável' (acima) é também assinalada, Postado URLs ou endereços de Endereço electrónico são exibidos como um hiperlink usando o texto de caixas de texto abaixo. Isto impede que URLs/E-mails muito quebrando o layout.");
-define("PRFLAN_104", "Texto de substituição de URL");
-define("PRFLAN_105", "Texto visível de substituição para URLs clicáveis. Imagem pode ser usada usando a tag < img >, com o caminho completo para a imagem");
-define("PRFLAN_106", "Preferências de núcleo salvas no banco de dados.");
-define("PRFLAN_107", "Hiperligação de endereço electrónico substituir texto");
-define("PRFLAN_108", "texto para substituir os links de endereço electrónico com, imagem pode ser usada usando a tag < img >, com o caminho completo para a imagem");
-define("PRFLAN_109", "Embrulhe palavras longas no texto principal");
-define("PRFLAN_110", "palavras mais do que o comprimento entrado irão ser empacotadas em uma nova linha");
-define("PRFLAN_111", "Embrulhe palavras longas em texto do menu");
-define("PRFLAN_113", "Fora");
-define("PRFLAN_116", "Classe que pode postar HTML");
-define("PRFLAN_117", "Isso permitirá aos utilizadores postar grande parte do código HTML em qualquer lugar no site, selecione o userclass para permitir isto.");
-define("PRFLAN_118", "Use o Geshi para realce de sintaxe");
-define("PRFLAN_119", "GeSHi é um realçador de sintaxe multi-idioma de código aberto, para mais informações, consulte [hiperligação]");
-define("PRFLAN_120", "Geshi sintaxe idioma padrão");
-define("PRFLAN_121", "Se nenhum idioma for especificado em bbtag o código, este idioma será usado para destacar");
-define("PRFLAN_122", "Habilitar o WYSIWYG textareas");
-define("PRFLAN_123", "Exibirá um editor what-you-see-is-what-you-get em textareas quando disponível. Aplica-se somente a administradores e utilizadores que têm permissão para postar HTML.");
-define("PRFLAN_124", "Use o olhar nextprev 'clássico'");
-define("PRFLAN_125", "Transformando isso mostrará as páginas nextprev como 1 2 3... 21 22 23, em vez do novo visual com o dropdown.");
-define("PRFLAN_126", "Texto a ser exibido na página de inscrição");
-define("PRFLAN_127", "Fazer URLs clicáveis");
-define("PRFLAN_128", "Ligar isto irá converter postados URLs ou endereços de Endereço electrónico para hiperlinks");
-define("PRFLAN_129", "Não permitir múltiplos logons");
-define("PRFLAN_130", "Ativar Isto impedirá que mais de uma pessoa entrar com o mesmo nome e senha (entrar detalhes partilha)");
-define("PRFLAN_133", "A extensão GD exigido, não encontrado");
-define("PRFLAN_134", "Redirecionar todas as solicitações de URL do site");
-define("PRFLAN_135", "por exemplo, se seu URL do site acima é definido como http://foo.com, alguém solicitando http://www.foo.com será redirecionado para http://foo.com");
-define("PRFLAN_136", "Cadastros máximos permitida no mesmo endereço IP.");
-define("PRFLAN_137", "Exibir o uso de memória");
-define("PRFLAN_138", "CAPTCHA de exibir na página de senha esquecida.");
-define("PRFLAN_139", "Exibir alerta quando a senha de administrador principal não mudou durante pelo menos 30 dias");
-define("PRFLAN_140", "Texto a ser exibido depois da apresentação do formulário de inscrição.");
-define("PRFLAN_142", "Inundação só");
-define("PRFLAN_143", "Falha Entrar apenas");
-define("PRFLAN_144", "Inundação &amp; Entrar falhou");
-define("PRFLAN_145", "Links em nova janela");
-define("PRFLAN_146", "Assinale aqui para fazer com que todos os links abrir em uma nova janela (isto se aplicará no site).");
-define("PRFLAN_147", "Modo de desenvolvimento");
-define("PRFLAN_148", "Ative funções de desenvolvimento. Isto é para desenvolvedores somente. Não utilize em locais de produção por motivos de segurança.");
-define("PRFLAN_149", "Recursos avançados");
-define("PRFLAN_150", "Selecionar método de autenticação de e107");
-define("PRFLAN_151", "e107 - nenhum método de autenticação alternativo instalado");
-define("PRFLAN_31", "Verificação de endereço electrónico");
-define("PRFLAN_152", "Sem verificação");
-define("PRFLAN_153", "Aprovação de admin");
-define("PRFLAN_154", "Novo método de verificação de utilizador");
-define("PRFLAN_155", "Nome para exibição e o nome de logon podem ser diferentes para");
-define("PRFLAN_156", "Redefinir todos os nomes de exibição");
-define("PRFLAN_157", "Todos os nomes de exibição foram redefinidos para o nome de utilizador");
-define("PRFLAN_158", "Exibir o comprimento máximo do nome (5..100)");
-define("PRFLAN_159", "Visualizar esta página com");
-define("PRFLAN_160", "Verificar servidores remotos quando validar endereços de endereço electrónico.");
-define("PRFLAN_161", "Permitir que os utilizadores poder enviar comentários");
-define("PRFLAN_162", "Informações de contato do site");
-define("PRFLAN_163", "por exemplo, nome da empresa, endereço, telefone, etc.");
-define("PRFLAN_164", "Permitir que os utilizadores de endereço electrónico cópia do endereço electrónico de contato para o próprio");
-define("PRFLAN_165", "Abertura para permitir que o spam, use com cautela");
-define("PRFLAN_166", "Mostrar imagens de emoticon no formulário de comentário?");
-define("PRFLAN_167", "Certifique-se de inserir um endereço electrónico opcional");
-define("PRFLAN_168", "Site contato pessoa(s)");
-define("PRFLAN_169", "Se o grupo escolhido contiver mais de uma pessoa, o utilizador deverá selecionar uma pessoa do grupo.");
-define("PRFLAN_172", "Comprimento máximo do nome do logon (10..100)");
-define("PRFLAN_173", "Verificar se há atualizações de e107 uma vez / dia");
-define("PRFLAN_174", "Nome para respostas a e-mails do site");
-define("PRFLAN_175", "Isto irá aparecer no campo 'De' de registo e outros e-mails deste site");
-define("PRFLAN_176", "Endereço de endereço electrónico para e-mails do site");
-define("PRFLAN_177", "Endereço especificado para respostas aos e-mails deste site.");
-define("PRFLAN_178", "Método de transmissão de senha");
-define("PRFLAN_179", "(Somente suporte se usando sessões de utilizador de controle).");
-define("PRFLAN_180", "Texto sem formatação");
-define("PRFLAN_181", "CHAP, texto sem formatação fallback");
-define("PRFLAN_182", "CHAP somente");
-define("PRFLAN_183", "CHAP requer JS habilitado no navegador do utilizador");
-define("PRFLAN_184", "Método de logon do utilizador");
-define("PRFLAN_188", "Senha de codificação");
-define("PRFLAN_189", "MD5 (Legacy)");
-define("PRFLAN_190", "Salgados");
-define("PRFLAN_191", "(md5 é geralmente adequado para uma Intranet e muitas vezes para outros sites)");
-define("PRFLAN_192", "Gerar nomes aleatórios de logon predefinidos de acordo com um padrão");
-define("PRFLAN_193", "Para permitir que os utilizadores definam seus próprios nomes de entrar, deixe em branco");
-define("PRFLAN_194", "Alfa # [br]. numérico [br] * [br] alfanumérico chars outros usados como entrou.");
-define("PRFLAN_196", "Registrar todos os acessos a página");
-define("PRFLAN_197", "Novo utilizador de entrar automático depois de clicar no hiperligação de inscrição");
-define("PRFLAN_198", "Se desabilitado, o utilizador tem que logar explicitamente após a inscrição");
-define("PRFLAN_154a", "Se 'aprovação Admin' estiver selecionada, é recomendável que você ative a notificação de endereço electrónico na inscrição de utilizador [aqui].");
-define("PRFLAN_196a", "Diretório de log:");
-define("PRFLAN_199", "Mostrar links sub Admin");
-define("PRFLAN_200", "Se habilitado, o Admin slide no menu de navegação (se suportado pelo tema atual) processará sub ligações quando necessário (por exemplo, notícias - criar item de notícias).");
-define("PRFLAN_201", "Nome de utilizador e senha");
-define("PRFLAN_202", "Endereço electrónico e senha");
-define("PRFLAN_203", "Nome de utilizador/Endereço electrónico e senha");
-define("PRFLAN_204", "Separado plugins em seu próprio menu.");
-define("PRFLAN_205", "Se habilitada, será exibido em seu próprio menu de navegação, semelhante ao e107 v 0.7 e antes de plugins.");
-define("PRFLAN_206", "Membros-somente exceções de URL");
-define("PRFLAN_207", "Membros-modo somente será desativado para URLs que correspondem a nenhum dos termos nesta lista. Um por linha.");
-define("PRFLAN_208", "Classe de utilizador, que pode enviar links para itens no site");
-define("PRFLAN_209", "Outras características");
-define("PRFLAN_210", "Comentários/publicação");
-define("PRFLAN_211", "Não consigo endereço electrónico opcional se necessário para validação ou entrar");
-define("PRFLAN_212", "Valor para [x] muito alto - alterado para [y]");
-define("PRFLAN_213", "Valor para [x] muito baixo - alterado para [y]");
-define("PRFLAN_214", "Logo do site");
-define("PRFLAN_215", "Classe que pode postar &lt;script&gt; e tags semelhantes");
-define("PRFLAN_216", "(Requer HTML postando direitos também)");
-define("PRFLAN_217", "Filtrar o conteúdo HTML");
-define("PRFLAN_218", "Se 'off', coloca os utilizadores em risco aumentado de XSS explora Postado por membros da classe acima, ou antes da 0.7.24");
-define("PRFLAN_219", "Não permitido caracteres encontrados em nome do Cookie (é permitidos apenas caracteres alfanuméricos). Nome do cookie não salvo.");
-define("PRFLAN_220", "Filtro de abuso de HTML (experimental)");
-define("PRFLAN_221", "Bloqueia algumas tags incomparáveis para aqueles permitido postar HTML");
-define("PRFLAN_222", "CAPTCHA de exibir na página de entrar do admin-área.");
-define("PRFLAN_223", "Completamente de Automated Public Turing test dizer computadores e humanos Apart");
-define("PRFLAN_224", "Sistema de registro de utilizador");
-define("PRFLAN_225", "Usado pelo Facebook e outros. Pelo menos deveria ter uma imagem quadrada de 144px em largura e altura.");
-define("PRFLAN_226", "Usado por alguns temas como a imagem do cabeçalho em algumas páginas.");
-define("PRFLAN_227", "Usado por alguns temas. Coloque o 'SITETAG' em seu tema para utilizar esse valor.");
-define("PRFLAN_228", "Usado por alguns temas. Coloque o 'SITEDESCRIPTION' em seu tema para utilizar esse valor.");
-define("PRFLAN_229", "Usado por alguns temas. Coloque o 'SITEDISCLAIMER' em seu tema para utilizar esse valor.");
-define("PRFLAN_230", "Formato do campo data/hora de entrada");
-define("PRFLAN_231", "Máximos logons com falha antes de proibição:");
-define("PRFLAN_232", "Logons com falha do mesmo IP serão banidos depois de tantas tentativas.");
-define("PRFLAN_233", "Moderar os comentários feitos por:");
-define("PRFLAN_234", "Comentários exigirá a aprovação manual por um administrador antes de ser visível a outros utilizadores");
-define("PRFLAN_235", "Comentário de classificação:");
-define("PRFLAN_236", "Mais recente comenta primeiro");
-define("PRFLAN_237", "Comentários mais recentes última");
-define("PRFLAN_238", "Carregamento de arquivo");
-define("PRFLAN_239", "O tamanho máximo de carregamento imposto pelas configurações do php. ini é:");
-define("PRFLAN_240", "Limites de carregamento filetype");
-define("PRFLAN_241", "* * Por motivos de segurança estes valores só podem ser alterados manualmente no seguinte arquivo:");
-define("PRFLAN_242", "Frameworks de JavaScript (para fins apenas de teste)");
-define("PRFLAN_243", "Auto (sob demanda)");
-define("PRFLAN_244", "Área do administrador");
-define("PRFLAN_245", "Front-end");
-define("PRFLAN_246", "Ambos");
-define("PRFLAN_247", "Desabilitado");
-define("PRFLAN_248", "Desativar a consolidação de roteiros");
-define("PRFLAN_249", "Se desativado, scripts serão carregados em um arquivo consolidado");
-define("PRFLAN_250", "Habilitar compressão de zlib roteiros consolidados:");
-define("PRFLAN_251", "Usado somente quando a consolidação do roteiro está habilitada");
-define("PRFLAN_252", "Desative cache de servidor consolidado de scripts:");
-define("PRFLAN_253", "Desative o cache do navegador de scripts consolidadas:");
-define("PRFLAN_254", "Endereço electrónico & informação de contato");
-define("PRFLAN_255", "Carregamento de arquivo");
-define("PRFLAN_256", "Opções avançadas");
-define("PRFLAN_257", "Framework de JavaScript");
-define("PRFLAN_258", "Visibilidade do formulário de contato");
-define("PRFLAN_259", "Registre-se e faça entrar");
-define("PRFLAN_260", "Entrar apenas");
-define("PRFLAN_261", "Opções de campo");
-define("PRFLAN_262", "Senha no endereço electrónico de confirmação");
-define("PRFLAN_263", "Deve ser exclusivo para este site");
-define("PRFLAN_264", "Frontpage é a página de entrar (entrar.php)");
-define("PRFLAN_265", "A página inicial é a página inicial (membersonly.php)");
-define("PRFLAN_266", "Quando desconectado, para qual página o utilizador deve ser direcionado?");
-define("PRFLAN_267", "Método de endereço electrónico");
-define("PRFLAN_268", "Editor em linha do frontend");
-define("PRFLAN_269", "Admins com esta classe de utilizador (e as permissões de administrador apropriadas) serão capazes de editar html diretamente através da área de frontend.");
-define("PRFLAN_270", "Filtro do formulário de contato");
-define("PRFLAN_271", "Ignore os envios de formulários que contenham essas palavras ou frases. Um por linha.");
-define("PRFLAN_272", "Tempo da sessão");
-define("PRFLAN_273", "Vida útil em segundos. 0 = até que o navegador seja fechado.");
-define("PRFLAN_274", "O formulário de contato estará visível apenas para este grupo de classe de utilizador.");
-define("PRFLAN_275", "Visualize esta página usando https (SSL) para modificar esta opção");
-define("PRFLAN_276", "PHP padrão (preferido)");
-define("PRFLAN_277", "Configurações de GDPR");
-define("PRFLAN_278", "URL para a Política de Privacidade");
-define("PRFLAN_279", "Verifique se o url existe! É melhor usar um url absoluto. Esta configuração será usada em todos os lugares que exigem consentimento do utilizador (por exemplo, inscrição, formulário / menu de contato etc.).");
-define("PRFLAN_280", "URL para os termos e condições do site");
-define("PRFLAN_281", "Os 2 links acima são usados ​​em várias páginas deste site (por exemplo, inscrição e formulário / menu de contato).\nCrie 2 páginas (se ainda não tiver feito) que contenham sua 'Política de Privacidade' e os 'Termos e condições' do site.\nExistem vários sites que podem gerar esses textos para você.\nCopie os urls desses sites nos campos acima (por exemplo, /page/privacy-policy ou /page/terms-and-conditions).\nApenas certifique-se, as páginas e urls existem e estão funcionando!");
-define("PRFLAN_282", "Método de salvar sessão");
-define("PRFLAN_283", "Exibir rótulos da barra de navegação");
-define("PRFLAN_284", "Recolher a barra lateral de navegação por padrão");
-define("PRFLAN_285", "Dicas de ajuda do campo de exibição");
-define("PRFLAN_286", "Filtros de conteúdo");
+
+return [
+	'PRFLAN_1' => "Informações do Site",
+	'PRFLAN_2' => "Nome do Site",
+	'PRFLAN_3' => "URL do Site",
+	'PRFLAN_4' => "Ícone/Botão do Link do Site",
+	'PRFLAN_5' => "Slogan do Site",
+	'PRFLAN_6' => "Descrição do Site",
+	'PRFLAN_7' => "Administrador principal do site",
+	'PRFLAN_8' => "Email do administrador principal do site",
+	'PRFLAN_9' => "Aviso de Isenção do Site",
+	'PRFLAN_13' => "Informações de Exibição",
+	'PRFLAN_14' => "Exibir informações sobre o tema?",
+	'PRFLAN_15' => "Exibir tempo de renderização?",
+	'PRFLAN_16' => "Exibir consultas SQL?",
+	'PRFLAN_17' => "Comprimir a saída do site usando gzip",
+	'PRFLAN_19' => "Página de registo",
+	'PRFLAN_21' => "Opções de exibição de data",
+	'PRFLAN_22' => "Formato curto da data",
+	'PRFLAN_23' => "Formato longo da data",
+	'PRFLAN_24' => "Formato de data do fórum",
+	'PRFLAN_25' => "Para mais informações sobre formatos de data, consulte o",
+	'PRFLAN_26' => "Deslocamento de horário",
+	'PRFLAN_27' => "Exemplo: se definir isto para +2, todas as horas no seu site terão duas horas adicionadas.",
+	'PRFLAN_28' => "Registo/Acesso Utilizador",
+	'PRFLAN_29' => "Ativar sistema de registro de utilizador?",
+	'PRFLAN_30' => "Permitir que os utilizadores se registrem como membros no seu site",
+	'PRFLAN_32' => "Permitir postagens anônimas?",
+	'PRFLAN_33' => "Desmarque esta opção para permitir que apenas membros registados postem comentários, etc.",
+	'PRFLAN_35' => "Ativar proteção contra flooding?",
+	'PRFLAN_36' => "Timeout de flood",
+	'PRFLAN_37' => "Banimento automático",
+	'PRFLAN_38' => "Tempo necessário em segundos entre 2 postagens para áreas onde os usuários podem postar (caixa de chat, fóruns...). Se um usuário postar muito rápido, será redirecionado para a página inicial",
+	'PRFLAN_40' => "Filtrar palavrões?",
+	'PRFLAN_41' => "Se marcado, palavrões serão substituídos pela string abaixo",
+	'PRFLAN_42' => "String de substituição",
+	'PRFLAN_43' => "Filtrar palavras",
+	'PRFLAN_44' => "palavras a censurar, separadas por vírgula",
+	'PRFLAN_45' => "Usar COPPA na página de cadastro?",
+	'PRFLAN_46' => "Para mais informações sobre COPPA, consulte",
+	'PRFLAN_47' => "Segurança &amp; Proteção",
+	'PRFLAN_48' => "Método de rastreamento de usuário",
+	'PRFLAN_49' => "Cookies",
+	'PRFLAN_50' => "Sessões",
+	'PRFLAN_52' => "Salvar Alterações",
+	'PRFLAN_53' => "Preferências do Site",
+	'PRFLAN_55' => "Nome do cookie/sessão",
+	'PRFLAN_56' => "Fuso horário",
+	'PRFLAN_58' => "Restringir o site a membros apenas",
+	'PRFLAN_59' => "Marque esta opção para restringir todas as áreas, exceto a página inicial e a página de cadastro, a membros apenas",
+	'PRFLAN_60' => "Usar apenas SSL",
+	'PRFLAN_61' => "Redirecionar todo o tráfego através do SSL (https)",
+	'PRFLAN_76' => "Exibir CAPTCHA na página de cadastro.",
+	'PRFLAN_77' => "Exibição do Administrador",
+	'PRFLAN_78' => "Deixe em branco para desativar",
+	'PRFLAN_81' => "Exibir CAPTCHA na página de login.",
+	'PRFLAN_83' => "exemplo",
+	'PRFLAN_87' => "Comentários/Postagens",
+	'PRFLAN_88' => "Ativar comentários aninhados",
+	'PRFLAN_89' => "Exibir ícone de novo comentário",
+	'PRFLAN_90' => "Permitir que os postadores editem seus comentários",
+	'CUSTSIG_2' => "Nome Real:",
+	'CUSTSIG_6' => "Assinatura:",
+	'CUSTSIG_7' => "Avatar:",
+	'CUSTSIG_12' => "Ocultar",
+	'CUSTSIG_13' => "Campos",
+	'CUSTSIG_14' => "Exibir",
+	'CUSTSIG_15' => "Obrigatório",
+	'CUSTSIG_16' => "Comprimento mínimo para senhas",
+	'CUSTSIG_17' => "Inscrever-se para conteúdo/envios de e-mail",
+	'CUSTSIG_18' => "Proibir nomes de usuário",
+	'CUSTSIG_19' => "nomes de usuário contendo o seguinte texto serão rejeitados, separe entradas com vírgulas",
+	'CUSTSIG_20' => "Título personalizado do usuário",
+	'CUSTSIG_21' => "Confirmação por e-mail",
+	'CUSTSIG_22' => "Opção para ocultar e-mail",
+	'PRFLAN_91' => "Se alguém estiver atacando o seu site com várias requisições para o seu servidor, o IP dele será automaticamente banido! O melhor é fazer isso com a configuração do servidor, se possível!!!",
+	'PRFLAN_92' => "Verificação segura de cadastro - ocultar senha no e-mail?",
+	'PRFLAN_93' => "Função strftime no php.net",
+	'PRFLAN_94' => "aqui",
+	'PRFLAN_95' => "Exibir informações dos plugins:",
+	'PRFLAN_96' => "Exibirá informações sobre todos os plugins nas páginas de administração que suportam esse tipo de recurso",
+	'PRFLAN_97' => "Menu 'Informações dos Plugins' único:",
+	'PRFLAN_98' => "Se desativado, cada plugin exibirá suas informações em um menu individual. Se ativado, todas as informações serão exibidas em um único menu.",
+	'PRFLAN_102' => "Substituir URLs clicáveis",
+	'PRFLAN_103' => "Se marcado, e 'Tornar Clicáveis' (acima) também estiver marcado, URLs ou endereços de e-mail postados serão exibidos como um link usando o texto das caixas abaixo. Isso evita que URLs/e-mails muito longos quebrem o layout.",
+	'PRFLAN_104' => "Texto de substituição de URL",
+	'PRFLAN_105' => "Texto visível de substituição para URLs clicáveis. Imagem pode ser usada utilizando a tag &lt;img&gt;, com o caminho completo para a imagem", 
+	'PRFLAN_106' => "Preferências principais salvas no banco de dados.",
+	'PRFLAN_107' => "Texto de substituição de link de e-mail",
+	'PRFLAN_108' => "Texto para substituir links de e-mail, imagem pode ser usada utilizando a tag &lt;img&gt;, com o caminho completo para a imagem",
+	'PRFLAN_109' => "Quebrar palavras longas no texto principal",
+	'PRFLAN_110' => "Palavras maiores que o comprimento inserido serão quebradas em uma nova linha",
+	'PRFLAN_111' => "Quebrar palavras longas no texto do menu",
+	'PRFLAN_113' => "Desativado",
+	'PRFLAN_116' => "Classe que pode postar HTML",
+	'PRFLAN_117' => "Isso permitirá que os usuários postem a maioria dos códigos HTML em qualquer lugar do site. Selecione a classe de usuário para permitir isso.",
+	'PRFLAN_118' => "Usar Geshi para destaque de sintaxe",
+	'PRFLAN_119' => "Geshi é um destacador de sintaxe multi-linguagem de código aberto. Veja [link] para mais informações.",
+	'PRFLAN_120' => "Idioma padrão para sintaxe Geshi",
+	'PRFLAN_121' => "Se nenhum idioma for especificado no código bbtag, este idioma será usado para o destaque.",
+	'PRFLAN_122' => "Habilitar áreas de texto WYSIWYG",
+	'PRFLAN_123' => "Isso exibirá um editor WYSIWYG nas áreas de texto quando disponível. Aplica-se apenas aos administradores e usuários autorizados a postar HTML.",
+	'PRFLAN_124' => "Usar aparência 'clássica' para próxima/anterior",
+	'PRFLAN_125' => "Ativar isso fará com que as páginas de próxima/anterior apareçam como 1 2 3 ... 21 22 23, em vez da aparência nova com o menu suspenso.",
+	'PRFLAN_126' => "Texto a ser exibido na página de inscrição",
+	'PRFLAN_127' => "Tornar URLs clicáveis",
+	'PRFLAN_128' => "Ativar isso converterá URLs ou endereços de e-mail postados em hyperlinks.",
+	'PRFLAN_129' => "Desabilitar múltiplos logins",
+	'PRFLAN_130' => "Ativar isso impedirá que mais de uma pessoa faça login com o mesmo nome de usuário/senha (compartilhamento de detalhes de login).",
+	'PRFLAN_133' => "Extensão GD necessária, não encontrada",
+	'PRFLAN_134' => "Redirecionar todas as solicitações para a URL do site",
+	'PRFLAN_135' => "por exemplo, se a URL do teu site acima estiver definida como https://foo.com, quem solicitar https://www.foo.com será redirecionado para https://foo.com",
+	'PRFLAN_136' => "Máximo de inscrições permitidas do mesmo endereço IP.",
+	'PRFLAN_137' => "Exibir uso de memória",
+	'PRFLAN_138' => "Exibir CAPTCHA na página de esquecimento de senha.",
+	'PRFLAN_139' => "Exibir aviso quando a senha principal do administrador não tiver sido alterada nos últimos 30 dias",
+	'PRFLAN_140' => "Texto a ser exibido após o envio do formulário de inscrição.",
+	'PRFLAN_142' => "Somente Flood",
+	'PRFLAN_143' => "Somente falha de login",
+	'PRFLAN_144' => "Flood & Falha de Login",
+	'PRFLAN_145' => "Links em nova janela",
+	'PRFLAN_146' => "Marque aqui para fazer todos os links abrirem em uma nova janela (isso se aplicará em todo o site).",
+	'PRFLAN_147' => "Modo Desenvolvedor",
+	'PRFLAN_148' => "Ativar funções de desenvolvedor. Isso é para desenvolvedores apenas. Não use em sites de produção por razões de segurança.",
+	'PRFLAN_149' => "Recursos Avançados",
+	'PRFLAN_150' => "Selecionar método de autenticação do e107",
+	'PRFLAN_151' => "e107 - Nenhum método de autenticação alternativo instalado",
+	'PRFLAN_31' => "Verificação de Email",
+	'PRFLAN_152' => "Sem Verificação",
+	'PRFLAN_153' => "Aprovação do Administrador",
+	'PRFLAN_154' => "Novo método de verificação de usuário",
+	'PRFLAN_155' => "Nome exibido e nome de login podem ser diferentes para",
+	'PRFLAN_156' => "Redefinir TODOS os Nomes Exibidos",
+	'PRFLAN_157' => "Todos os Nomes Exibidos foram redefinidos para o Nome de Usuário",
+	'PRFLAN_158' => "Comprimento máximo do Nome Exibido (5..100)",
+	'PRFLAN_159' => "Visualizando esta página com",
+	'PRFLAN_160' => "Verificar servidores remotos ao validar endereços de e-mail.",
+	'PRFLAN_161' => "Permitir que os usuários publiquem comentários",
+	'PRFLAN_162' => "Informações de Contato do Site",
+	'PRFLAN_163' => "Exemplo: Nome da Empresa, Endereço, Telefone, etc.",
+	'PRFLAN_164' => "Permitir que os usuários enviem uma cópia do e-mail de contato para si mesmos",
+	'PRFLAN_165' => "Possível abertura para permitir spam, use com cautela",
+	'PRFLAN_166' => "Exibir imagens de emoticons no formulário de comentário?",
+	'PRFLAN_167' => "Tornar a entrada de um endereço de e-mail opcional", 
+	'PRFLAN_168' => "Pessoa(s) de Contato do Site",
+	'PRFLAN_169' => "Se o grupo escolhido contiver mais de uma pessoa, o usuário será solicitado a selecionar uma pessoa do grupo.",
+	'PRFLAN_172' => "Comprimento máximo do Nome de Login (10..100)",
+	'PRFLAN_173' => "Verificar atualizações do e107 uma vez por dia",
+	'PRFLAN_174' => "Nome para respostas aos e-mails do site",
+	'PRFLAN_175' => "Isso aparecerá no campo 'De' dos e-mails de registro e outros e-mails deste site",
+	'PRFLAN_176' => "Endereço de e-mail para e-mails do site",
+	'PRFLAN_177' => "Endereço especificado para respostas aos e-mails deste site.",
+	'PRFLAN_178' => "Método de transmissão de senha",
+	'PRFLAN_179' => "(Apenas suportado se usar sessões para rastreamento de usuários.)",
+	'PRFLAN_180' => "Texto simples",
+	'PRFLAN_181' => "CHAP, fallback de texto simples",
+	'PRFLAN_182' => "Somente CHAP",
+	'PRFLAN_183' => "CHAP requer JS habilitado no navegador do usuário",
+	'PRFLAN_184' => "Método de login do usuário",
+	'PRFLAN_188' => "Codificação de senha",
+	'PRFLAN_189' => "md5 (Legado)",
+	'PRFLAN_190' => "Salteado",
+	'PRFLAN_191' => "(md5 geralmente é adequado para uma Intranet e, frequentemente, para outros sites)",
+	'PRFLAN_192' => "Gerar nomes de login predefinidos aleatórios de acordo com um padrão",
+	'PRFLAN_193' => "Para permitir que os usuários definam seus próprios nomes de login, deixe em branco",
+	'PRFLAN_194' => "# alfa[br]. numérico[br]* alfanumérico[br]Outros caracteres usados conforme inserido.",
+	'PRFLAN_196' => "Registrar todos os acessos à página",
+	'PRFLAN_197' => "Auto-login de novo usuário após clicar no link de inscrição",
+	'PRFLAN_198' => "Se desativado, o usuário terá que fazer login explicitamente após a inscrição",
+	'PRFLAN_154a' => "Se selecionares 'Aprovação do administrador', recomenda-se que atives a notificação por e-mail no registo de utilizadores [aqui].",
+	'PRFLAN_196a' => "Diretório de logs:",
+	'PRFLAN_199' => "Mostrar sub-ligações de administração",
+	'PRFLAN_200' => "Se habilitado, o menu de navegação deslizante do Admin (se suportado pelo tema atual) exibirá sub-links quando necessário (ex.: Notícias - Criar item de notícias).",
+	'PRFLAN_201' => "Nome de utilizador e palavra-passe",
+	'PRFLAN_202' => "Email e palavra-passe",
+	'PRFLAN_203' => "Nome de utilizador/Email e palavra-passe",
+	'PRFLAN_204' => "Separar os plugins no seu próprio menu.",
+	'PRFLAN_205' => "Se ativado, os plugins serão exibidos no seu próprio menu de navegação, semelhante ao e107 v0.7 e versões anteriores.",
+	'PRFLAN_206' => "Exceções de URL apenas para membros",
+	'PRFLAN_207' => "O modo apenas para membros será desativado para URLs que correspondam a qualquer um dos termos nesta lista. Um por linha.",
+	'PRFLAN_208' => "Classe de utilizadores que pode enviar links por email para itens no site",
+	'PRFLAN_209' => "Outras funcionalidades",
+	'PRFLAN_210' => "Comentários/Postagens",
+	'PRFLAN_211' => "Não é possível tornar o email opcional se for necessário para validação ou login",
+	'PRFLAN_212' => "Valor para [x] demasiado alto - alterado para [y]",
+	'PRFLAN_213' => "Valor para [x] demasiado baixo - alterado para [y]",
+	'PRFLAN_214' => "Logotipo do site",
+	'PRFLAN_215' => "Classe que pode publicar &lt;script&gt; e tags semelhantes",
+	'PRFLAN_216' => "(Requer direitos para publicar HTML também)",
+	'PRFLAN_217' => "Filtrar conteúdo HTML",
+	'PRFLAN_218' => "Se 'desligado', coloca os utilizadores em risco aumentado de explorações XSS publicadas por membros da classe acima ou antes da versão 0.7.24",
+	'PRFLAN_219' => "Caracteres não permitidos encontrados no nome do cookie (apenas caracteres alfanuméricos permitidos). Nome do cookie não guardado.",
+	'PRFLAN_220' => "Filtro de abuso de HTML (experimental)",
+	'PRFLAN_221' => "Bloqueia algumas tags não correspondentes para aqueles que têm permissão para publicar HTML",
+	'PRFLAN_222' => "Exibir CAPTCHA na página de login da área de administração.",
+	'PRFLAN_223' => "Teste público automatizado de Turing para diferenciar computadores de humanos",
+	'PRFLAN_224' => "Sistema de registo de utilizadores",
+	'PRFLAN_225' => "Usado pelo Facebook e outros. Deve ser uma imagem quadrada com pelo menos 800px de largura e altura.",
+	'PRFLAN_226' => "Usado por alguns temas como a imagem de cabeçalho em algumas páginas.",
+	'PRFLAN_227' => "Usado por alguns temas. Coloque 'SITETAG' no seu tema para usar este valor.",
+	'PRFLAN_228' => "Usado por alguns temas. Coloque 'SITEDESCRIPTION' no seu tema para usar este valor.",
+	'PRFLAN_229' => "Usado por alguns temas. Coloque 'SITEDISCLAIMER' no seu tema para usar este valor.",
+	'PRFLAN_230' => "Formato de campo de entrada de data/hora",
+	'PRFLAN_231' => "Máximo de tentativas de login falhadas antes de banir:",
+	'PRFLAN_232' => "Tentativas de login falhadas a partir do mesmo IP serão banidas após este número de tentativas.",
+	'PRFLAN_233' => "Moderado Comentários feitos por:",
+	'PRFLAN_234' => "Comentários precisarão de aprovação manual por um administrador antes de serem visíveis para outros utilizadores",
+	'PRFLAN_235' => "Ordenação dos comentários:",
+	'PRFLAN_236' => "Comentários mais recentes primeiro",
+	'PRFLAN_237' => "Comentários mais recentes por último",
+	'PRFLAN_238' => "Carregamento de ficheiros",
+	'PRFLAN_239' => "O tamanho máximo de upload imposto pelas configurações do php.ini é:",
+	'PRFLAN_240' => "Limites de tipo de ficheiro para upload",
+	'PRFLAN_241' => "** Por questões de segurança, estes valores só podem ser alterados manualmente no seguinte ficheiro:",
+	'PRFLAN_242' => "Frameworks Javascript (apenas para fins de teste)",
+	'PRFLAN_243' => "Automático (sob pedido)",
+	'PRFLAN_244' => "Área de administração",
+	'PRFLAN_245' => "Front-End",
+	'PRFLAN_246' => "Ambos",
+	'PRFLAN_247' => "Desativado",
+	'PRFLAN_248' => "Desativar consolidação de scripts",
+	'PRFLAN_249' => "Se desativado, os scripts serão carregados em um único ficheiro consolidado",
+	'PRFLAN_250' => "Ativar compressão zlib para scripts consolidados:",
+	'PRFLAN_251' => "Usado apenas quando a consolidação de scripts está ativada",
+	'PRFLAN_252' => "Desativar cache de servidor para scripts consolidados:",
+	'PRFLAN_253' => "Desativar cache de navegador para scripts consolidados:",
+	'PRFLAN_254' => "Email &amp; Informações de Contato",
+	'PRFLAN_255' => "Carregamento de ficheiros",
+	'PRFLAN_256' => "Opções Avançadas",
+	'PRFLAN_257' => "Bibliotecas",
+	'PRFLAN_258' => "Visibilidade do formulário de contato",
+	'PRFLAN_259' => "Registo & Login",
+	'PRFLAN_260' => "Apenas login",
+	'PRFLAN_261' => "Opções de campo",
+	'PRFLAN_262' => "Palavra-passe na confirmação de email",
+	'PRFLAN_263' => "Deve ser única para este site",
+	'PRFLAN_264' => "Página inicial é a página de login (login.php)",
+	'PRFLAN_265' => "Página inicial é a página de introdução (membersonly.php)",
+	'PRFLAN_266' => "Quando desconectado, para qual página deve o utilizador ser direcionado?",
+	'PRFLAN_267' => "Método de envio de email",
+	'PRFLAN_268' => "Edição Inline no Frontend",
+	'PRFLAN_269' => "Administradores com esta classe de utilizador (e permissões adequadas) poderão editar HTML diretamente na área do frontend.",
+	'PRFLAN_270' => "Filtragem do Formulário de Contato",
+	'PRFLAN_271' => "Ignorar submissões de formulários contendo estas palavras ou frases. Uma por linha.",
+	'PRFLAN_272' => "Duração da Sessão",
+	'PRFLAN_273' => "Duração em segundos. 0 = até o navegador ser fechado.",
+	'PRFLAN_274' => "O formulário de contato será visível apenas para este grupo de classe de utilizadores.",
+	'PRFLAN_275' => "Visualize esta página usando https (SSL) para modificar esta opção",
+	'PRFLAN_276' => "Padrão PHP (Preferido)",
+	'PRFLAN_277' => "Configurações GDPR",
+	'PRFLAN_278' => "URL para a Política de Privacidade",
+	'PRFLAN_279' => "Certifique-se de que a URL existe! É melhor usar uma URL absoluta. Esta configuração será usada em todos os locais que exigem consentimento do utilizador (ex.: registo, formulário de contato/menu, etc.).",
+	'PRFLAN_280' => "URL para os termos e condições do site",
+	'PRFLAN_281' => "Os 2 links acima são usados em várias páginas deste site (ex.: registo e formulário de contato/menu).\\nPor favor, crie 2 páginas (se ainda não estiverem criadas) que contenham a 'Política de Privacidade' e os 'Termos e Condições' do site.\\nExistem vários sites que podem gerar este texto para você.\\nCopie as URLs desses sites nos campos acima (ex.: /page/privacy-policy ou /page/terms-and-conditions).\\nCertifique-se de que as páginas e URLs existem e estão a funcionar!",
+	'PRFLAN_282' => "Método de salvamento da sessão",
+	'PRFLAN_283' => "Exibir rótulos da barra de navegação",
+	'PRFLAN_284' => "Colapsar a barra lateral de navegação por padrão",
+	'PRFLAN_285' => "Exibir dicas de ajuda nos campos",
+	'PRFLAN_286' => "Filtros de conteúdo",
+	'PRFLAN_287' => "Apresentar botão de depuração na área de administração",
+	'PRFLAN_288' => "Hosts confiáveis",
+	'PRFLAN_289' => "Nomes de host adicionais que o site aceitará no cabeçalho Host, um por linha. O host extraído do URL do site é sempre confiável; as entradas aqui são adicionadas a essa lista. Se colares um URL completo, o valor guardado é normalizado apenas para o host.",
+];

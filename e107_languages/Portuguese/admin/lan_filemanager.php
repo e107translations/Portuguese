@@ -1,31 +1,53 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+// define("FMLAN_1", "Uploaded");
+// define("FMLAN_2", "to");
+// define("FMLAN_3", "directory");
+// define("FMLAN_4", "The uploaded file exceeds the upload_max_filesize directive in php.ini.");
+// define("FMLAN_5", "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the html form.");
+// define("FMLAN_6", "The uploaded file was only partially uploaded.");
+// define("FMLAN_7", "No file was uploaded.");
+// define("FMLAN_8", "Uploaded file size 0 bytes");
+// define("FMLAN_9", "The file did not upload. Filename");
+//define("FMLAN_10", "Error");
+// define("FMLAN_11", "Probably incorrect permissions on upload directory.");
 
-define("FMLAN_12", "arquivo");
-define("FMLAN_13", "arquivos");
-define("FMLAN_14", "diretório");
-define("FMLAN_15", "diretórios");
-define("FMLAN_16", "Diretório raiz");
-define("FMLAN_18", "Tamanho");
-define("FMLAN_19", "Última modificação");
-define("FMLAN_21", "Carregamento de arquivo para este dir");
-define("FMLAN_22", "Fazer carregamento");
-define("FMLAN_29", "Caminho");
-define("FMLAN_30", "Nível acima");
-define("FMLAN_31", "pasta");
-define("FMLAN_32", "Selecione o diretório");
-define("FMLAN_34", "Escolha do diretório");
-define("FMLAN_35", "Diretório de arquivos");
-define("FMLAN_38", "Arquivo movido com êxito para");
-define("FMLAN_39", "Incapaz de se mover o arquivo para");
-define("FMLAN_40", "Diretório de Newsposter-imagens");
-define("FMLAN_43", "Apagar arquivos selecionados");
-define("FMLAN_46", "Por favor, confirme que você deseja excluir os arquivos selecionados.");
-define("FMLAN_47", "Uploads de utilizador");
-define("FMLAN_48", "Mover selecionado para");
-define("FMLAN_49", "Por favor, confirme que você deseja mover os arquivos selecionados.");
-define("FMLAN_50", "Mover");
-define("FMLAN_51", "Erro não identificado");
+return [
+	'FMLAN_12' => "arquivo",
+	'FMLAN_13' => "arquivos",
+	'FMLAN_14' => "diretório",
+	'FMLAN_15' => "diretórios",
+	'FMLAN_16' => "Diretório Raiz",
+	'FMLAN_18' => "Tamanho",
+	'FMLAN_19' => "Última Modificação",
+	'FMLAN_21' => "Carregar arquivo para este diretório",
+	'FMLAN_22' => "Carregar",
+	'FMLAN_29' => "Caminho",
+	'FMLAN_30' => "Nível superior",
+	'FMLAN_31' => "pasta",
+	'FMLAN_32' => "Selecionar Diretório",
+	'FMLAN_34' => "Escolha do Diretório",
+	'FMLAN_35' => "Diretório de Arquivos",
+	'FMLAN_38' => "Arquivo movido com sucesso para",
+	'FMLAN_39' => "Não foi possível mover o arquivo para",
+	'FMLAN_40' => "Diretório de Imagens de Notícias",
+	'FMLAN_43' => "Excluir arquivos selecionados",
+	'FMLAN_46' => "Por favor, confirme que deseja EXCLUIR os arquivos selecionados.",
+	'FMLAN_47' => "Uploads de Usuários",
+	'FMLAN_48' => "Mover selecionados para",
+	'FMLAN_49' => "Por favor, confirme que deseja mover os arquivos selecionados.",
+	'FMLAN_50' => "Mover",
+	'FMLAN_51' => "Erro não identificado",
+];

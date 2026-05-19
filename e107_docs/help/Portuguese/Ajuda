@@ -1,0 +1,9 @@
+
+Q>	Fiz algumas alterações no meu site e agora estou a receber erros de MySQL e o meu site não aparece.
+A>	Pode ser que o seu núcleo tenha ficado corrompido. O núcleo são as configurações e variáveis principais do e107. Para restaurar o seu núcleo, vá a http://seusite.com/e107_files/resetcore/resetcore.php. Faça sempre um backup do seu núcleo (a partir da tela de base de dados) antes de aplicar alterações, depois poderá restaurar o backup do núcleo caso algo corra mal (novamente a partir do resetcore.php).
+
+Q>	Esqueci-me da minha palavra-passe de administrador principal e agora não consigo aceder à área de administração.
+A>	Por motivos de segurança, é impossível restabelecer a sua palavra-passe a menos que esteja autenticado. Se não anotou a sua palavra-passe num local seguro, faça-o agora para que este cenário nunca mais aconteça. Se acontecer, terá de restabelecer a sua palavra-passe manualmente utilizando o phpMyAdmin ou outro gestor MySQL semelhante. Vá à tabela de utilizadores, o administrador principal deve ser o utilizador número 1. Clique no botão de editar e altere a palavra-passe para 4cb9c8a8048fd02294477fcb1a41191a, isto alterará a sua palavra-passe para changeme. Agora, inicie sessão e [b]atualize a sua palavra-passe imediatamente[/b].
+
+Q>	Instalei um tema/plugin, etc., e agora o meu site não está acessível, o que posso fazer?
+A>	Use o resetcore.php (veja acima).

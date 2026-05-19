@@ -1,22 +1,21 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/userclass2.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       TraduÃ§Ã£o PortuguÃªs(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Ajuda da classe de utilizador";
+$caption = "Ajuda:<br />
+			# Classes de Utilizadores";
 
 if (!($action = vartrue($_GET['action'])))
 {
@@ -29,49 +28,49 @@ if (!($action = vartrue($_GET['action'])))
 switch ($action)
 {
   case 'initial' :
-	$text = "Defina as classes às quais um novo membro do site será atribuído inicialmente.
-Se você tiver a verificação ativada, essa atribuição poderá ocorrer quando o utilizador se inscrever ou quando o utilizador for verificado.<br /><br />
-E lembre-se de que se você estiver usando classes de utilizador hierárquicas, um utilizador será automaticamente membro de todas as classes 'acima' de cada classe selecionada na árvore";
+	$text = "Defina as classes Ã s quais um novo membro do site serÃ¡ atribuÃ­do inicialmente.
+Se vocÃª tiver a verificaÃ§Ã£o ativada, essa atribuiÃ§Ã£o poderÃ¡ ocorrer quando o utilizador se inscrever ou quando o utilizador for verificado.<br /><br />
+E lembre-se de que se vocÃª estiver usando classes de utilizador hierÃ¡rquicas, um utilizador serÃ¡ automaticamente membro de todas as classes 'acima' de cada classe selecionada na Ã¡rvore";
 	break;
   case 'options' :
-	$text = "As opções de configuração permitem criar e remover a hierarquia de classes padrão. Você pode ver o efeito olhando a árvore de usuários.<br />
-Isso não destruirá as informações de outras classes e você poderá modificar ou remover a hierarquia posteriormente.<br /><br />
-Você só precisará reconstruir a hierarquia de classes se ocorrer corrupção do banco de dados";
+	$text = "As opÃ§Ãµes de configuraÃ§Ã£o permitem criar e remover a hierarquia de classes padrÃ£o. VocÃª pode ver o efeito olhando a Ã¡rvore de usuÃ¡rios.<br />
+Isso nÃ£o destruirÃ¡ as informaÃ§Ãµes de outras classes e vocÃª poderÃ¡ modificar ou remover a hierarquia posteriormente.<br /><br />
+VocÃª sÃ³ precisarÃ¡ reconstruir a hierarquia de classes se ocorrer corrupÃ§Ã£o do banco de dados";
 	break;
   case 'membs' :
-    $text = "Agora na página de administração do utilizador";
+    $text = "Agora na pÃ¡gina de administraÃ§Ã£o do utilizador";
 	break;
   case 'debug' :
-	$text = "Somente para usuários avançados - mostra a hierarquia das classes, mais as classes atribuídas e as classes às quais os primeiros 20 membros do site têm acesso.<br />
-O número na frente do nome da classe é seu ID exclusivo (número de referência). A classe 'Todos' possui um ID 0 (zero). e107 usa esses IDs para se referir às classes.<br />
-Depois do nome da classe vem a visibilidade e editabilidade da classe - [vis:253, edit: 27] por exemplo. Isso significa que a classe estará visível na maioria dos seletores somente se o utilizador atual for membro da classe 253,
-e o utilizador poderá editar sua associação de classe somente se for membro da classe 27.<br />
-Finalmente, após o '=', há uma lista de todas as classes acima ou abaixo de cada classe na árvore, mais o ID dessa classe. Assim, um utilizador que é membro de uma classe específica irá
+	$text = "Somente para usuÃ¡rios avanÃ§ados - mostra a hierarquia das classes, mais as classes atribuÃ­das e as classes Ã s quais os primeiros 20 membros do site tÃªm acesso.<br />
+O nÃºmero na frente do nome da classe Ã© seu ID exclusivo (nÃºmero de referÃªncia). A classe 'Todos' possui um ID 0 (zero). e107 usa esses IDs para se referir Ã s classes.<br />
+Depois do nome da classe vem a visibilidade e editabilidade da classe - [vis:253, edit: 27] por exemplo. Isso significa que a classe estarÃ¡ visÃ­vel na maioria dos seletores somente se o utilizador atual for membro da classe 253,
+e o utilizador poderÃ¡ editar sua associaÃ§Ã£o de classe somente se for membro da classe 27.<br />
+Finalmente, apÃ³s o '=', hÃ¡ uma lista de todas as classes acima ou abaixo de cada classe na Ã¡rvore, mais o ID dessa classe. Assim, um utilizador que Ã© membro de uma classe especÃ­fica irÃ¡
 ser membro de todas as classes desta lista.<br /><br />
-Para ajudar na compreensão, são mostrados os membros da classe dos primeiros 20 membros. A primeira entrada de cada linha mostra as classes das quais o utilizador é membro. O
-a segunda entrada lista todas as classes das quais o utilizador é membro quando a herança entra em vigor. A terceira entrada mostra quais associações de classe eles podem editar";
+Para ajudar na compreensÃ£o, sÃ£o mostrados os membros da classe dos primeiros 20 membros. A primeira entrada de cada linha mostra as classes das quais o utilizador Ã© membro. O
+a segunda entrada lista todas as classes das quais o utilizador Ã© membro quando a heranÃ§a entra em vigor. A terceira entrada mostra quais associaÃ§Ãµes de classe eles podem editar";
 	break;
   case 'test' :
   case 'special' :
-    $text = "Não use isto!!! Somente para desenvolvedores!!!";
+    $text = "NÃ£o use isto!!! Somente para desenvolvedores!!!";
 	break;
   case 'edit' :
   case 'config' :
-	$text = "Você pode criar classes ou editar classes existentes nesta página.<br />
-         Isso é útil para restringir usuários a determinadas partes do seu site. Por exemplo, você poderia criar uma classe chamada TEST,
-em seguida, crie um fórum que permita apenas que usuários da classe TEST o acessem.<br /><br />
-O nome da classe é exibido em listas suspensas e similares; em alguns lugares, a descrição mais detalhada também é exibida.<br /><br />
-O ícone da classes poderá ser exibido em vários locais do site, caso haja algum configurado.<br /><br />
-Para permitir que os usuários determinem se podem ser membros de uma classe, permita que eles a gerenciem. Se você definir 'ninguém' aqui, apenas os administradores
-pode gerenciar a associação da classe<br /><br />
-O campo 'visibilidade' permite ocultar a classe da maioria dos membros - aplica-se em algumas listas suspensas e caixas de seleção.<br /><br />
-A 'classe pai' permite definir uma hierarquia de classes. Se o 'topo' da hierarquia for a classe 'Todos/Público' ou 'Membro', o
-as classes mais abaixo na hierarquia também têm os direitos de sua classe pai, e do pai dessa classe, e assim por diante. Se o 'topo' da hierarquia for
-classe 'Ninguém/Ninguém', então os direitos são acumulados na direção oposta - uma classe acumula todos os direitos de uma classe <b>abaixo</b> dela no
-árvore. A árvore resultante é mostrada na parte inferior da página; você pode expandir e contrair filiais clicando nas caixas '+' e '-'.";
+	$text = "VocÃª pode criar classes ou editar classes existentes nesta pÃ¡gina.<br />
+         Isso Ã© Ãºtil para restringir usuÃ¡rios a determinadas partes do seu site. Por exemplo, vocÃª poderia criar uma classe chamada TEST,
+em seguida, crie um fÃ³rum que permita apenas que usuÃ¡rios da classe TEST o acessem.<br /><br />
+O nome da classe Ã© exibido em listas suspensas e similares; em alguns lugares, a descriÃ§Ã£o mais detalhada tambÃ©m Ã© exibida.<br /><br />
+O Ã­cone da classes poderÃ¡ ser exibido em vÃ¡rios locais do site, caso haja algum configurado.<br /><br />
+Para permitir que os usuÃ¡rios determinem se podem ser membros de uma classe, permita que eles a gerenciem. Se vocÃª definir 'ninguÃ©m' aqui, apenas os administradores
+pode gerenciar a associaÃ§Ã£o da classe<br /><br />
+O campo 'visibilidade' permite ocultar a classe da maioria dos membros - aplica-se em algumas listas suspensas e caixas de seleÃ§Ã£o.<br /><br />
+A 'classe pai' permite definir uma hierarquia de classes. Se o 'topo' da hierarquia for a classe 'Todos/PÃºblico' ou 'Membro', o
+as classes mais abaixo na hierarquia tambÃ©m tÃªm os direitos de sua classe pai, e do pai dessa classe, e assim por diante. Se o 'topo' da hierarquia for
+classe 'NinguÃ©m/NinguÃ©m', entÃ£o os direitos sÃ£o acumulados na direÃ§Ã£o oposta - uma classe acumula todos os direitos de uma classe <b>abaixo</b> dela no
+Ã¡rvore. A Ã¡rvore resultante Ã© mostrada na parte inferior da pÃ¡gina; vocÃª pode expandir e contrair filiais clicando nas caixas '+' e '-'.";
 	break;
   case 'display' :
   default :
-	$text = "Você pode selecionar classes para edição e também excluir classes existentes nesta página.";
+	$text = "VocÃª pode selecionar classes para ediÃ§Ã£o e tambÃ©m excluir classes existentes nesta pÃ¡gina.";
 }
-e107::getRender() -> tablerender(mb_convert_encoding($caption, "HTML-ENTITIES", "ISO-8859-1"), mb_convert_encoding($text, "HTML-ENTITIES", "ISO-8859-1"));
+e107::getRender() -> tablerender($caption, $text);

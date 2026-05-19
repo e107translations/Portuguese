@@ -1,168 +1,174 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/23 19:40:37
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("LAN_DL_OPTIONS", "Opções");
-define("LAN_DL_DOWNLOAD_OPT_GENERAL", "Geral");
-define("LAN_DL_DOWNLOAD_OPT_BROKEN", "Emissão de relatórios");
-define("LAN_DL_DOWNLOAD_OPT_AGREE", "Acordos de");
-define("LAN_DL_DOWNLOAD_OPT_SECURITY", "Protecção");
-define("LAN_DL_UPLOAD", "Fazer carregamento");
-define("LAN_DL_USE_PHP", "Uso PHP");
-define("LAN_DL_USE_PHP_INFO", "Esta verificação irá enviar que todos baixar solicitações através de PHP");
-define("LAN_DL_SUBSUB_CAT", "Mostrar a sub-sub-categorias");
-define("LAN_DL_SUBSUB_CAT_INFO", "Verificar isto mostrará a sub-sub-categorias na página principal de transferência");
-define("LAN_DL_SUBSUB_COUNT", "Combinar a categoria contagens");
-define("LAN_DL_SUBSUB_COUNT_INFO", "Inclui sub-sub-categoria contagens em contagens de subcategoria");
-define("LAN_DL_BROKENDOWNLOADSREPORTS", "Relatórios de downloads corrompidos");
-define("DOWLAN_1", "Transferência adicionado ao banco de dados.");
-define("DOWLAN_2", "Transferência atualizado no banco de dados.");
-define("DOWLAN_5", "Não há nenhum transferência categorias definidas ainda, até que você definir algumas que você não pode inserir todos os downloads.");
-define("DOWLAN_8", "Nada mudou - não salvo");
-define("DOWLAN_9", "Detalhes de transferência:");
-define("DOWLAN_10", "Carregamentos");
-define("DOWLAN_11", "Categoria");
-define("DOWLAN_12", "Nome");
-define("DOWLAN_13", "Arquivo");
-define("DOWLAN_15", "Autor");
-define("DOWLAN_16", "Endereço electrónico do autor");
-define("DOWLAN_17", "Site do autor");
-define("DOWLAN_18", "Descrição");
-define("DOWLAN_19", "Imagem principal");
-define("DOWLAN_20", "Imagem em miniatura");
-define("DOWLAN_21", "Estatuto");
-define("DOWLAN_22", "Lista de uploads");
-define("DOWLAN_23", "Tipos de arquivo");
-define("DOWLAN_24", "Transferência de atualização");
-define("DOWLAN_25", "Submeter Transferência");
-define("DOWLAN_27", "Baixar");
-define("DOWLAN_29", "Requeridas");
-define("DOWLAN_31", "Categorias");
-define("DOWLAN_32", "Downloads");
-define("DOWLAN_33", "Tem certeza que deseja excluir este transferência?");
-define("DOWLAN_42", "Imagens de exibição");
-define("DOWLAN_43", "Visível para");
-define("DOWLAN_55", "Número de downloads para exibir por página");
-define("DOWLAN_56", "Ordenar por");
-define("DOWLAN_59", "Nome do arquivo");
-define("DOWLAN_62", "Ascendente");
-define("DOWLAN_63", "Decrescente");
-define("DOWLAN_64", "Opções de atualização");
-define("DOWLAN_65", "Opções de atualização");
-define("DOWLAN_66", "Tamanho do arquivo");
-define("DOWLAN_68", "Arquivo ausente!");
-define("DOWLAN_100", "Ativar o Transferência de acordo");
-define("DOWLAN_101", "Texto de acordo");
-define("DOWLAN_102", "Permitir comentários?");
-define("DOWLAN_103", "Remover de Uploads");
-define("DOWLAN_104", "foi removido de carregamentos de públicos");
-define("DOWLAN_105", "Volta ao públicos Uploads");
-define("DOWLAN_106", "Pode ser baixado por");
-define("DOWLAN_107", "Limit transferência contagem");
-define("DOWLAN_108", "Largura de banda de transferência Limit");
-define("DOWLAN_109", "cada");
-define("DOWLAN_110", "dias");
-define("DOWLAN_111", "KB");
-define("DOWLAN_112", "Limites");
-define("DOWLAN_113", "Classe de utilizador");
-define("DOWLAN_114", "Adicionar novo limite");
-define("DOWLAN_115", "Atualização de limites");
-define("DOWLAN_116", "O limite para essa classe de utilizador já existe");
-define("DOWLAN_117", "Limite adicionado com sucesso");
-define("DOWLAN_118", "Limite não adicionado – erro desconhecido");
-define("DOWLAN_119", "Limite removido com sucesso");
-define("DOWLAN_120", "Limite não removido – erro desconhecido");
-define("DOWLAN_121", "Limite atualizado com sucesso");
-define("DOWLAN_122", "Inativo");
-define("DOWLAN_123", "Ativo - arquivo está sujeita a limites de transferência");
-define("DOWLAN_124", "Ativo - arquivo não está sujeita a limites de transferência");
-define("DOWLAN_125", "Baixar limites ativo");
-define("DOWLAN_126", "Status de ativação atualizado");
-define("DOWLAN_128", "Espelhos");
-define("DOWLAN_129", "Deixe em branco se não usando espelhos");
-define("DOWLAN_130", "Adicionar outro espelho");
-define("DOWLAN_131", "Selecione o arquivo local");
-define("DOWLAN_132", "Por favor insira o espelho para usar e, em seguida, dirigir-se para fazer o transferência e o tamanho do arquivo");
-define("DOWLAN_133", "Espelho atualizado no banco de dados");
-define("DOWLAN_134", "Espelho salvo no banco de dados");
-define("DOWLAN_135", "Espelho eliminado");
-define("DOWLAN_136", "imagem");
-define("DOWLAN_137", "Tem certeza que deseja excluir este espelho?");
-define("DOWLAN_138", "Espelhos existentes");
-define("DOWLAN_139", "Endereço");
-define("DOWLAN_140", "Carregamento de imagens locais para e107_files/downloadimages para lhes mostrar aqui, ou digite o endereço completo se a imagem é remota");
-define("DOWLAN_141", "Localização");
-define("DOWLAN_142", "Espelho de atualização");
-define("DOWLAN_143", "Criar o espelho");
-define("DOWLAN_144", "Sem espelhos definidos na seção de espelho.");
-define("DOWLAN_145", "Baixar visível para");
-define("DOWLAN_146", "Mensagem de Download-negação ou URL personalizado");
-define("DOWLAN_148", "Seleção para atualizar o carimbo de data para o tempo atual");
-define("DOWLAN_149", "URL");
-define("DOWLAN_151", "Relatórios disponíveis para download-quebrado");
-define("DOWLAN_152", "Não podia mover o arquivo");
-define("DOWLAN_153", "Mover o arquivo para a pasta de transferência");
-define("DOWLAN_154", "se usando espelhos, selecione como eles serão exibidos");
-define("DOWLAN_155", "Tipo de visor de espelho:");
-define("DOWLAN_156", "Mostrar lista de espelho, permitir que o utilizador escolha o mirror");
-define("DOWLAN_157", "Use o espelho aleatório - não escolha do utilizador");
-define("DOWLAN_160", "Ordem da lista de espelho");
-define("DOWLAN_161", "Aleatórios");
-define("DOWLAN_164", "Últimos downloads de idade (em dias)");
-define("DOWLAN_165", "Baixar manutenção");
-define("DOWLAN_166", "Duplicatas");
-define("DOWLAN_167", "Órfãos");
-define("DOWLAN_168", "Falta");
-define("DOWLAN_169", "Inativo");
-define("DOWLAN_171", "Log de");
-define("DOWLAN_172", "Sem entradas");
-define("DOWLAN_173", "Tem certeza que deseja excluir este arquivo?");
-define("DOWLAN_174", "Não há arquivos órfãos encontrados");
-define("DOWLAN_175", "Local");
-define("DOWLAN_176", "Externo");
-define("DOWLAN_178", "Sem categoria");
-define("DOWLAN_179", "Selecione uma opção no menu de opções de manutenção");
-define("DOWLAN_180", "Tamanho do arquivo (banco de dados/disco)");
-define("DOWLAN_181", "Não pode ser lido");
-define("DOWLAN_182", "Carimbo de data e hora");
-define("DOWLAN_185", "Arquivos referenciados várias vezes no banco de dados");
-define("DOWLAN_186", "Arquivos não referenciados no banco de dados");
-define("DOWLAN_187", "Entradas de banco de dados, fazer referência a arquivos inexistentes");
-define("DOWLAN_188", "Entradas de banco de dados marcadas como inativas");
-define("DOWLAN_189", "Entires de banco de dados não associados a uma categoria");
-define("DOWLAN_190", "Diferenças de tamanho entre a entrada do banco de dados e o próprio arquivo.");
-define("DOWLAN_191", "Downloads de entradas de log");
-define("DOWLAN_192", "Executar a opção selecionada");
-define("DOWLAN_193", "Selecione a opção");
-define("DOWLAN_195", "Tipo de espelho");
-define("DOWLAN_196", "lista");
-define("DOWLAN_197", "aleatórios");
-define("DOWLAN_199", "Enviado por");
-define("DOWLAN_HELP_1", "Ajuda");
-define("DOWLAN_HELP_2", "<p>Criar/editar um transferência.</p><p>Digite apenas um dos: arquivo, URL ou espelho.</p><p>Certifique-se você selecionar uma categoria, caso contrário seu transferência não será visível na página de downloads.</p>");
-define("DOWLAN_HELP_3", "Ajuda para categoria");
-define("DOWLAN_HELP_4", "Ajuda para opção");
-define("DOWLAN_HELP_5", "Use as páginas de manutenção para encontrar downloads duplicados, encontrar arquivos órfãos, encontrar faltando entradas (quebradas), gerenciar downloads inativos, atualizar os tamanhos de arquivo e exibir o log de downlaod.");
-define("DOWLAN_HELP_6", "Ajuda para os limites");
-define("DOWLAN_HELP_7", "Ajuda para espelho");
-define("DOWLAN_HELP_8", "Ajuda para lista de carregamento");
-define("DOWLAN_HELP_9", "Ajuda para carregamento de tipos");
-define("DOWLAN_HELP_10", "Ajuda para opções de carregamento");
-define("DOWLAN_HELP_11", "Clique no botão 'excluir' para excluir o relatório.[br][br]Clique no botão 'visualizar' para gerenciar o transferência.[br][br]Para ser notificado sobre quaisquer novos relatórios, consulte as [configurações de notificação] .");
-define("LAN_DL_SECURITY_DESCRIPTION", "Os downloads podem usar recursos de proteção de URL do lado do servidor para evitar hotlinks e/ou impor a expiração do hiperligação. " . "Esta seção deve ser configurada antes que o servidor de transferência seja configurado para reduzir a chance de interrupção dos downloaders.");
-define("LAN_DL_SECURITY_MODE", "Modo de proteção de URL");
-define("LAN_DL_SECURITY_MODE_NONE", "Nenhum (padrão)");
-define("LAN_DL_SECURITY_MODE_NGINX_SECURELINKMD5", "NGINX secure_link_md5");
-define("LAN_DL_SECURITY_NGINX_SUPPORTED_VARIABLES_TOGGLE", "Clique para alternar a lista de variáveis ​​NGINX suportadas");
-define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION", "<a target='_blank' href='https://nginx.org/en/docs/http/ngx_http_secure_link_module.html#secure_link_md5'>Expressão NGINX secure_link_md5</a>");
-define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION_HELP", "Mesma expressão configurada no servidor");
-define("LAN_DL_SECURITY_LINK_EXPIRY", "Duração da validade em segundos");
-define("LAN_DL_SECURITY_LINK_EXPIRY_HELP", "Número de segundos que o hiperligação de transferência deve durar após ser gerado. " . "Só é eficaz se a expressão suportar o tempo de expiração. " . "O padrão é muito longo se este campo for deixado em branco.");
+// define("LAN_PLUGIN_DOWNLOAD_NAME",	   "Downloads");
+
+return [
+	'LAN_DL_OPTIONS' => "Opções",
+	'LAN_DL_DOWNLOAD_OPT_GENERAL' => "Geral",
+	'LAN_DL_DOWNLOAD_OPT_BROKEN' => "Emissão de relatórios",
+	'LAN_DL_DOWNLOAD_OPT_AGREE' => "Acordos de",
+	'LAN_DL_DOWNLOAD_OPT_SECURITY' => "Protecção",
+	'LAN_DL_UPLOAD' => "Fazer carregamento",
+	'LAN_DL_USE_PHP' => "Uso PHP",
+	'LAN_DL_USE_PHP_INFO' => "Esta verificação irá enviar que todos baixar solicitações através de PHP",
+	'LAN_DL_SUBSUB_CAT' => "Mostrar a sub-sub-categorias",
+	'LAN_DL_SUBSUB_CAT_INFO' => "Verificar isto mostrará a sub-sub-categorias na página principal de transferência",
+	'LAN_DL_SUBSUB_COUNT' => "Combinar a categoria contagens",
+	'LAN_DL_SUBSUB_COUNT_INFO' => "Inclui sub-sub-categoria contagens em contagens de subcategoria",
+	'LAN_DL_BROKENDOWNLOADSREPORTS' => "Relatórios de downloads corrompidos",
+	'DOWLAN_1' => "Transferência adicionado ao banco de dados.",
+	'DOWLAN_2' => "Transferência atualizado no banco de dados.",
+	'DOWLAN_5' => "Não há nenhum transferência categorias definidas ainda, até que você definir algumas que você não pode inserir todos os downloads.",
+	'DOWLAN_8' => "Nada mudou - não salvo",
+	'DOWLAN_9' => "Detalhes de transferência:",
+	'DOWLAN_10' => "Carregamentos",
+	'DOWLAN_11' => "Categoria",
+	'DOWLAN_12' => "Nome",
+	'DOWLAN_13' => "Arquivo",
+	'DOWLAN_15' => "Autor",
+	'DOWLAN_16' => "Endereço electrónico do autor",
+	'DOWLAN_17' => "Site do autor",
+	'DOWLAN_18' => "Descrição",
+	'DOWLAN_19' => "Imagem principal",
+	'DOWLAN_20' => "Imagem em miniatura",
+	'DOWLAN_21' => "Estatuto",
+	'DOWLAN_22' => "Lista de uploads",
+	'DOWLAN_23' => "Tipos de arquivo",
+	'DOWLAN_24' => "Transferência de atualização",
+	'DOWLAN_25' => "Submeter Transferência",
+	'DOWLAN_27' => "Baixar",
+	'DOWLAN_29' => "Requeridas",
+	'DOWLAN_31' => "Categorias",
+	'DOWLAN_32' => "Transferências",
+	'DOWLAN_33' => "Tem certeza que deseja excluir este transferência?",
+	'DOWLAN_42' => "Imagens de exibição",
+	'DOWLAN_43' => "Visível para",
+	'DOWLAN_55' => "Número de downloads para exibir por página",
+	'DOWLAN_56' => "Ordenar por",
+	'DOWLAN_59' => "Nome do arquivo",
+	'DOWLAN_62' => "Ascendente",
+	'DOWLAN_63' => "Decrescente",
+	'DOWLAN_64' => "Opções de atualização",
+	'DOWLAN_65' => "Opções de atualização",
+	'DOWLAN_66' => "Tamanho do arquivo",
+	'DOWLAN_68' => "Arquivo ausente!",
+	'DOWLAN_100' => "Ativar o Transferência de acordo",
+	'DOWLAN_101' => "Texto de acordo",
+	'DOWLAN_102' => "Permitir comentários?",
+	'DOWLAN_103' => "Remover de Uploads",
+	'DOWLAN_104' => "foi removido de carregamentos de públicos",
+	'DOWLAN_105' => "Volta ao públicos Uploads",
+	'DOWLAN_106' => "Pode ser baixado por",
+	'DOWLAN_107' => "Limit transferência contagem",
+	'DOWLAN_108' => "Largura de banda de transferência Limit",
+	'DOWLAN_109' => "cada",
+	'DOWLAN_110' => "dias",
+	'DOWLAN_111' => "KB",
+	'DOWLAN_112' => "Limites",
+	'DOWLAN_113' => "Classe de utilizador",
+	'DOWLAN_114' => "Adicionar novo limite",
+	'DOWLAN_115' => "Atualização de limites",
+	'DOWLAN_116' => "O limite para essa classe de utilizador já existe",
+	'DOWLAN_117' => "Limite adicionado com sucesso",
+	'DOWLAN_118' => "Limite não adicionado – erro desconhecido",
+	'DOWLAN_119' => "Limite removido com sucesso",
+	'DOWLAN_120' => "Limite não removido – erro desconhecido",
+	'DOWLAN_121' => "Limite atualizado com sucesso",
+	'DOWLAN_122' => "Inativo",
+	'DOWLAN_123' => "Ativo - arquivo está sujeita a limites de transferência",
+	'DOWLAN_124' => "Ativo - arquivo não está sujeita a limites de transferência",
+	'DOWLAN_125' => "Baixar limites ativo",
+	'DOWLAN_126' => "Status de ativação atualizado",
+	'DOWLAN_128' => "Espelhos",
+	'DOWLAN_129' => "Deixe em branco se não usando espelhos",
+	'DOWLAN_130' => "Adicionar outro espelho",
+	'DOWLAN_131' => "Selecione o arquivo local",
+	'DOWLAN_132' => "Por favor insira o espelho para usar e, em seguida, dirigir-se para fazer o transferência e o tamanho do arquivo",
+	'DOWLAN_133' => "Espelho atualizado no banco de dados",
+	'DOWLAN_134' => "Espelho salvo no banco de dados",
+	'DOWLAN_135' => "Espelho eliminado",
+	'DOWLAN_136' => "imagem",
+	'DOWLAN_137' => "Tem certeza que deseja excluir este espelho?",
+	'DOWLAN_138' => "Espelhos existentes",
+	'DOWLAN_139' => "Endereço",
+	'DOWLAN_140' => "Carregamento de imagens locais para e107_files/downloadimages para lhes mostrar aqui, ou digite o endereço completo se a imagem é remota",
+	'DOWLAN_141' => "Localização",
+	'DOWLAN_142' => "Espelho de atualização",
+	'DOWLAN_143' => "Criar o espelho",
+	'DOWLAN_144' => "Sem espelhos definidos na seção de espelho.",
+	'DOWLAN_145' => "Baixar visível para",
+	'DOWLAN_146' => "Mensagem de Download-negação ou URL personalizado",
+	'DOWLAN_148' => "Seleção para atualizar o carimbo de data para o tempo atual",
+	'DOWLAN_149' => "URL",
+	'DOWLAN_151' => "Relatórios disponíveis para download-quebrado",
+	'DOWLAN_152' => "Não podia mover o arquivo",
+	'DOWLAN_153' => "Mover o arquivo para a pasta de transferência",
+	'DOWLAN_154' => "se usando espelhos, selecione como eles serão exibidos",
+	'DOWLAN_155' => "Tipo de visor de espelho:",
+	'DOWLAN_156' => "Mostrar lista de espelho, permitir que o utilizador escolha o mirror",
+	'DOWLAN_157' => "Use o espelho aleatório - não escolha do utilizador",
+	'DOWLAN_160' => "Ordem da lista de espelho",
+	'DOWLAN_161' => "Aleatórios",
+	'DOWLAN_164' => "Últimos downloads de idade (em dias)",
+	'DOWLAN_165' => "Baixar manutenção",
+	'DOWLAN_166' => "Duplicatas",
+	'DOWLAN_167' => "Órfãos",
+	'DOWLAN_168' => "Falta",
+	'DOWLAN_169' => "Inativo",
+	'DOWLAN_171' => "Log de",
+	'DOWLAN_172' => "Sem entradas",
+	'DOWLAN_173' => "Tem certeza que deseja excluir este arquivo?",
+	'DOWLAN_174' => "Não há arquivos órfãos encontrados",
+	'DOWLAN_175' => "Local",
+	'DOWLAN_176' => "Externo",
+	'DOWLAN_178' => "Sem categoria",
+	'DOWLAN_179' => "Selecione uma opção no menu de opções de manutenção",
+	'DOWLAN_180' => "Tamanho do arquivo (banco de dados/disco)",
+	'DOWLAN_181' => "Não pode ser lido",
+	'DOWLAN_182' => "Carimbo de data e hora",
+	'DOWLAN_185' => "Arquivos referenciados várias vezes no banco de dados",
+	'DOWLAN_186' => "Arquivos não referenciados no banco de dados",
+	'DOWLAN_187' => "Entradas de banco de dados, fazer referência a arquivos inexistentes",
+	'DOWLAN_188' => "Entradas de banco de dados marcadas como inativas",
+	'DOWLAN_189' => "Entires de banco de dados não associados a uma categoria",
+	'DOWLAN_190' => "Diferenças de tamanho entre a entrada do banco de dados e o próprio arquivo.",
+	'DOWLAN_191' => "Downloads de entradas de log",
+	'DOWLAN_192' => "Executar a opção selecionada",
+	'DOWLAN_193' => "Selecione a opção",
+	'DOWLAN_195' => "Tipo de espelho",
+	'DOWLAN_196' => "lista",
+	'DOWLAN_197' => "aleatórios",
+	'DOWLAN_199' => "Enviado por",
+	'DOWLAN_HELP_1' => "Ajuda",
+	'DOWLAN_HELP_2' => "<p>Criar/editar um transferência.</p><p>Digite apenas um dos: arquivo, URL ou espelho.</p><p>Certifique-se você selecionar uma categoria, caso contrário seu transferência não será visível na página de downloads.</p>",
+	'DOWLAN_HELP_3' => "Ajuda para categoria",
+	'DOWLAN_HELP_4' => "Ajuda para opção",
+	'DOWLAN_HELP_5' => "Use as páginas de manutenção para encontrar downloads duplicados, encontrar arquivos órfãos, encontrar faltando entradas (quebradas), gerenciar downloads inativos, atualizar os tamanhos de arquivo e exibir o log de downlaod.",
+	'DOWLAN_HELP_6' => "Ajuda para os limites",
+	'DOWLAN_HELP_7' => "Ajuda para espelho",
+	'DOWLAN_HELP_8' => "Ajuda para lista de carregamento",
+	'DOWLAN_HELP_9' => "Ajuda para carregamento de tipos",
+	'DOWLAN_HELP_10' => "Ajuda para opções de carregamento",
+	'DOWLAN_HELP_11' => "Clique no botão 'excluir' para excluir o relatório.[br][br]Clique no botão 'visualizar' para gerenciar o transferência.[br][br]Para ser notificado sobre quaisquer novos relatórios, consulte as [configurações de notificação] .",
+	'LAN_DL_SECURITY_DESCRIPTION' => "Os downloads podem usar recursos de proteção de URL do lado do servidor para evitar hotlinks e/ou impor a expiração do hiperligação. " . "Esta seção deve ser configurada antes que o servidor de transferência seja configurado para reduzir a chance de interrupção dos downloaders.",
+	'LAN_DL_SECURITY_MODE' => "Modo de proteção de URL",
+	'LAN_DL_SECURITY_MODE_NONE' => "Nenhum (padrão)",
+	'LAN_DL_SECURITY_MODE_NGINX_SECURELINKMD5' => "NGINX secure_link_md5",
+	'LAN_DL_SECURITY_NGINX_SUPPORTED_VARIABLES_TOGGLE' => "Clique para alternar a lista de variáveis ​​NGINX suportadas",
+	'LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION' => "<a target='_blank' href='https://nginx.org/en/docs/http/ngx_http_secure_link_module.html#secure_link_md5'>Expressão NGINX secure_link_md5</a>",
+	'LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION_HELP' => "Mesma expressão configurada no servidor",
+	'LAN_DL_SECURITY_LINK_EXPIRY' => "Duração da validade em segundos",
+	'LAN_DL_SECURITY_LINK_EXPIRY_HELP' => "Número de segundos que o hiperligação de transferência deve durar após ser gerado. " . "Só é eficaz se a expressão suportar o tempo de expiração. " . "O padrão é muito longo se este campo for deixado em branco.",
+];

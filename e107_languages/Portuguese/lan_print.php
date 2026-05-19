@@ -1,15 +1,20 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PRINT_86", "Categoria:");
-define("LAN_PRINT_87", "por");
-define("LAN_PRINT_94", "Postado por");
-define("LAN_PRINT_135", "Notícia:");
-define("LAN_PRINT_303", "Esta notícia é de");
-define("LAN_PRINT_305", "Subposição:");
-define("LAN_PRINT_306", "Isto é de:");
-define("LAN_PRINT_307", "Imprimir esta página");
-define("LAN_PRINT_1", "impressora amigável");
+return [
+	'LAN_PRINT_303' => "Este artigo de notícias é de ",
+	'LAN_PRINT_307' => "Imprimir esta página",
+	'LAN_PRINT_1' => "impressão amigável",
+	'LAN_PRINT_PAGE_NAME' => "Versão para impressão",
+];

@@ -1,0 +1,6 @@
+
+Q>	Para que serve esta seção?
+A>	Esta tela permite tornar o seu site inacessível para os visitantes. Utilize-a quando estiver a atualizar o seu site ou quando precisar de o retirar por algum motivo. Apenas o administrador principal do site pode aceder ao site quando este está em modo de manutenção; saberá que está neste modo porque aparecerá uma mensagem em todas as páginas.
+
+Q>	Socorro! Eu ativei a bandeira de manutenção e, por acidente, saí da sessão. Como posso voltar a aceder à seção de administração para colocar o site online novamente?
+A>	Vá para http://seusite.com/e107_admin/admin.php e faça login a partir daí.

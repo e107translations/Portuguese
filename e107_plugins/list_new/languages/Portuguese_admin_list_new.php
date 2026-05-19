@@ -1,91 +1,106 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/25 11:47:01
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("LIST_PLUGIN_3", "Configurar o Menu principal");
-define("LIST_PLUGIN_4", "O plugin List_new está agora pronto para ser usado.");
-define("LIST_PLUGIN_6", "Este plugin não está instalado.");
-define("LIST_ADMIN_1", "recentes");
-define("LIST_ADMIN_2", "configurações de atualização");
-define("LIST_ADMIN_3", "configurações atualizadas");
-define("LIST_ADMIN_4", "seção");
-define("LIST_ADMIN_5", "menu de");
-define("LIST_ADMIN_6", "página de vídeo");
-define("LIST_ADMIN_7", "habilitado");
-define("LIST_ADMIN_8", "desabilitado");
-define("LIST_ADMIN_9", "Abra");
-define("LIST_ADMIN_10", "fechado");
-define("LIST_ADMIN_11", "atualização");
-define("LIST_ADMIN_12", "escolha");
-define("LIST_ADMIN_13", "Bem-vindo à página do recente '. SITENAME.'! Esta página apresenta, para as seções mais comuns deste site, uma lista das mais recentes adições nessas seções.");
-define("LIST_ADMIN_14", "adições recentes");
-define("LIST_ADMIN_15", "novas desde sua última visita");
-define("LIST_ADMIN_16", "Bem-vindo à nova página do '. SITENAME.'! Esta página mostra, para as seções mais comuns deste site, uma lista das adições nestas seções desde sua última visita.");
-define("LIST_ADMIN_17", "Nada mudou - não atualizado");
-define("LIST_ADMIN_SECT_1", "seções");
-define("LIST_ADMIN_SECT_2", "escolha quais seções para mostrar");
-define("LIST_ADMIN_SECT_4", "estilo de exibição");
-define("LIST_ADMIN_SECT_5", "escolha quais seções são abertas por padrão");
-define("LIST_ADMIN_SECT_7", "autor");
-define("LIST_ADMIN_SECT_8", "escolha se o autor deve ser exibido");
-define("LIST_ADMIN_SECT_10", "Categoria");
-define("LIST_ADMIN_SECT_11", "escolher se a categoria deve ser exibida");
-define("LIST_ADMIN_SECT_13", "Data");
-define("LIST_ADMIN_SECT_14", "escolher se a data deve ser exibida");
-define("LIST_ADMIN_SECT_16", "itens quantidade");
-define("LIST_ADMIN_SECT_17", "escolher quantos itens devem ser exibidos para cada seção");
-define("LIST_ADMIN_SECT_19", "itens do pedido");
-define("LIST_ADMIN_SECT_20", "escolha a ordem em que as seções devem ser exibidas");
-define("LIST_ADMIN_SECT_22", "ícone de");
-define("LIST_ADMIN_SECT_23", "escolher um ícone para cada seção");
-define("LIST_ADMIN_SECT_25", "Legenda");
-define("LIST_ADMIN_SECT_26", "define uma legenda para cada seção");
-define("LIST_ADMIN_OPT_1", "geral");
-define("LIST_ADMIN_OPT_2", "página recente");
-define("LIST_ADMIN_OPT_3", "menu recente");
-define("LIST_ADMIN_OPT_4", "nova página");
-define("LIST_ADMIN_OPT_5", "novo menu");
-define("LIST_ADMIN_OPT_6", "Opções");
-define("LIST_ADMIN_MENU_2", "ícone: padrão");
-define("LIST_ADMIN_MENU_3", "Use bala de tema padrão, se o ícone não estiver presente ou se o ícone: uso é desabilitado");
-define("LIST_ADMIN_LAN_2", "Legenda");
-define("LIST_ADMIN_LAN_3", "definir uma legenda");
-define("LIST_ADMIN_LAN_5", "ícone: usar");
-define("LIST_ADMIN_LAN_6", "Use o ícone de cada seção");
-define("LIST_ADMIN_LAN_8", "personagens");
-define("LIST_ADMIN_LAN_9", "escolha quantos caracteres da rubrica serão mostrados");
-define("LIST_ADMIN_LAN_10", "Deixe em branco para mostrar o cabeçalho completo");
-define("LIST_ADMIN_LAN_11", "o postfix");
-define("LIST_ADMIN_LAN_12", "Escolha um sufixo se o título for maior, em seguida, a quantidade determinada de caracteres");
-define("LIST_ADMIN_LAN_13", "Deixe em branco para não mostrar nenhum sufixo");
-define("LIST_ADMIN_LAN_14", "Data");
-define("LIST_ADMIN_LAN_15", "Escolha um estilo de data");
-define("LIST_ADMIN_LAN_16", "Para obter mais informações sobre formatos de data, consulte a <a href='http://www.php.net/manual/en/function.strftime.php' rel='external'>página de função strftime em php.net</a>");
-define("LIST_ADMIN_LAN_17", "Data de hoje");
-define("LIST_ADMIN_LAN_18", "Escolha um estilo de data, se a data é hoje");
-define("LIST_ADMIN_LAN_19", "Para obter mais informações sobre formatos de data, consulte a <a href='http://www.php.net/manual/en/function.strftime.php' rel='external'>página de função strftime em php.net</a>");
-define("LIST_ADMIN_LAN_20", "colunas");
-define("LIST_ADMIN_LAN_21", "Escolha uma quantidade de colunas");
-define("LIST_ADMIN_LAN_22", "Defina quantas colunas que você deseja usar. o número especificado vai separar a página em uma quantidade igual de colunas");
-define("LIST_ADMIN_LAN_23", "texto de boas vindas");
-define("LIST_ADMIN_LAN_24", "definir um texto de boas vindas que será processado no topo da página");
-define("LIST_ADMIN_LAN_26", "Mostrar vazio");
-define("LIST_ADMIN_LAN_27", "definir se uma mensagem deve ser mostrado quando seções não tem nenhum resultado");
-define("LIST_ADMIN_LAN_29", "ícone: padrão");
-define("LIST_ADMIN_LAN_30", "Use bala de tema padrão, se o ícone não estiver presente ou se o ícone: uso é desabilitado");
-define("LIST_ADMIN_LAN_32", "timelapse:Days");
-define("LIST_ADMIN_LAN_33", "máximo de usuários dias pode olhar para trás");
-define("LIST_ADMIN_LAN_35", "dias");
-define("LIST_ADMIN_LAN_36", "espaço de tempo");
-define("LIST_ADMIN_LAN_37", "exibir uma caixa de seleção com o número de dias para olhar para trás?");
-define("LIST_ADMIN_LAN_39", "Abra se existem registos");
-define("LIST_ADMIN_LAN_40", "seções que contêm registros devem ser abertas por padrão?");
-define("LAN_AL_LISTNEW_01", "Preferências de nova lista atualizadas");
+return [
+'PAGE_NAME' => "Listar Itens Recentes",
+    'LIST_PLUGIN_3' => "Configurar Menu Principal",
+    'LIST_PLUGIN_4' => "O plugin List_new está pronto para ser utilizado.",
+    'LIST_PLUGIN_6' => "Este plugin não está instalado.",
+    'LIST_ADMIN_1' => "recentes",
+    'LIST_ADMIN_2' => "atualizar configurações",
+    'LIST_ADMIN_3' => "configurações atualizadas",
+    'LIST_ADMIN_4' => "secção",
+    'LIST_ADMIN_5' => "menu",
+    'LIST_ADMIN_6' => "página",
+    'LIST_ADMIN_7' => "ativado",
+    'LIST_ADMIN_8' => "desativado",
+    'LIST_ADMIN_9' => "aberto",
+    'LIST_ADMIN_10' => "fechado",
+    'LIST_ADMIN_11' => "atualizar",
+    'LIST_ADMIN_12' => "escolher",
+    'LIST_ADMIN_13' => "Bem-vindo à página de Recentes do \".SITENAME.\"! Esta página mostra, para as secções mais comuns deste site, uma lista das adições mais recentes nestas secções.",
+    'LIST_ADMIN_14' => "adições recentes",
+    'LIST_ADMIN_15' => "novo desde a sua última visita",
+    'LIST_ADMIN_16' => "Bem-vindo à página de Novidades do \".SITENAME.\"! Esta página mostra, para as secções mais comuns deste site, uma lista das adições nestas secções desde a sua última visita.",
+    'LIST_ADMIN_17' => "Nada alterado - não atualizado",
+    'LIST_ADMIN_SECT_1' => "secções",
+    'LIST_ADMIN_SECT_2' => "escolha quais secções mostrar",
+    'LIST_ADMIN_SECT_3' => "",
+    'LIST_ADMIN_SECT_4' => "estilo de visualização",
+    'LIST_ADMIN_SECT_5' => "escolha quais secções ficam abertas por padrão",
+    'LIST_ADMIN_SECT_6' => "",
+    'LIST_ADMIN_SECT_7' => "autor",
+    'LIST_ADMIN_SECT_8' => "escolha se o autor deve ser exibido",
+    'LIST_ADMIN_SECT_9' => "",
+    'LIST_ADMIN_SECT_10' => "categoria",
+    'LIST_ADMIN_SECT_11' => "escolha se a categoria deve ser exibida",
+    'LIST_ADMIN_SECT_12' => "",
+    'LIST_ADMIN_SECT_13' => "data",
+    'LIST_ADMIN_SECT_14' => "escolha se a data deve ser exibida",
+    'LIST_ADMIN_SECT_15' => "",
+    'LIST_ADMIN_SECT_16' => "quantidade de itens",
+    'LIST_ADMIN_SECT_17' => "escolha quantos itens devem ser exibidos para cada secção",
+    'LIST_ADMIN_SECT_18' => "",
+    'LIST_ADMIN_SECT_19' => "ordenar itens",
+    'LIST_ADMIN_SECT_20' => "escolha a ordem em que as secções devem ser exibidas",
+    'LIST_ADMIN_SECT_21' => "",
+    'LIST_ADMIN_SECT_22' => "ícone",
+    'LIST_ADMIN_SECT_23' => "escolha um ícone para cada secção",
+    'LIST_ADMIN_SECT_24' => "",
+    'LIST_ADMIN_SECT_25' => "legenda",
+    'LIST_ADMIN_SECT_26' => "defina uma legenda para cada secção",
+    'LIST_ADMIN_SECT_27' => "",
+    'LIST_ADMIN_OPT_1' => "geral",
+    'LIST_ADMIN_OPT_2' => "página de recentes",
+    'LIST_ADMIN_OPT_3' => "menu de recentes",
+    'LIST_ADMIN_OPT_4' => "página de novidades",
+    'LIST_ADMIN_OPT_5' => "menu de novidades",
+    'LIST_ADMIN_OPT_6' => "opções",
+    'LIST_ADMIN_MENU_2' => "ícone: padrão",
+    'LIST_ADMIN_MENU_3' => "usar marcador do tema padrão se nenhum ícone estiver presente ou se ícone:usar estiver desativado",
+    'LIST_ADMIN_LAN_2' => "legenda",
+    'LIST_ADMIN_LAN_3' => "defina uma legenda",
+    'LIST_ADMIN_LAN_5' => "ícone: usar",
+    'LIST_ADMIN_LAN_6' => "usar ícone de cada secção",
+    'LIST_ADMIN_LAN_8' => "caracteres",
+    'LIST_ADMIN_LAN_9' => "escolha quantos caracteres do título serão mostrados",
+    'LIST_ADMIN_LAN_10' => "deixe em branco para mostrar o título completo",
+    'LIST_ADMIN_LAN_11' => "sufixo",
+    'LIST_ADMIN_LAN_12' => "escolha um sufixo se o título for maior que o número de caracteres especificado",
+    'LIST_ADMIN_LAN_13' => "deixe em branco para não mostrar sufixo",
+    'LIST_ADMIN_LAN_14' => "data",
+    'LIST_ADMIN_LAN_15' => "escolha um formato de data",
+    'LIST_ADMIN_LAN_16' => "Para mais informações sobre formatos de data consulte a <a href='http://www.php.net/manual/en/function.strftime.php' rel='external'>página da função strftime no php.net</a>",
+    'LIST_ADMIN_LAN_17' => "data de hoje",
+    'LIST_ADMIN_LAN_18' => "escolha um formato de data se a data for hoje",
+    'LIST_ADMIN_LAN_19' => "Para mais informações sobre formatos de data consulte a <a href='http://www.php.net/manual/en/function.strftime.php' rel='external'>página da função strftime no php.net</a>",
+    'LIST_ADMIN_LAN_20' => "colunas",
+    'LIST_ADMIN_LAN_21' => "escolha o número de colunas",
+    'LIST_ADMIN_LAN_22' => "defina quantas colunas deseja usar. O número especificado irá dividir a página em colunas iguais",
+    'LIST_ADMIN_LAN_23' => "texto de boas-vindas",
+    'LIST_ADMIN_LAN_24' => "defina um texto de boas-vindas que será exibido no topo da página",
+    'LIST_ADMIN_LAN_26' => "mostrar vazio",
+    'LIST_ADMIN_LAN_27' => "defina se deve ser mostrada uma mensagem quando as secções não tiverem resultados",
+    'LIST_ADMIN_LAN_28' => "",
+    'LIST_ADMIN_LAN_29' => "ícone: padrão",
+    'LIST_ADMIN_LAN_30' => "usar marcador do tema padrão se nenhum ícone estiver presente ou se ícone:usar estiver desativado",
+    'LIST_ADMIN_LAN_32' => "período:dias",
+    'LIST_ADMIN_LAN_33' => "número máximo de dias que os utilizadores podem retroceder",
+    'LIST_ADMIN_LAN_35' => "dias",
+    'LIST_ADMIN_LAN_36' => "período",
+    'LIST_ADMIN_LAN_37' => "mostrar uma caixa de seleção com número de dias para retroceder?",
+    'LIST_ADMIN_LAN_39' => "abrir se existirem registos",
+    'LIST_ADMIN_LAN_40' => "as secções que contêm registos devem ser abertas por padrão?",
+    'LAN_AL_LISTNEW_01' => "Preferências do List New atualizadas"
+];

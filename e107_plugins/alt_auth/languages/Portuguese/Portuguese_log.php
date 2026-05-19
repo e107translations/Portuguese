@@ -1,9 +1,19 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_AL_AUTH_01", "Auth Alt configurações alteradas");
-define("LAN_AL_AUTH_02", "Auth Alt estendido classes de usuário mudadas");
-define("LAN_AL_AUTH_03", "Definições de método Alt auth mudadas");
+return [
+    'LAN_AL_AUTH_01' => "Definições de autenticação alternativa alteradas",
+    'LAN_AL_AUTH_02' => "Classes de utilizadores com autenticação alternativa alteradas",
+    'LAN_AL_AUTH_03' => "Definições do método de autenticação alternativa alteradas",
+];

@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <!-- Version Info:
+
+$Source: /cvsroot/e107/e107_0.7/e107_docs/README_UPGRADE.html,v $
+$Revision: 1.2 $
+$Date: 2006/01/16 16:38:32 $
+$Author: sweetas $
+
+-->
+    <title>e107 Readme</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta http-equiv="content-style-type" content="text/css" />
+  </head>
+
+  <body>
+    <div id="mainbox">
+      <a href="http://e107.org"
+        ><img
+          src="../e107_images/adminlogo.png"
+          alt="Logo"
+          style="border: 0pt none"
+      /></a>
+      <br />
+
+      <br />
+
+      <span class="smalltext">&copy; Steve Dunstan 2002.&nbsp;</span
+      ><span class="smalltext"
+        >Veja o arquivo gpl.txt para detalhes da licen&ccedil;a
+        (ingl&ecirc;s).</span
+      ><span class="smalltext"></span><br />
+
+      <br />
+
+      <br />
+
+      <a id="upgrading" name="upgrading"></a
+      ><span class="headertext">Atualizando</span><br />
+
+      <br />
+      <span style="font-weight: bold">
+        0.6175 -&gt; .7 - Guia para Upgrade da v0.6175 para a v0.7</span
+      ><br />
+
+      <div>
+        Muitas mudan&ccedil;as foram feitas da v0.617 para a v0.7, leia os
+        detalhes para fazer um upgrade bem-sucedido<br />
+        <br />
+      </div>
+      &nbsp;<strong>Pontos Essenciais<br /> </strong>
+      <ul>
+        <li>
+          Se voc&ecirc; est&aacute; fazendo upgrade de um site em idioma
+          Ingl&ecirc;s (English) da .617 voc&ecirc; precisa separar o pacote de
+          idioma&nbsp;English iso-8859-1. Como o pacote de idioma padr&atilde;o
+          do core &eacute; o&nbsp;English que agora est&aacute; em
+          codifica&ccedil;&atilde;o UTF... Se voc&ecirc; n&atilde;o fizer isso,
+          alguns de seus caracteres ficar&atilde;o danificados na base de dados
+          e os conte&uacute;dos aparecer&atilde;o corrompidos.<br />
+        </li>
+        <li>
+          Se o seu site&nbsp;.617 n&atilde;o &eacute; no idioma&nbsp;English
+          voc&ecirc; precisa certificar-se que o pacote de seu idioma para a
+          v0.7 est&aacute; dispon&iacute;vel&nbsp;<strong class="bbcode"
+            >e</strong
+          >
+          na mesma codifica&ccedil;&atilde;o&nbsp;de seu atual pacote de idiomas
+          da&nbsp;vers&atilde;o .617. Se n&atilde;o estiver na mesma
+          codifica&ccedil;&atilde;o, seus conte&uacute;dos ser&atilde;o
+          mostrados na tela corrompidos.<br />
+        </li>
+        <li>
+          Alguns plugins que voc&ecirc; usa na&nbsp;.617 pode n&atilde;o
+          funcionar na&nbsp;vers&atilde;o .7 ent&atilde;o voc&ecirc; precisa
+          checar isso antes de fazer upgrade no seu site.<br />
+        </li>
+        <li>
+          .7 foi totalmente reescrito&nbsp;da .617 e h&aacute; muitas
+          mudan&ccedil;as no banco de dados. Por esta raz&atilde;o,
+          &eacute;&nbsp;<strong class="bbcode">essencial</strong> que voc&ecirc;
+          tenha um backup do seu site! Use o PhpMyAdmin ou outro sistema de
+          gerenciamento para fazer backup de seu banco de dados&nbsp;SQL -
+          <strong class="bbcode">n&atilde;o use&nbsp;</strong>o sistema de
+          backup do e107 core, n&atilde;o vai funcionar! Sabemos que todo mundo
+          sempre diz que faz backup - mas pelo menos dessa vez, fa&ccedil;a
+          realmente um backup porque n&atilde;o poderemos ajudar se voc&ecirc;
+          perder seus dados ou ter seus dados corrompidos.
+        </li>
+      </ul>
+      <br />
+      <div class="indent">
+        <span style="color: rgb(255, 0, 0)"
+          ><strong class="bbcode">Aten&ccedil;&atilde;o!</strong></span
+        ><br />
+        H&aacute; arquivos relacionados ao editor HTML (htmlArea), o
+        sistema&nbsp;WYSIWYG na&nbsp;0.6xx&nbsp;pode ser invadido por exploit.
+        Ele precisa ser removido&nbsp;<strong>imediatamente</strong>.<br />Favor
+        deletar os seguintes diret&oacute;rios e todo o conte&uacute;do deles no
+        servidor:<br />
+        <div style="text-align: left">
+          e107_handlers/htmlarea/<br />
+          e107_admin/htmlarea/
+        </div>
+      </div>
+      <br />
+      <strong class="bbcode"
+        ><br />
+        Processo do Upgrade</strong
+      ><br />
+      <ol>
+        <li>
+          Download&nbsp;o zip do core vers&atilde;o&nbsp;.7 e o pacote de
+          idiomas que voc&ecirc; desejar (English iso-8859-1 para sites em
+          ingl&ecirc;s).<br />
+        </li>
+        <li>
+          Fa&ccedil;a Login no seu site e v&aacute; para a &aacute;rea de
+          administra&ccedil;&atilde;o e coloque seu site em
+          manuten&ccedil;&atilde;o (Admin =&gt; Manuten&ccedil;&atilde;o).<br />
+          Isto ir&aacute; fechar seu site para visitantes para que voc&ecirc;
+          fa&ccedil;a o upgrade.<br />
+        </li>
+        <li>
+          Verifique a validade de seu banco de dados usando a ferramenta
+          localizada em Admin =&gt; Banco de Dados/Database =&gt; Verificar
+          validade do Banco de Dados/Check Database Validity. Se voc&ecirc;
+          encontrar erros, n&atilde;o continue com o processo de upgrade
+          at&eacute; que esse erro seja corrigido primeiro.<br />
+        </li>
+        <li>
+          Volte &agrave; primeira p&aacute;gina de sua &aacute;rea de admin.<br />
+        </li>
+        <li>
+          Extraia os arquivos do zip do core e envie os arquivos para o servidor
+          por FTP - sobrepondo seus arquivos da vers&atilde;o .617
+          existentes.<br />
+        </li>
+        <li>
+          Extraia o conte&uacute;do do pacote de idioma (nessa
+          distribui&ccedil;&atilde;o &eacute; apenas um arquivo
+          -&nbsp;English.php) e envie o arquivo para o servidor - sobrepondo o
+          arquivo existente.<br />
+        </li>
+        <li>
+          Atualize (F5) a primeira p&aacute;gina do painel de&nbsp;admin&nbsp;no
+          seu navegador e voc&ecirc; ver&aacute;&nbsp;que apareceu um
+          bot&atilde;o de update.<br />
+          Clique nele para ir para a p&aacute;gina de
+          update/atualiza&ccedil;&atilde;o (Voc&ecirc; pode acessar a
+          p&aacute;gina de update diretamente pelo Admin =&gt;Database/Banco de
+          Dados&nbsp;=&gt; Check For Updates/Checar
+          Atualiza&ccedil;&otilde;es).<br />
+        </li>
+        <li>
+          Clique no bot&atilde;o que far&aacute; a atualiza&ccedil;&atilde;o
+          de&nbsp;.617 para .7. Isto ir&aacute; rodar o primeiro passo no
+          processo de upgrade. Quando terminar, voc&ecirc; ver&aacute;&nbsp;um
+          monte de novos bot&otilde;es aparecerem para as rotinas de updrade do
+          f&oacute;rum, conte&uacute;do e estat&iacute;sticas.&nbsp;Mesmo que
+          voc&ecirc; n&atilde;o use essas fun&ccedil;&otilde;es, rode cada
+          update!<br />
+        </li>
+        <li>
+          Depois que todos os updates forem processados voc&ecirc; n&atilde;o
+          ter&aacute; mais bot&otilde;es na sua p&aacute;gina de
+          atualiza&ccedil;&otilde;es e voc&ecirc; ter&aacute; completado o
+          processo de upgrade.<br />
+        </li>
+        <li>
+          Volte na ferramenta de valida&ccedil;&atilde;o de banco de dados e
+          verifique novamente se tudo est&aacute; ok.
+        </li>
+      </ol>
+      <br />
+      <br />
+      Voc&ecirc; ir&aacute; notar que alguns elementos do&nbsp;e107 sumiram -
+      f&oacute;rum, chatbox/&aacute;rea de chat, conte&uacute;do, links, etc...
+      bem, n&atilde;o se preocupe! Eles n&atilde;o sumiram na
+      realidade!&nbsp;Uma grande parte do core do e107&nbsp;foi transformada
+      em&nbsp;'plugin' e voc&ecirc; ir&aacute; encontrar esses elementos em
+      Admin =&gt; Plugins. Um ponto a notar nos links&nbsp;&eacute; que todos os
+      seus links existentes na p&aacute;gina de links foram separados dos links
+      de menus do site e a rotina de upgrade moveu todos para o novo plugin de
+      links.<br />
+      <br />
+      Revis&otilde;es, artigos e conte&uacute;dos tamb&eacute;m foram
+      transformados em plugin e incorporados a apenas&nbsp;<strong
+        class="bbcode"
+        >um</strong
+      >
+      plugin chamado&nbsp;'Gerenciador de Conte&uacute;do'.<br />
+      Se voc&ecirc; usou alguma dessas fun&ccedil;&otilde;es na&nbsp;0.6xx ou
+      quer usar esse plugin para novos conte&uacute;dos, voc&ecirc; precisa
+      mudar algumas permiss&otilde;es adicionais para o novo plugin. Favor ver
+      mais detalhes em 'Permiss&otilde;es'.<br />
+      <br />
+      A vers&atilde;o&nbsp;.7 vem com um novo tema,&nbsp;Jayya, que foi
+      desenvolvido para a &aacute;rea de admin do site e&nbsp;a
+      inten&ccedil;&atilde;o &eacute; fazer a &aacute;rea de admin mais
+      amig&aacute;vel, implementando diversas fun&ccedil;&otilde;es novas para
+      este trabalho. Se voc&ecirc; quiser us&aacute;-lo, tente ir em Admin =&gt;
+      Gerenciador de Tema e mude a &aacute;rea de admin para o tema 'Jayya'.<br />
+      <br />
+      Pelo grande n&uacute;mero de mudan&ccedil;as&nbsp;na vers&atilde;o .7 e
+      pela total reescrita dos c&oacute;digos, alguns problemas podem surgir
+      quando voc&ecirc; fizer upgrade. Se voc&ecirc; encontrar um bug
+      espec&iacute;fico, favor postar no bugtracker do site do&nbsp;e107.org (em
+      ingl&ecirc;s!). Assim, podemos&nbsp;reparar o bug na pr&oacute;xima
+      distribui&ccedil;&atilde;o do sistema. Obrigado.<br />
+      <br />
+      <div class="indent">
+        <strong class="bbcode">Permiss&otilde;es: Core</strong><br />
+        As permiss&otilde;es a seguir precisam ser configuradas para usar o core
+        do e107 (muitos desses itens estar&atilde;o configurados desde a
+        instala&ccedil;&atilde;o da vers&atilde;o 0.6xx):<br />
+        <br />
+        chmod 777: e107_themes/<br />
+        chmod 777: e107_plugins/<br />
+        chmod 777: e107_files/public/<br />
+        chmod 777: e107_files/public/avatars/<br />
+        chmod 777: e107_files/cache/<br />
+        <br />
+        <strong class="bbcode">Permiss&otilde;es: Plugins</strong><br />
+        A permiss&atilde;o a seguir &eacute; necess&aacute;ria para configurar
+        as estat&iacute;sticas de seu site vers&atilde;o&nbsp;0.6xx para seu
+        novo plugin v7 'Estat&iacute;sticas de Login'&nbsp;no futuro:<br />
+        <br />
+        chmod 777: e107_plugins/log/logs/<br />
+        <br />
+        Para&nbsp;converter a p&aacute;gina de links da&nbsp;vers&atilde;o
+        0.6xx&nbsp;para a p&aacute;gina de plugins&nbsp;de links:<br />
+        <br />
+        chmod 777: e107_plugins/links_page/cat_images/<br />
+        chmod 777: e107_plugins/links_page/link_images/<br />
+        <br />
+        As permiss&otilde;es a seguir ser&atilde;o configuradas para converter
+        suas Revis&otilde;es / Artigos e Conte&uacute;dos da vers&atilde;o 0.6xx
+        para o novo plugin de Gerenciador de Conte&uacute;dos:<br />
+        <br />
+        chmod 777: e107_plugins/content/images/cat/<br />
+        chmod 777: e107_plugins/content/images/cat/16/<br />
+        chmod 777: e107_plugins/content/images/cat/48/<br />
+        chmod 777: e107_plugins/content/images/file/<br />
+        chmod 777: e107_plugins/content/images/file/tmp/<br />
+        chmod 777: e107_plugins/content/images/icon/<br />
+        chmod 777: e107_plugins/content/images/icon/tmp/<br />
+        chmod 777: e107_plugins/content/images/image/<br />
+        chmod 777: e107_plugins/content/images/image/tmp/<br />
+        chmod 777: e107_plugins/content/menus/
+      </div>
+      <br />
+      <br />
+      <strong class="bbcode">Resolu&ccedil;&atilde;o de Problemas</strong><br />
+      Se voc&ecirc; tem algum problema no upgrade, como um bloqueio de seu site,
+      favor limpar o cache deletando os arquivos&nbsp;<strong class="bbcode"
+        >php</strong
+      >
+      em&nbsp;e107_files/cache/.<br />
+      <br />
+      <div class="indent">
+        <span style="color: rgb(0, 153, 0)"
+          ><strong class="bbcode"
+            >Usu&aacute;rios de distribui&ccedil;&otilde;es CVS</strong
+          ><br />
+          Se voc&ecirc; fez upgrade de sua instala&ccedil;&atilde;o da
+          vers&atilde;o 0.6xx para a vers&atilde;o&nbsp;0.7 usando&nbsp;uma
+          distribui&ccedil;&atilde;o&nbsp;CVS, voc&ecirc;&nbsp;precisar&aacute;
+          verificar a codifica&ccedil;&atilde;o de caractere que estiver usando.
+          Voc&ecirc; encontrar&aacute; esta informa&ccedil;&atilde;o mostrada na
+          sua &aacute;rea de admin, abaixo do menu da 'Informa&ccedil;&atilde;o
+          do Site' onde est&aacute;
+          escrito&nbsp;'Charset'/'Codifica&ccedil;&atilde;o'. Se estiver
+          sob&nbsp;codifica&ccedil;&atilde;o 'utf-8' ent&atilde;o voc&ecirc;
+          s&oacute; precisa fazer download do zip do core e enviar apenas ele.
+          Sua codifica&ccedil;&atilde;o j&aacute; e a padr&atilde;o para que
+          o&nbsp;e107 vers&atilde;o&nbsp;0.7 rode. Mas se diz que a
+          codifica&ccedil;&atilde;o est&aacute; em&nbsp;iso-8859-1 e voc&ecirc;
+          estiver rodando um site em idioma ingl&ecirc;s (English) ent&atilde;o
+          voc&ecirc;&nbsp;<strong class="bbcode">precisa</strong> fazer o
+          download&nbsp;do pacote de idioma&nbsp;English iso-8858-1 al&eacute;m
+          do zip do core e enviar sobrepondo os arquivos de idioma. Para sites
+          que n&atilde;o usam o pacote&nbsp;English certifique-se de que seu
+          idioma esteja na mesma codifica&ccedil;&atilde;o como listado na
+          primeira p&aacute;gina de admin, abaixo das informa&ccedil;&otilde;es
+          do site.</span
+        >
+      </div>
+
+      <br />
+      <a id="disclaimer" name="disclaimer"></a
+      ><span class="headertext">Aviso</span><br />
+
+      <br />
+
+      Este&nbsp;software &eacute; livre e vem sem garantias como especificado na
+      licen&ccedil;a&nbsp;GNU GPL (inclusive este pacote). Qualquer problema
+      encontrado n&atilde;o &eacute; de responsabilidade do autor.
+    </div>
+  </body>
+</html>

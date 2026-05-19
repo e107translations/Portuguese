@@ -1,21 +1,22 @@
 <?php
 /*
- * Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
- * $Id$
- *
- * Search Admin Help
- * 
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       TraduÃ§Ã£o PortuguÃªs(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
 */
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Ajuda da procura";
-$text = "
-	Se a versão do seu servidor MySQL suportar, você pode mudar
-ao método de classificação do MySQL, que é mais rápido que o método de classificação do PHP. Veja preferências.
+$caption = "Ajuda:<br />
+			# GestÃ£o de Pesquisas";
+$text = "Se a versÃ£o do seu servidor MySQL suportar, vocÃª pode mudar ao mÃ©todo de classificaÃ§Ã£o do MySQL, que Ã© mais rÃ¡pido que o mÃ©todo de classificaÃ§Ã£o do PHP. Veja preferÃªncias.
 <br /><br />
-Se o seu site incluir idiomas ideográficos, como chinês e japonês, você deverá
-use o método PHP sort e desative a correspondência de palavras inteiras.
-
-";
-$ns -> tablerender($caption, mb_convert_encoding($text, "HTML-ENTITIES", "ISO-8859-1"));
+Se o seu site incluir idiomas ideogrÃ¡ficos, como chinÃªs e japonÃªs, vocÃª deverÃ¡ use o mÃ©todo PHP sort e desative a correspondÃªncia de palavras inteiras.";
+$ns -> tablerender($caption, $text);

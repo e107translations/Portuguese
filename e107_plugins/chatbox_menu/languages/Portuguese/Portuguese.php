@@ -1,33 +1,38 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/23 19:29:28
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("CHATBOX_L1", "Incapaz de aceitar o cargo como esse nome de utilizador é registrado - se é seu nome de utilizador faça o entrar para postar.");
-define("CHATBOX_L3", "Você deve estar logado para postar comentários neste site - faça entrar na caixa Entrar ou em [aqui].");
-define("CHATBOX_L3b", "Se você não está registrado clique [aqui] para se registrar.");
-define("CHATBOX_L4", "Postar nova mensagem");
-define("CHATBOX_L5", "Redefinir");
-define("CHATBOX_L6", "[bloqueado pelo admin]");
-define("CHATBOX_L7", "Desbloquear");
-define("CHATBOX_L8", "Informação");
-define("CHATBOX_L9", "Bloco");
-define("CHATBOX_L11", "Não há mensagens ainda.");
-define("CHATBOX_L12", "Ver todos os publicações");
-define("CHATBOX_L13", "chatbox moderada");
-define("CHATBOX_L14", "Emotes");
-define("CHATBOX_L15", "Publicação muito longo, ou Publicação vazio apresentado");
-define("CHATBOX_L17", "Publicação duplicado");
-define("CHATBOX_L18", "Mensagens de chat moderadas");
-define("CHATBOX_L19", "Você só pode postar uma vez a cada [x] segundos");
-define("CHATBOX_L20", "Chatbox (todos os publicações)");
-define("CHATBOX_L22", "na");
-define("CHATBOX_L24", "Você não tem as permissões corretas para ver esta página.");
-define("CHATBOX_L25", "[este Publicação está bloqueado por admin]");
-define("LAN_CHATBOX_100", "Digite sua mensagem aqui.");
+
+return [
+    'CHATBOX_L1' => "Não é possível aceitar a mensagem porque esse nome de utilizador está registado — se é o teu nome de utilizador, por favor entra na tua conta para publicar.",
+    'CHATBOX_L3' => "Tens de iniciar sessão para publicar comentários neste site — por favor entra na tua conta a partir da caixa de login ou clicando [aqui].",
+    'CHATBOX_L3b' => "Se ainda não estás registado, clica [aqui] para te registares.",
+    'CHATBOX_L4' => "Publicar nova mensagem",
+    'CHATBOX_L5' => "Repor",
+    'CHATBOX_L6' => "[bloqueado pelo administrador]",
+    'CHATBOX_L7' => "Desbloquear",
+    'CHATBOX_L8' => "Informação",
+    'CHATBOX_L9' => "Bloquear",
+    'CHATBOX_L11' => "Ainda não há mensagens.",
+    'CHATBOX_L12' => "Ver todas as mensagens",
+    'CHATBOX_L13' => "moderar chatbox",
+    'CHATBOX_L14' => "Emoticons",
+    'CHATBOX_L15' => "Mensagem demasiado longa ou vazia",
+    'CHATBOX_L17' => "Mensagem duplicada",
+    'CHATBOX_L18' => "Mensagens do chatbox moderadas",
+    'CHATBOX_L19' => "Só podes publicar uma vez a cada [x] segundos",
+    'CHATBOX_L20' => "Chatbox (todas as mensagens)",
+    'CHATBOX_L22' => "em",
+    'CHATBOX_L24' => "Não tens permissões suficientes para ver esta página.",
+    'CHATBOX_L25' => "[ esta mensagem foi bloqueada pelo administrador ]",
+    'LAN_CHATBOX_100' => "Escreve a tua mensagem aqui.",
+];

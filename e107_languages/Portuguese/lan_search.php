@@ -1,101 +1,106 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/02/11 19:55:44
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Ricardo $
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("PAGE_NAME", "Pesquisa");
-define("LAN_140", "Membros");
-define("LAN_192", "Todas as categorias");
-define("LAN_193", "Calendário de eventos");
-define("LAN_194", "Todas as categorias");
-define("LAN_195", "À procura");
-define("LAN_196", "corresponde a");
-define("LAN_197", "Descargas");
-define("LAN_198", "Nenhuma correspondência encontrada");
-define("LAN_199", "Pesquisar por:");
-define("LAN_416", "Você deve estar logado para acessar esta página");
-define("LAN_417", "Termos de pesquisa devem ter pelo menos [x] caracteres.");
-define("LAN_418", "Outras páginas");
-define("LAN_SEARCH_1", "Verificar tudo");
-define("LAN_SEARCH_2", "Desmarcar tudo");
-define("LAN_SEARCH_3", "Postado em");
-define("LAN_SEARCH_4", "Correspondência encontrada no título da notícia");
-define("LAN_SEARCH_5", "Correspondência encontrada no texto da notícia");
-define("LAN_SEARCH_6", "Correspondência encontrada no texto da notícia estendida");
-define("LAN_SEARCH_7", "Postado por");
-define("LAN_SEARCH_8", "a");
-define("LAN_SEARCH_9", "Sem título");
-define("LAN_SEARCH_11", "Resultados");
-define("LAN_SEARCH_12", "de");
-define("LAN_SEARCH_13", "em");
-define("LAN_SEARCH_14", "Categoria:");
-define("LAN_SEARCH_15", "Autor:");
-define("LAN_SEARCH_17", "Desculpe, a pesquisa é restrita a uma pesquisa todos os");
-define("LAN_SEARCH_18", "segundos.");
-define("LAN_SEARCH_19", "Procurar em:");
-define("LAN_SEARCH_20", "Autorização necessária");
-define("LAN_SEARCH_21", "Não está autorizado a visualizar esta página.");
-define("LAN_SEARCH_22", "Todas as áreas");
-define("LAN_SEARCH_23", "Formulário de consulta avançada");
-define("LAN_SEARCH_24", "Deve conter a(s) palavra(s)");
-define("LAN_SEARCH_25", "Não deve conter a(s) palavra(s)");
-define("LAN_SEARCH_26", "Frase exacta");
-define("LAN_SEARCH_27", "Início de palavra(s) com");
-define("LAN_SEARCH_28", "Todos não tem nenhuma pesquisa avançada");
-define("LAN_SEARCH_29", "Básico");
-define("LAN_SEARCH_30", "Avançado");
-define("LAN_SEARCH_31", "Não tem nenhuma pesquisa avançada");
-define("LAN_SEARCH_32", "As seguintes palavras foram excluídas da pesquisa");
-define("LAN_SEARCH_33", "A palavra seguinte foi excluída da pesquisa");
-define("LAN_SEARCH_34", "Mais recente que");
-define("LAN_SEARCH_35", "Mais velho que");
-define("LAN_SEARCH_36", "Qualquer hora");
-define("LAN_SEARCH_37", "Um dia");
-define("LAN_SEARCH_38", "Dois dias");
-define("LAN_SEARCH_39", "Três dias");
-define("LAN_SEARCH_40", "Uma semana");
-define("LAN_SEARCH_41", "Duas semanas");
-define("LAN_SEARCH_42", "Três semanas");
-define("LAN_SEARCH_43", "Um mês");
-define("LAN_SEARCH_44", "Dois meses");
-define("LAN_SEARCH_45", "Três meses");
-define("LAN_SEARCH_46", "Metade de um ano");
-define("LAN_SEARCH_47", "Um ano");
-define("LAN_SEARCH_48", "Dois anos");
-define("LAN_SEARCH_49", "Três anos");
-define("LAN_SEARCH_50", "Data postada");
-define("LAN_SEARCH_51", "Todas as categorias");
-define("LAN_SEARCH_52", "Corresponder em");
-define("LAN_SEARCH_53", "Todo item");
-define("LAN_SEARCH_54", "Somente título");
-define("LAN_SEARCH_55", "Busca na categoria de notícias");
-define("LAN_SEARCH_56", "Todas as categorias de notícias");
-define("LAN_SEARCH_57", "Comentários postados para");
-define("LAN_SEARCH_58", "Todas as áreas");
-define("LAN_SEARCH_59", "Todos os comentários");
-define("LAN_SEARCH_60", "Comentários postados para");
-define("LAN_SEARCH_61", "Pelo autor");
-define("LAN_SEARCH_62", "Data registo");
-define("LAN_SEARCH_63", "Pesquisar na categoria");
-define("LAN_SEARCH_64", "Todos as categorias de descarga");
-define("LAN_SEARCH_65", "Descargas");
-define("LAN_SEARCH_66", "Data adicionada");
-define("LAN_SEARCH_67", "Todos os detalhes das descargas");
-define("LAN_SEARCH_69", "Relevância");
-define("LAN_SEARCH_70", "Postado para descarregar item");
-define("LAN_SEARCH_71", "Postado em resposta a notícia");
-define("LAN_SEARCH_72", "Assinatura");
-define("LAN_SEARCH_73", "Sem assinatura.");
-define("LAN_SEARCH_74", "Registou-se a");
-define("LAN_SEARCH_75", "Tipo de pesquisa");
-define("LAN_SEARCH_76", "Postado na página");
-define("LAN_SEARCH_77", "Postado na página de perfil do");
-define("LAN_SEARCH_98", "Notícias");
-define("LAN_SEARCH_201", "Por favor, redefinir a sua consulta de pesquisa");
-define("LAN_SEARCH_202", "Alternar para modo avançado");
+
+return [
+	'PAGE_NAME' => "Pesquisa",
+	'LAN_140' => "Membros",
+	'LAN_192' => "Todas as categorias",
+	'LAN_193' => "Calendário de Eventos",
+	'LAN_194' => "Todas as Categorias",
+	'LAN_195' => "A pesquisar",
+	'LAN_196' => "resultados",
+	'LAN_197' => "Transferências",
+	'LAN_198' => "Não foram encontrados resultados",
+	'LAN_199' => "Pesquisar por:",
+	'LAN_416' => "Tens de iniciar sessão para aceder a esta página",
+	'LAN_417' => "Os termos de pesquisa devem ter pelo menos [x] caracteres.",
+	'LAN_418' => "Outras Páginas",
+	'LAN_SEARCH_1' => "Selecionar tudo",
+	'LAN_SEARCH_2' => "Desmarcar tudo",
+	'LAN_SEARCH_3' => "Publicado em ",
+	'LAN_SEARCH_4' => "Resultado encontrado no título da notícia",
+	'LAN_SEARCH_5' => "Resultado encontrado no texto da notícia",
+	'LAN_SEARCH_6' => "Resultado encontrado no texto expandido da notícia",
+	'LAN_SEARCH_7' => "Publicado por ",
+	'LAN_SEARCH_8' => " em ",
+	'LAN_SEARCH_9' => "Sem título",
+	'LAN_SEARCH_11' => "Resultados",
+	'LAN_SEARCH_12' => " de ",
+	'LAN_SEARCH_13' => " em ",
+	'LAN_SEARCH_14' => "Categoria:",
+	'LAN_SEARCH_15' => "Autor:",
+	'LAN_SEARCH_17' => "Lamentamos, a pesquisa está limitada a uma vez a cada ",
+	'LAN_SEARCH_18' => " segundos.",
+	'LAN_SEARCH_19' => "Pesquisar em:",
+	'LAN_SEARCH_20' => "Autorização necessária",
+	'LAN_SEARCH_21' => "Não estás autorizado a ver esta página.",
+	'LAN_SEARCH_22' => "Todas as Áreas",
+	'LAN_SEARCH_23' => "Formulário de Pesquisa Avançada",
+	'LAN_SEARCH_24' => "Deve conter palavra(s)",
+	'LAN_SEARCH_25' => "Não deve conter palavra(s)",
+	'LAN_SEARCH_26' => "Frase exacta",
+	'LAN_SEARCH_27' => "Palavra(s) começadas por",
+	'LAN_SEARCH_28' => "Todos não têm pesquisa avançada",
+	'LAN_SEARCH_29' => "Básica",
+	'LAN_SEARCH_30' => "Avançada",
+	'LAN_SEARCH_31' => "Sem pesquisa avançada",
+	'LAN_SEARCH_32' => "As seguintes palavras foram excluídas da pesquisa",
+	'LAN_SEARCH_33' => "A seguinte palavra foi excluída da pesquisa",
+	'LAN_SEARCH_34' => "Mais recente que",
+	'LAN_SEARCH_35' => "Mais antigo que",
+	'LAN_SEARCH_36' => "Qualquer data",
+	'LAN_SEARCH_37' => "Um dia",
+	'LAN_SEARCH_38' => "Dois dias",
+	'LAN_SEARCH_39' => "Três dias",
+	'LAN_SEARCH_40' => "Uma semana",
+	'LAN_SEARCH_41' => "Duas semanas",
+	'LAN_SEARCH_42' => "Três semanas",
+	'LAN_SEARCH_43' => "Um mês",
+	'LAN_SEARCH_44' => "Dois meses",
+	'LAN_SEARCH_45' => "Três meses",
+	'LAN_SEARCH_46' => "Meio ano",
+	'LAN_SEARCH_47' => "Um ano",
+	'LAN_SEARCH_48' => "Dois anos",
+	'LAN_SEARCH_49' => "Três anos",
+	'LAN_SEARCH_50' => "Data de publicação",
+	'LAN_SEARCH_51' => "Todas as categorias",
+	'LAN_SEARCH_52' => "Resultado em",
+	'LAN_SEARCH_53' => "Item completo",
+	'LAN_SEARCH_54' => "Apenas no título",
+	'LAN_SEARCH_55' => "Pesquisar na categoria de notícias",
+	'LAN_SEARCH_56' => "Todas as Categorias de Notícias",
+	'LAN_SEARCH_57' => "Comentários publicados em",
+	'LAN_SEARCH_58' => "Todas as Áreas",
+	'LAN_SEARCH_59' => "Todos os Comentários",
+	'LAN_SEARCH_60' => "Comentários publicados em",
+	'LAN_SEARCH_61' => "Por autor",
+	'LAN_SEARCH_62' => "Data de registo",
+	'LAN_SEARCH_63' => "Pesquisar na categoria",
+	'LAN_SEARCH_64' => "Todas as Categorias de Downloads",
+	'LAN_SEARCH_65' => "Transferências",
+	'LAN_SEARCH_66' => "Data de adição",
+	'LAN_SEARCH_67' => "Todos os detalhes dos downloads",
+	'LAN_SEARCH_69' => "Relevância",
+	'LAN_SEARCH_70' => "Publicado no item de download",
+	'LAN_SEARCH_71' => "Publicado em resposta ao item de notícias",
+	'LAN_SEARCH_72' => "Assinatura",
+	'LAN_SEARCH_73' => "Sem assinatura.",
+	'LAN_SEARCH_74' => "Registado em",
+	'LAN_SEARCH_75' => "Tipo de pesquisa",
+	'LAN_SEARCH_76' => "Publicado na página",
+	'LAN_SEARCH_77' => "Publicado na página de perfil de",
+	'LAN_SEARCH_98' => "Notícias",
+	'LAN_SEARCH_201' => "Por favor redefine os teus critérios de pesquisa",
+	'LAN_SEARCH_202' => "Alternar modo avançado",
+];

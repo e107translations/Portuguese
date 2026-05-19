@@ -1,117 +1,125 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/02/12 10:14:52
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Ricardo $
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("PAGE_NAME", "Registre-se");
-define("LAN_EMAIL_01", "Exmo");
-define("LAN_EMAIL_04", "Por favor, mantenha este endereço electrónico para sua própria informação.");
-define("LAN_EMAIL_05", "Sua senha foi criptografada e não pode ser obtida se você a perder ou esquecer. No entanto, você pode solicitar uma nova senha se isso acontecer.");
-define("LAN_EMAIL_06", "Obrigado pela sua inscrição.");
-define("LAN_SIGNUP_1", "Min.");
-define("LAN_SIGNUP_2", "caracteres.");
-define("LAN_SIGNUP_3", "Verificação de código falhada.");
-define("LAN_SIGNUP_4", "A sua senha deve ter pelo menos");
-define("LAN_SIGNUP_5", "caracteres de comprimento.");
-define("LAN_SIGNUP_8", "Obrigado!");
-define("LAN_SIGNUP_9", "Incapaz de prosseguir.");
-define("LAN_SIGNUP_11", ".");
-define("LAN_SIGNUP_12", "por favor, mantenha o seu nome de utilizador e senha anotado num lugar seguro, se os perder eles não podem ser recuperados.");
-define("LAN_SIGNUP_13", "Você pode agora entrar a partir a área de entrada ou [aqui].");
-define("LAN_SIGNUP_14", "aqui");
-define("LAN_SIGNUP_15", "Entre em contacto com o administrador do site principal");
-define("LAN_SIGNUP_16", "se precisar de ajuda.");
-define("LAN_SIGNUP_17", "Por favor, confirme de que tem 13 anos ou mais.");
-define("LAN_SIGNUP_18", "A sua inscrição foi recebida e criada com as seguintes informações de entrada:");
-define("LAN_SIGNUP_21", "A sua conta está actualmente marcada como inactiva. Para activar a sua conta aceda ao seguinte hiperligação:");
-define("LAN_SIGNUP_22", "clique aqui");
-define("LAN_SIGNUP_23", "entrar no site.");
-define("LAN_SIGNUP_24", "Obrigado por se registar no");
-define("LAN_SIGNUP_25", "Fazer envio do seu avatar");
-define("LAN_SIGNUP_26", "Enviar a sua foto");
-define("LAN_SIGNUP_30", "Se você não deseja exibir o seu endereço electrónico neste site, por favor, seleccione 'Sim' na opção 'Ocultar endereço electrónico?'.");
-define("LAN_SIGNUP_34", "Por favor, note: qualquer imagem enviada para este servidor que seja considerada inapropriada pelos administradores será excluída imediatamente.");
-define("LAN_SIGNUP_36", "Ocorreu um erro ao criar as suas informações de utilizador, entre em contacto com o administrador do site");
-define("LAN_SIGNUP_37", "Esta fase de registo está completa. O administrador do site precisará aprovar a sua inscrição.  Uma vez que isto foi feito, você receberá um endereço electrónico de confirmação, alertando que sua filiação foi aprovada.");
-define("LAN_SIGNUP_38", "Você inseriu dois endereços de endereço electrónico diferentes. Introduza um endereço electrónico válido nos dois campos fornecidos");
-define("LAN_SIGNUP_39", "Re-digite o endereço de Endereço electrónico:");
-define("LAN_SIGNUP_40", "Activação não é necessária");
-define("LAN_SIGNUP_41", "Sua conta já está activada.");
-define("LAN_SIGNUP_42", "Houve um problema, o endereço electrónico de registo não foi enviado, por favor, entre em contacto com o administrador do site.");
-define("LAN_SIGNUP_43", "Endereço electrónico enviado");
-define("LAN_SIGNUP_44", "Endereço electrónico de activação enviado para:");
-define("LAN_SIGNUP_45", "Por favor, verifique sua caixa de entrada.");
-define("LAN_SIGNUP_47", "Reenviar Endereço electrónico de activação");
-define("LAN_SIGNUP_48", "Nome de utilizador ou Endereço electrónico");
-define("LAN_SIGNUP_49", "Se você se registou com o endereço electrónico errado, bem como preenchendo na caixa acima, digite um novo endereço electrónico e sua senha aqui:");
-define("LAN_SIGNUP_50", "Novo Endereço electrónico");
-define("LAN_SIGNUP_51", "Senha antiga");
-define("LAN_SIGNUP_53", "campo falhou no teste de validação");
-define("LAN_SIGNUP_54", "Clique aqui para preencher seus dados para registar");
-define("LAN_SIGNUP_58", "Inscrição prévia");
-define("LAN_SIGNUP_59", "**** Se o hiperligação não funcionar, por favor, verifique que parte dela não passou para a próxima linha. ****");
-define("LAN_SIGNUP_60", "Reenviar endereço electrónico de inscrição solicitada");
-define("LAN_SIGNUP_61", "Envio bem sucedido");
-define("LAN_SIGNUP_62", "Envio falhado");
-define("LAN_SIGNUP_63", "Reenviar endereço electrónico solicitando de redefinição de senha");
-define("LAN_SIGNUP_64", "Isso não parece serem informações de utilizador válidas");
-define("LAN_SIGNUP_65", "Você recebeu o nome de utilizador a seguir");
-define("LAN_SIGNUP_66", "Por favor tome nota disso.");
-define("LAN_SIGNUP_67", "Isto será atribuído pelo sistema após a inscrição");
-define("LAN_SIGNUP_71", "Você atingiu o limite de site para registos de conta. Faça a entrada usando uma das suas outras contas.");
-define("LAN_SIGNUP_72", "Obrigado por inscrever-se na [sitename]! Enviamos mesmo agora um endereço electrónico de confirmação para [endereço electrónico]. Por favor clique no hiperligação de confirmação no endereço electrónico para completar o seu registo e activar sua conta.");
-define("LAN_SIGNUP_73", "Obrigado!");
-define("LAN_SIGNUP_74", "Sua conta agora foi activada, por favor");
-define("LAN_SIGNUP_75", "Registo activado");
-define("LAN_SIGNUP_76", "Obrigado! Agora é um membro registado do");
-define("LAN_SIGNUP_77", "Este site cumpre Online Privacy Protection Act infantil de 1998 (COPPA) e como tal não pode aceitar registos de utilizadores com menos de 13 anos de idade sem um documento de autorização por escrito de seus pais ou tutor. Para obter mais informações, você pode ler a legislação");
-define("LAN_SIGNUP_78", "Registo");
-define("LAN_SIGNUP_79", "Registe-se");
-define("LAN_SIGNUP_80", "Por favor digite os seus dados abaixo.");
-define("LAN_SIGNUP_81", "Nome de utilizador:");
-define("LAN_SIGNUP_82", "o nome que você usa para entrar");
-define("LAN_SIGNUP_83", "Senha:");
-define("LAN_SIGNUP_84", "Re-digite a senha:");
-define("LAN_SIGNUP_85", "Nomes de utilizador e senhas diferenciam maiúsculas de minúsculas.");
-define("LAN_SIGNUP_89", "Nome para exibição:");
-define("LAN_SIGNUP_90", "o nome que será exibido no site");
-define("LAN_SIGNUP_91", "Nome verdadeiro:");
-define("LAN_SIGNUP_93", "Assinatura:");
-define("LAN_SIGNUP_94", "Avatar:");
-define("LAN_SIGNUP_95", "Digite o código visível na imagem");
-define("LAN_SIGNUP_96", "Detalhes de registo para");
-define("LAN_SIGNUP_97", "Bem-vindo ao");
-define("LAN_SIGNUP_98", "Confirme o seu endereço de Endereço electrónico");
-define("LAN_SIGNUP_99", "Problema encontrado");
-define("LAN_SIGNUP_100", "Aprovação pendente da administração");
-define("LAN_SIGNUP_101", "Actualização de registos falhados - por favor, entre em contacto com o administrador do site");
-define("LAN_SIGNUP_103", "Muitos utilizadores já estão a usar o endereço IP:");
-define("LAN_SIGNUP_105", "Incapaz de acção seu pedido - por favor, entre em contacto com o administrador do site");
-define("LAN_SIGNUP_106", "Incapaz de acção seu pedido - você já tem uma conta aqui?");
-define("LAN_LOGINNAME", "Nome de utilizador");
-define("LAN_USERNAME", "Nome para exibição");
-define("LAN_SIGNUP_107", "Senha deve ter no mínimo [x] caracteres e incluir pelo menos uma letra maiúscula e um dígito");
-define("LAN_SIGNUP_108", "Deve ser um endereço electrónico válido");
-define("LAN_SIGNUP_109", "Diferencia maiúsculas de minúsculas e não pode conter espaços.");
-define("LAN_SIGNUP_110", "Seu nome completo");
-define("LAN_SIGNUP_111", "Insira um URL para sua imagem ou escolher um avatar existente.");
-define("LAN_SIGNUP_112", "Você está logado como administrador principal.");
-define("LAN_SIGNUP_113", "Subscriçõe(s)");
-define("LAN_SIGNUP_114", "O registo de utilizadores está actualmente desligado");
-define("LAN_SIGNUP_115", "Pré visualizar endereço electrónico de activação");
-define("LAN_SIGNUP_116", "Pré visualizar depois de submeter o formulário");
-define("LAN_SIGNUP_117", "Enviar um teste de activação");
-define("LAN_SIGNUP_118", "Para [x]");
-define("LAN_SIGNUP_119", "Não enviar endereço electrónico");
-define("LAN_SIGNUP_120", "OU");
-define("LAN_SIGNUP_121", "Use um endereço electrónico diferente");
-define("LAN_SIGNUP_122", "Política de privacidade");
-define("LAN_SIGNUP_123", "Termos e condições");
-define("LAN_SIGNUP_124", "Ao registar-se concorda com a [x] e os [y].");
-define("LAN_SIGNUP_125", "Mín. [x] caracteres.");
+
+return [
+	'PAGE_NAME' => "Registar",
+    'LAN_108' => "Registo concluído",
+    'LAN_185' => "Deixaste campo(s) obrigatório(s) em branco",
+    'LAN_407' => "Guarda este e-mail para tua informação. A tua palavra-passe foi encriptada e não pode ser recuperada se a perderes ou esqueceres. Podes, no entanto, solicitar uma nova palavra-passe se isso acontecer.\\n\\nObrigado por te registares.\\n\\nDe",
+	'LAN_EMAIL_01' => "Caro(a)",
+	'LAN_EMAIL_04' => "Por favor guarda este email para tua informação.",
+	'LAN_EMAIL_05' => "A tua palavra-passe foi encriptada e não pode ser recuperada se a perderes ou esqueceres. No entanto, podes pedir uma nova palavra-passe se isso acontecer.",
+	'LAN_EMAIL_06' => "Obrigado por te registares.",
+	'LAN_SIGNUP_1' => "Mín.",
+	'LAN_SIGNUP_2' => "caract.",
+	'LAN_SIGNUP_3' => "Falha na verificação do código.",
+	'LAN_SIGNUP_4' => "A tua palavra-passe deve ter pelo menos ",
+	'LAN_SIGNUP_5' => " caracteres.",
+	'LAN_SIGNUP_8' => "Obrigado!",
+	'LAN_SIGNUP_9' => "Não foi possível continuar.",
+	'LAN_SIGNUP_11' => ".",
+	'LAN_SIGNUP_12' => "por favor escreve o teu nome de utilizador e palavra-passe num local seguro, pois não poderão ser recuperados se os perderes.",
+	'LAN_SIGNUP_13' => "Agora podes iniciar sessão na caixa de login ou a partir de [aqui].",
+	'LAN_SIGNUP_14' => "aqui",
+	'LAN_SIGNUP_15' => "Por favor contacta o administrador principal do site",
+	'LAN_SIGNUP_16' => "se precisares de ajuda.",
+	'LAN_SIGNUP_17' => "Por favor confirma que tens 13 anos ou mais.",
+	'LAN_SIGNUP_18' => "O teu registo foi recebido e criado com a seguinte informação de login:",
+	'LAN_SIGNUP_21' => "A tua conta está atualmente marcada como inativa. Para ativá-la, por favor visita o seguinte link:",
+	'LAN_SIGNUP_22' => "clica aqui",
+	'LAN_SIGNUP_23' => "para iniciar sessão.",
+	'LAN_SIGNUP_24' => "Obrigado por te registares em",
+	'LAN_SIGNUP_25' => "Carrega o teu avatar",
+	'LAN_SIGNUP_26' => "Carrega a tua fotografia",
+	'LAN_SIGNUP_30' => "Se não quiseres mostrar o teu endereço de email neste site, seleciona 'Sim' na opção 'Ocultar endereço de email?'.",
+	'LAN_SIGNUP_34' => "Nota: Qualquer imagem carregada para este servidor que seja considerada inapropriada pelos administradores será apagada imediatamente.",
+	'LAN_SIGNUP_36' => "Ocorreu um erro ao criar a tua informação de utilizador, por favor contacta o administrador do site",
+	'LAN_SIGNUP_37' => "Esta etapa do registo está concluída. O administrador do site terá de aprovar a tua conta. Assim que isso acontecer, receberás um email de confirmação a informar-te que a tua conta foi aprovada.",
+	'LAN_SIGNUP_38' => "Inseriste dois endereços de email diferentes. Por favor insere o mesmo endereço de email nos dois campos fornecidos",
+	'LAN_SIGNUP_39' => "Reintroduz o endereço de email:",
+	'LAN_SIGNUP_40' => "Ativação não necessária",
+	'LAN_SIGNUP_41' => "A tua conta já está ativada.",
+	'LAN_SIGNUP_42' => "Ocorreu um problema, o email de registo não foi enviado, por favor contacta o administrador do site.",
+	'LAN_SIGNUP_43' => "Email enviado",
+	'LAN_SIGNUP_44' => "Email de ativação enviado para:",
+	'LAN_SIGNUP_45' => "Por favor verifica a tua caixa de entrada.",
+	'LAN_SIGNUP_47' => "Reenviar Email de Ativação",
+	'LAN_SIGNUP_48' => "Nome de utilizador ou Email",
+	'LAN_SIGNUP_49' => "Se te registaste com o email errado, além de preencheres o campo acima, escreve aqui um novo endereço de email e a tua palavra-passe:",
+	'LAN_SIGNUP_50' => "Novo Email",
+	'LAN_SIGNUP_51' => "Palavra-passe antiga",
+	'LAN_SIGNUP_53' => "o campo falhou no teste de validação",
+	'LAN_SIGNUP_54' => "Clica aqui para preencher os teus dados de registo",
+	'LAN_SIGNUP_58' => "Pré-visualização do Registo",
+	'LAN_SIGNUP_59' => "**** Se o link não funcionar, verifica se parte dele não foi cortado para a linha seguinte. ****",
+	'LAN_SIGNUP_60' => "Pedido de reenvio do email de registo",
+	'LAN_SIGNUP_61' => "Envio com sucesso",
+	'LAN_SIGNUP_62' => "Falha no envio",
+	'LAN_SIGNUP_63' => "Pedido de reenvio do email de redefinição de palavra-passe",
+	'LAN_SIGNUP_64' => "Essa informação de utilizador não parece válida",
+	'LAN_SIGNUP_65' => "Foi-te atribuído o seguinte nome de utilizador",
+	'LAN_SIGNUP_66' => "Por favor toma nota dele.",
+	'LAN_SIGNUP_67' => "Será atribuído pelo sistema após o registo",
+	'LAN_SIGNUP_71' => "Atingiste o limite de contas registadas a partir deste endereço IP. Por favor inicia sessão com uma das tuas outras contas.",
+	'LAN_SIGNUP_72' => "Obrigado por te registares em [sitename]! Acabámos de enviar-te um email de confirmação para [email]. Por favor clica no link de confirmação no email para concluir o registo e ativar a tua conta.",
+	'LAN_SIGNUP_73' => "Obrigado!",
+	'LAN_SIGNUP_74' => "A tua conta foi agora ativada, por favor",
+	'LAN_SIGNUP_75' => "Registo ativado",
+	'LAN_SIGNUP_76' => "Obrigado! És agora um membro registado de",
+	'LAN_SIGNUP_77' => "Este site está em conformidade com a Lei de Proteção da Privacidade Online das Crianças de 1998 (COPPA) e, como tal, não pode aceitar registos de utilizadores com menos de 13 anos sem um documento de autorização escrito dos pais ou tutor. Para mais informações podes ler a legislação",
+	'LAN_SIGNUP_78' => "Registo de Utilizador",
+	'LAN_SIGNUP_79' => "Registar",
+	'LAN_SIGNUP_80' => "Por favor preenche os teus dados abaixo.",
+	'LAN_SIGNUP_81' => "Nome de utilizador: ",
+	'LAN_SIGNUP_82' => "o nome que usas para iniciar sessão",
+	'LAN_SIGNUP_83' => "Palavra-passe: ",
+	'LAN_SIGNUP_84' => "Reintroduz a palavra-passe: ",
+	'LAN_SIGNUP_85' => "Os nomes de utilizador e palavras-passe são sensíveis a maiúsculas e minúsculas.",
+	'LAN_SIGNUP_89' => "Nome de exibição: ",
+	'LAN_SIGNUP_90' => "o nome que será mostrado no site",
+	'LAN_SIGNUP_91' => "Nome verdadeiro: ",
+	'LAN_SIGNUP_93' => "Assinatura: ",
+	'LAN_SIGNUP_94' => "Avatar: ",
+	'LAN_SIGNUP_95' => "Insere o código visível na imagem",
+	'LAN_SIGNUP_96' => "Detalhes do registo para",
+	'LAN_SIGNUP_97' => "Bem-vindo a",
+	'LAN_SIGNUP_98' => "Confirma o teu endereço de email",
+	'LAN_SIGNUP_99' => "Problema encontrado",
+	'LAN_SIGNUP_100' => "Aprovação do administrador pendente",
+	'LAN_SIGNUP_101' => "Falha na atualização dos registos - por favor contacta o administrador do site",
+	'LAN_SIGNUP_103' => "Já existem demasiados utilizadores a usar este endereço IP: ",
+	'LAN_SIGNUP_105' => "Não foi possível processar o teu pedido - por favor contacta o administrador do site",
+	'LAN_SIGNUP_106' => "Não foi possível processar o teu pedido - já tens uma conta aqui?",
+	'LAN_LOGINNAME' => "Nome de utilizador",
+	'LAN_USERNAME' => "Nome de exibição",
+	'LAN_SIGNUP_107' => "A palavra-passe deve ter no mínimo [x] caracteres, incluindo pelo menos uma letra MAIÚSCULA e um número",
+	'LAN_SIGNUP_108' => "Deve ser um endereço de email válido",
+	'LAN_SIGNUP_109' => "É sensível a maiúsculas/minúsculas e não pode conter espaços.",
+	'LAN_SIGNUP_110' => "O teu nome completo",
+	'LAN_SIGNUP_111' => "Insere um URL para a tua imagem ou escolhe um avatar existente.",
+	'LAN_SIGNUP_112' => "Estás atualmente autenticado como Administrador Principal.",
+	'LAN_SIGNUP_113' => "Subscrição(ões)",
+	'LAN_SIGNUP_114' => "O registo de utilizadores está atualmente desativado.",
+	'LAN_SIGNUP_115' => "Pré-visualizar Email de Ativação",
+	'LAN_SIGNUP_116' => "Pré-visualizar Após Submissão do Formulário",
+	'LAN_SIGNUP_117' => "Enviar Teste de Ativação",
+	'LAN_SIGNUP_118' => "Para [x]",
+	'LAN_SIGNUP_119' => "Não enviar email",
+	'LAN_SIGNUP_120' => "OU",
+	'LAN_SIGNUP_121' => "Usar outro endereço de email",
+	'LAN_SIGNUP_122' => "Política de Privacidade",
+	'LAN_SIGNUP_123' => "Termos e Condições",
+	'LAN_SIGNUP_124' => "Ao registares-te, concordas com a nossa [x] e os nossos [y].",
+	'LAN_SIGNUP_125' => "Mín. [x] caract.",
+];

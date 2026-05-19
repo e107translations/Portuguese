@@ -1,110 +1,121 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/02/13 19:38:59
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Ricardo $
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("BANLAN_5", "Digite o IP, endereço electrónico ou host");
-define("BANLAN_7", "Razão");
-define("BANLAN_9", "Proibir os utilizadores do site pelo endereço electrónico, IP ou host");
-define("BANLAN_10", "IP / Endereço electrónico / razão");
-define("BANLAN_11", "Auto-ban: falha de mais de 10 tentativas de entrar");
-define("BANLAN_15", "Mensagens/Períodos Ban");
-define("BANLAN_16", "Proibição");
-define("BANLAN_19", "Notas");
-define("BANLAN_23", "dia(s)");
-define("BANLAN_24", "horas");
-define("BANLAN_28", "Tipo de Ban");
-define("BANLAN_29", "Banido de mensagem para mostrar ao utilizador");
-define("BANLAN_30", "Duração de proibição");
-define("BANLAN_31", "(Use uma mensagem vazia se desejar que o utilizador para obter uma tela em branco)");
-define("BANLAN_32", "Por tempo indeterminado");
-define("BANLAN_34", "Expirado");
-define("BANLAN_35", "Importação/exportação");
-define("BANLAN_36", "Tipos de exportação");
-define("BANLAN_37", "Separador de campo");
-define("BANLAN_38", "Quote (cada valor aredondado)");
-define("BANLAN_40", "Exportação de lista de utilizadores banidos");
-define("BANLAN_41", "Importação de lista de utilizadores banidos");
-define("BANLAN_42", "Opções de importação");
-define("BANLAN_43", "Substitua todas as proibições importadas");
-define("BANLAN_44", "Termo de uso, data/hora da importação");
-define("BANLAN_46", "Arquivo de importação:");
-define("BANLAN_47", "Erro de carregamento de arquivo");
-define("BANLAN_48", "[x] entradas excluídas da lista de proibição expiradas");
-define("BANLAN_49", "Importação CSV: assimétrica citações em linha");
-define("BANLAN_50", "Importação CSV: erro ao gravar o registro banlist em linha");
-define("BANLAN_51", "Importação CSV: Sucesso, [y] linhas importadas de arquivo");
-define("BANLAN_52", "Lista permitida");
-define("BANLAN_53", "Adicionar à lista permitida");
-define("BANLAN_54", "Há entradas na lista permitida");
-define("BANLAN_55", "Data de entrada");
-define("BANLAN_56", "IP/Endereço electrónico, utilizador");
-define("BANLAN_57", "Utilizador");
-define("BANLAN_58", "Adicionar utilizadores à lista branca");
-define("BANLAN_59", "Editar a entrada existente de lista branca");
-define("BANLAN_60", "Editar a entrada existente da lista de banidos");
-define("BANLAN_61", "Entradas existentes na lista permitida");
-define("BANLAN_63", "Use o DNS reverso para permitir que o host de proibição");
-define("BANLAN_64", "Acessos DNS reversos ao adicionar ban");
-define("BANLAN_65", "Ativando esta opção permitirá que você banir utilizadores pelo hostname, então somente IP ou endereço electrónico.<br>NOTA: Isso pode afetar vezes pageload em alguns hosts, ou se um servidor não está respondendo");
-define("BANLAN_66", "Quando ocorre uma proibição, esta opção adiciona o domínio do endereço proibido para a razão");
-define("BANLAN_67", "Taxa de definir acesso máximo");
-define("BANLAN_68", "Isso determina o número máximo de acessos de site em um período de 5 minutos");
-define("BANLAN_69", "para membros");
-define("BANLAN_70", "para convidados");
-define("BANLAN_71", "Período de proibição Retrigger");
-define("BANLAN_72", "Opções de proibição");
-define("BANLAN_73", "Isso irá reiniciar o período de proibição, se um utilizador banido acessa o site");
-define("BANLAN_74", "Manutenção de banlist");
-define("BANLAN_75", "Remover expiradas proibições da lista");
-define("BANLAN_76", "Executar");
-define("BANLAN_77", "Mensagens/Ban períodos");
-define("BANLAN_78", "Bater a contagem excedida ([x] solicitações no tempo alocado)");
-define("BANLAN_79", "Formato de exportação CSV:");
-define("BANLAN_80", "Formato de importação CSV:");
-define("BANLAN_81", "Log de ação de interdição");
-define("BANLAN_82", "Não há entradas no Log de ação Ban");
-define("BANLAN_83", "Data/hora");
-define("BANLAN_84", "Endereço IP");
-define("BANLAN_85", "Informações adicionais");
-define("BANLAN_86", "Eventos relacionados à proibição");
-define("BANLAN_87", "Total [y] entradas na lista.");
-define("BANLAN_88", "Log de ação de interdição vazia");
-define("BANLAN_89", "Excluídos do arquivo de log");
-define("BANLAN_90", "Arquivo de log de erro de exclusão");
-define("BANLAN_91", "Formato de data/hora para log de proibição");
-define("BANLAN_92", "Consulte a página de função strftime em php.net");
-define("BANLAN_100", "Desconhecido");
-define("BANLAN_101", "Manual");
-define("BANLAN_102", "Inundação");
-define("BANLAN_103", "Contagem de ocorrências");
-define("BANLAN_104", "Falha de entrar");
-define("BANLAN_105", "Importado");
-define("BANLAN_106", "Utilizador");
-define("BANLAN_107", "Desconhecido");
-define("BANLAN_108", "Desconhecido");
-define("BANLAN_109", "Antigo");
-define("BANLAN_110", "Provavelmente uma proibição que foi imposta antes e107 foi atualizado a partir de 0.7. x");
-define("BANLAN_111", "Entrou por um admin");
-define("BANLAN_112", "Tenta atualizar o site muito rápido");
-define("BANLAN_113", "Tenta acessar o site também freqüentemente no mesmo endereço");
-define("BANLAN_114", "Tentativas de entrar falha múltiplas do mesmo utilizador");
-define("BANLAN_115", "Adicionada uma lista externa");
-define("BANLAN_116", "Endereço IP Banido por causa da proibição de utilizador");
-define("BANLAN_117", "Razão de reposição");
-define("BANLAN_118", "Razão de reposição");
-define("BANLAN_119", "Indica um erro de importação - proibições anteriormente importados");
-define("BANLAN_120", "Entrada de whitelist");
-define("BANLAN_121", "Entrada de lista negra");
-define("BANLAN_122", "Lista negra");
-define("BANLAN_123", "Adicionar à lista negra");
-define("BANLAN_124", "Expira");
-define("BANLAN_125", "Usar o meu IP");
-define("BANLAN_126", "IP / Endereço electrónico");
-define("BANLAN_127", "Apagar todas as [x] tentativas falhadas de entrada da base de dados");
+
+// define("BANLAN_1", "Ban removed.");
+// define("BANLAN_2", "No bans in list.");
+// define("BANLAN_3", "Existing Bans");
+// define("BANLAN_4", "Remove ban");
+
+return [
+	'BANLAN_5' => "Introduza IP, endereço de email ou host",
+	'BANLAN_7' => "Motivo",
+	'BANLAN_9' => "Banir utilizadores do site por email, IP ou endereço de host",
+	'BANLAN_10' => "IP / Email / Motivo",
+	'BANLAN_11' => "Auto-banimento: Mais de 10 tentativas falhadas de login",
+	'BANLAN_15' => "Mensagens/Períodos de Banimento",
+	'BANLAN_16' => "Banimento",
+	'BANLAN_19' => "Notas",
+	'BANLAN_23' => "dia(s)",
+	'BANLAN_24' => "hora(s)",
+	'BANLAN_28' => "Tipo de banimento",
+	'BANLAN_29' => "Mensagem a mostrar ao utilizador banido",
+	'BANLAN_30' => "Duração do banimento",
+	'BANLAN_31' => "(Use uma mensagem em branco se desejar que o utilizador veja uma tela em branco)",
+	'BANLAN_32' => "Indefinido",
+	'BANLAN_34' => "Expirado",
+	'BANLAN_35' => "Importar/Exportar",
+	'BANLAN_36' => "Tipos de Exportação",
+	'BANLAN_37' => "Separador de campo",
+	'BANLAN_38' => "Citar (envolver cada valor)",
+	'BANLAN_40' => "Exportação da Lista de Banimentos",
+	'BANLAN_41' => "Importação da Lista de Banimentos",
+	'BANLAN_42' => "Opções de Importação",
+	'BANLAN_43' => "Substituir todos os banimentos importados existentes",
+	'BANLAN_44' => "Usar data/hora de expiração da importação",
+	'BANLAN_46' => "Ficheiro de Importação:",
+	'BANLAN_47' => "Erro de envio de ficheiro",
+	'BANLAN_48' => "Eliminaram-se [y] entradas de banimento expiradas",
+	'BANLAN_49' => "Importação CSV: Aspas desequilibradas na linha ",
+	'BANLAN_50' => "Importação CSV: Erro ao escrever o registo da lista de banimentos na linha ",
+	'BANLAN_51' => "Importação CSV: Sucesso, [y] linhas importadas do ficheiro ",
+	'BANLAN_52' => "Lista Branca",
+	'BANLAN_53' => "Adicionar à Lista Branca",
+	'BANLAN_54' => "Sem entradas na lista branca",
+	'BANLAN_55' => "Data de Entrada",
+	'BANLAN_56' => "IP/Email, Utilizador",
+	'BANLAN_57' => "Utilizador",
+	'BANLAN_58' => "Adicionar utilizadores à lista branca",
+	'BANLAN_59' => "Editar entrada existente na lista branca",
+	'BANLAN_60' => "Editar entrada existente na lista de banimentos",
+	'BANLAN_61' => "Entradas existentes na lista branca",
+	'BANLAN_63' => "Usar DNS reverso para permitir o banimento por host",
+	'BANLAN_64' => "Acessos de DNS reverso ao adicionar banimento",
+	'BANLAN_65' => "Ativar esta opção permitirá banir utilizadores por nome de domínio, em vez de apenas por IP ou endereço de email. <br />NOTA: Isto pode afetar os tempos de carregamento das páginas em alguns servidores ou se um servidor não responder.",
+	'BANLAN_66' => "Quando um banimento ocorrer, esta opção adicionará o domínio do endereço banido ao motivo",
+	'BANLAN_67' => "Definir taxa máxima de acesso",
+	'BANLAN_68' => "Isto determina o número máximo de acessos ao site em um período de 5 minutos",
+	'BANLAN_69' => "para membros",
+	'BANLAN_70' => "para visitantes",
+	'BANLAN_71' => "Reiniciar período de banimento",
+	'BANLAN_72' => "Opções de Banimento",
+	'BANLAN_73' => "Isto reiniciará o período de banimento se um utilizador banido aceder ao site",
+	'BANLAN_74' => "Manutenção da Lista de Banimentos",
+	'BANLAN_75' => "Remover banimentos expirados da lista",
+	'BANLAN_76' => "Executar",
+	'BANLAN_77' => "Mensagens/Períodos de Banimento",
+	'BANLAN_78' => "Contagem de acessos excedida ([x] pedidos dentro do tempo permitido)",
+	'BANLAN_79' => "Formato de Exportação CSV:",
+	'BANLAN_80' => "Formato de Importação CSV:",
+	'BANLAN_81' => "Registo de Ação de Banimento",
+	'BANLAN_82' => "Sem entradas no Registo de Ação de Banimento",
+	'BANLAN_83' => "Data/Hora",
+	'BANLAN_84' => "Endereço IP",
+	'BANLAN_85' => "Informações adicionais",
+	'BANLAN_86' => "Eventos relacionados com o banimento",
+	'BANLAN_87' => "Total de [y] entradas na lista",
+	'BANLAN_88' => "Esvaziar Registo de Ação de Banimento",
+	'BANLAN_89' => "Ficheiro de registo eliminado",
+	'BANLAN_90' => "Erro ao eliminar ficheiro de registo",
+	'BANLAN_91' => "Formato de data/hora para o registo de banimentos",
+	'BANLAN_92' => "Consulte a página da função strftime em php.net",
+	'BANLAN_93' => "",
+	'BANLAN_100' => "Desconhecido",
+	'BANLAN_101' => "Manual",
+	'BANLAN_102' => "Flood",
+	'BANLAN_103' => "Contagem de acessos",
+	'BANLAN_104' => "Falha de login",
+	'BANLAN_105' => "Importado",
+	'BANLAN_106' => "Utilizador",
+	'BANLAN_107' => "Desconhecido",
+	'BANLAN_108' => "Desconhecido",
+	'BANLAN_109' => "Antigo",
+	'BANLAN_110' => "Provavelmente um banimento imposto antes de o e107 ser atualizado de 0.7.x",
+	'BANLAN_111' => "Inserido por um administrador",
+	'BANLAN_112' => "Tentativas de atualizar o site muito rapidamente",
+	'BANLAN_113' => "Tentativas de acessar o site com muita frequência a partir do mesmo endereço",
+	'BANLAN_114' => "Múltiplas tentativas falhadas de login do mesmo utilizador",
+	'BANLAN_115' => "Adicionado a partir de uma lista externa",
+	'BANLAN_116' => "Endereço IP banido devido a banimento de utilizador",
+	'BANLAN_117' => "Motivo em espera",
+	'BANLAN_118' => "Motivo em espera",
+	'BANLAN_119' => "Indica um erro de importação - banimentos anteriormente importados",
+	'BANLAN_120' => "Entrada na Lista Branca",
+	'BANLAN_121' => "Entrada na Lista Negra",
+	'BANLAN_122' => "Lista Negra",
+	'BANLAN_123' => "Adicionar à Lista Negra",
+	'BANLAN_124' => "Expira",   
+	'BANLAN_125' => "Usar o meu IP",
+	'BANLAN_126' => "IP / E-mail",
+	'BANLAN_127' => "Eliminar todos os [x] logins falhados da base de dados",
+];

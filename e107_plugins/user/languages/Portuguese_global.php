@@ -1,14 +1,18 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 s�tio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/25 15:59:29
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("LAN_PLUGIN_USER_NAME", "Utilizador");
-define("LAN_PLUGIN_USER_DESC", "Menus de tema e idioma do utilizador");
+return [
+    'LAN_PLUGIN_USER_NAME' => "Utilizador",
+    'LAN_PLUGIN_USER_DESC' => "Menus de Tema e Idioma do Utilizador",
+];

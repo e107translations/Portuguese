@@ -1,46 +1,51 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/02/14 17:11:01
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Ricardo $
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("PAGE_NAME", "Redefinição de senha");
-define("LAN_02", "Sinto muito, não é possível enviar endereço electrónico - entre em contato com o administrador do site principal.");
-define("LAN_03", "Redefinição de senha");
-define("LAN_05", "Para redefinir sua senha, por favor, insira as seguintes informações");
-define("LAN_06", "Tentativa de redefinição de senha");
-define("LAN_07", "Alguém com endereço IP");
-define("LAN_08", "tentativa de redefinir a senha de administrador principal.");
-define("LAN_09", "Senha Redefinir de");
-define("LAN_213", "Que nome de utilizador/endereço electrónico não foi encontrado no banco de dados.");
-define("LAN_214", "Não é possível redefinir a senha");
-define("LAN_218", "Seu nome de utilizador é:");
-define("LAN_FPW1", "Nome de utilizador");
-define("LAN_FPW4", "Já foi enviada uma solicitação para redefinir essa senha, se você não recebeu o endereço electrónico, entre em contato com o administrador do site para ajuda.");
-define("LAN_FPW5", "Uma solicitação para redefinir sua senha");
-define("LAN_FPW6", "Um endereço electrónico foi enviado para você com um hiperligação que permitirá que você redefinir sua senha.");
-define("LAN_FPW7", "Isto não é um hiperligação válido para redefinir sua senha.<br>Entre em contato com o administrador do site para mais detalhes.");
-define("LAN_FPW8", "Sua senha foi alterada com sucesso.");
-define("LAN_FPW9", "A nova senha é:");
-define("LAN_FPW10", "Por favor,");
-define("LAN_FPW11", "logar agora");
-define("LAN_FPW12", "e imediatamente alterar sua senha, para fins de segurança.");
-define("LAN_FPW13", "por favor, siga as instruções no endereço electrónico para validar sua senha.");
-define("LAN_FPW14", "tenha sido submetido por alguém com o IP de");
-define("LAN_FPW15", "Isso não significa que ainda foi redefinir sua senha.  Você deve navegar para o hiperligação mostrado abaixo para concluir o processo de restauração.");
-define("LAN_FPW16", "Se você não pediu ter sua senha redefinir e não quer que ele reiniciar, você pode simplesmente ignorar este endereço electrónico");
-define("LAN_FPW17", "No hiperligação abaixo será válido por 48 horas.");
-define("LAN_FPW18", "Pedido de redefinição de senha");
-define("LAN_FPW19", "Envio de endereço electrónico falhado");
-define("LAN_FPW20", "Enviar endereço electrónico sucedido");
-define("LAN_FPW21", "Clicada no hiperligação de redefinição de senha de utilizador");
-define("LAN_FPW22", "Endereço de endereço electrónico registado neste sítio");
-define("LAN_FPW_100", "Esqueceu sua senha?");
-define("LAN_FPW_101", "Não se preocupe. Basta digitar o seu endereço electrónico abaixo e enviaremos um endereço electrónico de instruções para a recuperação.");
-define("LAN_FPW_102", "Redefinir senha");
+return [
+	'PAGE_NAME' => "Redefinir Palavra-passe",
+	'LAN_02' => "Desculpe, não foi possível enviar o e-mail - por favor, contacte o administrador principal do site.",
+	'LAN_03' => "Redefinir Palavra-passe",
+	'LAN_05' => "Para redefinir a sua palavra-passe, por favor insira a seguinte informação",
+	'LAN_06' => "Tentativa de redefinir palavra-passe",
+	'LAN_07' => "Alguém com o endereço IP ",
+	'LAN_08' => "tentou redefinir a palavra-passe do administrador principal.",
+	'LAN_09' => "Redefinir palavra-passe de ",
+	'LAN_213' => "Esse nome de utilizador/endereço de e-mail não foi encontrado na base de dados.",
+	'LAN_214' => "Não foi possível redefinir a palavra-passe",
+	'LAN_218' => "O teu nome de utilizador é:",
+	'LAN_FPW1' => "Nome de utilizador",
+	'LAN_FPW4' => "Já foi enviada uma solicitação para redefinir esta palavra-passe. Se não recebeu o e-mail, por favor contacte o administrador do site para ajuda.",
+	'LAN_FPW5' => "Uma solicitação para redefinir a sua palavra-passe para",
+	'LAN_FPW6' => "Foi enviado um e-mail para si com um link que permitirá redefinir a sua palavra-passe.",
+	'LAN_FPW7' => "Este não é um link válido para redefinir a sua palavra-passe.<br />Por favor, contacte o administrador do site para mais detalhes.",
+	'LAN_FPW8' => "A sua palavra-passe foi alterada com sucesso.",
+	'LAN_FPW9' => "A nova palavra-passe é:",
+	'LAN_FPW10' => "Por favor",
+	'LAN_FPW11' => "inicie sessão agora",
+	'LAN_FPW12' => "e altere imediatamente a sua palavra-passe, por questões de segurança.",
+	'LAN_FPW13' => "por favor, siga as instruções no e-mail para validar a sua palavra-passe.",
+	'LAN_FPW14' => "foi enviado por alguém com o IP de",
+	'LAN_FPW15' => "Isto não significa que a sua palavra-passe tenha sido ainda redefinida. Você deve navegar para o link abaixo para completar o processo de redefinição.",
+	'LAN_FPW16' => "Se não solicitou a redefinição da sua palavra-passe e não a quer redefinir, pode simplesmente ignorar este e-mail",
+	'LAN_FPW17' => "O link abaixo será válido por 10 minutos.",
+	'LAN_FPW18' => "Solicitação de redefinição de palavra-passe",
+	'LAN_FPW19' => "Falha ao enviar o e-mail",
+	'LAN_FPW20' => "E-mail enviado com sucesso",
+	'LAN_FPW21' => "O utilizador clicou no link de redefinição de palavra-passe",
+	'LAN_FPW22' => "Endereço de e-mail registado neste site",
+	'LAN_FPW_100' => "Esqueceu-se da sua palavra-passe?",
+	'LAN_FPW_101' => "Não se preocupe. Basta inserir o seu endereço de e-mail abaixo e enviaremos um e-mail com instruções para recuperá-la.",
+	'LAN_FPW_102' => "Redefinir Palavra-passe",
+	'LAN_FPW_MISCONFIGURED' => "A redefinição de palavra-passe não está disponível devido a um problema de configuração do site. Por favor, contacta o administrador do site.",
+];

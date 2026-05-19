@@ -1,21 +1,26 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/02/14 19:45:12
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Ricardo $
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("METLAN_00", "Meta Tags");
-define("METLAN_1", "Metatags adicionais");
-define("METLAN_2", "por exemplo< meta='' name='revisit-after' content='30 days'>");
-define("METLAN_3", "Usar o título de notícia e Resumo como a meta-Descrição nas páginas de notícias.");
-define("METLAN_4", "Tags personalizadas (dentro de [x] tags)");
-define("METLAN_5", "Tags personalizadas (após [x])");
-define("METLAN_6", "Tags personalizadas (depois [x])");
-define("METLAN_7", "Todos os metadados ou tags HTML personalizados inseridos aqui (como tags <script> ou código do Google Analytics) serão incluídos em todas as páginas do site em suas áreas designadas.");
-define("METLAN_8", "Limite de caracteres do título SEO");
-define("METLAN_9", "Limite de caracteres da descrição SEO");
+
+return [
+	'METLAN_00' => "Etiquetas Meta",
+	'METLAN_1' => "Etiquetas meta adicionais",
+	'METLAN_2' => "ex.: < meta name='revisit-after' content='30 days' />",
+	'METLAN_3' => "Usar o título e o resumo da notícia como meta-descrição nas páginas de notícias.",
+	'METLAN_4' => "Etiquetas personalizadas (dentro das etiquetas [x])",
+	'METLAN_5' => "Etiquetas personalizadas (após [x])",
+	'METLAN_6' => "Etiquetas personalizadas (antes de [x])",
+	'METLAN_7' => "Qualquer dado meta ou etiquetas HTML personalizadas inseridas aqui (como etiquetas <script> ou código do Google Analytics) serão incluídas em todas as páginas do site nas áreas designadas.",
+	'METLAN_8' => "Limite de caracteres para o título SEO",
+	'METLAN_9' => "Limite de caracteres para a descrição SEO",
+];

@@ -1,0 +1,19 @@
+
+Q>	Defini um novo banner na área de administração mas não está a aparecer - porquê?
+A>	O tema que estás a usar precisa de saber que deve mostrar um banner. Abre o ficheiro theme.php do tema e certifica-te de que tens {BANNER} ou {BANNER=nomedatucampanha} na secção $HEADER.
+
+Q>	Quero um conjunto de banners numa área e outro conjunto diferente noutra área - como faço?
+A>	Podes agrupar os teus banners por "campanhas" e depois configurar o tema para mostrar banners de campanhas específicas. Por exemplo, se tiveres duas campanhas chamadas cam_1 e cam_2, colocando {BANNER=cam_1} numa parte do $HEADER do theme.php só serão mostrados os banners da cam_1, e colocando {BANNER=cam_2} noutra parte só serão mostrados os da cam_2. Colocando {BANNER} (sem nome de campanha) irá mostrar banners aleatórios de todas as campanhas.
+
+Q>	Para que serve o login e a palavra-passe do cliente?
+A>	Podes definir um nome de utilizador e uma palavra-passe para os teus clientes de banners. Eles podem usá-los para aceder às estatísticas de desempenho dos seus banners em http://oteusite.com/banner.php introduzindo o nome e a palavra-passe.
+
+Q>	Como posso ter um banner tipo "torre" num item de menu?
+A>	Primeiro precisas de definir uma campanha para os banners tipo torre (isto mantém-nos separados dos banners tipo barra)...
+
+	1. Vai à tua área de administração e clica em Banners.
+	2. Introduz os teus banners tipo torre, certificando-te de que usas um nome de campanha novo, por exemplo, torres.
+	3. Agora vai à área de Menus e ativa o Banner_menu numa das zonas de menu.
+	4. Clica no link "Configurar" do item de menu.
+	5. Introduz o título da legenda (por defeito é "Publicidade") e o nome da campanha que definiste.
+	6. Sai da área de administração e verás os teus banners tipo torre na área onde os colocaste.

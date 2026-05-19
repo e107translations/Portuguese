@@ -1,0 +1,10 @@
+
+Q>	O que são essas classes de utilizador que vejo por todo o lado? Para que servem?
+A>	As classes de utilizador servem para restringir o acesso a certas áreas ou funções do teu site. Se definires uma classe e adicionares utilizadores a ela, podes tornar certas funcionalidades visíveis apenas para os membros dessa classe.
+Por exemplo, há uma classe que é criada por defeito ao instalares o e107, chamada PRIVATEFORUM. Ao adicionares utilizadores a essa classe e criares um fórum associado, só esses utilizadores poderão aceder a esse fórum. Também podes restringir outras áreas e funções por classe, como notícias, ligações, transferências, etc.
+
+Q>	Para que serve o campo 'classe pai'?
+A>	Na versão 2.x, podes definir uma "hierarquia de classes", onde os utilizadores de uma classe herdam os direitos da classe pai. Se não quiseres isso, basta definir a classe pai como "Todos".
+
+Q>	Quero que os novos utilizadores comecem como membros de determinadas classes.
+A>	Agora podes definir a pertença inicial a classes através do menu "Classe de utilizador". Também podes escolher se essa pertença entra em vigor logo após o registo ou apenas quando a conta for verificada.

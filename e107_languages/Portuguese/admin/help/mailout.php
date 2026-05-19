@@ -1,12 +1,16 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2013 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       TraduÃ§Ã£o PortuguÃªs(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
@@ -17,63 +21,85 @@ $action = e107::getParser()->toDB(varset($_GET['mode'],'makemail'));
   switch ($action)
   {
 	case 'justone' :
-      $text = 'Enviar endereço electrónico com restrições especificadas por um plugin opcional';
-	  break;
+		$caption = "Ajuda:<br />
+			# Correio EletrÃ³nico - eMail";
+		$text = 'Enviar endereÃ§o electrÃ³nico com restriÃ§Ãµes especificadas por um plugin opcional';
+		break;
 	case 'debug' :
-      $text = 'Apenas para desenvolvedores. Não utilizado atualmente';
-	  break;
+		$caption = "Ajuda:<br />
+			# Correio EletrÃ³nico - eMail";
+		$text = 'Apenas para desenvolvedores. NÃ£o utilizado atualmente';
+		break;
 	case 'saved' :
-      $text = 'Selecione e use um modelo de endereço electrónico salvo para enviar uma mensagem. Exclua qualquer modelo que não seja mais necessário';
-	  break;
+		$caption = "Ajuda:<br />
+			# Correio EletrÃ³nico - eMail";
+		$text = 'Selecione e use um modelo de endereÃ§o electrÃ³nico salvo para enviar uma mensagem. Exclua qualquer modelo que nÃ£o seja mais necessÃ¡rio';
+		break;
 	case 'pending' :
-        $text = 'Lista de mailshots liberados para envio, juntamente com o status atual. A tarefa do agendador de endereço electrónico processará esses e-mails da melhor forma possível, levando em consideração as primeiras e últimas datas de envio que você definiu';
+		$caption = "Ajuda:<br />
+			# Correio EletrÃ³nico - eMail";
+        $text = 'Lista de mailshots liberados para envio, juntamente com o status atual. A tarefa do agendador de endereÃ§o electrÃ³nico processarÃ¡ esses e-mails da melhor forma possÃ­vel, levando em consideraÃ§Ã£o as primeiras e Ãºltimas datas de envio que vocÃª definiu';
 		break;
 	case 'held' :
-        $text = 'Lista de emails que foram preparados para envio, mas ainda não liberados';
+		$caption = "Ajuda:<br />
+			# Correio EletrÃ³nico - eMail";
+        $text = 'Lista de emails que foram preparados para envio, mas ainda nÃ£o liberados';
 		break;
 	case 'sent' :
-      $text = 'Lista de mailshots concluídos. Permite que você veja os resultados do envio.<br />';
-	  break;
+		$caption = "Ajuda:<br />
+			# Correio EletrÃ³nico - eMail";
+		$text = 'Lista de mailshots concluÃ­dos. Permite que vocÃª veja os resultados do envio.<br />';
+		break;
 	case 'savedmail' :
 	case 'makemail' :
 	case 'main' :
-      $text = 'Crie um endereço electrónico, dê um título significativo e selecione a lista de destinatários. Você pode salvar tudo como modelo para usar mais tarde ou enviar imediatamente.<br />';
-      $text .= 'Endereços de endereço electrónico podem ser contribuídos por plugins (como newsletter), e duplicatas são removidas quando o endereço electrónico é enviado<br />';
-      $text .= 'Qualquer anexo é selecionado da lista de downloads válidos.<br />';
-      $text .= 'O endereço electrónico pode ser enviado como texto simples (mais universal e com menor risco de ser classificado como spam) ou como HTML (nesse caso, uma alternativa de texto simples é gerada automaticamente). O estilo do tema
-opcionalmente, pode ser adicionado ao endereço electrónico. Alternativamente, um modelo predefinido pode ser selecionado.';
-	  break;
+		$caption = "Ajuda:<br />
+			# Correio EletrÃ³nico - eMail";
+		$text = 'Crie um endereÃ§o electrÃ³nico, dÃª um tÃ­tulo significativo e selecione a lista de destinatÃ¡rios. VocÃª pode salvar tudo como modelo para usar mais tarde ou enviar imediatamente.<br />';
+		$text .= 'EndereÃ§os de endereÃ§o electrÃ³nico podem ser contribuÃ­dos por plugins (como newsletter), e duplicatas sÃ£o removidas quando o endereÃ§o electrÃ³nico Ã© enviado<br />';
+		$text .= 'Qualquer anexo Ã© selecionado da lista de downloads vÃ¡lidos.<br />';
+		$text .= 'O endereÃ§o electrÃ³nico pode ser enviado como texto simples (mais universal e com menor risco de ser classificado como spam) ou como HTML (nesse caso, uma alternativa de texto simples Ã© gerada automaticamente).
+				O estilo do tema opcionalmente, pode ser adicionado ao endereÃ§o electrÃ³nico. Alternativamente, um modelo predefinido pode ser selecionado.';
+		break;
 	case 'recipients' :
-      $text = 'Mostra todos os destinatários ou potenciais destinatários de um endereço electrónico, juntamente com o status atual';
+		$caption = "Ajuda:<br />
+			# Correio EletrÃ³nico - eMail";
+		$text = 'Mostra todos os destinatÃ¡rios ou potenciais destinatÃ¡rios de um endereÃ§o electrÃ³nico, juntamente com o status atual';
 		break;
 	case 'prefs' :
-      $text = '<b>Configurar opções de mailshot.</b><br />
-Um endereço electrónico de teste é enviado usando o método e as configurações atuais. Se você estiver tendo problemas com a devolução de e-mails, tente enviar um endereço electrónico de teste para: <i>check-auth@verifier.port25.com</i> para garantir que os registros MX do seu servidor estejam corretos. Claro, certifique-se de que o endereço electrónico do seu site esteja correto antes de fazer isso.<br /><br />';
-      $text .= '<b>Método de envio por endereço electrónico</b><br />
-Use SMTP para enviar e-mails, se possível. As configurações dependerão do servidor de endereço electrónico do seu host.<br /><br />';
-      $text .= '<b>Formato de endereço electrónico padrão</b><br />
-Os e-mails podem ser enviados apenas em texto simples ou em formato HTML. Este último geralmente dá uma aparência melhor, mas é mais propenso a ser filtrado por vários
-medidas de segurança. Se você selecionar HTML, uma parte separada de texto simples será adicionada.<br /><br />';
-      $text .= '<b>Controles de endereço electrónico em massa</b><br />
-Os valores que você definir aqui dependerão do seu host e do número de e-mails que você enviar; pode ser possível definir todos os valores como zero para que o
-a fila de correio é esvaziada virtualmente instantaneamente. Normalmente é melhor enviar menos de 500 e-mails por hora.<br /><br />';
-      $text .= '<b>E-mails devolvidos</b><br />
-Você pode especificar um endereço electrónico para receber a resposta de retorno quando um endereço electrónico não puder ser entregue. Se você tiver controle sobre seu servidor, poderá especificar o
-script separado de processamento automático orientado por agendador; isso recebe mensagens devolvidas à medida que chegam e atualiza o status instantaneamente. Caso contrário, você pode especificar uma conta de endereço electrónico separada,
-que pode ser verificado periodicamente (usando o agendador) ou manualmente através do menu de opções do utilizador. Normalmente este será um padrão
-Conta POP3; use as opções relacionadas ao TLS somente se especificamente exigido pelo seu host<br /><br />';
-      $text .= '<b>Fontes de endereços de endereço electrónico</b><br />
-Se você tiver plug-ins adicionais relacionados a endereço electrónico, poderá selecionar quais deles podem contribuir com endereços de endereço electrónico para a lista.<br /><br />';
-      $text .= '<b>Registro</b><br />
-A opção de log cria um arquivo de texto no diretório de log do sistema. Isso deve ser excluído periodicamente. O \'logging
-As opções only permitem que você veja exatamente quem receberia e-mails se realmente fossem enviados. A opção \'com erros\' falha a cada
-7º endereço electrónico, principalmente para teste';
-	  break;
-	 case 'maint' :
-      $text = 'Funções de manutenção da base de dados de correio';
+		$caption = "Ajuda:<br />
+			# Correio EletrÃ³nico - eMail";
+		$text = '<b>Configurar opÃ§Ãµes de mailshot.</b><br />
+		Um endereÃ§o electrÃ³nico de teste Ã© enviado usando o mÃ©todo e as configuraÃ§Ãµes atuais. Se vocÃª estiver tendo problemas com a devoluÃ§Ã£o de e-mails, tente enviar um endereÃ§o electrÃ³nico de teste para: <i>check-auth@verifier.port25.com</i> para garantir que os registros MX do seu servidor estejam corretos. Claro, certifique-se de que o endereÃ§o electrÃ³nico do seu site esteja correto antes de fazer isso.<br /><br />';
+		$text .= '<b>MÃ©todo de envio por endereÃ§o electrÃ³nico</b><br />
+		Use SMTP para enviar e-mails, se possÃ­vel. As configuraÃ§Ãµes dependerÃ£o do servidor de endereÃ§o electrÃ³nico do seu host.<br /><br />';
+		$text .= '<b>Formato de endereÃ§o electrÃ³nico padrÃ£o</b><br />
+		Os e-mails podem ser enviados apenas em texto simples ou em formato HTML. Este Ãºltimo geralmente dÃ¡ uma aparÃªncia melhor, mas Ã© mais propenso a ser filtrado por vÃ¡rios
+		medidas de seguranÃ§a. Se vocÃª selecionar HTML, uma parte separada de texto simples serÃ¡ adicionada.<br /><br />';
+		$text .= '<b>Controles de endereÃ§o electrÃ³nico em massa</b><br />
+		Os valores que vocÃª definir aqui dependerÃ£o do seu host e do nÃºmero de e-mails que vocÃª enviar; pode ser possÃ­vel definir todos os valores como zero para que o
+		a fila de correio Ã© esvaziada virtualmente instantaneamente. Normalmente Ã© melhor enviar menos de 500 e-mails por hora.<br /><br />';
+		$text .= '<b>E-mails devolvidos</b><br />
+		VocÃª pode especificar um endereÃ§o electrÃ³nico para receber a resposta de retorno quando um endereÃ§o electrÃ³nico nÃ£o puder ser entregue. Se vocÃª tiver controle sobre seu servidor, poderÃ¡ especificar o
+		script separado de processamento automÃ¡tico orientado por agendador; isso recebe mensagens devolvidas Ã  medida que chegam e atualiza o status instantaneamente. Caso contrÃ¡rio, vocÃª pode especificar uma conta de endereÃ§o electrÃ³nico separada,
+		que pode ser verificado periodicamente (usando o agendador) ou manualmente atravÃ©s do menu de opÃ§Ãµes do utilizador. Normalmente este serÃ¡ um padrÃ£o
+		Conta POP3; use as opÃ§Ãµes relacionadas ao TLS somente se especificamente exigido pelo seu host<br /><br />';
+		$text .= '<b>Fontes de endereÃ§os de endereÃ§o electrÃ³nico</b><br />
+		Se vocÃª tiver plug-ins adicionais relacionados a endereÃ§o electrÃ³nico, poderÃ¡ selecionar quais deles podem contribuir com endereÃ§os de endereÃ§o electrÃ³nico para a lista.<br /><br />';
+		$text .= '<b>Registro</b><br />
+		A opÃ§Ã£o de log cria um arquivo de texto no diretÃ³rio de log do sistema. Isso deve ser excluÃ­do periodicamente. O \'logging
+		As opÃ§Ãµes only permitem que vocÃª veja exatamente quem receberia e-mails se realmente fossem enviados. A opÃ§Ã£o \'com erros\' falha a cada
+		7Âº endereÃ§o electrÃ³nico, principalmente para teste';
+		break;
+	case 'maint' :
+		$caption = "Ayuda:<br />
+			# Correo ElectrÃ³nico - e-Mail";
+		$text = 'FunÃ§Ãµes de manutenÃ§Ã£o da base de dados de correio';
 		break;
 	default :
-      $text = 'Opção não documentada';
+		$caption = "Ayuda:<br />
+			# Correo ElectrÃ³nico - e-Mail";
+		$text = 'OpÃ§Ã£o nÃ£o documentada';
   }
 
-$ns->tablerender('Ajuda do correio',  mb_convert_encoding($text, "HTML-ENTITIES", "ISO-8859-1"));
+e107::getRender()->tablerender($action, $text);

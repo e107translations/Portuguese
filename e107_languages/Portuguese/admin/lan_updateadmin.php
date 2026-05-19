@@ -1,13 +1,23 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("UDALAN_1", "Erro - por favor, envie-o novamente.");
-define("UDALAN_2", "Configurações de admin atualizado");
-define("UDALAN_3", "Configurações atualizadas para");
-define("UDALAN_4", "Nome");
-define("UDALAN_6", "Re-digite a senha");
-define("UDALAN_7", "Alterar senha");
-define("UDALAN_8", "Senha atualizada para");
+return [
+	'UDALAN_1' => "Erro - por favor, reenvie.",
+	'UDALAN_2' => "Definições do administrador atualizadas",
+	'UDALAN_3' => "Definições atualizadas para",
+	'UDALAN_4' => "Nome",
+	'UDALAN_6' => "Repetir palavra-passe",
+	'UDALAN_7' => "Alterar palavra-passe",
+	'UDALAN_8' => "Palavra-passe atualizada para",
+];

@@ -1,26 +1,34 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/23 19:28:31
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("BANNERLAN_19", "Por favor, digite seu entrar de cliente e senha para continuar");
-define("BANNERLAN_20", "Sinto muito, não é possível encontrar esses detalhes do banco de dados. Entre em contato com o administrador do site para obter detalhes.");
-define("BANNERLAN_21", "Estatísticas de bandeiras");
-define("BANNERLAN_22", "Cliente");
-define("BANNERLAN_23", "ID de bandeira");
-define("BANNERLAN_24", "Cliques");
-define("BANNERLAN_25", "Clique em %");
-define("BANNERLAN_26", "Impressões");
-define("BANNERLAN_27", "Impressões compradas");
-define("BANNERLAN_28", "Impressões à esquerda");
-define("BANNERLAN_30", "Ilimitado");
-define("BANNERLAN_31", "Não aplicável");
-define("BANNERLAN_35", "Endereços IP de clickthrough");
-define("BANNERLAN_39", "Nenhuma imagem atribuída a este banner.");
+//define("BANNERLAN_16", "Username: ");//LAN_USER
+//define("BANNERLAN_17", "Password: ");//LAN_PASSWORD
+//define("BANNERLAN_18", "Continue"); // English LAN_CONTINUE
+
+return [
+    'BANNERLAN_19' => "Por favor, introduz o teu nome de utilizador e palavra-passe para continuar",
+    'BANNERLAN_20' => "Lamentamos, não foi possível encontrar esses dados na base de dados. Contacta o administrador do site para mais informações.",
+    'BANNERLAN_21' => "Estatísticas dos Banners",
+    'BANNERLAN_22' => "Cliente",
+    'BANNERLAN_23' => "ID do Banner",
+    'BANNERLAN_24' => "Cliques",
+    'BANNERLAN_25' => "% de Cliques",
+    'BANNERLAN_26' => "Impressões",
+    'BANNERLAN_27' => "Impressões Compradas",
+    'BANNERLAN_28' => "Impressões Restantes",
+    'BANNERLAN_30' => "Ilimitado",
+    'BANNERLAN_31' => "Não aplicável",
+    'BANNERLAN_35' => "Endereços IP dos cliques",
+    'BANNERLAN_39' => "Nenhuma imagem atribuída a este banner.",
+];

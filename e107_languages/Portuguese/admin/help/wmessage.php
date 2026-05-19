@@ -1,15 +1,21 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2017 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = defset('WMLAN_13');
-$ns -> tablerender( defset('WMLAN_12'), $text);
-
+$caption = "Ajuda:<br />
+			# Mensagem de Bem-vinda";
+$text = "Esta página permite-te configurar uma mensagem que aparecerá no início da tua página inicial enquanto estiver ativa.<br />
+Podes definir mensagens diferentes para: convidados, membros registados/com sessão iniciada ou administradores.";
+$ns -> tablerender($caption, $text);

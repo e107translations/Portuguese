@@ -1,0 +1,6 @@
+
+Q>	Gostaria de permitir que as pessoas carregassem ficheiros para o meu site, mas estou preocupado com a segurança...
+A>	Há algumas coisas que pode fazer para melhorar a segurança. Primeiro, use o armazenamento binário, assim os ficheiros carregados serão armazenados na base de dados MySQL e não serão acessíveis por ninguém, exceto para download. Além disso, defina a lista de tipos de ficheiros permitidos; se alguém tentar carregar um tipo de ficheiro diferente dos tipos que você definiu, será eliminado imediatamente do seu servidor.
+
+Q>	Recebi alguns ficheiros carregados, o que devo fazer agora?
+A>	Tem a opção de copiar o ficheiro para o seu Gestor de Downloads, para permitir que outros o baixem, e copiar as informações do carregamento para a seção de notícias, para fazer um anúncio de um item de notícia sobre isso.

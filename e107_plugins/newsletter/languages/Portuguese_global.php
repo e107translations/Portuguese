@@ -1,8 +1,18 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PLUGIN_NEWSLETTER_NAME", "Boletim informativo");
-define("LAN_PLUGIN_NEWSLETTER_DESCRIPTION", "Fornece uma maneira rápida e fácil de configurar e enviar boletins informativos.");
+return [
+    'LAN_PLUGIN_NEWSLETTER_NAME' => "Newsletter",
+    'LAN_PLUGIN_NEWSLETTER_DESCRIPTION' => "Fornece uma forma rápida e fácil de configurar e enviar newsletters.",
+];

@@ -1,22 +1,22 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/links.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = "Insira todos os links do seu site aqui. Os links adicionados aqui ser�o mostrados no menu de navega��o principal. Para outros links, use o plugin Links Page.
+$caption = "Ajuda:<br />
+			# Gestão de Ligações";
+$text = "Insira todos as ligações do seu site aqui. As ligações adicionadas aqui serão mostrados no menu de navegação principal. Para outros links, use o plugin Links Page.
 <br />
 ";
-$ns -> tablerender("Ajuda de links",  mb_convert_encoding($text, "HTML-ENTITIES", "ISO-8859-1"));
+$ns -> tablerender($caption, $text);

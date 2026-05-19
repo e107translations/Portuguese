@@ -1,27 +1,27 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/notify.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       TraduÃ§Ã£o PortuguÃªs(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$text = "A Notificação envia notificações por endereço electrónico quando ocorrem eventos e107.<br /><br />
-Por exemplo, defina 'IP banido por inundação do site' para a classe de utilizador 'Admin' e todos os administradores receberão um endereço electrónico quando seu
-o site está sendo inundado.<br /><br />
-Você também pode, como outro exemplo, definir 'Notícia postada pelo administrador' para a classe de utilizador 'Membros' e todos os seus usuários serão
-enviou notícias que você postou no site por endereço electrónico.<br /><br />
-Se desejar que as notificações por endereço electrónico sejam enviadas para um endereço electrónico alternativo - selecione a opção 'Endereço electrónico' e
-digite o endereço electrónico no campo fornecido.";
+$caption = "Ajuda:<br />
+			# Envio de NotificaÃ§Ãµes";
+$text = "A NotificaÃ§Ã£o envia notificaÃ§Ãµes por endereÃ§o electrÃ³nico quando ocorrem eventos e107.<br /><br />
+Por exemplo, defina 'IP banido por inundaÃ§Ã£o do site' para a classe de utilizador 'Admin' e todos os administradores receberÃ£o um endereÃ§o electrÃ³nico quando seu
+o site estÃ¡ sendo inundado.<br /><br />
+VocÃª tambÃ©m pode, como outro exemplo, definir 'NotÃ­cia postada pelo administrador' para a classe de utilizador 'Membros' e todos os seus usuÃ¡rios serÃ£o
+enviou notÃ­cias que vocÃª postou no site por endereÃ§o electrÃ³nico.<br /><br />
+Se desejar que as notificaÃ§Ãµes por endereÃ§o electrÃ³nico sejam enviadas para um endereÃ§o electrÃ³nico alternativo - selecione a opÃ§Ã£o 'EndereÃ§o electrÃ³nico' e
+digite o endereÃ§o electrÃ³nico no campo fornecido.";
 
-$ns -> tablerender("Ajuda das Notificações", mb_convert_encoding($text, "HTML-ENTITIES", "ISO-8859-1"));
+$ns -> tablerender($caption, $text);

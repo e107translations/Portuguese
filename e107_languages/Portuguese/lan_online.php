@@ -1,61 +1,67 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/21 17:40:40
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("ONLINE_EL1", "Convidados:");
-define("ONLINE_EL2", "Membros:");
-define("ONLINE_EL3", "Nesta página:");
-define("ONLINE_EL4", "On-line");
-define("ONLINE_EL5", "Membros");
-define("ONLINE_EL6", "Novo membro");
-define("ONLINE_EL7", "visualização");
-define("ONLINE_EL8", "mais online:");
-define("ONLINE_EL9", "na");
-define("ONLINE_EL10", "Nome do membro");
-define("ONLINE_EL11", "Página de visualização");
-define("ONLINE_EL12", "Responder aos");
-define("ONLINE_EL13", "Fórum");
-define("ONLINE_EL14", "Segmento");
-define("ONLINE_EL15", "Página de vídeo");
-define("ONLINE_EL16", "Informação não disponível");
-define("CLASSRESTRICTED", "Página restrita classe");
-define("CHAT", "Bate-papo");
-define("DOWNLOAD", "Descargas");
-define("EMAIL", "endereço electrónico.php");
-define("FORUM", "Índice do Fórum principal");
-define("LINKS", "Ligações");
-define("NEWS", "Notícias");
-define("OLDPOLLS", "Enquetes antigas");
-define("POLLCOMMENT", "Enquete");
-define("PRINTPAGE", "Impressão");
-define("LOGIN", "Efetuar entrar");
-define("SEARCH", "À procura");
-define("STATS", "Estatísticas do site");
-define("SUBMITNEWS", "Enviar notícias");
-define("UPLOAD", "Carregamentos");
-define("USERPAGE", "Perfis de utilizador");
-define("USERSETTINGS", "Configurações de utilizador");
-define("ONLINE", "utilizadores on-line");
-define("LISTNEW", "Novos itens de lista");
-define("USERPOSTS", "publicações do utilizador");
-define("SUBCONTENT", "Enviar conteúdo");
-define("TOP", "Top tópicos cartazes/mais ativos");
-define("ADMINAREA", "Área do administrador");
-define("BUGTRACKER", "Registro de erros");
-define("EVENT", "Lista de eventos");
-define("CALENDAR", "Calendário de eventos");
-define("FAQ", "Perguntas Freqüentes");
-define("PM", "Mensagens privadas");
-define("SURVEY", "Pesquisa");
-define("ARTICLE", "Artigo");
-define("CONTENT", "Página de conteúdo");
-define("REVIEW", "Revisão");
-define("OTHER", "Outra página:");
+//v.616
+
+return [
+	'ONLINE_EL1' => "Visitantes: ",
+	'ONLINE_EL2' => "Membros: ",
+	'ONLINE_EL3' => "Nesta página: ",
+	'ONLINE_EL4' => "Online",
+	'ONLINE_EL5' => "Membros",
+	'ONLINE_EL6' => "Novo membro",
+	'ONLINE_EL7' => "a visualizar",
+	'ONLINE_EL8' => "maior número de utilizadores online: ",
+	'ONLINE_EL9' => "em",
+	'ONLINE_EL10' => "Nome do Membro",
+	'ONLINE_EL11' => "Página a visualizar",
+	'ONLINE_EL12' => "A responder a",
+	'ONLINE_EL13' => "Fórum",
+	'ONLINE_EL14' => "Tópico",
+	'ONLINE_EL15' => "Página",
+	'ONLINE_EL16' => "Informação não disponível",
+	'CLASSRESTRICTED' => "Página restrita a classe",
+	'CHAT' => "Chat",
+	'DOWNLOAD' => "Transferências",
+	'EMAIL' => "email.php",
+	'FORUM' => "Índice principal do Fórum",
+	'LINKS' => "Links",
+	'NEWS' => "Notícias",
+	'OLDPOLLS' => "Votações antigas",
+	'POLLCOMMENT' => "Votação",
+	'PRINTPAGE' => "Imprimir",
+	'LOGIN' => "Iniciar sessão",
+	'SEARCH' => "Pesquisar",
+	'STATS' => "Estatísticas do site",
+	'SUBMITNEWS' => "Submeter Notícias",
+	'UPLOAD' => "Carregamentos",
+	'USERPAGE' => "Perfis de Utilizadores",
+	'USERSETTINGS' => "Definições do Utilizador",
+	'ONLINE' => "Utilizadores Online",
+	'LISTNEW' => "Listar Novos Itens",
+	'USERPOSTS' => "Publicações do Utilizador",
+	'SUBCONTENT' => "Submeter Conteúdo",
+	'TOP' => "Top Publicadores/Tópicos Mais Ativos",
+	'ADMINAREA' => "Área de Administração",
+	'BUGTRACKER' => "Rastreador de Erros",
+	'EVENT' => "Lista de Eventos",
+	'CALENDAR' => "Calendário de Eventos",
+	'FAQ' => "Perguntas Frequentes",
+	'PM' => "Mensagens Privadas",
+	'SURVEY' => "Pesquisa",
+	'ARTICLE' => "Artigo",
+	'CONTENT' => "Página de Conteúdo",
+	'REVIEW' => "Revisão",
+	'OTHER' => "Outra página: ",
+];

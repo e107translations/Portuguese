@@ -1,0 +1,12 @@
+
+Q>	O que é o BBCode?
+A>	Um BBCode é um atalho para uma etiqueta HTML. Por exemplo, ao introduzires &#91;b] Sou texto em negrito! &#91;/b] em qualquer caixa de texto da administração, o texto entre &#91;b] e &#91;/b] aparecerá em negrito. Ou seja, [b]Sou texto em negrito![/b] será exibido como texto em negrito no ecrã.
+
+Q>	Mas para que serve?
+A>	Poupa-te tempo ao escrever etiquetas HTML. Podes usar etiquetas HTML normais nas caixas de texto, mas utilizar BBCode torna tudo mais rápido e prático.
+
+Q>	Quando clico num dos botões BBCode, o código aparece no fim do texto, e não onde está o cursor – porquê?
+A>	Há um erro no Internet Explorer que pode fazê-lo bloquear se o e107 tentar inserir o código na posição do cursor. Para garantir compatibilidade, o código é adicionado no final do texto.
+
+Q>	Que BBCodes posso usar?
+A>	Passa o rato por cima de qualquer uma das caixas BBCode e verás uma pequena explicação aparecer logo acima dos botões. Também existem códigos para links [url] [/url] e para e-mail [email] [/email], embora também possas usar etiquetas HTML normais. Todos os endereços web e e-mails introduzidos são automaticamente convertidos em hiperligações clicáveis.

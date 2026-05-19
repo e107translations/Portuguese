@@ -1,0 +1,9 @@
+
+Q>	Para que serve a secção Substituir ligações?
+A>	Podes converter qualquer ligação introduzida na tua chatbox por outro texto ou uma imagem. Isto evita que a chatbox fique cheia de endereços longos. Para usares uma imagem, marca a opção Substituir ligações e, na caixa abaixo, insere: <img src='path_to_your_image' alt='' />. A partir daí, qualquer ligação inserida será convertida na imagem que definiste.
+
+Q>	Para que serve o Wordwrap?
+A>	Se alguém escrever uma palavra muito longa na chatbox, pode desformatar o layout do teu site. Se inserires, por exemplo, 40 na caixa Wordwrap, qualquer palavra com mais de 40 caracteres será quebrada para que a coluna não se alargue. Podes ter de ajustar este valor de acordo com o tema que estiveres a usar e a largura da coluna onde a chatbox está posicionada.
+
+Q>	O meu site é para todas as idades, mas há alguém que continua a usar palavrões na chatbox — como posso evitar isso?
+A>	Vai ao ecrã de Preferências na área de administração e procura a opção Proteção de menores. Aí podes adicionar uma lista de palavras que serão substituídas por outro texto à tua escolha, como por exemplo: CENSURADO! Assim, sempre que essa palavra for usada no teu site, será automaticamente substituída pelo texto que definiste.

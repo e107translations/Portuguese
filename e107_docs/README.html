@@ -1,0 +1,728 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <!-- Version Info:
+
+$Source: /cvsroot/e107/e107_0.7/e107_docs/README.html,v $
+$Revision: 1.9 $
+$Date: 2006/01/16 16:38:00 $
+$Author: sweetas $
+
+-->
+    <title>e107 Readme</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta http-equiv="content-style-type" content="text/css" />
+  </head>
+
+  <body>
+    <div id="mainbox">
+      <a href="http://e107.org"
+        ><img
+          src="../e107_images/adminlogo.png"
+          alt="Logo"
+          style="border: 0pt none"
+      /></a>
+      <br />
+
+      <br />
+
+      <span class="smalltext"
+        >&copy; Steve Dunstan 2002. Veja o arquivo gpl.txt para detalhes da
+        licen&ccedil;a (ingl&ecirc;s).</span
+      ><br />
+
+      <br />
+
+      <br />
+
+      <a href="#requirements">Requerimentos</a> |
+      <a href="#installing">Instalando</a> |&nbsp;<a href="#upgrading"
+        >Atualizando</a
+      >
+      | <a href="#security">Seguran&ccedil;a</a> |&nbsp;<a href="#backup"
+        >Fazendo Backup ou Restaurando seu Banco de Dados</a
+      >
+      |&nbsp;<a href="#problems">Problemas Comuns</a> |
+      <a href="#support">Suporte</a> |
+      <a href="#development">Desenvolvimento</a> |&nbsp;<a href="#thankyou"
+        >Obrigado!</a
+      >
+      |&nbsp;<a href="#disclaimer">Aviso</a><br />
+
+      <br />
+
+      <br />
+
+      <a id="requirements" name="requirements"></a
+      ><span class="headertext">Requerimentos</span>
+
+      <ul>
+        <li>
+          e107 requer um&nbsp;webserver que tenha&nbsp;PHP 4.3 (ou mais recente)
+          e MySQL 3.22 (ou mais recente), contate seu administrador web caso
+          n&atilde;o tenha certeza se est&atilde;o instalados.
+        </li>
+
+        <li>
+          Se voc&ecirc; hospeda seu pr&oacute;prio site, voc&ecirc; pode fazer
+          download do&nbsp;<a href="http://php.net">PHP</a> e do
+          <a href="http://mysql.com">MySQL</a> e instal&aacute;-los, ambos
+          s&atilde;o gratuitos.
+        </li>
+
+        <li>
+          Voc&ecirc; precisar&aacute; do nome do usu&aacute;rio e senha do banco
+          de dados MySQL, e um banco de dados para armazenar o conte&uacute;do.
+          N&atilde;o se preocupe se voc&ecirc; s&oacute; tem direito a um banco
+          de dados no seu servidor, o e107 pode compartilhar seu banco de dados
+          com outras aplica&ccedil;&otilde;es.
+        </li>
+
+        <li>
+          Uma instala&ccedil;&atilde;o completa do&nbsp;e107 requer
+          aproximadamente&nbsp;9MB de espa&ccedil;o em disco no seu servidor,
+          mas isso pode ser reduzido dramaticamente para a maioria dos
+          usu&aacute;rios, basta remover os plugins e temas que n&atilde;o
+          queiram usar, basta remover os folders/pastas.
+        </li>
+      </ul>
+
+      <br />
+
+      <a id="installing" name="installing"></a
+      ><span class="headertext">Instalando</span>
+
+      <ul>
+        <li>
+          Depois de fazer download e descompactar o pacote, voc&ecirc; precisa
+          enviar os arquivos para o server usando um programa de FTP. O e107
+          rodar&aacute; na raiz ou dentro de uma pasta no seu&nbsp;webserver ...
+          <br />
+
+          <ul>
+            <li>
+              Abra seu programa de&nbsp;FTP e conecte ao seu&nbsp;webserver
+            </li>
+
+            <li>
+              V&aacute; at&eacute; a pasta do seu&nbsp;webserver onde as
+              p&aacute;ginas web s&atilde;o armazenadas, geralmente est&atilde;o
+              em 'public_html', 'www' ou 'html'
+            </li>
+
+            <li>
+              Copie todos os arquivos do pacote descompactado para
+              seu&nbsp;webserver - isto demora um pouco, hora de tomar um
+              cafezinho!<br />
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          Se voc&ecirc; tem as permiss&otilde;es corretas de seu server,
+          voc&ecirc; pode fazer o upload de uma forma alternativa (e muito mais
+          r&aacute;pida), enviando os arquivos por este m&eacute;todo:
+          <br />
+
+          <ul>
+            <li>
+              Pegue o e107 no formato&nbsp;tar.gz do site&nbsp;<a
+                href="http://www.e107brasil.net"
+                >e107brasil.net</a
+              >
+              ou no <a href="http://www.e107.org">e107.org</a> (ingl&ecirc;s)
+            </li>
+
+            <li>
+              Usando seu programa de&nbsp;FTP, envie o arquivo&nbsp;tar.gz para
+              seu&nbsp;webserver sem descompact&aacute;-lo
+            </li>
+
+            <li>
+              Agora abra um prompt (ou v&aacute; no gerenciador de arquivos, no
+              cpanel), e navegue at&eacute; o folder onde est&aacute; o arquivo
+              tar.gz
+            </li>
+
+            <li>
+              digite&nbsp;tar xvzf file.tar.gz para descompactar o arquivo ou
+              pe&ccedil;a para descompactar pelo link do gerenciador de arquivos
+              do cpanel
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          Agora voc&ecirc; precisa configurar as permiss&otilde;es para alguns
+          arquivos do&nbsp;e107 para acess&aacute;-los corretamente. Configure
+          as permiss&otilde;es para&nbsp;0777 (o server poder&aacute; ler e
+          escrever), se uma s&eacute;rie de&nbsp;checkboxes aparecerem,
+          selecione todos. Aqui est&aacute; a lista dos arquivos que voc&ecirc;
+          precisa fazer CHMOD 777:<br />
+
+          <br />
+
+          <ul>
+            <li>e107_config.php</li>
+
+            <li>e107_files/public/</li>
+
+            <li>e107_files/cache/</li>
+
+            <li>e107_files/public/avatars/</li>
+
+            <li>e107_plugins/</li>
+
+            <li>e107_themes/</li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          Agora abra seu navegador web e acesse o arquivo install.php, por
+          exemplo:<br />
+          <i>http://www.seusiteaqui.com.br/install.php</i> ou
+          <i>http://www.seusiteaqui.com.br/e107/install.php</i><br />
+        </li>
+
+        <ul>
+          <li>
+            Se todos os arquivos foram enviados com sucesso, voc&ecirc;
+            ver&aacute; a primeira p&aacute;gina de instala&ccedil;&atilde;o do
+            script. Escolha o idioma que voc&ecirc; quer usar durante a
+            instala&ccedil;&atilde;o e clique no bot&atilde;o continuar
+          </li>
+
+          <li>
+            O e107 far&aacute; uma s&eacute;rie de testes para ver se todos os
+            requerimentos foram atendidos e se as permiss&otilde;es dos arquivos
+            est&aacute; correta. Se voc&ecirc; receber mensagem de aviso sobre o
+            MySQL n&atilde;o se preocupe muito, algumas vers&otilde;es do MySQL
+            n&atilde;o retornam a vers&atilde;o corretamente, ou n&atilde;o
+            retornam nada. Clique no bot&atilde;o para continuar, se todos os
+            crit&eacute;rios foram atendidos, caso contr&aacute;rio, ajuste os
+            problemas e tente novamente.
+          </li>
+
+          <li>
+            Digite os dados do banco de dados&nbsp;MySQL. O nome do
+            server&nbsp;(geralmente &eacute; 'localhost'), usu&aacute;rio e
+            senha. Se voc&ecirc; n&atilde;o sabe o usu&aacute;rio e senha entre
+            em contato com seu administrador web (caso n&atilde;o tenha criado o
+            banco de dados no cpanel). Agora digite o nome do banco de dados que
+            o e107 vai usar. Se voc&ecirc; tem as permiss&otilde;es corretas,
+            voc&ecirc; poder&aacute; criar o banco de dados direto da
+            instala&ccedil;&atilde;o do e107
+          </li>
+
+          <li>
+            Se tudo correu bem, o e107 far&aacute; a conex&atilde;o ao banco de
+            dados MySQL, se alguma mensagem de erro aparecer, volte &agrave;
+            p&aacute;gina anterior e corrija os dados
+          </li>
+          Agora vai digitar os dados do administrador principal. Digite seu nome
+          de usu&aacute;rio se senha e endere&ccedil;o de email, voc&ecirc;
+          poder&aacute; mudar seu email e senha mais tarde, mas o nome do
+          usu&aacute;rio n&atilde;o poder&aacute; ser trocado, ent&atilde;o,
+          certifique-se de digitar corretamente
+          <li>
+            O e107 agora ir&aacute; criar as tabelas do banco de dados e
+            preench&ecirc;-las com dados, etc
+          </li>
+
+          <li>
+            Se tudo correu bem, o &uacute;ltimo bot&atilde;o ir&aacute;
+            lev&aacute;-lo ao seu site. Ent&atilde;o, tudo pronto! N&atilde;o
+            foi t&atilde;o dif&iacute;cil assim, n&atilde;o &eacute;?
+          </li>
+        </ul>
+      </ul>
+
+      <ul>
+        <li>
+          Voc&ecirc; precisa configurar as permiss&otilde;es do arquivo config
+          para&nbsp;0644 ...<br />
+        </li>
+
+        <ul>
+          <li>
+            Usando seu programa de&nbsp;FTP, selecione o
+            arquivo&nbsp;e107_config.php
+          </li>
+
+          <li>
+            Configure suas permiss&otilde;es para 0644 (usando o m&eacute;todo
+            explicado acima)
+          </li>
+        </ul>
+
+        <li>
+          <b
+            >Agora delete o arquivo&nbsp;install.php e a pasta&nbsp;e107_install
+            de seu servidor, se voc&ecirc; n&atilde;o fizer isso, seu site corre
+            risco de seguran&ccedil;a.</b
+          >
+        </li>
+      </ul>
+
+      <br />
+
+      <br />
+
+      <a id="upgrading" name="upgrading"></a
+      ><span class="headertext">Atualizando</span><br />
+
+      <br />
+
+      <a href="README_UPGRADE_BR.htm"
+        >Favor clicar aqui para instru&ccedil;&otilde;es de upgrade de seu site
+        vers&atilde;o&nbsp;0.6175 para&nbsp;0.7...</a
+      >
+      <br />
+
+      <br />
+
+      <br />
+
+      <a id="backup" name="backup"></a
+      ><span class="headertext"
+        >Usando o&nbsp;phpMyAdmin para fazer backup de seu banco de dados</span
+      ><br />
+
+      <br />
+
+      <ul>
+        <li>
+          Primeiro, navegue em sua p&aacute;gina do&nbsp;phpMyAdmin e
+          fa&ccedil;a login (geralmente no cpanel tem o link)
+        </li>
+
+        <li>
+          Pela caixa de&nbsp;dropdown na esquerda (ou um link texto) clique no
+          banco de dados de seu site em e107
+        </li>
+
+        <li>Na p&aacute;gina principal, clique em&nbsp;'Exportar/Export'</li>
+
+        <li>
+          Na caixa da direita, certifique-se se est&atilde;o marcados&nbsp;'Add
+          drop table', 'Add AUTO_INCREMENT value' e&nbsp;'Enclose table and
+          field names with backquotes' &nbsp;(procurar o mesmo em
+          portugu&ecirc;s)
+        </li>
+
+        <li>
+          Certifique-se que no principal o&nbsp;'Structure' e 'Data' estejam
+          marcados tamb&eacute;m
+        </li>
+
+        <li>Marque&nbsp;'Save as file'</li>
+
+        <li>
+          Se voc&ecirc; quer fazer um backup compactado, marque tamb&eacute;m
+          'zipped' ou 'gzipped'
+        </li>
+
+        <li>Clique&nbsp;'Go'</li>
+      </ul>
+
+      <ul>
+        <li>
+          Para restaurar um backup, clique em&nbsp;'SQL' &nbsp;no topo. Procure
+          seu backup, talvez voc&ecirc; precise esvaziar algumas tabelas antes
+          de restaurar.
+        </li>
+      </ul>
+
+      <br />
+
+      <a id="security" name="security"></a
+      ><span class="headertext">Seguran&ccedil;a</span><br />
+
+      <br />
+      Seguran&ccedil;a tem sido um conceito prim&aacute;rio desde as primeiras
+      vers&otilde;es do e107, e por esta raz&atilde;o h&aacute; algumas medidas
+      f&aacute;ceis de tomar para fazer seu site ficar mais seguro ainda...
+
+      <ul>
+        <li>
+          Renomeie seu diret&oacute;rio&nbsp;e107_admin: isto ir&aacute; fazer
+          com que fique menos &oacute;bvio para outros usu&aacute;rios de e107
+          saberem onde est&atilde;o seus arquivos de
+          administra&ccedil;&atilde;o.
+        </li>
+
+        <br />
+
+        <br />
+
+        <li>
+          <strong
+            >O procedimento de mudar o nome de um diret&oacute;rio mudou. As
+            defini&ccedil;&otilde;es foram mudadas para o arquivo
+            e107_config.php.</strong
+          >
+        </li>
+
+        <br />
+
+        <br />
+
+        <li>
+          Se voc&ecirc; est&aacute; fazendo&nbsp;<b
+            ><u>UPGRADE/Atualiza&ccedil;&atilde;o</u></b
+          >
+          de uma vers&atilde;o muito antiga do&nbsp;e107 (ex. menor que
+          a&nbsp;v.615), voc&ecirc; precisa abrir o arquivo&nbsp;class2.php e
+          encontrar as seguintes linhas:
+        </li>
+
+        <br />
+
+        <br />
+
+        <div class="indent">
+          // Se voc&ecirc; quiser mudar o nome de algum diret&oacute;rio, mude o
+          valor aqui e renomeie o respectivo folder no seu servidor...<br />
+
+          $ADMIN_DIRECTORY = "e107_admin/";<br />
+
+          $FILES_DIRECTORY = "e107_files/";<br />
+
+          $IMAGES_DIRECTORY = "e107_images/";<br />
+
+          $THEMES_DIRECTORY = "e107_themes/";<br />
+
+          $PLUGINS_DIRECTORY = "e107_plugins/";<br />
+
+          $HANDLERS_DIRECTORY = "e107_handlers/";<br />
+
+          $LANGUAGES_DIRECTORY = "e107_languages/";<br />
+
+          $HELP_DIRECTORY = "e107_docs/help/";<br />
+
+          $DOWNLOADS_DIRECTORY = "e107_files/downloads/";
+        </div>
+
+        <br />
+
+        <li>
+          Recorte estas linhas do arquivo&nbsp;<u>class2.php</u> e cole no
+          arquivo&nbsp;<u>e107_config.php</u>. Agora voc&ecirc; pode mudar o
+          nome dos folders.
+        </li>
+
+        <br />
+
+        <br />
+
+        <li>
+          Se &eacute; uma&nbsp;<b><u>NOVA INSTALA&Ccedil;&Atilde;O</u></b> os
+          nomes dos folders j&aacute; est&atilde;o em&nbsp;e107_config.php. Eles
+          foram mantidos no arquivo&nbsp;class2.php para compatibilidade.
+          Ser&atilde;o removidos no futuro.
+        </li>
+
+        <br />
+
+        <br />
+
+        <li>
+          Este procedimento depende de voc&ecirc; completar os passos acima e
+          ter certeza de que os caminhos dos arquivos est&atilde;o localizados
+          no arquivo e107_config.php.
+        </li>
+
+        <li>
+          Para renomear seu diret&oacute;rio&nbsp;e107_admin&nbsp;(ou qualquer
+          outro diret&oacute;rio), primeiro renomeie o folder pelo programa
+          de&nbsp;FTP. Ent&atilde;o, abra o arquivo&nbsp;e107_config.php na
+          pasta de sua instala&ccedil;&atilde;o do e107 em um editor de textos,
+          encontre a linha a seguir pr&oacute;xima ao topo do arquivo...<br />
+
+          <i>$ADMIN_DIRECTORY = "e107_admin/";</i><br />
+
+          ... e mude o&nbsp;<i>e107_admin/</i> &nbsp;para o nome que voc&ecirc;
+          quiser renomear no seu server
+        </li>
+
+        <li>
+          Voc&ecirc; pode mudar o nome de todos os seus diret&oacute;rios do
+          e107 usando este m&eacute;todo
+        </li>
+
+        <li>
+          H&aacute; algumas configura&ccedil;&otilde;es de seguran&ccedil;a que
+          voc&ecirc; pode mudar na sua &aacute;rea de admin. V&aacute; na
+          p&aacute;gina de prefer&ecirc;ncias e voc&ecirc; ver&aacute; uma
+          &aacute;rea de Seguran&ccedil;a
+        </li>
+      </ul>
+
+      <br />
+
+      <a id="problems" name="problems"></a
+      ><span class="headertext">Problemas Comuns</span><br />
+
+      <br />
+
+      <ul>
+        <li>
+          Se por alguma raz&atilde;o voc&ecirc; receber uma mensagem de erro
+          cr&iacute;tico referente &agrave; configura&ccedil;&otilde;es do core,
+          voc&ecirc; pode facilmente reset&aacute;-lo para o padr&atilde;o
+          usando a ferramenta resetcore. Voc&ecirc; pode encontrar esta
+          ferramenta na pasta&nbsp;e107_files, use seu navegador web para
+          navegar at&eacute;:
+          http://www.seusite.com.br/e107_files/resetcore/resetcore.php e siga as
+          instru&ccedil;&otilde;es. Isto n&atilde;o ir&aacute; afetar o
+          conte&uacute;do de seu site, isto ir&aacute; apenas resetar as
+          configura&ccedil;&otilde;es do core, ent&atilde;o seu tema, etc
+          ir&aacute; voltar ao padr&atilde;o. Voc&ecirc; pode fazer um backup de
+          seu core a qualquer hora e restaur&aacute;-lo com esta ferramenta,
+          para fazer backup de seu core, v&aacute; na &aacute;rea de admin e
+          clique em Banco de Dados e depois em&nbsp;Backup Core
+        </li>
+
+        <li>
+          Se depois de instalar o&nbsp;e107 voc&ecirc; receber uma p&aacute;gina
+          em branco, verifique o arquivo&nbsp;error_reporting no seu
+          arquivo&nbsp;php.ini. Isto geralmente &eacute; causado por um erro no
+          seu site e n&atilde;o &eacute; reportado porque est&aacute;
+          configurado para um n&iacute;vel baixo de aviso ou desligado
+          completamente. Se voc&ecirc; n&atilde;o tem acesso ao
+          arquivo&nbsp;php.ini entre em contato com o seu administrador web
+        </li>
+
+        <li>
+          Se voc&ecirc; v&ecirc; uma mensagem como "Undefined Variable" ou nota
+          erros no seu site, o n&iacute;vel do arquivo error_reporting
+          est&aacute; configurado para muito alto. Certifique-se de
+          configur&aacute;-lo para "E_ERROR | E_WARNING | E_PARSE" no seu
+          arquivo&nbsp;php.ini, novamente se voc&ecirc; n&atilde;o tem acesso,
+          entre em contato com o seu servidor web e pe&ccedil;a para que eles
+          mudem
+        </li>
+      </ul>
+
+      <br />
+
+      <a id="support" name="support"></a><span class="headertext">Suporte</span
+      ><br />
+
+      <br />
+      Todos esses lugares s&atilde;o amig&aacute;veis. Por favor, n&atilde;o
+      hesite em entrar em contato quando tiver d&uacute;vidas.
+      <ul>
+        <li>
+          <b>(ingl&ecirc;s) e107 f&oacute;runs</b>
+          <a href="http://e107.org/forum.php">http://e107.org/forum.php</a>
+        </li>
+
+        <li>
+          <b>e107 faq</b>
+          <a href="http://e107faq.bkwon.net">http://e107faq.bkwon.net</a>
+        </li>
+
+        <li>
+          <b>Canal IRC chat</b><br />
+
+          #e107 em <a href="irc://freenode.net">irc.freenode.net</a>
+        </li>
+
+        <br />
+
+        <li>
+          <b>Suporte a plugins: e107coders</b><br />
+
+          <a href="http://e107coders.org">http://e107coders.org/</a>
+        </li>
+
+        <br />
+
+        <li>
+          <b>Suporte a temas: e107styles | e107themes</b><br />
+
+          <a href="http://e107styles.org">http://e107styles.org/</a> |
+          <a href="http://e107themes.org"
+            >http://e107themes.org/<br />
+            &nbsp;</a
+          >
+        </li>
+        <li>
+          <b>Suporte em portugu&ecirc;s: e107brasil</b><br />
+
+          <a href="http://www.e107brasil.net">http://www.e107brasil.net</a>
+        </li>
+      </ul>
+
+      <p>
+        <br />
+
+        <a id="development" name="development"></a
+        ><span class="headertext">Desenvolvimento</span><br />
+
+        <br />
+        O e107 foi testado e desenvolvido no&nbsp;Apache 1 e 2, IIS, e PHP 4.3+
+        (Incluindo 5.0).<br />
+        Ele &eacute; desenvolvido por um time de desenvolvedores chamado "e107
+        dev team" (Jalist, McFly, Cameron, Streaky, SweetAs, Asperon, Que, Lolo,
+        Chavo, Lisa, MrPete).<br />
+
+        <br />
+        Se voc&ecirc; fizer mudan&ccedil;as no core que voc&ecirc; achar que
+        pode ser &uacute;til a outros usu&aacute;rios, favor comunicar nos
+        f&oacute;runs no site oficial (em ingl&ecirc;s) do&nbsp;e107.org :)<br />
+
+        <br />
+
+        <br />
+
+        <a id="thankyou" name="thankyou"></a
+        ><span class="headertext">Obrigado!</span><br />
+
+        <br />
+        Agradecimentos especiais primeiro ao&nbsp;jalist por come&ccedil;ar tudo
+        isso e tocar a coisa por tanto tempo.
+      </p>
+
+      <ul>
+        <li>
+          Obrigado principalmente ao&nbsp;Terrence, Damon, que, nalenb, Dawn,
+          HeX0R, JuhaH, bkwon, Knight, Aldrin pelo suporte.
+        </li>
+
+        <li>
+          Obrigado tamb&eacute;m a todos aqueles que enviam
+          tradu&ccedil;&otilde;es, fixes etc
+        </li>
+
+        <li>
+          Obrigado a&nbsp;CraHan, NeXTer, Kuhndog, wols, [steev], rootrider,
+          Claymore, demigod, maaneeack, Schmots, dreamer, galois e todos os
+          outros de [#ls.g] pela amizade.
+        </li>
+
+        <li>
+          Obrigado a&nbsp;J&eacute;r&ocirc;me C. Meijers e Craig Bramscher
+        </li>
+
+        <li>A e107.net pelo host doado</li>
+
+        <li>
+          Obrigado a todos voc&ecirc;s que dedicaram seu tempo para
+          criar&nbsp;plugins/themes/hacks, fizeram perguntas e deram respostas
+          nos f&oacute;runs e no canal IRC,&nbsp;etc. N&oacute;s temos uma
+          comunidade maravilhosa aqui e isto &eacute; porque temos pessoas como
+          voc&ecirc;.
+        </li>
+
+        <li>
+          E obrigado por usar o&nbsp;e107, espero que voc&ecirc; goste e que ele
+          seja &uacute;til gerenciando seu site. Se ele n&atilde;o for,
+          experimente outros! Visite:
+          <a href="http://opensourcecms.com">OpenSourceCMS</a> para uma lista
+          completa de sistemas de gerenciamento de sites.
+        </li>
+
+        <li>
+          Diversos&nbsp;scripts foram integrados ao&nbsp;e107 para fazer sua
+          vida mais f&aacute;cil, ent&atilde;o temos que agradecer a...<br />
+
+          <ul>
+            <li>
+              MagpieRSS (<a href="http://magpierss.sourceforge.net"
+                >http://magpierss.sourceforge.net</a
+              >) MagpieRSS disponibiliza um&nbsp;XML-based (expat) distribuidor
+              RSS em PHP.
+            </li>
+
+            <li>
+              PCLZip (<a href="http://www.phpconcept.net/pclzip/"
+                >http://www.phpconcept.net/pclzip/</a
+              >) a biblioteca PclZip oferece compress&atilde;o e
+              extra&ccedil;&atilde;o de arquivos Zip (WinZip, PKZIP).
+            </li>
+
+            <li>
+              PCLTar (<a href="http://www.phpconcept.net/pcltar/"
+                >http://www.phpconcept.net/pcltar/</a
+              >) PclTar oferece a capacidade de arquivar uma lista de arquivos
+              ou diret&oacute;rios com ou sem compress&atilde;o. Os arquivos
+              criados por&nbsp;PclTar s&atilde;o lidos pela maioria das
+              aplica&ccedil;&otilde;es&nbsp;gzip/tar e por
+              aplica&ccedil;&otilde;es&nbsp;Windows como o WinZip.
+            </li>
+
+            <li>
+              TinyMCE (<a href="http://tinymce.moxiecode.com"
+                >http://tinymce.moxiecode.com</a
+              >) TinyMCE &eacute; uma plataforma independente baseada em
+              Javascript, &eacute; um controle-editor&nbsp;HTML WYSIWYG
+              desenvolvido sob licen&ccedil;a&nbsp;LGPL por Moxiecode Systems
+              AB. Ele tem a capacidade de converter campos HTML TEXTAREA ou
+              outros elementos HTML.
+            </li>
+
+            <li>
+              Nuvolo Icons (<a href="http://www.icon-king.com"
+                >http://www.icon-king.com</a
+              >) &Iacute;cones usados no&nbsp;e107
+            </li>
+
+            <li>
+              PHPMailer (<a href="http://phpmailer.sourceforge.net"
+                >http://phpmailer.sourceforge.net</a
+              >) Classe de envio de email completo para PHP
+            </li>
+
+            <li>
+              Brainjar DHTML Menu (<a
+                href="http://www.brainjar.com/dhtml/menubar/"
+                >http://www.brainjar.com/dhtml/menubar/</a
+              >) Sistema de menus usado por muitos temas
+            </li>
+
+            <li>
+              DHTML / JavaScript Calendar (<a
+                href="http://www.dynarch.com/projects/"
+                >http://www.dynarch.com/projects/</a
+              >) Calend&aacute;rio Popup
+            </li>
+
+            <li>
+              FPDF (<a href="http://www.fpdf.org">http://www.fpdf.org</a>)
+              Suporte a PDF
+            </li>
+
+            <li>
+              UFPDF (<a href="http://www.acko.net/node/56"
+                >http://www.acko.net/node/56</a
+              >) Suporte a UTF-8&nbsp;PDF
+            </li>
+          </ul>
+
+          <br />
+          Todos esses scripts s&atilde;o desenvolvidos sob
+          licen&ccedil;a&nbsp;GPL e t&ecirc;m informa&ccedil;&otilde;es
+          de&nbsp;copyright que devem ser deixadas intactas. Se voc&ecirc;
+          quiser usar esses scripts com seus c&oacute;digos, voc&ecirc; precisa
+          aceitar a licen&ccedil;a&nbsp;GPL.
+        </li>
+      </ul>
+
+      <a id="disclaimer" name="disclaimer"></a
+      ><span class="headertext">Aviso</span><br />
+
+      <br />
+      Este&nbsp;software &eacute; livre e vem sem garantias como especificado na
+      licen&ccedil;a&nbsp;GNU GPL (inclusive este pacote). Qualquer problema
+      encontrado n&atilde;o &eacute; de responsabilidade do autor.
+    </div>
+  </body>
+</html>

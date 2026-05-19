@@ -1,64 +1,68 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/25 15:52:48
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("LAN_SOCIAL_ADMIN_00", "Aplicações");
-define("LAN_SOCIAL_ADMIN_01", "Páginas");
-define("LAN_SOCIAL_ADMIN_02", "Provedores de entrar configurados");
-define("LAN_SOCIAL_ADMIN_03", "Inscrição/Entrar");
-define("LAN_SOCIAL_ADMIN_04", "Fornecedor");
-define("LAN_SOCIAL_ADMIN_05", "Chave/ID");
-define("LAN_SOCIAL_ADMIN_06", "Segredo");
-define("LAN_SOCIAL_ADMIN_07", "Permite que os usuários se inscrevam/façam entrar com suas contas de mídia social. Quando ativada, esta opção ainda permitirá que os usuários se inscrevam/façam entrar mesmo se o sistema principal de registro de utilizador acima estiver desativado.");
-define("LAN_SOCIAL_ADMIN_10", "Obtenha uma chave do provedor");
-define("LAN_SOCIAL_ADMIN_11", "Seu");
-define("LAN_SOCIAL_ADMIN_12", "página");
-define("LAN_SOCIAL_ADMIN_13", "Usado por alguns temas para fornecer um hiperligação para o seu");
-define("LAN_SOCIAL_ADMIN_14", "Botões de compartilhamento");
-define("LAN_SOCIAL_ADMIN_15", "Comentários do Facebook");
-define("LAN_SOCIAL_ADMIN_16", "Menu do Facebook");
-define("LAN_SOCIAL_ADMIN_17", "Menu do Twitter");
-define("LAN_SOCIAL_ADMIN_18", "Limite");
-define("LAN_SOCIAL_ADMIN_19", "Tema");
-define("LAN_SOCIAL_ADMIN_20", "Acção");
-define("LAN_SOCIAL_ADMIN_21", "Texto durante o carregamento");
-define("LAN_SOCIAL_ADMIN_22", "Largura");
-define("LAN_SOCIAL_ADMIN_23", "Altura");
-define("LAN_SOCIAL_ADMIN_24", "Modo de exibição");
-define("LAN_SOCIAL_ADMIN_25", "Normal");
-define("LAN_SOCIAL_ADMIN_26", "Suspenso");
-define("LAN_SOCIAL_ADMIN_27", "Desabilitado");
-define("LAN_SOCIAL_ADMIN_28", "Excluindo o símbolo #.");
-define("LAN_SOCIAL_ADMIN_29", "Número de comentários a serem exibidos.");
-define("LAN_SOCIAL_ADMIN_30", "Carregando...");
-define("LAN_SOCIAL_ADMIN_31", "Largura em pixels");
-define("LAN_SOCIAL_ADMIN_32", "Recomendar");
-define("LAN_SOCIAL_ADMIN_33", "Altura em pixels");
-define("LAN_SOCIAL_ADMIN_34", "Número de tweets a serem exibidos.");
-define("LAN_SOCIAL_ADMIN_35", "Claro");
-define("LAN_SOCIAL_ADMIN_36", "Escuro");
-define("LAN_SOCIAL_ADMIN_37", "Meta de gráfico aberto");
-define("LAN_SOCIAL_ADMIN_38", "Escopo");
-define("LAN_SOCIAL_ADMIN_39", "Provedores");
-define("LAN_SOCIAL_ADMIN_40", "Atualizar nome de exibição do utilizador");
-define("LAN_SOCIAL_ADMIN_41", "Atualizar avatar do utilizador");
-define("LAN_SOCIAL_ADMIN_42", "Imagem personalizada");
-define("LAN_SOCIAL_ADMIN_43", "Uma [atualização do banco de dados] é necessária para continuar usando este plugin.");
-define("LAN_SOCIAL_ADMIN_44", "Adicionar novo provedor");
-define("LAN_SOCIAL_ADMIN_45", "Esses provedores de entrar social estão atualmente configurados.\nSe a opção mestre [b]Inscrição/Entrar social[/b] estiver ativada, cada provedor nesta tabela que também estiver ativado poderá ser usado para registro e entrar do utilizador. Se você esvaziar os campos de um provedor aqui e salvar, ele irá para a seção [b]Adicionar novo provedor[/b].");
-define("LAN_SOCIAL_ADMIN_46", "Estes são os provedores de entrar social disponíveis, que não foram configurados. Depois de configurar e salvar um provedor aqui, ele será movido para a seção [b]Configurado[/b].");
-define("LAN_SOCIAL_ADMIN_47", "Provedores configurados quebrados");
-define("LAN_SOCIAL_ADMIN_48", "Esses provedores de entrar social foram configurados no passado, mas não possuem mais um adaptador que possa suportá-los.[br]Isso pode ser porque eles não existem mais ou foram substituídos por um provedor diferente.");
-define("LAN_SOCIAL_ADMIN_49", "Página de teste");
-define("LAN_SOCIAL_ADMIN_50", "Habilite ou desabilite a página de teste de entrar social");
-define("LAN_SOCIAL_ADMIN_08", "Observação: na maioria dos casos, você precisará obter um ID do aplicativo e uma chave secreta dos provedores de entrar social.\nSe o nome de um provedor for um hiperligação, esse hiperligação deverá levá-lo à documentação de configuração do aplicativo de entrar.\n\nVocê pode testar seu configuração com o seguinte URL após ativar a opção [b]Página de teste[/b]:");
-define("LAN_SOCIAL_ADMIN_09", "Seu URL de retorno de chamada é:");
-define("LAN_SOCIAL_ADMIN_51", "Sistema de entrar social");
+return [
+    'LAN_SOCIAL_ADMIN_00' => "Aplicações",
+    'LAN_SOCIAL_ADMIN_01' => "Páginas",
+    'LAN_SOCIAL_ADMIN_02' => "Provedores de Login Configurados",
+    'LAN_SOCIAL_ADMIN_03' => "Registo/Login",
+    'LAN_SOCIAL_ADMIN_04' => "Provedor",
+    'LAN_SOCIAL_ADMIN_05' => "Chave/ID",
+    'LAN_SOCIAL_ADMIN_06' => "Segredo",
+    'LAN_SOCIAL_ADMIN_07' => "Permite que os utilizadores se registem/autentiquem usando as suas contas de redes sociais. Quando ativado, esta opção permite o registo/login mesmo que o sistema principal de registo de utilizadores esteja desativado.",
+    'LAN_SOCIAL_ADMIN_10' => "Obter uma chave do provedor",
+    'LAN_SOCIAL_ADMIN_11' => "A sua",
+    'LAN_SOCIAL_ADMIN_12' => "página",
+    'LAN_SOCIAL_ADMIN_13' => "Usado por alguns temas para fornecer um link para a sua",
+    'LAN_SOCIAL_ADMIN_14' => "Botões de Partilha",
+    'LAN_SOCIAL_ADMIN_15' => "Comentários Facebook",
+    'LAN_SOCIAL_ADMIN_16' => "Menu Facebook",
+    'LAN_SOCIAL_ADMIN_17' => "Menu Twitter",
+    'LAN_SOCIAL_ADMIN_18' => "Limite",
+    'LAN_SOCIAL_ADMIN_19' => "Tema",
+    'LAN_SOCIAL_ADMIN_20' => "Ação",
+    'LAN_SOCIAL_ADMIN_21' => "Texto durante carregamento",
+    'LAN_SOCIAL_ADMIN_22' => "Largura",
+    'LAN_SOCIAL_ADMIN_23' => "Altura",
+    'LAN_SOCIAL_ADMIN_24' => "Modo de Exibição",
+    'LAN_SOCIAL_ADMIN_25' => "Normal",
+    'LAN_SOCIAL_ADMIN_26' => "Dropdown",
+    'LAN_SOCIAL_ADMIN_27' => "Desativado",
+    'LAN_SOCIAL_ADMIN_28' => "Excluindo o símbolo #.",
+    'LAN_SOCIAL_ADMIN_29' => "Número de comentários a exibir.",
+    'LAN_SOCIAL_ADMIN_30' => "A carregar...",
+    'LAN_SOCIAL_ADMIN_31' => "Largura em px",
+    'LAN_SOCIAL_ADMIN_32' => "Recomendar",
+    'LAN_SOCIAL_ADMIN_33' => "Altura em px",
+    'LAN_SOCIAL_ADMIN_34' => "Número de tweets a exibir.",
+    'LAN_SOCIAL_ADMIN_35' => "Claro",
+    'LAN_SOCIAL_ADMIN_36' => "Escuro",
+    'LAN_SOCIAL_ADMIN_37' => "Meta Open Graph",
+    'LAN_SOCIAL_ADMIN_38' => "Âmbito",
+    'LAN_SOCIAL_ADMIN_39' => "Provedores",
+    'LAN_SOCIAL_ADMIN_40' => "Atualizar Nome de Exibição",
+    'LAN_SOCIAL_ADMIN_41' => "Atualizar Avatar",
+    'LAN_SOCIAL_ADMIN_42' => "Imagem Personalizada",
+    'LAN_SOCIAL_ADMIN_43' => "É necessária uma [atualização da base de dados] para continuar a usar este plugin.",
+    'LAN_SOCIAL_ADMIN_44' => "Adicionar Novo Provedor",
+    'LAN_SOCIAL_ADMIN_45' => "Estes provedores de login social estão atualmente configurados.\nSe o interruptor principal [b]Registo/Login Social[/b] estiver ativado, cada provedor nesta tabela que também esteja ativado pode ser usado para registo e login de utilizadores. Se esvaziar os campos de um provedor aqui e guardar, ele será movido para a secção [b]Adicionar Novo Provedor[/b].",
+    'LAN_SOCIAL_ADMIN_46' => "Estes são os provedores de login social disponíveis, que ainda não foram configurados. Assim que configurar e guardar um provedor aqui, ele será movido para a secção [b]Configurados[/b].",
+    'LAN_SOCIAL_ADMIN_47' => "Provedores Configurados com Problemas",
+    'LAN_SOCIAL_ADMIN_48' => "Estes provedores de login social foram configurados no passado mas já não têm um adaptador que os suporte.[br]Isto pode dever-se ao facto de já não existirem ou terem sido substituídos por outro provedor.",
+    'LAN_SOCIAL_ADMIN_49' => "Página de Teste",
+    'LAN_SOCIAL_ADMIN_50' => "Ativar ou desativar a página de teste de login social",
+    'LAN_SOCIAL_ADMIN_08' => "Nota: Na maioria dos casos, precisará de obter um ID de aplicação e uma chave secreta dos provedores de login social.\nSe o nome de um provedor for um link, esse link deve levá-lo à documentação de configuração da aplicação de login.\n\nPode testar a sua configuração com o seguinte URL depois de ativar a opção [b]Página de Teste[/b]:",
+    'LAN_SOCIAL_ADMIN_09' => "O seu URL de callback é:",
+    'LAN_SOCIAL_ADMIN_51' => "Sistema de Login Social",
+];

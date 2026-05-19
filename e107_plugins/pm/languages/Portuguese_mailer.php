@@ -1,15 +1,23 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/25 12:47:24
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("LAN_EC_PM_04", "Manipulador de PM");
-define("LAN_EC_PM_05", "Grande processo envia de PMs");
-define("LAN_EC_PM_06", "Iniciar processamento de MP em massa para [y] destinatários");
+return [
+    'LAN_EC_PM_01' => "",
+    'LAN_EC_PM_02' => "",
+    'LAN_EC_PM_03' => "",
+    'LAN_EC_PM_04' => "Gestor de MPs",
+    'LAN_EC_PM_05' => "Processar envios massivos de MPs",
+    'LAN_EC_PM_06' => "Iniciar processamento de MPs em massa para [y] destinatários",
+    'LAN_EC_PM_07' => "",
+];

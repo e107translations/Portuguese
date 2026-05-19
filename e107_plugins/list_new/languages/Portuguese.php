@@ -1,49 +1,68 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/25 11:46:09
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("LIST_MENU_1", "adições recentes");
-define("LIST_MENU_2", "por");
-define("LIST_MENU_3", "na");
-define("LIST_MENU_4", "em");
-define("LIST_MENU_5", "dias");
-define("LIST_MENU_6", "Visualizar o conteúdo por quantos dias?");
-define("LIST_NEWS_1", "Notícias");
-define("LIST_NEWS_2", "Não há itens de notícias");
-define("LIST_COMMENT_1", "Comentários");
-define("LIST_COMMENT_2", "Sem comentarios");
-define("LIST_COMMENT_3", "Notícias");
-define("LIST_COMMENT_4", "Perguntas Freqüentes");
-define("LIST_COMMENT_5", "Enquete");
-define("LIST_COMMENT_6", "docs");
-define("LIST_COMMENT_7", "Bugtrack");
-define("LIST_COMMENT_8", "conteúdo");
-define("LIST_COMMENT_10", "idéias");
-define("LIST_MEMBER_1", "Membros");
-define("LIST_MEMBER_2", "Não membros");
-define("LIST_CONTENT_1", "conteúdo");
-define("LIST_CONTENT_2", "nenhum conteúdo em");
-define("LIST_CONTENT_3", "Sem categoria conteúda válida");
-define("LIST_CHATBOX_1", "ChatBox");
-define("LIST_CHATBOX_2", "Não há mensagens chatbox");
-define("LIST_CALENDAR_1", "calendário");
-define("LIST_CALENDAR_2", "Não há eventos de calendário");
-define("LIST_LINKS_1", "ligações");
-define("LIST_LINKS_2", "Não há links");
-define("LIST_FORUM_1", "Fórum");
-define("LIST_FORUM_2", "Não há mensagens de fórum");
-define("LIST_FORUM_3", "Modos de exibição:");
-define("LIST_FORUM_4", "respostas:");
-define("LIST_FORUM_5", "última publicação:");
-define("LIST_FORUM_6", "em:");
-define("LIST_LAN_1", "Não há itens em");
-define("LIST_DOWNLOAD_1", "descargas");
-define("LIST_DOWNLOAD_2", "sem descargas");
+return [
+	'PAGE_NAME' => "Listar Itens Recentes",
+    'LIST_MENU_1' => "adições recentes",
+    'LIST_MENU_2' => "por",
+    'LIST_MENU_3' => "em",
+    'LIST_MENU_4' => "na",
+    'LIST_MENU_5' => "dias",
+    'LIST_MENU_6' => "ver conteúdo de quantos dias?",
+    'LIST_MENU_7' => "",
+    'LIST_MENU_8' => "",
+    'LIST_MENU_9' => "",
+    'LIST_MENU_10' => "",
+    'LIST_MENU_11' => "",
+    'LIST_MENU_12' => "",
+    'LIST_MENU_13' => "",
+    'LIST_MENU_14' => "",
+    'LIST_MENU_15' => "",
+    'LIST_MENU_16' => "",
+    'LIST_MENU_17' => "",
+    'LIST_MENU_18' => "",
+    'LIST_MENU_19' => "",
+    'LIST_NEWS_1' => "notícias",
+    'LIST_NEWS_2' => "sem notícias",
+    'LIST_COMMENT_1' => "comentários",
+    'LIST_COMMENT_2' => "sem comentários",
+    'LIST_COMMENT_3' => "notícias",
+    'LIST_COMMENT_4' => "faq",
+    'LIST_COMMENT_5' => "sondagem",
+    'LIST_COMMENT_6' => "documentos",
+    'LIST_COMMENT_7' => "bugtrack",
+    'LIST_COMMENT_8' => "conteúdo",
+    'LIST_COMMENT_9' => "",
+    'LIST_COMMENT_10' => "ideias",
+    'LIST_MEMBER_1' => "membros",
+    'LIST_MEMBER_2' => "sem membros",
+    'LIST_CONTENT_1' => "conteúdo",
+    'LIST_CONTENT_2' => "sem conteúdo em",
+    'LIST_CONTENT_3' => "sem categoria de conteúdo válida",
+    'LIST_CHATBOX_1' => "chatbox",
+    'LIST_CHATBOX_2' => "sem mensagens no chat",
+    'LIST_CALENDAR_1' => "calendário",
+    'LIST_CALENDAR_2' => "sem eventos no calendário",
+    'LIST_LINKS_1' => "links",
+    'LIST_LINKS_2' => "sem links",
+    'LIST_FORUM_1' => "fórum",
+    'LIST_FORUM_2' => "sem mensagens no fórum",
+    'LIST_FORUM_3' => "visualizações:",
+    'LIST_FORUM_4' => "respostas:",
+    'LIST_FORUM_5' => "última mensagem:",
+    'LIST_FORUM_6' => "em:",
+    'LIST_LAN_1' => "sem itens em",
+    'LIST_DOWNLOAD_1' => "transferências",
+    'LIST_DOWNLOAD_2' => "sem transferências",
+];

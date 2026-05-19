@@ -1,129 +1,133 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/02/11 15:11:28
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Ricardo $
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-define("LANINS_001", "Instalação do e107");
-define("LANINS_002", "Passo");
-define("LANINS_003", "1");
-define("LANINS_004", "Seleção de idioma");
-define("LANINS_005", "Por favor, escolha o idioma a ser usado durante a instalação");
-define("LANINS_007", "4");
-define("LANINS_008", "PHP e MySQL versões verificar / verificação de permissões de arquivo");
-define("LANINS_009", "Permissões de arquivo de reteste");
-define("LANINS_010", "Arquivo não gravável:");
-define("LANINS_010a", "Pasta não gravável:");
-define("LANINS_012", "Funções do MySQL não parecem existir. Isso provavelmente significa que a extensão PHP MySQL não está instalado ou a instalação do PHP não foi compilada com suporte ao MySQL.");
-define("LANINS_013", "Não poderia determinar o número da versão do MySQL. Este é um erro não fatal, então por favor, continuar a instalar, mas esteja ciente que e107 requer MySQL > = 3.23 para funcionar corretamente.");
-define("LANINS_014", "Permissões de arquivo");
-define("LANINS_015", "Versão do PHP");
-define("LANINS_017", "AVANÇAR");
-define("LANINS_018", "Certifique-se de todos os arquivos listados existem e serão graváveis pelo servidor. Isso normalmente envolve CHMODing 777-los, mas ambientes variam - entre em contato com seu anfitrião, se você tiver quaisquer problemas.");
-define("LANINS_019", "A versão do PHP instalado no servidor não é capaz de executar e107. e107 requer uma versão do PHP, pelo menos '. MIN_PHP_VERSION.'para ser executado corretamente. Atualizar sua versão do PHP, ou entre em contato com seu host para uma atualização.");
-define("LANINS_021", "2");
-define("LANINS_022", "Detalhes do servidor MySQL");
-define("LANINS_023", "Por favor, digite suas configurações MySQL aqui.
 
-Se você tem permissões de root você pode criar um novo banco de dados, marcando a caixa, se não você deve criar um banco de dados ou usar um já existente.
+return [
+	'LANINS_001' => "Instalação do e107",
+	'LANINS_002' => "Passo ",
+	'LANINS_003' => "1",
+	'LANINS_004' => "Seleção de Idioma",
+	'LANINS_005' => "Por favor, escolhe o idioma a usar durante a instalação",
+	'LANINS_007' => "4",
+	'LANINS_008' => "Verificação das versões do PHP e MySQL / Verificação das permissões de ficheiros",
+	'LANINS_009' => "Reverificar permissões de ficheiros",
+	'LANINS_010' => "Ficheiro não gravável: ",
+	'LANINS_010a' => "Pasta não gravável: ",
+	'LANINS_012' => "Parece que as funções MySQL não estão disponíveis. Isso provavelmente significa que a extensão MySQL do PHP não está instalada ou a tua instalação do PHP não foi compilada com suporte para MySQL.", // ajuda para 012
+	'LANINS_013' => "Não foi possível determinar o número da versão do MySQL. Este é um erro não fatal, então por favor, continue a instalação, mas tenha em mente que o e107 requer MySQL >= 3.23 para funcionar corretamente.",
+	'LANINS_014' => "Permissões de Ficheiros",
+	'LANINS_015' => "Versão do PHP",
+	'LANINS_017' => "PASS",
+	'LANINS_018' => "Certifique-se de que todos os ficheiros listados existem e são graváveis pelo servidor. Normalmente, isso envolve definir permissões 777, mas os ambientes variam – entre em contacto com o seu host se tiver algum problema.",
+	'LANINS_019' => "A versão do PHP instalada no seu servidor não é capaz de executar o e107. O e107 requer uma versão do PHP de pelo menos ".MIN_PHP_VERSION." para funcionar corretamente. Atualize a sua versão do PHP ou entre em contacto com o seu host para atualizar.",
+	'LANINS_021' => "2",
+	'LANINS_022' => "Detalhes do Servidor MySQL",
+	'LANINS_023' => "Por favor, insira as suas configurações do MySQL aqui.
+Se tiver permissões de root, pode criar uma nova base de dados marcando a caixa, caso contrário, deve criar uma base de dados ou utilizar uma existente.
 
-Se você tiver apenas um banco de dados usar um prefixo para que outros scripts podem compartilhar o mesmo banco de dados.
-Se você não sabe seus MySQL detalhes entre em contato com seu host.");
-define("LANINS_024", "Servidor MySQL:");
-define("LANINS_025", "Nome de utilizador de MySQL:");
-define("LANINS_026", "Senha do MySQL:");
-define("LANINS_027", "Banco de dados MySQL:");
-define("LANINS_028", "Criar banco de dados?");
-define("LANINS_029", "Prefixo da tabela:");
-define("LANINS_030", "O servidor MySQL você gostaria e107 para usar. Também pode incluir um número de porta. por exemplo, 'hostname:port' ou um caminho para um local socket, por exemplo, \':/path/to/socket\' para o localhost.");
-define("LANINS_031", "O nome de utilizador você deseja e107 usar para se conectar ao seu servidor MySQL");
-define("LANINS_032", "A senha para o utilizador que você acabou de entrar. Não deve conter aspas simples ou duplas.");
-define("LANINS_033", "O banco de dados MySQL você deseja e107 para residir em, por vezes referido como uma esquema. Deve começar com uma letra. Se o utilizador tem o banco de dados criar permissões, que você pode optar por criar o banco de dados automaticamente, se ela já não existe.");
-define("LANINS_034", "O prefixo que deseja e107 para usar ao criar as tabelas de e107. Útil para várias instalações de e107 no esquema de um banco de dados.");
-define("LANINS_036", "3");
-define("LANINS_037", "Verificação de conexão MySQL");
-define("LANINS_038", "e criação de banco de dados");
-define("LANINS_039", "Por favor, certifique-se de preencher todos os campos, o mais importante, servidor MySQL, MySQL Username e banco de dados MySQL (Estas são sempre exigidas pelo servidor MySQL)");
-define("LANINS_040", "Erros");
-define("LANINS_041", "e107 não pôde estabelecer uma conexão com o servidor MySQL utilizando as informações que você inseriu. Por favor retornar à última página e garantir que a informação está correta.");
-define("LANINS_042", "Conexão com o servidor MySQL e verificadas.");
-define("LANINS_043", "Não é possível criar banco de dados, certifique-se que você tem as permissões corretas para criar bancos de dados no seu servidor.");
-define("LANINS_044", "Criado com êxito o banco de dados.");
-define("LANINS_045", "Por favor, clique no botão para prosseguir para a próxima fase.");
-define("LANINS_046", "5");
-define("LANINS_047", "Detalhes do administrador");
-define("LANINS_048", "Extensão EXIF");
-define("LANINS_049", "As duas senhas que você digitou não são os mesmos. Por favor volte e tente novamente.");
-define("LANINS_050", "Extensão XML");
-define("LANINS_051", "Instalado");
-define("LANINS_052", "Não instalado");
-define("LANINS_055", "Confirmação de instalação");
-define("LANINS_056", "6");
-define("LANINS_057", "e107 agora tem todas as informações necessárias concluir a instalação.
+Se tiver apenas uma base de dados, use um prefixo para que outros scripts possam partilhar a mesma base de dados.
 
-Por favor, clique no botão para criar as tabelas do banco de dados e salvar todas as suas configurações.");
-define("LANINS_058", "7");
-define("LANINS_060", "Não é possível ler o sql datafile por favor verifique o arquivo [b]core_sql.php[/b] existe no diretório [b] / e107_core/sql [/ b].");
-define("LANINS_061", "e107 foi incapaz de criar todas as tabelas do banco de dados necessário.
-Por favor, limpar o banco de dados e corrigir quaisquer problemas antes de tentar novamente.");
-define("LANINS_069", "e107 foi instalado com sucesso!
+Se não souber os seus detalhes do MySQL, entre em contacto com o seu host.",
+	'LANINS_024' => "Servidor MySQL:",
+	'LANINS_025' => "Utilizador MySQL:",
+	'LANINS_026' => "Palavra-passe MySQL:",
+	'LANINS_027' => "Base de Dados MySQL:",
+	'LANINS_028' => "Criar Base de Dados?",
+	'LANINS_029' => "Prefixo das Tabelas:",
+	'LANINS_030' => "O servidor MySQL que deseja que o e107 utilize. Também pode incluir um número de porta, ex: 'hostname:porta' ou um caminho para um socket local ex: \":/caminho/para/socket\" para o localhost.",
+	'LANINS_031' => "O nome de utilizador que deseja que o e107 utilize para se ligar ao seu servidor MySQL",
+	'LANINS_032' => "A palavra-passe para o utilizador que acabou de inserir. Não pode conter aspas simples ou duplas.",
+	'LANINS_033' => "A base de dados MySQL onde deseja que o e107 seja instalado, por vezes referida como esquema. Deve começar com uma letra. Se o utilizador tiver permissões para criar a base de dados, pode optar por criá-la automaticamente, caso não exista.",
+	'LANINS_034' => "O prefixo que deseja que o e107 utilize ao criar as tabelas do e107. Útil para múltiplas instalações do e107 numa mesma base de dados.",
+	'LANINS_036' => "3",
+	'LANINS_037' => "Verificação da Conexão MySQL",
+	'LANINS_038' => " e Criação da Base de Dados",
+	'LANINS_039' => "Por favor, certifique-se de que preenche todos os campos, especialmente o Servidor MySQL, Utilizador MySQL e Base de Dados MySQL (estes são sempre requeridos pelo Servidor MySQL)",
+	'LANINS_040' => "Erros",
+	'LANINS_041' => "O e107 não conseguiu estabelecer uma conexão com o servidor MySQL utilizando as informações que inseriu. Por favor, volte à página anterior e assegure-se de que as informações estão corretas.",
+	'LANINS_042' => "Conexão com o servidor MySQL estabelecida e verificada.",
+	'LANINS_043' => "Não foi possível criar a base de dados, por favor, verifique se tem as permissões corretas para criar bases de dados no seu servidor.",
+	'LANINS_044' => "Base de dados criada com sucesso.",
+	'LANINS_045' => "Por favor, clique no botão para continuar para a próxima etapa.",
+	'LANINS_046' => "5",
+	'LANINS_047' => "Detalhes do Administrador",
+	'LANINS_048' => "Extensão EXIF",
+	'LANINS_049' => "As duas palavras-passe que inseriu não são iguais. Por favor, volte e tente novamente.",
+	'LANINS_050' => "Extensão XML",
+	'LANINS_051' => "Instalada",
+	'LANINS_052' => "Não Instalada",
+	'LANINS_055' => "Confirmação da Instalação",
+	'LANINS_056' => "6",
+	'LANINS_057' => "O e107 agora tem todas as informações necessárias para completar a instalação.
+Por favor, clique no botão para criar as tabelas da base de dados e guardar todas as suas configurações.",
+	'LANINS_058' => "7",
+	'LANINS_060' => "Não foi possível ler o ficheiro de dados SQL
+Por favor, verifique se o ficheiro [b]core_sql.php[/b] existe na pasta [b]/e107_core/sql[/b].",
+	'LANINS_061' => "O e107 não conseguiu criar todas as tabelas necessárias da base de dados.
+Por favor, limpe a base de dados e corrija os problemas antes de tentar novamente.",
+	'LANINS_069' => "O e107 foi instalado com sucesso!
+Por questões de segurança, deverá agora definir as permissões do ficheiro [b]e107_config.php[/b] de volta para 644.
 
-Por razões de segurança, agora você deve definir as permissões de arquivo no arquivo [b]e107_config.php[/b] volta para 644.
-
-Também por favor apagar install. php do seu servidor depois que você clicou no botão abaixo.");
-define("LANINS_070", "e107 foi incapaz de salvar o arquivo de configuração principal para o seu servidor.
-
-Por favor verifique o arquivo [b]e107_config.php[/b] tem as permissões corretas");
-define("LANINS_071", "Instalação completa");
-define("LANINS_072", "Nome de utilizador admin");
-define("LANINS_073", "Este é o nome que você usará para entrar no site. Se você deseja usar isto como seu nome de exibição também");
-define("LANINS_074", "Nome para exibição de admin");
-define("LANINS_076", "Senha de admin");
-define("LANINS_077", "Por favor digite a senha de administrador que você deseja usar aqui");
-define("LANINS_078", "Confirmação de senha de admin");
-define("LANINS_079", "Por favor digite a senha novamente para confirmação");
-define("LANINS_080", "Endereço electrónico do administrador");
-define("LANINS_081", "Digite seu endereço electrónico");
-define("LANINS_083", "MySQL relatou o erro:");
-define("LANINS_084", "O instalador não conseguiu estabelecer uma conexão com o banco de dados");
-define("LANINS_085", "O instalador não poderia selecionar banco de dados:");
-define("LANINS_086", "Admin Username, senha de Admin e Admin Endereço electrónico são campos obrigatórios. Por favor retornar à última página e garantir que a informação é inserida corretamente.");
-define("LANINS_105", "Um começo de nome ou prefixo do banco de dados com alguns dígitos seguido por 'e' ou 'E' não é aceitável");
-define("LANINS_106", "AVISO - e107 não é possível gravar os diretórios e/ou arquivos listados. Enquanto isso não vai parar a instalação do e107, significará que determinados recursos não estão disponíveis. Você precisará alterar as permissões de arquivo para usar esses recursos");
-define("LANINS_107", "Nome do site");
-define("LANINS_108", "Meu site");
-define("LANINS_109", "Tema do site");
-define("LANINS_111", "Incluir conteúdo/configuração");
-define("LANINS_112", "Reproduzem-se rapidamente o olhar da visualização do tema ou demo. (Se disponível)");
-define("LANINS_113", "Por favor digite um nome de site");
-define("LANINS_114", "Por favor, selecione um tema");
-define("LANINS_115", "Nome do tema");
-define("LANINS_116", "Tipo de tema");
-define("LANINS_117", "Preferências de site");
-define("LANINS_118", "Instalar Plugins");
-define("LANINS_119", "Instale todos os plugins que pode exigir que o tema.");
-define("LANINS_120", "8");
-define("LANINS_121", "e107_config.php não é um arquivo vazio");
-define("LANINS_122", "Você pode ter uma instalação existente");
-define("LANINS_123", "Opcional: Seu nome público ou alias. Deixe em branco para usar o nome de utilizador");
-define("LANINS_124", "Por favor, escolha uma senha no mínimo 8 caracteres");
-define("LANINS_125", "e107 foi instalado com sucesso!");
-define("LANINS_126", "Por razões de segurança, agora você deve definir as permissões de arquivo no arquivo e107_config.php para 644.");
-define("LANINS_127", "O banco de dados [x] já existe. Substituí-lo? (todos os dados existentes serão perdidos)");
-define("LANINS_128", "Sobrescrever");
-define("LANINS_129", "Banco de dados não encontrado.");
-define("LANINS_134", "Instalação");
-define("LANINS_135", "de");
-define("LANINS_136", "A apagar a base de dados existente");
-define("LANINS_137", "Encontrou a base de dados existente");
-define("LANINS_141", "Por favor preencha o formulário abaixo com os seus detalhes do MySQL. Se não sabe essa informação, por favor contacte o seu serviço de hospedagem. Pode colocar o rato sobre cada campo para ter informação adicional.");
-define("LANINS_142", "IMPORTANTE: Por favor renomeie e107.htaccess para .htaccess");
-define("LANINS_144", "IMPORTANTE: Por favor copie e cole o conteúdo de [b]e107.htaccess[/b] para dentro do seu ficheiro [b].htaccess[/b]. Por favor NÃO sobreescreva qualquer dado que esteja no ficheiro.");
-define("LANINS_145", "e107 v2.x requer o PHP [x] instalado. Por favor contacte o seu serviço de hospedagem ou leia mais informação em [y] antes de continuar.");
-define("LANINS_146", "Tema da área de administração");
-define("LANINS_147", "Administração");
+Além disso, por favor, apague o install.php do seu servidor depois de clicar no botão abaixo.",
+	'LANINS_070' => "O e107 não conseguiu guardar o ficheiro de configuração principal no seu servidor.
+Por favor, verifique se o ficheiro [b]e107_config.php[/b] tem as permissões corretas",
+	'LANINS_071' => "Instalação Completa",
+	'LANINS_072' => "Nome de utilizador do administrador",
+	'LANINS_073' => "Este é o nome que irá utilizar para fazer login no site. Se desejar utilizar este nome também como nome de exibição",
+	'LANINS_074' => "Nome de exibição do administrador",
+	'LANINS_076' => "Palavra-passe do administrador",
+	'LANINS_077' => "Por favor, escreva a palavra-passe do administrador que deseja utilizar aqui",
+	'LANINS_078' => "Confirmação da palavra-passe",
+	'LANINS_079' => "Por favor, escreva novamente a palavra-passe do administrador para confirmação",
+	'LANINS_080' => "Email do administrador",
+	'LANINS_081' => "Insira o seu endereço de email",
+	'LANINS_083' => "Erro Reportado pelo MySQL:",
+	'LANINS_084' => "O instalador não conseguiu estabelecer uma conexão com a base de dados",
+	'LANINS_085' => "O instalador não conseguiu selecionar a base de dados:",
+	'LANINS_086' => "Nome de Utilizador do Administrador, Palavra-passe do Administrador e Email do Administrador são campos obrigatórios. Por favor, volte à página anterior e assegure-se de que as informações foram inseridas corretamente.",
+	'LANINS_105' => "Um nome de base de dados ou prefixo começando com dígitos seguidos de 'e' ou 'E' não é aceitável",
+	'LANINS_106' => "AVISO - O e107 não consegue escrever nas pastas e/ou ficheiros listados. Embora isso não impeça a instalação do e107, significa que certas funcionalidades não estarão disponíveis.
+Será necessário alterar as permissões de ficheiros para usar estas funcionalidades",
+	'LANINS_107' => "Nome do Site",
+	'LANINS_108' => "Meu Site",
+	'LANINS_109' => "Tema do Site",
+	'LANINS_111' => "Incluir Conteúdo/Configuração",
+	'LANINS_112' => "Reproduzir rapidamente o visual da pré-visualização ou demonstração do tema. (Se disponível)",
+	'LANINS_113' => "Por favor, insira o nome do site",
+	'LANINS_114' => "Por favor, selecione um tema",
+	'LANINS_115' => "Nome do Tema",
+	'LANINS_116' => "Tipo de Tema",
+	'LANINS_117' => "Preferências do Site",
+	'LANINS_118' => "Instalar Plugins",
+	'LANINS_119' => "Instalar todos os plugins que o tema pode exigir.",
+	'LANINS_120' => "8",
+	'LANINS_121' => "e107_config.php não é um ficheiro vazio",
+	'LANINS_122' => "Pode ter uma instalação existente",
+	'LANINS_123' => "Opcional: O seu nome público ou pseudónimo. Deixe em branco para usar o nome de utilizador",
+	'LANINS_124' => "Por favor, escolha uma palavra-passe de pelo menos 8 caracteres",
+	'LANINS_125' => "O e107 foi instalado com sucesso!",
+	'LANINS_126' => "Por questões de segurança, deverá agora definir as permissões do ficheiro e107_config.php de volta para 644.",
+	'LANINS_127' => "A base de dados [x] já existe. Substituí-la? (todos os dados existentes serão perdidos)",
+	'LANINS_128' => "Substituir",
+	'LANINS_129' => "Base de dados não encontrada.",
+	'LANINS_134' => "Instalação",
+	'LANINS_135' => "de",
+	'LANINS_136' => "Base de dados existente eliminada",
+	'LANINS_137' => "Base de dados existente encontrada",
+	'LANINS_141' => "Por favor, preenche o formulário abaixo com os teus dados MySQL. Se não souberes estas informações, contacta o teu provedor de alojamento. Podes passar o rato por cima de cada campo para obter informações adicionais.",
+	'LANINS_142' => "IMPORTANTE: Renomeia o arquivo e107.htaccess para .htaccess",
+	'LANINS_144' => "IMPORTANTE: Copia e cola o conteúdo do [b]e107.htaccess[/b] no teu arquivo [b].htaccess[/b]. Certifica-te de não sobrescrever quaisquer dados existentes que possam já lá estar.",
+	'LANINS_145' => "e107 v2.x requer o PHP [x] para ser instalado. Contacta o teu provedor de alojamento ou lê a informação em [y] antes de continuar.",
+	'LANINS_146' => "Aparência da área de administração",
+	'LANINS_147' => "Administração",
+];

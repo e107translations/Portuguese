@@ -1,48 +1,49 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2024/04/25 12:12:11
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Rica-Carv $
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
-
-define("NLLAN_04", "O boletim plugin foi instalado com sucesso. Para configurar, retornar à página principal do admin e clique no \'Newsletter\' na seção de plugin.");
-define("NLLAN_05", "Não há boletins ainda definidas");
-define("NLLAN_07", "Assinantes");
-define("NLLAN_10", "Boletins informativos existentes");
-define("NLLAN_11", "Ainda não há problemas de boletim.");
-define("NLLAN_12", "Questão");
-define("NLLAN_13", "[ID do pai] Assunto/título");
-define("NLLAN_14", "Pelo correio?");
-define("NLLAN_17", "Não enviou - clique para enviar");
-define("NLLAN_18", "Tens a certeza de que deseja enviar esta questão para os assinantes?");
-define("NLLAN_19", "Tem certeza que deseja excluir este boletim?");
-define("NLLAN_20", "Problemas existentes");
-define("NLLAN_23", "Cabeçalho");
-define("NLLAN_24", "Rodapé");
-define("NLLAN_30", "Boletim informativo");
-define("NLLAN_31", "Assunto / título");
-define("NLLAN_32", "Número de emissão");
-define("NLLAN_33", "Texto");
-define("NLLAN_36", "Boletim de atualização");
-define("NLLAN_37", "Criar boletim de informação");
-define("NLLAN_39", "Boletim de informação salva no banco de dados - para enviar, clique no \'Release Issue\' botão no menu de opções.");
-define("NLLAN_40", "Correio adicionado à fila de correio - problema enviado para [x] assinante(s).");
-define("NLLAN_41", "Não assinantes encontrados - endereço electrónico cancelado");
-define("NLLAN_44", "Boletim de notícias de primeira página");
-define("NLLAN_45", "Criar boletim de notícias");
-define("NLLAN_46", "Criar correspondência");
-define("NLLAN_47", "Opções de boletim");
-define("NLLAN_48", "Assinantes do boletim");
-define("NLLAN_49", "Boletim informativo:");
-define("NLLAN_54", "Envio de");
-define("NLLAN_56", "ID do boletim não disponível");
-define("NLLAN_62", "Utilizador é proibido! (ou não totalmente assinado acima)");
-define("NLLAN_63", "Total de assinantes");
-define("NLLAN_64", "Voltar ao boletim informativo do frontpage");
-define("NLLAN_65", "ID de boletim de visão geral de assinantes");
-define("NLLAN_66", "Sua lista de assinantes de carta de notícias tem sido sanitizada.");
+return [
+	'NLLAN_04' => "O plugin de newsletter foi instalado com sucesso. Para configurar, volte à página principal de administração e clique em \"Newsletter\" na secção de plugins.",
+	'NLLAN_05' => "Ainda não há newsletters definidas",
+	'NLLAN_07' => "Subscritores",
+	'NLLAN_10' => "Newsletters Existentes",
+	'NLLAN_11' => "Ainda não há edições da newsletter.",
+	'NLLAN_12' => "Edição",
+	'NLLAN_13' => "[ ID Principal ] Assunto/Título",
+	'NLLAN_14' => "Enviado?",
+	'NLLAN_17' => "Não enviado - clique para enviar",
+	'NLLAN_18' => "Tem a certeza que deseja enviar esta edição para os subscritores?",
+	'NLLAN_19' => "Tem a certeza que deseja eliminar esta edição da newsletter?",
+	'NLLAN_20' => "Edições Existentes",
+	'NLLAN_23' => "Cabeçalho",
+	'NLLAN_24' => "Rodapé",
+	'NLLAN_30' => "Newsletter",
+	'NLLAN_31' => "Assunto / Título",
+	'NLLAN_32' => "Número da Edição",
+	'NLLAN_33' => "Texto",
+	'NLLAN_36' => "Atualizar Edição da Newsletter",
+	'NLLAN_37' => "Criar Edição da Newsletter",
+	'NLLAN_39' => "Edição da newsletter guardada na base de dados - para enviar, clique no botão \"Publicar Edição\" no menu de Opções.",
+	'NLLAN_40' => "Envio adicionado à fila - edição enviada para [x] subscritor(es).",
+	'NLLAN_41' => "Nenhum subscritor encontrado - email cancelado",
+	'NLLAN_44' => "Página Principal da Newsletter",
+	'NLLAN_45' => "Criar Newsletter",
+	'NLLAN_46' => "Criar Envio",
+	'NLLAN_47' => "Opções da Newsletter",
+	'NLLAN_54' => "A Enviar",
+	'NLLAN_56' => "ID da Newsletter não disponível",
+	'NLLAN_62' => "Utilizador está banido! (ou não registado completamente)",
+	'NLLAN_63' => "Total de subscritores",
+	'NLLAN_64' => "Voltar à página principal da Newsletter",
+	'NLLAN_65' => "Visão geral de subscritores da newsletter ID",
+	'NLLAN_66' => "A sua lista de subscritores da newsletter foi sanitizada.",
+];

@@ -1,25 +1,29 @@
 <?php
 /*
 +---------------------------------------------------------------+
-|        e107 sítio internet content management system Portuguese Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/02/12 10:32:39
+|       e107 content management system.
+|       (Portuguese language file)
 |
-|        $Author: Ricardo $
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
 +---------------------------------------------------------------+
 */
 
-define("UC_LAN_0", "Todos (público)");
-define("UC_LAN_1", "Convidados");
-define("UC_LAN_2", "Ninguém (inativo)");
-define("UC_LAN_3", "Membros");
-define("UC_LAN_4", "Somente leitura");
-define("UC_LAN_5", "Admin");
-define("UC_LAN_6", "Administrador principal");
-define("UC_LAN_7", "Moderadores do fórum");
-define("UC_LAN_8", "Admins e Mods");
-define("UC_LAN_9", "Novos utilizadores");
-define("UC_LAN_10", "Robôs de busca");
-define("UC_LAN_INVERT", "Não [x]");
-define("UC_LAN_INVERTLABEL", "Toda a gente, mas...");
+return [
+	'UC_LAN_0' => "Todos (público)",
+	'UC_LAN_1' => "Visitantes",
+	'UC_LAN_2' => "Ninguém (inativo)",
+	'UC_LAN_3' => "Membros",
+	'UC_LAN_4' => "Apenas leitura",
+	'UC_LAN_5' => "Administrador",
+	'UC_LAN_6' => "Administrador principal",
+	'UC_LAN_7' => "Moderadores do fórum",
+	'UC_LAN_8' => "Administradores e Moderadores",
+	'UC_LAN_9' => "Novos utilizadores",
+	'UC_LAN_10' => "Bots de pesquisa",
+	'UC_LAN_INVERT' => "Não [x]",
+	'UC_LAN_INVERTLABEL' => "Todos, exceto..",
+];

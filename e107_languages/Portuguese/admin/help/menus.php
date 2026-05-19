@@ -1,12 +1,16 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2015 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradu√ß√£o Portugu√™s(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if(!defined('e107_INIT')){ exit; }
 
@@ -40,15 +44,16 @@ else
 {
 	unset($text);
 }
+$caption = "Ajuda:<br />
+			# Gest√£o de Menus";
+$text = "O Gerenciador de Menu permite que voc√™ coloque e organize seus menus dentro do seu modelo de tema.
 
-$text = "O Gerenciador de Menu permite que vocÍ coloque e organize seus menus dentro do seu modelo de tema.
+[u]Passe o rato[/u] sobre as sub√°reas para modificar os itens de menu existentes.
 
-[u]Passe o rato[/u] sobre as sub·reas para modificar os itens de menu existentes.
-
-Se vocÍ achar que os menus n„o est„o sendo atualizados corretamente, clicar no bot„o Actualizar abaixo pode ajudar.
+Se voc√™ achar que os menus n√£o est√£o sendo atualizados corretamente, clicar no bot√£o Actualizar abaixo pode ajudar.
 
 [html]
-<form method='Post' id='menurefresh' action='".e_SELF."'>
+<form method='post' id='menurefresh' action='".e_SELF."'>
 <div>
 ".$frm->admin_button('reset','Refresh','cancel')."</div>
 </form>
@@ -58,4 +63,4 @@ Se vocÍ achar que os menus n„o est„o sendo atualizados corretamente, clicar no b
 ";
 
 $text = $tp->toHTML($text, true);
-e107::getRender()->tablerender("Ajuda do Gerenciador de Menu", mb_convert_encoding($text, "HTML-ENTITIES", "ISO-8859-1"));
+e107::getRender()->tablerender($caption, $text);

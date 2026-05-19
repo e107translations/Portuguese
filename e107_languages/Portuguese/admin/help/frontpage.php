@@ -1,32 +1,38 @@
 <?php
 /*
- * Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
- * $Id$
- *
- * Frontpage Admin Help
- * 
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradu√ß√£o Portugu√™s(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
 */
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Ajuda da primeira p·gina";
-/* FIXME - English native speakers: what should stay and what should go? 
+$caption = "Ajuda:<br />
+			# P√°gina Principal";
+/* FIXME - Falantes nativos de ingl√™s: o que deve permanecer e o que deve ser alterado?
 	<p>
-		The list of rules are scanned in turn, until the class of the current user matches. 
-		This then determines the user's front (home) page, and also the page he sees immediately after entrar.
+		A lista de regras √© verificada sequencialmente at√© que a classe do utilizador atual corresponda. 
+		Isso determina a p√°gina inicial do utilizador e a p√°gina exibida ap√≥s o login.
 	</p>
  */
-$texto = "
+$text = "
 <p>
-Nessa tela vocÍ pode escolher o que exibir como p·gina inicial do seu site, o padr„o È notÌcias. VocÍ tambÈm pode determinar se
-os usu·rios s„o enviados para uma p·gina especÌfica apÛs o entrar.
+	Neste ecr√£ podes escolher o que exibir como p√°gina inicial do teu site (o padr√£o √© 'news'). Tamb√©m podes definir se
+	os utilizadores s√£o redirecionados para uma p√°gina espec√≠fica ap√≥s o login.
 </p>
 <p>
-As regras s„o pesquisadas em ordem, para encontrar a primeira onde o utilizador atual pertence ‡ classe especificada na regra.
-Essa regra determina ent„o a p·gina inicial (inicial) e qualquer p·gina especÌfica pÛs-login. Se nenhuma regra corresponder, news.php ser· definido como a p·gina inicial.
+	As regras s√£o verificadas por ordem para encontrar a primeira onde o utilizador atual pertence √† classe especificada.
+	Essa regra determina a p√°gina inicial e qualquer p√°gina p√≥s-login espec√≠fica. Se nenhuma regra corresponder, news.php ser√° usada como p√°gina inicial.
 </p>
 <p>
-O utilizador È enviado para a &quot;p·gina pÛs-login&quot; especificada. (se especificado) imediatamente apÛs um entrar.
+	O utilizador √© direcionado para a &quot;P√°gina p√≥s-login&quot; especificada (se definida) imediatamente ap√≥s o login.
 </p>
 ";
-$ns->tablerender( mb_convert_encoding($caption, "HTML-ENTITIES", "ISO-8859-1"),  mb_convert_encoding($text, "HTML-ENTITIES", "ISO-8859-1"), 'admin_help');
+$ns->tablerender($caption, $text, 'admin_help');

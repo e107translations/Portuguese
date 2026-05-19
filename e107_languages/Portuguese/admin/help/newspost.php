@@ -1,57 +1,57 @@
 <?php
 /*
- * e107 website system
- *
- * Copyright (C) 2008-2009 e107 Inc (e107.org)
- * Released under the terms and conditions of the
- * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
- *
- *
- *
- * $Source: /cvs_backup/e107_0.8/e107_languages/English/admin/help/newspost.php,v $
- * $Revision$
- * $Date$
- * $Author$
- */
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       TraduÃ§Ã£o PortuguÃªs(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
 if (!defined('e107_INIT')) { exit; }
 
-$caption = "Ajuda para notícias";
+
+$caption = "Ajuda:<br />
+			# PublicaÃ§Ãµes de NotÃ­cias";
 $action = varset($_GET['action']);
 switch ($action)
 {
   case 'create' :
 	$text = "<b>Geral</b><br />
-O corpo será exibido na página principal; estendido poderá ser lido clicando no hiperligação 'Leia mais'.
+O corpo serÃ¡ exibido na pÃ¡gina principal; estendido poderÃ¡ ser lido clicando no hiperligaÃ§Ã£o 'Leia mais'.
 <br />
 <br />
-<b>Mostrar apenas o título</b>
+<b>Mostrar apenas o tÃ­tulo</b>
 <br />
-Habilite isto para mostrar o título da notícia apenas na primeira página, com hiperligação clicável para a história completa.
+Habilite isto para mostrar o tÃ­tulo da notÃ­cia apenas na primeira pÃ¡gina, com hiperligaÃ§Ã£o clicÃ¡vel para a histÃ³ria completa.
 <br /><br />
-<b>Ativação</b>
+<b>AtivaÃ§Ã£o</b>
 <br />
-Se você definir uma data de início e/ou término, sua notícia só será exibida entre essas datas.
+Se vocÃª definir uma data de inÃ­cio e/ou tÃ©rmino, sua notÃ­cia sÃ³ serÃ¡ exibida entre essas datas.
 ";
 	break;
   case 'cat' :
-	$text = "Você pode separar suas notícias em categorias diferentes e permitir que os visitantes exibam apenas as notícias nessas categorias. <br /><br />Envie suas imagens de ícones de notícias em ".e_THEME."-yourtheme-/images/ ou em themes/shared/newsicons/.";
+	$text = "VocÃª pode separar suas notÃ­cias em categorias diferentes e permitir que os visitantes exibam apenas as notÃ­cias nessas categorias. <br /><br />Envie suas imagens de Ã­cones de notÃ­cias em ".e_THEME."-yourtheme-/images/ ou em themes/shared/newsicons/.";
     break;
   case 'pref' :
-    $text = 'Defina diversas opções relacionadas a notícias<br /><br />
-<b>Colunas de categorias de notícias</b><br />
-Requer que o suporte ao tema seja selecionável<br /><br />
-<b>Postagens de notícias a serem exibidas por página</b><br />
-Para a página principal de notícias; exibe itens em formato não estendido.<br /><br />
-<b>Postagens de notícias para exibir no arquivo</b><br />
-Define o número de postagens de notícias que são exibidas apenas como título em cada página de notícias (incluídas no total anterior).<br /><br />
+    $text = 'Defina diversas opÃ§Ãµes relacionadas a notÃ­cias<br /><br />
+<b>Colunas de categorias de notÃ­cias</b><br />
+Requer que o suporte ao tema seja selecionÃ¡vel<br /><br />
+<b>Postagens de notÃ­cias a serem exibidas por pÃ¡gina</b><br />
+Para a pÃ¡gina principal de notÃ­cias; exibe itens em formato nÃ£o estendido.<br /><br />
+<b>Postagens de notÃ­cias para exibir no arquivo</b><br />
+Define o nÃºmero de postagens de notÃ­cias que sÃ£o exibidas apenas como tÃ­tulo em cada pÃ¡gina de notÃ­cias (incluÃ­das no total anterior).<br /><br />
 <b>Ativar editor WYSIWYG</b><br />
-Requer que os usuários que podem enviar notícias também possam postar HTML.
+Requer que os usuÃ¡rios que podem enviar notÃ­cias tambÃ©m possam postar HTML.
 	';
 	break;
   case 'list' :
   default :
-	$text = 'Lista de todas as notícias. Para editar ou excluir, clique em um dos ícones da coluna \'opções\'. Para visualizar o item, clique
-na identificação.';
+	$text = 'Lista de todas as notÃ­cias. Para editar ou excluir, clique em um dos Ã­cones da coluna \'opÃ§Ãµes\'. Para visualizar o item, clique
+na identificaÃ§Ã£o.';
 }
-$ns -> tablerender(mb_convert_encoding($caption, "HTML-ENTITIES", "ISO-8859-1"), mb_convert_encoding($text, "HTML-ENTITIES", "ISO-8859-1"));
+e107::getRender()->tablerender($caption, $text);

@@ -1,21 +1,31 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradução Português(PT) -> Comunidade e107 Portugal
+|      	(http://www.e107pt.com), 2025
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("OTHERDB_LAN_1", "Tipo de banco de dados:");
-define("OTHERDB_LAN_2", "Servidor:");
-define("OTHERDB_LAN_3", "Nome de usuário:");
-define("OTHERDB_LAN_4", "Senha:");
-define("OTHERDB_LAN_5", "Banco de dados");
-define("OTHERDB_LAN_6", "Tabela");
-define("OTHERDB_LAN_7", "Campo nome de usuário:");
-define("OTHERDB_LAN_8", "Campo de senha:");
-define("OTHERDB_LAN_9", "Método de senha:");
-define("OTHERDB_LAN_10", "Configurar otherdb auth");
-define("OTHERDB_LAN_12", "Campo de sal de senha:");
-define("OTHERDB_LAN_13", "(Deixe em branco se não usado)");
-define("OTHERDB_LAN_14", "Campo de endereço de e-mail:");
-define("OTHERDB_LAN_15", "MySQL - banco de dados genérico");
-define("LAN_AUTHENTICATE_HELP", "Este método de autenticação é usado para validar contra um banco de dados não-E107. A senha deve ser armazenada em um dos formatos suportados.");
+return [
+    'OTHERDB_LAN_1' => "Tipo de Base de Dados:",
+    'OTHERDB_LAN_2' => "Servidor:",
+    'OTHERDB_LAN_3' => "Nome de utilizador:",
+    'OTHERDB_LAN_4' => "Palavra-passe:",
+    'OTHERDB_LAN_5' => "Base de dados",
+    'OTHERDB_LAN_6' => "Tabela",
+    'OTHERDB_LAN_7' => "Campo de Nome de Utilizador:",
+    'OTHERDB_LAN_8' => "Campo de Palavra-passe:",
+    'OTHERDB_LAN_9' => "Método de Palavra-passe:",
+    'OTHERDB_LAN_10' => "Configurar autenticação otherdb",
+    'OTHERDB_LAN_12' => "Campo de Salting da Palavra-passe:",
+    'OTHERDB_LAN_13' => "(Deixa em branco se não for utilizado)",
+    'OTHERDB_LAN_14' => "Campo do Endereço de Email:",
+    'OTHERDB_LAN_15' => "MySQL - base de dados genérica",
+    'LAN_AUTHENTICATE_HELP' => "Este método de autenticação é usado para validar contra uma base de dados que não é E107. A palavra-passe deve ser armazenada num dos formatos suportados.",
+];

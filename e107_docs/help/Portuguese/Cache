@@ -1,0 +1,9 @@
+
+Q>	Para que serve esta secção?
+A>	Ativar o estado da cache irá guardar certas áreas do teu site na base de dados. Isto reduz os pedidos ao MySQL e acelera significativamente o desempenho do teu site.
+
+Q>	Fiz algumas alterações ao tema que estou a usar, mas nada mudou – será por causa da cache?
+A>	Muito provavelmente. Ao mudares de tema, a cache é limpa automaticamente, mas se apenas alterares o código no ficheiro theme.php, a cache não será limpa. Desativa o estado da cache até terminares as tuas alterações.
+
+Q>	Posso guardar a cache em ficheiros no disco rígido?
+A>	Sim. Apenas garante que o diretório e107_files/cache tem permissões de escrita (chmod 777). Depois, ativa a opção correspondente na página de cache.

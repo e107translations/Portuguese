@@ -1,9 +1,19 @@
 <?php
+/*
++---------------------------------------------------------------+
+|       e107 content management system.
+|       (Portuguese language file)
+|
+|       Tradução Português(pt-PT) -> KANONimpresor
+|       (https://marketingdeperformance.online/), 2026
+|
+|       Released under the terms and conditions of the
+|       GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("PAGE_NAME", "Site temporariamente fechado");
-define("LAN_SITEDOWN_00", "está temporariamente fechada");
-define("LAN_SITEDOWN_01", "Fechamos temporariamente o site para alguma manutenção essencial. Isto não deve demorar muito tempo - por favor, cheque volta logo, desculpas pelo inconveniente.");
+return [
+	'PAGE_NAME' => "Portal Temporariamente Fechado",
+	'LAN_SITEDOWN_00' => "Temporariamente Encerrado",
+	'LAN_SITEDOWN_01' => "Encerrámos temporariamente o nosso portal para realizar manutenção e implementar novas funcionalidades. Isto não deverá demorar muito — volta a verificar em breve. Pedimos desculpa pelo incómodo.",
+];
